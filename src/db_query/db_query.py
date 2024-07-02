@@ -1,42 +1,27 @@
-import psycopg2
-import os
-
-class Item:
-    def __init__(self, item_id, item_name, item_price, item_link):
-        self.item_id = item_id
-        self.item_name = item_name
-        self.item_price = item_price
-        self.item_link = item_link
+from supabase import create_client, Client
 
 
 def get_items_JSON():
-    environmentHost = os.environ.get('dbHost')
-    dbHost = environmentHost if environmentHost else 'localhost'
-    conn = psycopg2.connect(
-        dbname="postgres", user="postgres", password="postgres", host=dbHost, port="5432")
-    
-    if conn is None:
-        print("Error: Unable to connect to the database")
+    url = "https://hliuapvxcfvbhkwcovlx.supabase.co"
+    api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhsaXVhcHZ4Y2Z2Ymhrd2Nvdmx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTk5MDM4MjQsImV4cCI6MjAzNTQ3OTgyNH0.hRwI-iuwS9ctZHuiyGsKUBnIXshngYI_u9mfUfITA_E"
+
+    # Instantiate supabase
+    supabase: Client = create_client(url, api_key)
+
+    # Query all from ingredients
+    response = supabase.table("ingredients").select("*").execute()
+
+    if response.error:
+        print(f"Error: {response.error.message}")
         return
-    
-    
-    curr = conn.cursor()
 
-
-    curr.execute("SELECT * FROM ingredients;")
-
-    rows = curr.fetchall()
-
-    print (rows)
+    rows = response.data
 
     data = []
 
+    # Build append functionality
     for row in rows:
-        data.append([row[0], row[1], float(row[2]), row[3]])
-    # convert list of tuples to json
-
-    curr.close()
-    conn.close()
+        data.append([row['item_id'], row['item_name'], float(row['item_price']), row['item_link']])
 
     ingredients_list = [
         {
@@ -48,6 +33,3 @@ def get_items_JSON():
         for item_id, name, cost, item_link in data
     ]
     return ingredients_list
-
-
-get_items_JSON()
