@@ -1,0 +1,36 @@
+services:
+    database:
+        build:
+            context: .
+            dockerfile: docker/database.dockerfile
+        ports:
+            - "5432:5432"
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+        healthcheck:
+            test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+            interval: 2s
+            timeout: 6s
+            retries: 3
+    webapi:
+        build:
+            context: .
+            dockerfile: docker/webapi.dockerfile
+        ports:
+            - "8081:8081"
+        environment:
+            - dbHost=database
+            - repositoryUsername=postgres
+            - repositoryPassword=postgres
+            - GROQ_API_KEY=${GROQ_API_KEY}
+        depends_on:
+            database:
+                condition: service_healthy
+    frontend:
+        build:
+            context: ./
+            dockerfile: docker/frontend.dockerfile
+        ports:
+            - "8080:80"
+        stdin_open: true
