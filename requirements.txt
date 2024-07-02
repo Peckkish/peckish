@@ -3,5 +3,5 @@ groq==0.8.0
 Werkzeug==2.2.2
 psycopg2-binary ==2.9.9
 flask_cors==4.0.1
-playwright
+#playwright
 

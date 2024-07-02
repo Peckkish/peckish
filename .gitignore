@@ -171,3 +171,6 @@ frontend/dist
 
 # Venv
 venv/
+
+#data
+*.csv

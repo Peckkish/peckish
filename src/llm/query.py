@@ -17,7 +17,6 @@ def meal_plan_query(ingredients, user_input):
         ],
         model="llama3-8b-8192",
     )
-    print(meal_plan.choices[0].message)
     return meal_plan.choices[0].message
 
 

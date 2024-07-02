@@ -16,6 +16,7 @@ def hello():
 def meal_plan():
     user_input = request.json['user_input']
     ingredients = db_query.get_items_JSON()
+    print("ingredients:", ingredients)
     response = query.meal_plan_query(ingredients, user_input)
     return response.content
 

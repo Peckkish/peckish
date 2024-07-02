@@ -1,7 +1,22 @@
 import asyncio
 from playwright.async_api import async_playwright
+from transformers import pipeline   
+import csv
 
 woolworths_domain = "https://www.woolworths.com.au"
+
+classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
+
+labels = ['Food', 'Non-Food', 'Beverages', 'Snacks', 'Dairy',  'Meat and seafood', 'Bakery']
+
+def isfood(name):
+    result = classifier(name, labels)
+
+    if result['labels'][0] == 'Non-Food' or result['labels'][0] == "":
+        return False
+
+    return True
+
 
 async def scrape_page(page):
     await page.wait_for_selector('.product-tile-group')
@@ -28,19 +43,15 @@ async def scrape_page(page):
             else:
                 price = "N/A"
 
-            image_element = await product.query_selector('.roundel-image .product--tile-image a')
-            if image_element:
-                image_link = await image_element.get_attribute('href')
-                image_link = woolworths_domain + image_link
-            else:
-                image_link = "N/A"
+            
 
+            page_details = {'name': name, 'price': price[1:], 'link': woolworths_domain + link}
 
-            page_details = {'name': name, 'price': price, 'link': woolworths_domain + link, 'image_link': image_link}
+            print(page_details, f"is it food: {isfood(name)}")
 
-            print(f"Product: {name} - Price: {price} - Link: {woolworths_domain + link}", f"Image Link: {image_link}")
+            if isfood(name):
 
-            product_details.append(page_details)
+                product_details.append(page_details)
 
         except Exception as e:
             print(f"Error processing product: {e}")
@@ -54,35 +65,43 @@ async def main():
 
         await page.goto('https://www.woolworths.com.au/shop/browse/specials/prices-dropped')
 
-        all_product_details = []
+        with open('product_details.csv', 'w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow(['Name', 'Price', 'Link'])  # Writing headers
 
-        while True:
-            # Click the "In stock" button on the first page only
-            if not all_product_details:
-                await page.click('button:has-text("In stock")')
-                await page.wait_for_selector('.product-tile-group')
+            all_product_details = []
 
-            # Scrape current page
-            product_details = await scrape_page(page)
-            all_product_details.extend(product_details)
+            while True:
+                # Click the "In stock" button on the first page only
+                if not all_product_details:
+                    await page.click('button:has-text("In stock")')
+                    await page.wait_for_selector('.product-tile-group')
 
-            # Check for the "Next" link and navigate to the next page
-            next_button = await page.query_selector('a.paging-next')
-            if next_button:
-                next_page_url = await next_button.get_attribute('href')
-                next_page_url = woolworths_domain + next_page_url
-                print(f"Scraping next page: {next_page_url}")
-                if next_page_url:
-                    await page.goto(next_page_url)
-                    await page.wait_for_load_state('networkidle')
+                # Scrape current page
+                product_details = await scrape_page(page)
+
+                for detail in product_details:
+                        writer.writerow([detail['name'], detail['price'], detail['link']])  # Write to CSV file
+                    
+                all_product_details.extend(product_details)
+
+                # Check for the "Next" link and navigate to the next page
+                next_button = await page.query_selector('a.paging-next')
+                if next_button:
+                    next_page_url = await next_button.get_attribute('href')
+                    next_page_url = woolworths_domain + next_page_url
+                    print(f"Scraping next page: {next_page_url}")
+                    if next_page_url:
+                        await page.goto(next_page_url)
+                        await page.wait_for_load_state('networkidle')
+                    else:
+                        break
                 else:
                     break
-            else:
-                break
+                
+            await browser.close()
+        
+        return all_product_details
 
-        for detail in all_product_details:
-            print(detail)
+all_product_details = asyncio.run(main())
 
-        await browser.close()
-
-asyncio.run(main())

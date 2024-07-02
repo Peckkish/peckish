@@ -14,11 +14,20 @@ def get_items_JSON():
     dbHost = environmentHost if environmentHost else 'localhost'
     conn = psycopg2.connect(
         dbname="postgres", user="postgres", password="postgres", host=dbHost, port="5432")
+    
+    if conn is None:
+        print("Error: Unable to connect to the database")
+        return
+    
+    
     curr = conn.cursor()
+
 
     curr.execute("SELECT * FROM ingredients;")
 
     rows = curr.fetchall()
+
+    print (rows)
 
     data = []
 
@@ -38,7 +47,6 @@ def get_items_JSON():
         }
         for item_id, name, cost, item_link in data
     ]
-
     return ingredients_list
 
 

@@ -1,4 +1,3 @@
--- Create the ingredients table
 CREATE TABLE ingredients
 (
     item_id    BIGINT PRIMARY KEY,
