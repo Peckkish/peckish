@@ -1,7 +1,8 @@
-from flask import Flask, request
-from llm import query
+from flask import Flask, request, jsonify
 from flask_cors import CORS
+from llm import query
 from db_query import db_query
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -15,10 +16,17 @@ def hello():
 @app.route('/meal-plan', methods=['POST'])
 def meal_plan():
     user_input = request.json['user_input']
-    ingredients = db_query.get_items_JSON()
-    print("ingredients:", ingredients)
-    response = query.meal_plan_query(ingredients, user_input)
-    return response.content
+    ingredients = db_query.get_ingredients_JSON()
+    if not ingredients:
+        return jsonify({"error": "Failed to fetch ingredients"}), 500
+
+    recipes = db_query.get_recipes_JSON()
+    if not recipes:
+        return jsonify({"error": "Failed to fetch recipes"}), 500
+
+    response = query.meal_plan_query(ingredients, recipes, user_input)
+    print(response)
+    return json.dumps(response.content)
 
 
 if __name__ == "__main__":
