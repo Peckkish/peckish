@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import {
   cn,
   daysOfTheWeekArray,
@@ -6,12 +6,21 @@ import {
 } from "@/utility/utils.ts";
 import { DayOfWeek, WeeklyMealPlanDay } from "@/utility/types.ts";
 import { List } from "@phosphor-icons/react";
-import OneFullDayMealPlan from "../../components/subcomponents/OneFullDayMealPlan.tsx";
+import OneFullDayMealPlan from "../OneFullDayMealPlan.tsx";
 import axios from "axios";
+import MainAppPage from "@/pages/MainAppPage.tsx";
+import { MealPlanContext } from "@/utility/context.ts";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Navigate,
+} from "react-router-dom";
+import RecipePage from "@/pages/RecipePage.tsx";
 
 export default function App() {
   const [mealPlan, setMealPlan] = useState<null | WeeklyMealPlanDay[]>(null);
-  const [activeDayOfWeek, setActiveDayOfWeek] = useState<DayOfWeek>("Monday");
 
   const handleGetMealPlan = async () => {
     // const requestOptions = {
@@ -36,17 +45,17 @@ export default function App() {
     //   console.error(error);
     // }
 
-    try {
-      const response = await axios.post("http://localhost:8081/meal-plan", {
-        user_input: "Give me a high protein, keto friendly meal plan.",
-      });
-      console.log(response.data);
-      console.log(response.data[0]);
-      setMealPlan(JSON.parse(response.data));
-      return response.data;
-    } catch (error) {
-      console.error(error);
-    }
+    // try {
+    //   const response = await axios.post("http://localhost:8081/meal-plan", {
+    //     user_input: "Give me a high protein, keto friendly meal plan.",
+    //   });
+    //   console.log(response.data);
+    //   console.log(JSON.parse(response.data));
+    //   setMealPlan(JSON.parse(response.data));
+    //   return response.data;
+    // } catch (error) {
+    //   console.error(error);
+    // }
 
     // try {
     //   const response = await axios.get("http://localhost:8081/getStrategy", {
@@ -59,11 +68,11 @@ export default function App() {
     //   console.error(error);
     // }
 
-    // setTimeout(() => {
-    //   const exampleData = exampleWeekMealPlan;
-    //   setMealPlan(exampleData);
-    //   return exampleData;
-    // }, 800);
+    setTimeout(() => {
+      const exampleData = exampleWeekMealPlan;
+      setMealPlan(exampleData);
+      return exampleData;
+    }, 800);
   };
 
   useEffect(() => {
@@ -71,51 +80,16 @@ export default function App() {
   }, []);
 
   return (
-    <div className={"flex flex-col items-center mx-[5vw]"}>
-      <div
-        className={
-          "w-screen h-[65px] bg-red-500 flex flex-row items-center px-8"
-        }
-      >
-        <List size={20} />
-      </div>
-      <div
-        className={
-          "w-[90vw] h-[65px] mx-auto flex flex-row justify-around items-center bg-green-500"
-        }
-      >
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-        <div className={"w-28 h-10 bg-rose-500 rounded-xl"}></div>
-      </div>
-      <div className={"w-[90vw] h-[65px] mx-auto bg-blue-500"}>
-        <div className={"grid grid-cols-7"}>
-          {daysOfTheWeekArray.map((day) => (
-            <div
-              key={day}
-              onClick={() => setActiveDayOfWeek(day)}
-              className={cn(
-                "flex flex-row justify-center items-center h-[65px]",
-                activeDayOfWeek === day ? "bg-cyan-300" : "bg-emerald-200",
-                "hover:cursor-pointer opacity-90",
-              )}
-            >
-              {day}
-            </div>
-          ))}
+    <MealPlanContext.Provider value={mealPlan}>
+      <Router>
+        <div>
+          <Routes>
+            <Route path="/app" element={<MainAppPage />} />
+            <Route path="/app/recipe/:id" element={<RecipePage />} />
+            <Route path="*" element={<Navigate to="/app" replace />} />
+          </Routes>
         </div>
-      </div>
-      <OneFullDayMealPlan
-        mealPlan={mealPlan}
-        activeDayOfWeek={activeDayOfWeek}
-      />
-    </div>
+      </Router>
+    </MealPlanContext.Provider>
   );
 }

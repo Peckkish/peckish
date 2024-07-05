@@ -18,6 +18,7 @@ export interface IngredientItem {
 
 export interface Recipe {
   recipeTitle: string;
+  recipeId: string;
   recipeDescription: string;
   totalCost: number;
   timeTaken: number;
@@ -66,7 +67,9 @@ def get_low_cost_strategy(ingredient):
     prompt += "Specifically, you will respond in type WeeklyMealPlanDay[], given these Typescript types: \n"
     prompt += typescript_types
     prompt += "You will give me NO introductory statements such as 'Here is your meal plan'. "
+    prompt += "You will give me the ENTIRE meal plan that I ask for, without placeholders. "
     prompt += "recipeDescriptions will be in the format 'with key_ingredient_1 and key_ingredient_2', choosing those key ingredients based on the recipe. "
+    prompt += "recipeTitle must NOT include the description ('with x and y'), and MUST have an appealing adjective as relevant eg. succulent/juicy etc. . "
     prompt += "These are the ingredients and each of their corresponding costs: \n"
     prompt += get_ingredients(ingredient)
     return {

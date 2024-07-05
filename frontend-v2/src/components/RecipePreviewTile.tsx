@@ -19,11 +19,14 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
   }, []);
 
   return (
-    <div className={"flex flex-col items-start gap-2"}>
-      <div className={"size-64 aspect-square overflow-hidden"}>
+    <div
+      onClick={() => (window.location.href = `/app/recipe/${recipe.recipeId}`)}
+      className={"flex flex-col items-start gap-2 hover:cursor-pointer"}
+    >
+      <div className={"size-64 aspect-square overflow-hidden rounded-2xl"}>
         {!!imageURL ? (
           <img
-            className={"rounded-2xl min-h-full min-w-full object-cover"}
+            className={"min-h-full min-w-full object-cover"}
             src={imageURL}
             alt="Recipe preview"
           />

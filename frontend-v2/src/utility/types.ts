@@ -14,6 +14,7 @@ export interface IngredientItem {
 
 export interface Recipe {
   recipeTitle: string;
+  recipeId: string;
   recipeDescription: string;
   totalCost: number;
   timeTaken: number;

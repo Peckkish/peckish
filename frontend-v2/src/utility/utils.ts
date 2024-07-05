@@ -23,6 +23,29 @@ export function getFormattedPrice(dollars: number) {
   );
 }
 
+export function getRecipeObjectByIdOrNull(
+  mealPlan: WeeklyMealPlanDay[] | null,
+  targetRecipeId: string,
+) {
+  if (mealPlan === null) {
+    console.error("Meal plan is null.");
+    return null;
+  }
+  for (const day of mealPlan) {
+    for (const recipeCollection of day.allRecipes) {
+      for (const recipe of recipeCollection.recipeOptions) {
+        if (recipe.recipeId === targetRecipeId) {
+          console.log("LOCATED");
+          console.log(recipe);
+          return recipe;
+        }
+      }
+    }
+  }
+  console.error("No recipe matching id was found.");
+  return null;
+}
+
 export const daysOfTheWeekArray: DayOfWeek[] = [
   "Monday",
   "Tuesday",
@@ -40,6 +63,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "c9b1d9f0-8cb7-4c9e-9a15-2f80c9a57d9e",
             recipeTitle: "Oatmeal Pancakes",
             recipeDescription: "Fluffy pancakes made from whole oatmeal",
             totalCost: 10.0,
@@ -57,6 +81,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
             recipeImageURL: "imageURLForPancakes",
           },
           {
+            recipeId: "81b624c3-1c9f-46c7-937b-4a2e9c376b28",
             recipeTitle: "Blueberry Pancakes",
             recipeDescription: "Fluffy pancakes made from whole oatmeal",
             totalCost: 10.0,
@@ -74,6 +99,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
             recipeImageURL: "imageURLForPancakes",
           },
           {
+            recipeId: "6a3c0b9e-2e84-4d29-9c27-2e556b9d383b",
             recipeTitle: "Raspberry Pancakes",
             recipeDescription: "Fluffy pancakes made from whole oatmeal",
             totalCost: 10.0,
@@ -96,6 +122,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "4bfb5e4e-cf4f-4a75-a55f-45c9b6c3db5d",
             recipeTitle: "Turkey Sandwich",
             recipeDescription:
               "A hearty sandwich with turkey and fresh vegetables",
@@ -115,6 +142,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
             recipeImageURL: "imageURLForSandwich",
           },
           {
+            recipeId: "4f7b62ae-9189-4114-a2a2-5bde147f3fbe",
             recipeTitle: "Double Turkey Sandwich",
             recipeDescription:
               "A hearty sandwich with turkey and fresh vegetables",
@@ -139,6 +167,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "df52488d-313f-4c76-812f-1915b7dbfd7f",
             recipeTitle: "Grilled Salmon",
             recipeDescription:
               "Perfectly grilled salmon with a side of asparagus",
@@ -157,6 +186,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
             recipeImageURL: "imageURLForSalmon",
           },
           {
+            recipeId: "6d6fb9c8-85c8-4ff5-80e3-ea8b57b03490",
             recipeTitle: "Smoked Salmon",
             recipeDescription:
               "Perfectly grilled salmon with a side of asparagus",
@@ -185,6 +215,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "ae5c4f50-84d3-4fc4-8a7c-412473fc46d1",
             recipeTitle: "Greek Yogurt with Honey",
             recipeDescription:
               "Creamy Greek yogurt drizzled with organic honey and nuts",
@@ -199,6 +230,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
             recipeImageURL: "imageURLForYogurt",
           },
           {
+            recipeId: "7fcd6bd1-96a5-4c5c-ae4e-3a6dbcc992f2",
             recipeTitle: "Greek Yogurt with Honey",
             recipeDescription:
               "Creamy Greek yogurt drizzled with organic honey and nuts",
@@ -218,6 +250,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "ddf0ff3e-91a8-4c8d-8f69-3a93bda25d1e",
             recipeTitle: "Vegetable Stir-Fry",
             recipeDescription:
               "Quick and nutritious vegetable stir-fry with tofu",
@@ -242,6 +275,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "370e3f22-bab4-4d09-a74b-9a09b0280d3e",
             recipeTitle: "Beef Stew",
             recipeDescription: "Rich and hearty beef stew with root vegetables",
             totalCost: 30.0,
@@ -271,6 +305,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "128b8e24-f933-4e02-99d4-acec734cb740",
             recipeTitle: "Banana Smoothie",
             recipeDescription:
               "A refreshing smoothie with bananas and almond milk",
@@ -294,6 +329,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "2c2fbd32-32ab-46ea-9612-88ecb42de014",
             recipeTitle: "Caprese Salad",
             recipeDescription:
               "Classic Italian salad with fresh tomatoes, mozzarella, and basil",
@@ -318,6 +354,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "5d4ad13d-5061-4cb4-89e1-73ed0c2eeb76",
             recipeTitle: "Chicken Curry",
             recipeDescription: "Aromatic chicken curry with a blend of spices",
             totalCost: 22.0,
@@ -347,6 +384,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "6483ad39-120f-49b3-8e3e-7859b345a530",
             recipeTitle: "Avocado Toast",
             recipeDescription:
               "Simple and healthy avocado toast with poached eggs",
@@ -370,6 +408,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "f77651f3-c403-470d-b569-2c7b8e8d1603",
             recipeTitle: "Quinoa Salad",
             recipeDescription: "Light quinoa salad with cucumbers and tomatoes",
             totalCost: 13.0,
@@ -394,6 +433,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "3f9e7e83-9787-4218-b540-9b303a4d81c0",
             recipeTitle: "Pasta Carbonara",
             recipeDescription: "Classic creamy pasta with eggs and pancetta",
             totalCost: 18.0,
@@ -422,6 +462,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "df6f52a3-8e9e-4915-85c8-f09ef885a934",
             recipeTitle: "French Toast",
             recipeDescription: "Sweet French toast with maple syrup",
             totalCost: 8.0,
@@ -445,6 +486,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "8059a23d-e232-4073-93cb-ecff8c3d1ff8",
             recipeTitle: "Ham and Cheese Sandwich",
             recipeDescription:
               "Classic sandwich with ham, cheese, and a touch of mustard",
@@ -469,6 +511,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "1b9b41ab-bd67-498a-bdb8-77ef6d4a05f1",
             recipeTitle: "Pizza Margherita",
             recipeDescription:
               "Homemade pizza with fresh tomatoes, mozzarella, and basil",
@@ -498,6 +541,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "728376d4-3787-4e27-9946-690d64d5b104",
             recipeTitle: "Berry Parfait",
             recipeDescription:
               "Layered parfait with berries, yogurt, and granola",
@@ -521,6 +565,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "caa8b4ab-9295-4c2a-99e3-e727dd64ae0e",
             recipeTitle: "Fish Tacos",
             recipeDescription: "Tacos with grilled fish and fresh salsa",
             totalCost: 15.0,
@@ -539,6 +584,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "6afad2c4-d59e-4f68-9c48-3ff7277d7b94",
             recipeTitle: "Lamb Chops",
             recipeDescription: "Seared lamb chops with a mint sauce",
             totalCost: 35.0,
@@ -567,6 +613,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Breakfast",
         recipeOptions: [
           {
+            recipeId: "6fd6e833-9fa8-4556-8d5c-62c148b2a8c7",
             recipeTitle: "Bagel and Lox",
             recipeDescription:
               "A New York style bagel with cream cheese, smoked salmon, and capers",
@@ -591,6 +638,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Lunch",
         recipeOptions: [
           {
+            recipeId: "0df25c12-d2e8-4260-9246-8e4fe2eb8cc5",
             recipeTitle: "Sushi Rolls",
             recipeDescription: "Homemade sushi rolls with various fillings",
             totalCost: 22.0,
@@ -614,6 +662,7 @@ export const exampleWeekMealPlan: WeeklyMealPlanDay[] = [
         mealOfDay: "Dinner",
         recipeOptions: [
           {
+            recipeId: "c0a61690-958e-47a3-8b0b-fdb5e479a8f3",
             recipeTitle: "Roast Chicken",
             recipeDescription: "Oven-roasted chicken with herbs and vegetables",
             totalCost: 25.0,

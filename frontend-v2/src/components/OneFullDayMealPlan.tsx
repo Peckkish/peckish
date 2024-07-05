@@ -1,5 +1,5 @@
 import { DayOfWeek, WeeklyMealPlanDay } from "@/utility/types.ts";
-import RecipePreviewTile from "@/components/subcomponents/RecipePreviewTile.tsx";
+import RecipePreviewTile from "@/components/RecipePreviewTile.tsx";
 
 interface OneFullDayMealPlanProps {
   mealPlan: null | WeeklyMealPlanDay[];
