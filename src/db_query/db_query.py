@@ -5,7 +5,7 @@ key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI
 supabase: Client = create_client(url, key)
 
 def get_items_JSON():
-    response = supabase.table('ingredients').select('name, price').limit(200).execute()
+    response = supabase.table('ingredients').select('ingredient_id, name, price').limit(200).execute()
     if response.data:
         return response.data
     else:
