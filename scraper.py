@@ -1,13 +1,16 @@
 import asyncio
 from playwright.async_api import async_playwright
-from transformers import pipeline   
+from transformers import pipeline
 import csv
 
 woolworths_domain = "https://www.woolworths.com.au"
 
-classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
+classifier = pipeline('zero-shot-classification',
+                      model='facebook/bart-large-mnli')
 
-labels = ['Food', 'Non-Food', 'Beverages', 'Snacks', 'Dairy',  'Meat and seafood', 'Bakery']
+labels = ['groceries', 'ingredients', 'tools',
+          'accessories', 'cleaning', 'medical']
+
 
 def isfood(name):
     result = classifier(name, labels)
@@ -25,7 +28,6 @@ async def scrape_page(page):
     products = await page.query_selector_all('.product-tile-group')
 
     product_details = []
-    
 
     for product in products:
         try:
@@ -35,7 +37,7 @@ async def scrape_page(page):
                 link = await name_element.get_attribute('href')
             else:
                 continue  # Skip this product if the name is not found
-            
+
             # Adjust the selector for the price based on the HTML structure
             price_element = await product.query_selector('.product-tile-price .primary')
             if price_element:
@@ -43,9 +45,8 @@ async def scrape_page(page):
             else:
                 price = "N/A"
 
-            
-
-            page_details = {'name': name, 'price': price[1:], 'link': woolworths_domain + link}
+            page_details = {
+                'name': name, 'price': price[1:], 'link': woolworths_domain + link}
 
             print(page_details, f"is it food: {isfood(name)}")
 
@@ -57,6 +58,7 @@ async def scrape_page(page):
             print(f"Error processing product: {e}")
 
     return product_details
+
 
 async def main():
     async with async_playwright() as p:
@@ -81,8 +83,10 @@ async def main():
                 product_details = await scrape_page(page)
 
                 for detail in product_details:
-                        writer.writerow([detail['name'], detail['price'], detail['link']])  # Write to CSV file
-                    
+                    # Write to CSV file
+                    writer.writerow(
+                        [detail['name'], detail['price'], detail['link']])
+
                 all_product_details.extend(product_details)
 
                 # Check for the "Next" link and navigate to the next page
@@ -98,10 +102,9 @@ async def main():
                         break
                 else:
                     break
-                
+
             await browser.close()
-        
+
         return all_product_details
 
 all_product_details = asyncio.run(main())
-
