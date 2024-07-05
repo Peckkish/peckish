@@ -61,7 +61,7 @@ def meal_plan_query(ingredients, user_input):
 
 def get_low_cost_strategy(ingredient):
     prompt = "You are a JSON-generating kiosk, incapable of responding in English sentences. I will be giving you a set of ingredients with their corresponding costs. "
-    prompt += "Take EXCLUSIVELY the ingredients I provide, and create a nutritious meal-plan for beginner-to-average home-cooks, for the lowest cost possible. "
+    prompt += "Take EXCLUSIVELY the ingredients I provide, and create a nutritious meal-plan for intermediate home-cooks, for the lowest cost possible. "
     prompt += "You will give me EXCLUSIVELY the meal plan for monday and tuesday, as an array of json objects and nothing more or less. "
     prompt += "Specifically, you will respond in type WeeklyMealPlanDay[], given these Typescript types: \n"
     prompt += typescript_types

@@ -67,7 +67,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    // handleGetMealPlan();
+    handleGetMealPlan();
   }, []);
 
   return (
