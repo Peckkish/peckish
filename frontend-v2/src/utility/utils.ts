@@ -521,7 +521,7 @@ export const dummyMealPlan: FullRecipeCollection = {
         "Toss everything with dressing",
       ],
       recipeImageURL: "imageURLForPastaSalad",
-      recipeRating: 4.9,
+      recipeRating: 4.5,
       numRatings: 130,
       numServings: 3,
     },

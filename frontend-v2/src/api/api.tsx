@@ -12,7 +12,7 @@ export async function getImage(searchQuery: string) {
       per_page: 1,
     })) as PhotosWithTotalResults;
     console.log(response);
-    return response.photos[0].src.medium;
+    return response.photos[0].src.large2x;
   } catch (error) {
     throw new Error("Failed to get image.");
   }

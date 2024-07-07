@@ -40,7 +40,13 @@ export default function MainAppPage({ setRecipeCollection }: MainAppPageProps) {
             dietaryPreferences={dietaryPreferences}
             setDietaryPreferences={setDietaryPreferences}
           />
-          <Button onClick={() => getRecipeCollection(dietaryPreferences)}>
+          <Button
+            onClick={() => {
+              getRecipeCollection(dietaryPreferences).then((result) =>
+                setRecipeCollection(result),
+              );
+            }}
+          >
             Get Recipes
           </Button>
         </div>
