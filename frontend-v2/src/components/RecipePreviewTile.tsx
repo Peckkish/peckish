@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge.tsx";
 import { getFormattedPrice, getFormattedTime } from "@/utility/utils.ts";
 import { useEffect, useState } from "react";
 import { getImage } from "@/api/api.tsx";
-import { ErrorResponse, PhotosWithTotalResults } from "pexels";
 
 interface RecipePreviewTileProps {
   recipe: Recipe;
@@ -23,7 +22,11 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
       onClick={() => (window.location.href = `/app/recipe/${recipe.recipeId}`)}
       className={"flex flex-col items-start gap-2 hover:cursor-pointer"}
     >
-      <div className={"size-64 aspect-square overflow-hidden rounded-2xl"}>
+      <div
+        className={
+          "size-72 aspect-square overflow-hidden rounded-2xl shadow-md"
+        }
+      >
         {!!imageURL ? (
           <img
             className={"min-h-full min-w-full object-cover"}
@@ -31,7 +34,7 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
             alt="Recipe preview"
           />
         ) : (
-          <Skeleton className={"size-64"} />
+          <Skeleton className={"size-72"} />
         )}
       </div>
 

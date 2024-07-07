@@ -1,36 +1,36 @@
-export type DayOfWeek =
-  | "Monday"
-  | "Tuesday"
-  | "Wednesday"
-  | "Thursday"
-  | "Friday"
-  | "Saturday"
-  | "Sunday";
-
 export interface IngredientItem {
   product: string;
-  amount: string;
+  qtyNumber: number;
+  qtyUnit: string;
 }
 
 export interface Recipe {
   recipeTitle: string;
   recipeId: string;
   recipeDescription: string;
+  recipeLongIntro: string;
   totalCost: number;
-  timeTaken: number;
+  prepTime: number;
+  cookTime: number;
   recipeIngredients: IngredientItem[];
   recipeSteps: string[];
   recipeImageURL: string;
+  recipeRating: number;
+  numRatings: number;
+  numServings: number;
 }
 
-export type mealOfDay = "Breakfast" | "Lunch" | "Dinner";
-
-export interface MealRecipeCollection {
-  mealOfDay: mealOfDay;
-  recipeOptions: Recipe[];
+export interface FullRecipeCollection {
+  breakfastRecipes: Recipe[];
+  lunchRecipes: Recipe[];
+  dinnerRecipes: Recipe[];
 }
 
-export interface WeeklyMealPlanDay {
-  day: DayOfWeek;
-  allRecipes: MealRecipeCollection[];
+// Full data structure to receive from backend is of type FullRecipeCollection
+
+export interface DietaryPreferences {
+  isHighProtein: boolean;
+  isLowCarb: boolean;
+  isVegetarian: boolean;
+  isHalal: boolean;
 }

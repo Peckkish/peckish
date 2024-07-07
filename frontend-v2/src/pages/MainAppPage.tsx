@@ -1,48 +1,51 @@
 import { List } from "@phosphor-icons/react";
-import { cn, daysOfTheWeekArray } from "@/utility/utils.ts";
-import OneFullDayMealPlan from "@/components/OneFullDayMealPlan.tsx";
-import { useContext, useState } from "react";
-import { DayOfWeek } from "@/utility/types.ts";
-import { MealPlanContext } from "@/utility/context.ts";
-import PrefenceSelectorBar from "@/components/PrefenceSelectorBar.tsx";
+import RecipeGallery from "@/components/RecipeGallery.tsx";
+import {
+  Dispatch,
+  SetStateAction,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
+import { DietaryPreferences, FullRecipeCollection } from "@/utility/types.ts";
+import { RecipeCollectionContext } from "@/utility/context.ts";
+import PreferenceSelectorBar from "@/components/PreferenceSelectorBar.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { getRecipeCollection } from "@/api/api.tsx";
 
-interface MainAppPageProps {}
+interface MainAppPageProps {
+  setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;
+}
 
-export default function MainAppPage({}: MainAppPageProps) {
-  const [activeDayOfWeek, setActiveDayOfWeek] = useState<DayOfWeek>("Monday");
-  const mealPlan = useContext(MealPlanContext);
+export default function MainAppPage({ setRecipeCollection }: MainAppPageProps) {
+  const recipeCollection = useContext(RecipeCollectionContext);
+  const [dietaryPreferences, setDietaryPreferences] =
+    useState<DietaryPreferences>({
+      isHighProtein: false,
+      isLowCarb: false,
+      isVegetarian: false,
+      isHalal: false,
+    });
 
   return (
-    <div className={"flex flex-col items-center mx-[5vw]"}>
+    <div>
       <div
-        className={
-          "w-screen h-[65px] bg-red-500 flex flex-row items-center px-8"
-        }
+        className={"w-full shadow-md h-[65px] flex flex-row items-center px-8"}
       >
         <List size={20} />
       </div>
-      <PrefenceSelectorBar />
-      <div className={"w-[90vw] h-[65px] mx-auto bg-blue-500"}>
-        <div className={"grid grid-cols-7"}>
-          {daysOfTheWeekArray.map((day) => (
-            <div
-              key={day}
-              onClick={() => setActiveDayOfWeek(day)}
-              className={cn(
-                "flex flex-row justify-center items-center h-[65px]",
-                activeDayOfWeek === day ? "bg-cyan-300" : "bg-emerald-200",
-                "hover:cursor-pointer opacity-90",
-              )}
-            >
-              {day}
-            </div>
-          ))}
+      <div className={"flex flex-col items-center px-[5vw]"}>
+        <div className={"flex flex-row items-center gap-4"}>
+          <PreferenceSelectorBar
+            dietaryPreferences={dietaryPreferences}
+            setDietaryPreferences={setDietaryPreferences}
+          />
+          <Button onClick={() => getRecipeCollection(dietaryPreferences)}>
+            Get Recipes
+          </Button>
         </div>
+        <RecipeGallery recipeCollection={recipeCollection} />
       </div>
-      <OneFullDayMealPlan
-        mealPlan={mealPlan}
-        activeDayOfWeek={activeDayOfWeek}
-      />
     </div>
   );
 }

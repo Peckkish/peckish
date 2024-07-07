@@ -1,6 +1,6 @@
 import { useContext, useEffect, useLayoutEffect, useState } from "react";
 import { getRecipeObjectByIdOrNull } from "@/utility/utils.ts";
-import { MealPlanContext } from "@/utility/context.ts";
+import { RecipeCollectionContext } from "@/utility/context.ts";
 import { Recipe } from "@/utility/types.ts";
 import { useParams } from "react-router-dom";
 import { DotLoader } from "react-spinners";
@@ -14,7 +14,7 @@ export default function RecipePage({}: RecipePageProps) {
   const [activeRecipe, setActiveRecipe] = useState<Recipe | null>(null);
 
   const { id } = useParams<{ id: string }>();
-  const mealPlan = useContext(MealPlanContext);
+  const mealPlan = useContext(RecipeCollectionContext);
 
   const [imageURL, setImageURL] = useState<string>("");
 
@@ -33,18 +33,14 @@ export default function RecipePage({}: RecipePageProps) {
 
   if (!activeRecipe || imageURL === "") {
     return (
-      <div
-        className={
-          "flex justify-center items-center w-screen h-screen bg-emerald-100/50"
-        }
-      >
+      <div className={"flex justify-center items-center w-screen h-screen"}>
         <DotLoader />
       </div>
     );
   }
 
   return (
-    <div className={"w-screen min-h-screen bg-emerald-100/50 p-12"}>
+    <div className={"w-screen min-h-screen p-12"}>
       <Button
         className={"mb-6"}
         onClick={() => (window.location.href = "/app")}
@@ -67,7 +63,9 @@ export default function RecipePage({}: RecipePageProps) {
       <ul className={"list-disc ml-[1.5ch]"}>
         {activeRecipe.recipeIngredients.map((ingredient, index) => {
           return (
-            <li key={index}>{`${ingredient.amount} ${ingredient.product}`}</li>
+            <li
+              key={index}
+            >{`${ingredient.qtyNumber} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
           );
         })}
       </ul>
