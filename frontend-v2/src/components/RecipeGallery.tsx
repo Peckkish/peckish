@@ -19,7 +19,7 @@ export default function RecipeGallery({
   }
 
   return (
-    <div className={"xl:w-[90vw] w-[95vw] min-h-screen"}>
+    <div className={"xl:w-[92vw] w-[95vw] min-h-screen"}>
       {!!recipeCollection.breakfastRecipes && (
         <RecipeSubsection
           headerIcon={<SunHorizon size={36} />}

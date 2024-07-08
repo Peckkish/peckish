@@ -13,7 +13,7 @@ import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { StarFilledIcon, StarIcon } from "@radix-ui/react-icons";
 import { Bookmark, StarHalfIcon } from "lucide-react";
-import { BowlFood, StarHalf } from "@phosphor-icons/react";
+import { BowlFood, CaretLeft, StarHalf } from "@phosphor-icons/react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import NutritionInfo from "@/components/NutritionInfo.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";
@@ -64,7 +64,8 @@ export default function RecipePage({}: RecipePageProps) {
         className={"w-fit absolute top-4 left-4"}
         onClick={() => (window.location.href = "/app")}
       >
-        Back to Recipes
+        <CaretLeft weight={"bold"} className={"mr-2"} />
+        <span>Back to Recipes</span>
       </Button>
       {/* TOP ROW */}
       <div className={"flex flex-row justify-between gap-16 w-full"}>

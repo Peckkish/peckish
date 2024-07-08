@@ -25,11 +25,7 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
         "recipe-blento-section flex flex-col items-start gap-2 hover:cursor-pointer"
       }
     >
-      <div
-        className={
-          "size-72 aspect-square overflow-hidden rounded-2xl shadow-md"
-        }
-      >
+      <div className={"aspect-square overflow-hidden rounded-2xl shadow-md"}>
         {!!imageURL ? (
           <img
             className={"min-h-full min-w-full object-cover"}
@@ -41,7 +37,9 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
         )}
       </div>
 
-      <p className={"text-lg font-semibold"}>{recipe.recipeTitle}</p>
+      <p className={"2xl:text-lg text-base font-semibold"}>
+        {recipe.recipeTitle}
+      </p>
       <p
         className={"text-xs max-w-64 overflow-hidden text-ellipsis text-nowrap"}
       >
