@@ -28,12 +28,12 @@ export default function PreferenceToggle({
     <Toggle
       pressed={dietaryPreferences[toggleProperty]}
       variant="outline"
-      className={"h-10 w-40 rounded-2xl flex justify-center items-center"}
+      className={"h-10 w-36 rounded-2xl flex justify-center items-center"}
       onClick={handlePressedChange}
       aria-label={`Toggle ${toggleProperty}`}
     >
       {iconComponent}
-      {label}
+      <span>{label}</span>
     </Toggle>
   );
 }

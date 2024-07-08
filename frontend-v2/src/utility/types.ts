@@ -36,4 +36,6 @@ export interface DietaryPreferences {
   isHalal: boolean;
   isGlutenFree: boolean;
   isKeto: boolean;
+  isDairyFree: boolean;
+  isVegan: boolean;
 }

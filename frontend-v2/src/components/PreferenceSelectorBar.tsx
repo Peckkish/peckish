@@ -1,7 +1,14 @@
 import PreferenceToggle from "@/components/PreferenceToggle.tsx";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { DietaryPreferences } from "@/utility/types.ts";
-import { Avocado, Fish, StarAndCrescent } from "@phosphor-icons/react";
+import {
+  Avocado,
+  Bread,
+  Cow,
+  Fish,
+  Plant,
+  StarAndCrescent,
+} from "@phosphor-icons/react";
 import { Beef, Leaf, WheatOff } from "lucide-react";
 import { TbBreadOff } from "react-icons/tb";
 
@@ -16,7 +23,9 @@ export default function PreferenceSelectorBar({
 }: PreferenceSelectorBarProps) {
   return (
     <div
-      className={"mx-auto flex flex-row justify-around items-center my-6 gap-4"}
+      className={
+        "mx-auto flex flex-row justify-around items-center my-12 gap-4"
+      }
     >
       <PreferenceToggle
         label={"High Protein"}
@@ -30,7 +39,7 @@ export default function PreferenceSelectorBar({
         toggleProperty={"isLowCarb"}
         dietaryPreferences={dietaryPreferences}
         setDietaryPreferences={setDietaryPreferences}
-        iconComponent={<TbBreadOff size={"24"} className={"mr-2"} />}
+        iconComponent={<Bread size={"24"} className={"mr-2"} />}
       />
       <PreferenceToggle
         label={"Vegetarian"}
@@ -63,6 +72,20 @@ export default function PreferenceSelectorBar({
         iconComponent={
           <StarAndCrescent size={"24"} weight={"bold"} className={"mr-2"} />
         }
+      />
+      <PreferenceToggle
+        label={"Dairy-Free"}
+        toggleProperty={"isDairyFree"}
+        dietaryPreferences={dietaryPreferences}
+        setDietaryPreferences={setDietaryPreferences}
+        iconComponent={<Cow size={"24"} weight={"bold"} className={"mr-2"} />}
+      />
+      <PreferenceToggle
+        label={"Vegan"}
+        toggleProperty={"isVegan"}
+        dietaryPreferences={dietaryPreferences}
+        setDietaryPreferences={setDietaryPreferences}
+        iconComponent={<Plant size={"24"} weight={"bold"} className={"mr-2"} />}
       />
     </div>
   );
