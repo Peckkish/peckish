@@ -1,8 +1,9 @@
 import PreferenceToggle from "@/components/PreferenceToggle.tsx";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { DietaryPreferences } from "@/utility/types.ts";
-import { Fish, StarAndCrescent } from "@phosphor-icons/react";
+import { Avocado, Fish, StarAndCrescent } from "@phosphor-icons/react";
 import { Beef, Leaf, WheatOff } from "lucide-react";
+import { TbBreadOff } from "react-icons/tb";
 
 interface PreferenceSelectorBarProps {
   dietaryPreferences: DietaryPreferences;
@@ -29,7 +30,7 @@ export default function PreferenceSelectorBar({
         toggleProperty={"isLowCarb"}
         dietaryPreferences={dietaryPreferences}
         setDietaryPreferences={setDietaryPreferences}
-        iconComponent={<WheatOff className={"mr-2"} />}
+        iconComponent={<TbBreadOff size={"24"} className={"mr-2"} />}
       />
       <PreferenceToggle
         label={"Vegetarian"}
@@ -37,6 +38,22 @@ export default function PreferenceSelectorBar({
         dietaryPreferences={dietaryPreferences}
         setDietaryPreferences={setDietaryPreferences}
         iconComponent={<Leaf className={"mr-2"} />}
+      />
+      <PreferenceToggle
+        label={"Gluten-Free"}
+        toggleProperty={"isGlutenFree"}
+        dietaryPreferences={dietaryPreferences}
+        setDietaryPreferences={setDietaryPreferences}
+        iconComponent={<WheatOff className={"mr-2"} />}
+      />
+      <PreferenceToggle
+        label={"Ketogenic"}
+        toggleProperty={"isKeto"}
+        dietaryPreferences={dietaryPreferences}
+        setDietaryPreferences={setDietaryPreferences}
+        iconComponent={
+          <Avocado size={"24"} weight={"bold"} className={"mr-2"} />
+        }
       />
       <PreferenceToggle
         label={"Halal"}
