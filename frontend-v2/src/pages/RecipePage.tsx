@@ -1,4 +1,4 @@
-import { useContext, useEffect, useLayoutEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import {
   getFormattedTime,
   getRecipeObjectByIdOrNull,
@@ -11,9 +11,8 @@ import { Button } from "@/components/ui/button.tsx";
 import { getImage } from "@/api/api.tsx";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
-import { StarFilledIcon, StarIcon } from "@radix-ui/react-icons";
-import { Bookmark, StarHalfIcon } from "lucide-react";
-import { BowlFood, CaretLeft, StarHalf } from "@phosphor-icons/react";
+import { Bookmark } from "lucide-react";
+import { BowlFood, CaretLeft } from "@phosphor-icons/react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import NutritionInfo from "@/components/NutritionInfo.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";

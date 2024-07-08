@@ -1,11 +1,4 @@
 import { Dispatch, SetStateAction, useEffect } from "react";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import ServingsSelector from "@/components/ServingsSelector.tsx";
 
 interface NutritionInfoProps {

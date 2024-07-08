@@ -1,5 +1,4 @@
 import { Toggle } from "@/components/ui/toggle.tsx";
-import { Fish } from "@phosphor-icons/react";
 import { Dispatch, SetStateAction } from "react";
 import { DietaryPreferences } from "@/utility/types.ts";
 

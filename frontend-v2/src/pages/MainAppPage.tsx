@@ -1,18 +1,12 @@
-import { List, Robot } from "@phosphor-icons/react";
+import { Robot } from "@phosphor-icons/react";
 import RecipeGallery from "@/components/RecipeGallery.tsx";
-import {
-  Dispatch,
-  SetStateAction,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { Dispatch, SetStateAction, useContext, useState } from "react";
 import { DietaryPreferences, FullRecipeCollection } from "@/utility/types.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/PreferenceSelectorBar.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { getRecipeCollection } from "@/api/api.tsx";
-import AppHeader from "@/AppHeader.tsx";
+import AppHeader from "@/components/AppHeader.tsx";
 
 interface MainAppPageProps {
   setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;

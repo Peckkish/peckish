@@ -1,7 +1,6 @@
 import { FullRecipeCollection } from "@/utility/types.ts";
 import RecipeSubsection from "@/components/RecipeSubsection.tsx";
 import { DotLoader } from "react-spinners";
-import { EggFried } from "lucide-react";
 import { CloudMoon, Sun, SunHorizon } from "@phosphor-icons/react";
 
 interface RecipeGalleryProps {

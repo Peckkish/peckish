@@ -1,16 +1,14 @@
 import PreferenceToggle from "@/components/PreferenceToggle.tsx";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 import { DietaryPreferences } from "@/utility/types.ts";
 import {
   Avocado,
   Bread,
   Cow,
-  Fish,
   Plant,
   StarAndCrescent,
 } from "@phosphor-icons/react";
 import { Beef, Leaf, WheatOff } from "lucide-react";
-import { TbBreadOff } from "react-icons/tb";
 
 interface PreferenceSelectorBarProps {
   dietaryPreferences: DietaryPreferences;

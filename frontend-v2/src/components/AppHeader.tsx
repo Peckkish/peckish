@@ -16,8 +16,7 @@ export default function AppHeader({}: AppHeaderProps) {
         src="/assets/peckish_banner.png"
         alt=""
       />
-      {/*<p className={"text-xl font-bold ml-8"}>Peckish</p>*/}
-      <Button variant={"green"} className={"ml-auto mr-24"}>
+      <Button variant={"green"} className={"ml-auto mr-[3vw]"}>
         Sign Up to Save Recipes
       </Button>
     </div>
