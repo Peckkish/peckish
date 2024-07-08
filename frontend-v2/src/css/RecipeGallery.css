@@ -1,0 +1,7 @@
+.recipe-blento-section img {
+	transition: transform 200ms ease-out;
+}
+
+.recipe-blento-section:hover img {
+	transform: scale(115%);
+}

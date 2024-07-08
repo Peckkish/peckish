@@ -12,6 +12,7 @@ import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/PreferenceSelectorBar.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { getRecipeCollection } from "@/api/api.tsx";
+import AppHeader from "@/AppHeader.tsx";
 
 interface MainAppPageProps {
   setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;
@@ -29,18 +30,20 @@ export default function MainAppPage({ setRecipeCollection }: MainAppPageProps) {
 
   return (
     <div>
-      <div
-        className={"w-full shadow-md h-[65px] flex flex-row items-center px-8"}
-      >
-        <List size={20} />
-      </div>
+      <AppHeader />
       <div className={"flex flex-col items-center px-[5vw]"}>
+        <h1 className={"mt-16 text-6xl font-semibold"}>Recipe Selector</h1>
+        <p className={"my-3 text-xl font-base"}>
+          Choose your dietary requirements (if any) and pick your favourite
+          recipes for your meal plan!
+        </p>
         <div className={"flex flex-row items-center gap-4"}>
           <PreferenceSelectorBar
             dietaryPreferences={dietaryPreferences}
             setDietaryPreferences={setDietaryPreferences}
           />
           <Button
+            variant={"green"}
             onClick={() => {
               getRecipeCollection(dietaryPreferences).then((result) =>
                 setRecipeCollection(result),

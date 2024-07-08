@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge.tsx";
 import { getFormattedPrice, getFormattedTime } from "@/utility/utils.ts";
 import { useEffect, useState } from "react";
 import { getImage } from "@/api/api.tsx";
+import "../css/RecipeGallery.css";
 
 interface RecipePreviewTileProps {
   recipe: Recipe;
@@ -20,7 +21,9 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
   return (
     <div
       onClick={() => (window.location.href = `/app/recipe/${recipe.recipeId}`)}
-      className={"flex flex-col items-start gap-2 hover:cursor-pointer"}
+      className={
+        "recipe-blento-section flex flex-col items-start gap-2 hover:cursor-pointer"
+      }
     >
       <div
         className={
@@ -46,7 +49,9 @@ export default function RecipePreviewTile({ recipe }: RecipePreviewTileProps) {
       </p>
       <div className={"flex flex-row justify-start gap-2 items-center"}>
         <Badge variant={"secondary"}>Easy</Badge>
-        <Badge variant={"default"}>{getFormattedTime(recipe.timeTaken)}</Badge>
+        <Badge variant={"default"}>
+          {getFormattedTime(recipe.prepTime + recipe.cookTime)}
+        </Badge>
         <Badge variant={"destructive"}>
           {getFormattedPrice(recipe.totalCost)}
         </Badge>

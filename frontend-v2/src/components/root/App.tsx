@@ -11,6 +11,7 @@ import {
 import RecipePage from "@/pages/RecipePage.tsx";
 import { FullRecipeCollection } from "@/utility/types.ts";
 import { getRecipeCollection } from "@/api/api.tsx";
+import "../../css/global.css";
 
 export default function App() {
   const [recipeCollection, setRecipeCollection] =

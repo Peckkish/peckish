@@ -2,6 +2,7 @@ export interface IngredientItem {
   product: string;
   qtyNumber: number;
   qtyUnit: string;
+  productURL: string;
 }
 
 export interface Recipe {
