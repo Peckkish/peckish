@@ -9,16 +9,16 @@ import {
 } from "react-router-dom";
 import RecipeDetailsPage from "@/pages/RecipeDetailsPage.tsx";
 import { FullRecipeCollection } from "@/utility/types.ts";
-import { getRecipeCollection } from "@/api/api.tsx";
 import "../../css/global.css";
 import MealPlanDashboardPage from "@/pages/MealPlanDashboardPage.tsx";
 
 export default function App() {
   const [recipeCollection, setRecipeCollection] =
     useState<null | FullRecipeCollection>(null);
+  const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
 
   useEffect(() => {
-    getRecipeCollection().then((result) => setRecipeCollection(result));
+    // getRecipeCollection().then((result) => setRecipeCollection(result));
   }, []);
 
   return (
@@ -29,13 +29,22 @@ export default function App() {
             <Route
               path="/app"
               element={
-                <RecipeSelectorPage setRecipeCollection={setRecipeCollection} />
+                <RecipeSelectorPage
+                  setRecipeCollection={setRecipeCollection}
+                  selectedRecipeIds={selectedRecipeIds}
+                  setSelectedRecipeIds={setSelectedRecipeIds}
+                />
               }
             />
             <Route path="/app/recipe/:id" element={<RecipeDetailsPage />} />
             <Route
               path="/app/plans/myMealPlan"
-              element={<MealPlanDashboardPage />}
+              element={
+                <MealPlanDashboardPage
+                  selectedRecipeIds={selectedRecipeIds}
+                  setSelectedRecipeIds={setSelectedRecipeIds}
+                />
+              }
             />
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Routes>

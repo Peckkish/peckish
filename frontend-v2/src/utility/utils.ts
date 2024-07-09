@@ -1,6 +1,6 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
-import { FullRecipeCollection } from "@/utility/types.ts";
+import { FullRecipeCollection, IngredientItem } from "@/utility/types.ts";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -39,6 +39,57 @@ export function getRecipeObjectByIdOrNull(
   return (
     allRecipes.find((recipe) => recipe.recipeId === targetRecipeId) ?? null
   );
+}
+
+export const getTotalShoppingList = (
+  recipeCollection: FullRecipeCollection,
+  selectedRecipeIds: string[],
+) => {
+  let totalShoppingList: IngredientItem[] = [];
+  for (const recipeId of selectedRecipeIds) {
+    const recipeObject = getRecipeObjectByIdOrNull(recipeCollection, recipeId);
+    if (!recipeObject) {
+      continue;
+    }
+    totalShoppingList = [
+      ...totalShoppingList,
+      ...recipeObject.recipeIngredients,
+    ];
+  }
+  return totalShoppingList;
+};
+
+export function roundToNearestQuarter(num: number): number {
+  return Math.round(num * 4) / 4;
+}
+
+function gcd(a: number, b: number): number {
+  while (b !== 0) {
+    let t = b;
+    b = a % b;
+    a = t;
+  }
+  return a;
+}
+
+function decimalToFraction(decimal: number): string {
+  const tolerance = 1.0e-6;
+  let denominator = 1;
+  while (
+    Math.abs(Math.round(decimal * denominator) / denominator - decimal) >
+    tolerance
+  ) {
+    denominator++;
+  }
+  const numerator = Math.round(decimal * denominator);
+  const divisor = gcd(numerator, denominator);
+  return `${numerator / divisor}/${denominator / divisor}`;
+}
+
+export function decimalToMixedFractionString(decimal: number): string {
+  const decimalRemainder = decimal % 1;
+  const quotient = decimal - decimalRemainder;
+  return `${quotient === 0 ? "" : quotient.toString()}  ${decimalRemainder === 0 ? "" : decimalToFraction(decimalRemainder)}`;
 }
 
 export const dummyMealPlan: FullRecipeCollection = {

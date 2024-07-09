@@ -1,11 +1,13 @@
 import { useContext, useEffect, useState } from "react";
 import {
+  decimalToMixedFractionString,
   getFormattedTime,
   getRecipeObjectByIdOrNull,
+  roundToNearestQuarter,
 } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import { Recipe } from "@/utility/types.ts";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { DotLoader } from "react-spinners";
 import { Button } from "@/components/ui/button.tsx";
 import { getImage } from "@/api/api.tsx";
@@ -26,6 +28,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   const [numServings, setNumServings] = useState(1);
 
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const mealPlan = useContext(RecipeCollectionContext);
 
   const [imageURL, setImageURL] = useState<string>("");
@@ -61,11 +64,11 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       }
     >
       <Button
-        className={"w-fit absolute top-4 left-4"}
-        onClick={() => (window.location.href = "/app")}
+        className={"w-fit absolute top-4 left-5"}
+        onClick={() => navigate("/app")}
       >
         <CaretLeft weight={"bold"} className={"mr-2"} />
-        <span>Back to Recipes</span>
+        <span>Go Back</span>
       </Button>
       {/* TOP ROW */}
       <div className={"flex flex-row justify-between gap-16 w-full"}>
@@ -187,7 +190,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               return (
                 <li
                   key={index}
-                >{`${ingredient.qtyNumber * multiplierOnOriginalQty} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
               );
             })}
           </ul>

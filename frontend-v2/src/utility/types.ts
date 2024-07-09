@@ -5,8 +5,11 @@ export interface IngredientItem {
   productURL: string;
 }
 
+export type GroceryStore = "Woolies" | "Coles";
+
 export interface Recipe {
   BLD: string;
+  groceryStore: GroceryStore;
   recipeTitle: string;
   recipeId: string;
   recipeDescription: string;

@@ -6,19 +6,30 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { getImage } from "@/api/api.tsx";
 import "../../css/RecipeGallery.css";
 import { Button } from "@/components/ui/button.tsx";
+import { useNavigate } from "react-router-dom";
+import { MinusCircle, PlusCircle } from "@phosphor-icons/react";
 
 interface RecipePreviewTileProps {
   recipe: Recipe;
-  isSelected: boolean;
+  isSelected?: boolean;
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
+  hideTimeTaken?: boolean;
+  hideRecipePrice?: boolean;
+  hidePlanAddButton?: boolean;
+  className?: string;
 }
 
 export default function RecipePreviewTile({
   recipe,
-  isSelected,
+  isSelected = false,
   setSelectedRecipeIds,
+  hideTimeTaken = false,
+  hideRecipePrice = false,
+  hidePlanAddButton = false,
+  className,
 }: RecipePreviewTileProps) {
   const [imageURL, setImageURL] = useState<string>("");
+  const navigate = useNavigate();
 
   const handleToggleRecipeSelected = (
     e: React.MouseEvent<HTMLButtonElement>,
@@ -43,17 +54,22 @@ export default function RecipePreviewTile({
 
   return (
     <div
-      onClick={() => (window.location.href = `/app/recipe/${recipe.recipeId}`)}
-      className={"flex flex-col items-start gap-2 hover:cursor-pointer"}
+      onClick={() => navigate(`/app/recipe/${recipe.recipeId}`)}
+      className={cn(
+        "flex flex-col items-start hover:cursor-pointer",
+        className,
+      )}
     >
       <div
         className={cn(
-          "transition-all",
-          isSelected && "border-emerald-900 border-4 rounded-2xl p-2",
+          "transition-all rounded-2xl",
+          isSelected && "border-emerald-900 border-4 p-2",
         )}
       >
         <div
-          className={cn("aspect-square overflow-hidden rounded-2xl shadow-md")}
+          className={cn(
+            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image",
+          )}
         >
           {!!imageURL ? (
             <img
@@ -69,31 +85,45 @@ export default function RecipePreviewTile({
         </div>
       </div>
 
-      <p className={"2xl:text-lg text-base font-semibold"}>
-        {recipe.recipeTitle}
-      </p>
-      <p
-        className={"text-xs max-w-64 overflow-hidden text-ellipsis text-nowrap"}
-      >
-        {recipe.recipeDescription}
-      </p>
-      <div
-        className={"flex flex-row justify-start gap-2 items-end -mt-2 w-full"}
-      >
-        <Badge variant={"secondary"}>Easy</Badge>
-        <Badge variant={"default"}>
-          {getFormattedTime(recipe.prepTime + recipe.cookTime)}
-        </Badge>
-        <Badge variant={"destructive"}>
-          {getFormattedPrice(recipe.totalCost)}
-        </Badge>
-        <Button
-          variant={isSelected ? "destructive" : "green"}
-          onClick={handleToggleRecipeSelected}
-          className={"ml-auto"}
+      <div className={"mt-3 pl-2 w-full"}>
+        <p className={"2xl:text-lg text-base font-semibold"}>
+          {recipe.recipeTitle}
+        </p>
+        <p
+          className={
+            "text-xs max-w-64 overflow-hidden text-ellipsis text-nowrap"
+          }
         >
-          {isSelected ? "Remove" : "Add to Plan"}
-        </Button>
+          {recipe.recipeDescription}
+        </p>
+        <div
+          className={"flex flex-row justify-start gap-2 items-end w-full mt-2"}
+        >
+          <Badge variant={"secondary"}>Easy</Badge>
+          {!hideTimeTaken && (
+            <Badge variant={"default"}>
+              {getFormattedTime(recipe.prepTime + recipe.cookTime)}
+            </Badge>
+          )}
+          {!hideRecipePrice && (
+            <Badge variant={"destructive"}>
+              {getFormattedPrice(recipe.totalCost)}
+            </Badge>
+          )}
+          {!hidePlanAddButton && (
+            <Button
+              variant={isSelected ? "destructive" : "green"}
+              onClick={handleToggleRecipeSelected}
+              className={"ml-auto px-2.5"}
+            >
+              {isSelected ? (
+                <MinusCircle weight={"bold"} size={20} />
+              ) : (
+                <PlusCircle weight={"bold"} size={20} />
+              )}
+            </Button>
+          )}
+        </div>
       </div>
     </div>
   );

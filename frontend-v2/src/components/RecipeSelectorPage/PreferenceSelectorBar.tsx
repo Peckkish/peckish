@@ -23,7 +23,7 @@ export default function PreferenceSelectorBar({
   return (
     <div
       className={
-        "mx-auto flex flex-row justify-around items-center my-12 gap-4"
+        "mx-auto flex flex-row justify-around items-center mb-14 mt-10 gap-4"
       }
     >
       <PreferenceToggle
