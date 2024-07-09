@@ -9,8 +9,10 @@ import {
 import UpdateMealPlanNameForm from "@/components/MealPlanDashboardPage/UpdateMealPlanNameForm.tsx";
 import InteractiveMealPlan from "@/components/MealPlanDashboardPage/InteractiveMealPlan.tsx";
 import {
+  decimalToMixedFractionString,
   getRecipeObjectByIdOrNull,
   getTotalShoppingList,
+  roundToNearestQuarter,
 } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
@@ -42,6 +44,8 @@ export default function MealPlanDashboardPage({
         getTotalShoppingList(recipeCollection, selectedRecipeIds),
       );
   }, [recipeCollection]);
+
+  const multiplierOnOriginalQty = 1;
 
   return (
     <div className={"min-h-screen flex flex-col justify-start pb-12"}>
@@ -85,7 +89,7 @@ export default function MealPlanDashboardPage({
                 return (
                   <li
                     key={index}
-                  >{`${ingredient.qtyNumber} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                  >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
                 );
               })}
             </ul>
