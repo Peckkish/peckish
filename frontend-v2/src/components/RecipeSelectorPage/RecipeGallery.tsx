@@ -1,13 +1,18 @@
 import { FullRecipeCollection } from "@/utility/types.ts";
-import RecipeSubsection from "@/components/RecipeSubsection.tsx";
+import RecipeSubsection from "@/components/RecipePage/RecipeSubsection.tsx";
 import { DotLoader } from "react-spinners";
 import { CloudMoon, Sun, SunHorizon } from "@phosphor-icons/react";
+import { Dispatch, SetStateAction } from "react";
 
 interface RecipeGalleryProps {
   recipeCollection: null | FullRecipeCollection;
+  selectedRecipeIds: string[];
+  setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
 }
 export default function RecipeGallery({
   recipeCollection,
+  selectedRecipeIds,
+  setSelectedRecipeIds,
 }: RecipeGalleryProps) {
   if (!recipeCollection) {
     return (
@@ -18,9 +23,11 @@ export default function RecipeGallery({
   }
 
   return (
-    <div className={"xl:w-[92vw] w-[95vw] min-h-screen"}>
+    <div className={"xl:w-[92vw] w-[95vw] min-h-screen z-0"}>
       {!!recipeCollection.breakfastRecipes && (
         <RecipeSubsection
+          setSelectedRecipeIds={setSelectedRecipeIds}
+          selectedRecipeIds={selectedRecipeIds}
           headerIcon={<SunHorizon size={36} />}
           recipes={recipeCollection.breakfastRecipes}
           label={"Breakfast"}
@@ -28,6 +35,8 @@ export default function RecipeGallery({
       )}
       {!!recipeCollection.lunchRecipes && (
         <RecipeSubsection
+          setSelectedRecipeIds={setSelectedRecipeIds}
+          selectedRecipeIds={selectedRecipeIds}
           headerIcon={<Sun size={36} />}
           recipes={recipeCollection.lunchRecipes}
           label={"Lunch"}
@@ -35,6 +44,8 @@ export default function RecipeGallery({
       )}
       {!!recipeCollection.dinnerRecipes && (
         <RecipeSubsection
+          setSelectedRecipeIds={setSelectedRecipeIds}
+          selectedRecipeIds={selectedRecipeIds}
           headerIcon={<CloudMoon size={36} />}
           recipes={recipeCollection.dinnerRecipes}
           label={"Dinner"}

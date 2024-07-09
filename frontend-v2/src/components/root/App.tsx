@@ -1,6 +1,5 @@
-import { createContext, useEffect, useState } from "react";
-import { cn, dummyMealPlan } from "@/utility/utils.ts";
-import MainAppPage from "@/pages/MainAppPage.tsx";
+import { useEffect, useState } from "react";
+import RecipeSelectorPage from "@/pages/RecipeSelectorPage.tsx";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import {
   BrowserRouter as Router,
@@ -8,10 +7,11 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import RecipePage from "@/pages/RecipePage.tsx";
+import RecipeDetailsPage from "@/pages/RecipeDetailsPage.tsx";
 import { FullRecipeCollection } from "@/utility/types.ts";
 import { getRecipeCollection } from "@/api/api.tsx";
 import "../../css/global.css";
+import MealPlanDashboardPage from "@/pages/MealPlanDashboardPage.tsx";
 
 export default function App() {
   const [recipeCollection, setRecipeCollection] =
@@ -29,10 +29,14 @@ export default function App() {
             <Route
               path="/app"
               element={
-                <MainAppPage setRecipeCollection={setRecipeCollection} />
+                <RecipeSelectorPage setRecipeCollection={setRecipeCollection} />
               }
             />
-            <Route path="/app/recipe/:id" element={<RecipePage />} />
+            <Route path="/app/recipe/:id" element={<RecipeDetailsPage />} />
+            <Route
+              path="/app/plans/myMealPlan"
+              element={<MealPlanDashboardPage />}
+            />
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Routes>
         </div>

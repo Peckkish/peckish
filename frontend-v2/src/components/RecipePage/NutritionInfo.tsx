@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect } from "react";
-import ServingsSelector from "@/components/ServingsSelector.tsx";
+import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 
 interface NutritionInfoProps {
   setNumServings: Dispatch<SetStateAction<number>>;

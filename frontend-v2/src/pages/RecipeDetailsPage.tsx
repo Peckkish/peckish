@@ -14,14 +14,14 @@ import { Badge } from "@/components/ui/badge.tsx";
 import { Bookmark } from "lucide-react";
 import { BowlFood, CaretLeft } from "@phosphor-icons/react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
-import NutritionInfo from "@/components/NutritionInfo.tsx";
+import NutritionInfo from "@/components/RecipePage/NutritionInfo.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
-import ServingsSelector from "@/components/ServingsSelector.tsx";
+import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 
-interface RecipePageProps {}
+interface RecipeDetailsPageProps {}
 
-export default function RecipePage({}: RecipePageProps) {
+export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   const [activeRecipe, setActiveRecipe] = useState<Recipe | null>(null);
   const [numServings, setNumServings] = useState(1);
 
@@ -52,6 +52,7 @@ export default function RecipePage({}: RecipePageProps) {
   }
 
   const isHalfStar = activeRecipe.recipeRating % 1 > 0;
+  const multiplierOnOriginalQty = numServings / activeRecipe.numServings;
 
   return (
     <div
@@ -173,7 +174,7 @@ export default function RecipePage({}: RecipePageProps) {
       )}
 
       {/* INGREDIENTS AND METHOD ROW */}
-      <div className={"grid grid-cols-[6fr_7fr] w-full mt-8 gap-24"}>
+      <div className={"grid grid-cols-[6fr_7fr] w-full mt-8 mb-8 gap-24"}>
         <div className={"flex flex-col items-start"}>
           <h2 className={"text-4xl font-semibold mb-4"}>Ingredients</h2>
           <ServingsSelector
@@ -186,7 +187,7 @@ export default function RecipePage({}: RecipePageProps) {
               return (
                 <li
                   key={index}
-                >{`${ingredient.qtyNumber} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                >{`${ingredient.qtyNumber * multiplierOnOriginalQty} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
               );
             })}
           </ul>

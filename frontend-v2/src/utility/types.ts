@@ -6,6 +6,7 @@ export interface IngredientItem {
 }
 
 export interface Recipe {
+  BLD: string;
   recipeTitle: string;
   recipeId: string;
   recipeDescription: string;

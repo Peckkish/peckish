@@ -1,4 +1,4 @@
-import PreferenceToggle from "@/components/PreferenceToggle.tsx";
+import PreferenceToggle from "@/components/RecipeSelectorPage/PreferenceToggle.tsx";
 import { Dispatch, SetStateAction } from "react";
 import { DietaryPreferences } from "@/utility/types.ts";
 import {
@@ -9,6 +9,7 @@ import {
   StarAndCrescent,
 } from "@phosphor-icons/react";
 import { Beef, Leaf, WheatOff } from "lucide-react";
+import { Input } from "@/components/ui/input.tsx";
 
 interface PreferenceSelectorBarProps {
   dietaryPreferences: DietaryPreferences;

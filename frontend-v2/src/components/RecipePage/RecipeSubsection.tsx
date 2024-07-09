@@ -1,13 +1,16 @@
-import RecipePreviewTile from "@/components/RecipePreviewTile.tsx";
+import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
 import { Recipe } from "@/utility/types.ts";
 import { cn } from "@/utility/utils.ts";
 import { Separator } from "@/components/ui/separator.tsx";
+import { Dispatch, SetStateAction } from "react";
 
 interface RecipeSubsectionProps {
   headerIcon?: React.ReactNode;
   recipes: Recipe[];
   label: string;
   className?: string;
+  selectedRecipeIds: string[];
+  setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
 }
 
 export default function RecipeSubsection({
@@ -15,6 +18,8 @@ export default function RecipeSubsection({
   recipes,
   label,
   className,
+  selectedRecipeIds,
+  setSelectedRecipeIds,
 }: RecipeSubsectionProps) {
   return (
     <div className={cn("mb-12 rounded-lg", className)}>
@@ -31,24 +36,14 @@ export default function RecipeSubsection({
       >
         {recipes.map((recipe, index) => (
           <div key={index}>
-            <RecipePreviewTile recipe={recipe} />
+            <RecipePreviewTile
+              recipe={recipe}
+              isSelected={selectedRecipeIds.includes(recipe.recipeId)}
+              setSelectedRecipeIds={setSelectedRecipeIds}
+            />
           </div>
         ))}
       </div>
     </div>
-    // <div className={cn("mb-12 px-12 py-8 rounded-lg", className)}>
-    //   <div className={"flex flex-row items-center gap-2"}>
-    //     {headerIcon && headerIcon}
-    //     <h1 className={"text-4xl font-semibold"}>{label}</h1>
-    //   </div>
-    //   <Separator className={"w-full h-[1px] mb-8 mt-3 zinc-300"} />
-    //   <div className={"flex flex-row items-center gap-10 flex-wrap"}>
-    //     {recipes.map((recipe, index) => (
-    //       <div key={index}>
-    //         <RecipePreviewTile recipe={recipe} />
-    //       </div>
-    //     ))}
-    //   </div>
-    // </div>
   );
 }
