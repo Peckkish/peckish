@@ -22,9 +22,7 @@ export default function NutritionInfo({
           gridTemplateColumns: "repeat(auto-fit, minmax(min(50px, 100%), 1fr))",
         }}
       >
-        <p className={"font-semibold text-xl mt-1 mr-1 col-span-2"}>
-          Nutrition
-        </p>
+        <p className={"font-bold text-xl mt-1 mr-1 col-span-2"}>Nutrition</p>
         <ServingsSelector
           setNumServings={setNumServings}
           numServings={numServings}
@@ -36,9 +34,7 @@ export default function NutritionInfo({
           gridTemplateColumns: "repeat(auto-fit, minmax(min(50px, 100%), 1fr))",
         }}
       >
-        <div
-          className={"flex flex-col items-center border-2 pt-4 px-2 rounded-lg"}
-        >
+        <div className={"flex flex-col items-center border-2 pt-4 rounded-lg"}>
           <p className={"font-medium text-md"}>Energy</p>
           <p className={"font-light mt-2 text-sm"}>501cal</p>
           <p className={"font-light text-sm"}>(2012kj)</p>

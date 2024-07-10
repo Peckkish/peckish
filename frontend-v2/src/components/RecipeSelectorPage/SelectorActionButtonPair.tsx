@@ -3,10 +3,22 @@ import { getRecipeCollection } from "@/api/api.ts";
 import { Robot } from "@phosphor-icons/react";
 import { Utensils } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { DietaryPreferences, FullRecipeCollection } from "@/utility/types.ts";
+import {
+  Dispatch,
+  SetStateAction,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
+import {
+  DietaryPreferences,
+  FullRecipeCollection,
+  Recipe,
+} from "@/utility/types.ts";
 import useGetRecipeCollection from "@/hooks/queries/useGetRecipeCollection.ts";
 import { useQueryClient } from "@tanstack/react-query";
+import { getRecipeObjectByIdOrNull } from "@/utility/utils.ts";
+import { RecipeCollectionContext } from "@/utility/context.ts";
 
 interface SelectorActionButtonPairProps {
   setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;
@@ -14,6 +26,7 @@ interface SelectorActionButtonPairProps {
   selectedRecipeIds: string[];
   setIsLoading: Dispatch<SetStateAction<boolean>>;
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
+  setUserMealPlan: Dispatch<SetStateAction<Recipe[]>>;
 }
 
 export default function SelectorActionButtonPair({
@@ -22,8 +35,10 @@ export default function SelectorActionButtonPair({
   selectedRecipeIds,
   setIsLoading,
   setSelectedRecipeIds,
+  setUserMealPlan,
 }: SelectorActionButtonPairProps) {
   const navigate = useNavigate();
+  const recipeCollection = useContext(RecipeCollectionContext);
   // const { isFetching, data } = useGetRecipeCollection({
   //   dietaryPreferences,
   // });
@@ -57,6 +72,11 @@ export default function SelectorActionButtonPair({
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
         disabled={selectedRecipeIds.length < 2}
         onClick={() => {
+          setUserMealPlan(
+            selectedRecipeIds.map(
+              (id) => getRecipeObjectByIdOrNull(recipeCollection, id)!,
+            ),
+          );
           navigate("/app/plans/myMealPlan");
         }}
       >

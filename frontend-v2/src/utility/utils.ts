@@ -1,6 +1,10 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
-import { FullRecipeCollection, IngredientItem } from "@/utility/types.ts";
+import {
+  FullRecipeCollection,
+  IngredientItem,
+  Recipe,
+} from "@/utility/types.ts";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -41,20 +45,10 @@ export function getRecipeObjectByIdOrNull(
   );
 }
 
-export const getTotalShoppingList = (
-  recipeCollection: FullRecipeCollection,
-  selectedRecipeIds: string[],
-) => {
+export const getTotalShoppingList = (recipes: Recipe[]) => {
   let totalShoppingList: IngredientItem[] = [];
-  for (const recipeId of selectedRecipeIds) {
-    const recipeObject = getRecipeObjectByIdOrNull(recipeCollection, recipeId);
-    if (!recipeObject) {
-      continue;
-    }
-    totalShoppingList = [
-      ...totalShoppingList,
-      ...recipeObject.recipeIngredients,
-    ];
+  for (const recipe of recipes) {
+    totalShoppingList = [...totalShoppingList, ...recipe.recipeIngredients];
   }
   return totalShoppingList;
 };

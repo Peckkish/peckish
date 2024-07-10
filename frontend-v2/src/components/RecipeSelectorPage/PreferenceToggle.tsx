@@ -27,7 +27,9 @@ export default function PreferenceToggle({
     <Toggle
       pressed={dietaryPreferences[toggleProperty]}
       variant="outline"
-      className={"h-10 w-36 rounded-2xl flex justify-center items-center"}
+      className={
+        "h-10 w-36 rounded-2xl flex justify-center items-center hover:opacity-70"
+      }
       onClick={handlePressedChange}
       aria-label={`Toggle ${toggleProperty}`}
     >

@@ -17,6 +17,8 @@ interface RecipePreviewTileProps {
   hideTimeTaken?: boolean;
   hideRecipePrice?: boolean;
   hidePlanAddButton?: boolean;
+  showRemoveFromPlanButton?: boolean;
+  setUserMealPlan?: Dispatch<SetStateAction<Recipe[]>>;
   className?: string;
 }
 
@@ -27,6 +29,8 @@ export default function RecipePreviewTile({
   hideTimeTaken = false,
   hideRecipePrice = false,
   hidePlanAddButton = false,
+  showRemoveFromPlanButton = false,
+  setUserMealPlan,
   className,
 }: RecipePreviewTileProps) {
   const [imageURL, setImageURL] = useState<string>("");
@@ -46,6 +50,16 @@ export default function RecipePreviewTile({
         recipe.recipeId,
       ]);
     }
+  };
+
+  const removeRecipe = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
+    setUserMealPlan &&
+      setUserMealPlan((prevMealPlan) =>
+        prevMealPlan.filter(
+          (mealPlanRecipe) => mealPlanRecipe.recipeId !== recipe.recipeId,
+        ),
+      );
   };
 
   useEffect(() => {
@@ -69,12 +83,12 @@ export default function RecipePreviewTile({
       <div
         className={cn(
           "transition-all rounded-2xl",
-          isSelected && "border-emerald-900 border-4 p-2",
+          isSelected && "border-[#33E14D] border-4 p-2",
         )}
       >
         <div
           className={cn(
-            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image",
+            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-full bg-zinc-200",
           )}
         >
           {!!imageURL ? (
@@ -86,7 +100,7 @@ export default function RecipePreviewTile({
               alt="Recipe preview"
             />
           ) : (
-            <Skeleton className={"size-72"} />
+            <Skeleton className="size-80" />
           )}
         </div>
       </div>
@@ -128,13 +142,30 @@ export default function RecipePreviewTile({
             <Button
               variant={isSelected ? "destructive" : "green"}
               onClick={handleToggleRecipeSelected}
-              className={"ml-auto px-2 rounded-[50%]"}
+              className={"ml-auto"}
             >
-              {isSelected ? (
-                <MinusCircle weight={"bold"} size={20} />
-              ) : (
-                <PlusCircle weight={"bold"} size={20} />
-              )}
+              <div className={"flex flex-row items-centerl gap-1"}>
+                {isSelected ? (
+                  <>
+                    <MinusCircle weight={"bold"} size={"1.6em"} />
+                    <p className={"font-bold mt-[0.175em]"}>Deselect</p>
+                  </>
+                ) : (
+                  <>
+                    <PlusCircle weight={"bold"} size={"1.6em"} />
+                    <p className={"font-bold mt-[0.175em]"}>Select</p>
+                  </>
+                )}
+              </div>
+            </Button>
+          )}
+          {showRemoveFromPlanButton && (
+            <Button
+              variant={isSelected ? "destructive" : "green"}
+              onClick={removeRecipe}
+              className={"ml-auto"}
+            >
+              <div className={"flex flex-row items-center gap-1"}>X Remove</div>
             </Button>
           )}
         </div>

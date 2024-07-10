@@ -2,7 +2,7 @@ import { FullRecipeCollection } from "@/utility/types.ts";
 import RecipeSubsection from "@/components/RecipePage/RecipeSubsection.tsx";
 import { DotLoader } from "react-spinners";
 import { CloudMoon, Sun, SunHorizon } from "@phosphor-icons/react";
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
 
 interface RecipeGalleryProps {
   recipeCollection: null | FullRecipeCollection;
@@ -16,7 +16,13 @@ export default function RecipeGallery({
   setSelectedRecipeIds,
   isLoading,
 }: RecipeGalleryProps) {
-  if (!recipeCollection || isLoading) {
+  const [isFabLoading, setIsFabLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setIsFabLoading(false), 350);
+  }, []);
+
+  if (!recipeCollection || isLoading || isFabLoading) {
     return (
       <div className={"flex justify-center items-center w-full"}>
         <DotLoader />

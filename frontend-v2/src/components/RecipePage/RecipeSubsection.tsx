@@ -31,7 +31,7 @@ export default function RecipeSubsection({
       <div
         className={cn(
           "grid place-items-center gap-12",
-          "grid-cols-6 max-[1880px]:grid-cols-5 max-[1640px]:grid-cols-4 max-[1130px]:grid-cols-3 max-[950px]:grid-cols-2 max-[550px]:grid-cols-1",
+          "grid-cols-6 max-[2140px]:grid-cols-5 max-[1640px]:grid-cols-4 max-[1130px]:grid-cols-3 max-[950px]:grid-cols-2 max-[550px]:grid-cols-1",
         )}
       >
         {recipes.map((recipe, index) => (

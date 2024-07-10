@@ -20,12 +20,14 @@ import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
+import AppHeader from "@/components/shared/AppHeader.tsx";
 
 interface RecipeDetailsPageProps {}
 
 export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   const [activeRecipe, setActiveRecipe] = useState<Recipe | null>(null);
   const [numServings, setNumServings] = useState(1);
+  const [fabricatedWaitRunning, setFabricatedWaitRunning] = useState(true);
 
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -46,7 +48,11 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
     !!activeRecipe && setNumServings(activeRecipe.numServings);
   }, [activeRecipe]);
 
-  if (!activeRecipe || imageURL === "") {
+  useEffect(() => {
+    setTimeout(() => setFabricatedWaitRunning(false), 450);
+  }, []);
+
+  if (!activeRecipe || imageURL === "" || fabricatedWaitRunning) {
     return (
       <div className={"flex justify-center items-center w-screen h-screen"}>
         <DotLoader />
@@ -58,11 +64,11 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   return (
     <div
       className={
-        "flex flex-col items-center pt-24 px-12 min-h-screen w-[68%] mx-auto"
+        "flex flex-col items-center pt-24 px-12 min-h-screen max-w-[60%] mx-auto"
       }
     >
       <Button
-        className={"w-fit absolute top-4 left-5"}
+        className={"w-fit absolute top-[85px] left-5"}
         onClick={() => navigate("/app")}
       >
         <CaretLeft weight={"bold"} className={"mr-2"} />
@@ -74,21 +80,21 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         <div className={"flex flex-col items-start"}>
           <div className={"flex flex-row items-center gap-2 my-4"}>
             <Badge>Top rated</Badge>
-            <Badge>Lunch</Badge>
-            <Badge>Vegetarian</Badge>
+            <Badge>{activeRecipe.BLD ?? "Lunch"}</Badge>
+            <Badge>{activeRecipe.recipeTitle.split(" ")[0]}</Badge>
             <Badge>Mediterranean</Badge>
           </div>
-          <h1 className={"text-5xl font-extrabold"}>
+          <h1 className={"text-6xl font-bold mt-4"}>
             {activeRecipe.recipeTitle}
           </h1>
-          <p className={"text-xl font-medium"}>
+          <p className={"text-lg font-base text-zinc-500 mb-1"}>
             {activeRecipe.recipeDescription}
           </p>
           <RatingDisplay
             recipeRating={activeRecipe.recipeRating}
             numRatings={activeRecipe.numRatings}
           />
-          <div className={"mt-4 flex flex-row items-center gap-2.5"}>
+          <div className={"mt-8 flex flex-row items-center gap-2.5"}>
             <Button>
               <Bookmark className={"mr-2"} size={20} />
               Save Recipe
@@ -98,9 +104,13 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               this!
             </Toggle>
           </div>
-          <div className={"flex flex-row justify-center items-center mt-10"}>
+          <div
+            className={
+              "flex flex-row justify-center items-center mt-auto -ml-4"
+            }
+          >
             <div className={"flex flex-col items-center p-6 w-28"}>
-              <p className={"font-medium text-lg"}>Prep</p>
+              <p className={"font-semibold text-xl"}>Prep</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.prepTime)}
               </p>
@@ -108,13 +118,13 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
             <div
               className={"flex flex-col items-center p-6 border-x-[1px] w-28"}
             >
-              <p className={"font-medium text-lg"}>Cook</p>
+              <p className={"font-semibold text-xl"}>Cook</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.cookTime)}
               </p>
             </div>
             <div className={"flex flex-col items-center p-6 w-28"}>
-              <p className={"font-medium text-lg"}>Difficulty</p>
+              <p className={"font-semibold text-xl"}>Difficulty</p>
               <p className={"font-light mt-2 text-sm"}>Easy</p>
             </div>
           </div>
@@ -127,7 +137,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         {/* TOP ROW RIGHT IMAGE COLUMN */}
         <div className={"flex flex-col"}>
           <div
-            className={"size-[33rem] aspect-square overflow-hidden rounded-2xl"}
+            className={"size-[36rem] aspect-square overflow-hidden rounded-2xl"}
           >
             {!!imageURL ? (
               <img
