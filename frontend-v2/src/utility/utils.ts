@@ -141,6 +141,27 @@ export function getDayOfWeekIndex(day: DayOfWeek): number {
   }
 }
 
+export function parseFractionString(fraction: string): number {
+  // Dictionary of common fraction symbols and their decimal equivalents
+  const fractionValues: Record<string, number> = {
+    "¼": 0.25,
+    "½": 0.5,
+    "¾": 0.75,
+  };
+
+  // Regular expression to match optional integers followed by a fraction
+  const match = fraction.match(/(\d+)?(\D+)?/);
+
+  if (!match) return NaN;
+
+  // Extract the integer part and the fraction part from the match
+  const integerPart = match[1] ? parseInt(match[1]) : 0;
+  const fractionPart = match[2] ? fractionValues[match[2]] : 0;
+
+  // Return the sum of the integer part and the fraction part
+  return integerPart + fractionPart;
+}
+
 export const daysOfWeek = [
   "Monday",
   "Tuesday",

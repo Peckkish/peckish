@@ -8,7 +8,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import RecipeDetailsPage from "@/pages/RecipeDetailsPage.tsx";
-import { FullRecipeCollection, Recipe } from "@/utility/types.ts";
+import { Recipe } from "@/utility/types.ts";
 import "../../css/global.css";
 import MealPlanDashboardPage from "@/pages/MealPlanDashboardPage.tsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -17,9 +17,9 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 import Layout from "@/components/root/Layout.tsx";
 
 export default function App() {
-  const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
-    ? JSON.parse(localStorage.getItem("recipeCollection")!)
-    : null;
+  // const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
+  //   ? JSON.parse(localStorage.getItem("recipeCollection")!)
+  //   : null;
 
   const initialUserMealPlan = !!localStorage.getItem("userMealPlan")
     ? JSON.parse(localStorage.getItem("userMealPlan")!)
@@ -30,7 +30,7 @@ export default function App() {
   //   : [];
 
   const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>(
-    initialRecipeCollection,
+    null,
   );
   const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
   const [userMealPlan, setUserMealPlan] =
@@ -48,6 +48,10 @@ export default function App() {
     localStorage.setItem("userMealPlan", JSON.stringify(userMealPlan));
     // console.log(userMealPlan);
   }, [userMealPlan]);
+
+  useEffect(() => {
+    console.log(recipeCollection);
+  }, [recipeCollection]);
 
   return (
     <QueryClientProvider client={queryClient}>

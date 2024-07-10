@@ -1,34 +1,34 @@
 import { Toggle } from "@/components/ui/toggle.tsx";
 import { Dispatch, SetStateAction } from "react";
-import { DietaryPreferences } from "@/utility/types.ts";
+import { SupermarketPreferences } from "@/utility/types.ts";
 import { cn } from "@/utility/utils.ts";
 
-interface PreferenceToggleProps {
+interface SupermarketToggleProps {
   label: string;
-  toggleProperty: keyof DietaryPreferences;
-  dietaryPreferences: DietaryPreferences;
-  setDietaryPreferences: Dispatch<SetStateAction<DietaryPreferences>>;
+  toggleProperty: keyof SupermarketPreferences;
+  supermarketPreferences: SupermarketPreferences;
+  setSupermarketPreferences: Dispatch<SetStateAction<SupermarketPreferences>>;
   iconComponent?: React.ReactNode;
   className?: string;
 }
 
-export default function PreferenceToggle({
-  dietaryPreferences,
+export default function SupermarketToggle({
+  supermarketPreferences,
   label,
   toggleProperty,
-  setDietaryPreferences,
+  setSupermarketPreferences,
   iconComponent,
   className,
-}: PreferenceToggleProps) {
+}: SupermarketToggleProps) {
   const handlePressedChange = () => {
-    setDietaryPreferences((prevPreferences) => ({
+    setSupermarketPreferences((prevPreferences) => ({
       ...prevPreferences,
       [toggleProperty]: !prevPreferences[toggleProperty],
     }));
   };
   return (
     <Toggle
-      pressed={dietaryPreferences[toggleProperty]}
+      pressed={supermarketPreferences[toggleProperty]}
       variant="outline"
       className={cn(
         "h-10 w-36 rounded-2xl flex justify-center items-center hover:opacity-70",

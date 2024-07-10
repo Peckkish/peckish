@@ -6,7 +6,11 @@ import {
   useEffect,
   useState,
 } from "react";
-import { DietaryPreferences, Recipe } from "@/utility/types.ts";
+import {
+  DietaryPreferences,
+  Recipe,
+  SupermarketPreferences,
+} from "@/utility/types.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/RecipeSelectorPage/PreferenceSelectorBar.tsx";
 import SelectorActionButtonPair from "@/components/RecipeSelectorPage/SelectorActionButtonPair.tsx";
@@ -37,6 +41,12 @@ export default function RecipeSelectorPage({
       isDairyFree: false,
       isVegan: false,
     });
+
+  const [supermarketPreferences, setSupermarketPreferences] =
+    useState<SupermarketPreferences>({
+      wooliesEnabled: false,
+      colesEnabled: false,
+    });
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -63,6 +73,8 @@ export default function RecipeSelectorPage({
         <PreferenceSelectorBar
           dietaryPreferences={dietaryPreferences}
           setDietaryPreferences={setDietaryPreferences}
+          supermarketPreferences={supermarketPreferences}
+          setSupermarketPreferences={setSupermarketPreferences}
         />
         <SelectorActionButtonPair
           setRecipeCollection={setRecipeCollection}
@@ -78,6 +90,7 @@ export default function RecipeSelectorPage({
           selectedRecipeIds={selectedRecipeIds}
           setSelectedRecipeIds={setSelectedRecipeIds}
           recipeCollection={recipeCollection}
+          supermarketPreferences={supermarketPreferences}
           isLoading={isLoading}
         />
       ) : (

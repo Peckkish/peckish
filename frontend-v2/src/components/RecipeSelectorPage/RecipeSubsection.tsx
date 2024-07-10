@@ -1,5 +1,5 @@
 import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
-import { Recipe } from "@/utility/types.ts";
+import { Recipe, SupermarketPreferences } from "@/utility/types.ts";
 import { cn } from "@/utility/utils.ts";
 import { Separator } from "@/components/ui/separator.tsx";
 import { Dispatch, SetStateAction } from "react";
@@ -12,6 +12,7 @@ interface RecipeSubsectionProps {
   className?: string;
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
+  supermarketPreferences: SupermarketPreferences;
 }
 
 export default function RecipeSubsection({
@@ -21,8 +22,25 @@ export default function RecipeSubsection({
   className,
   selectedRecipeIds,
   setSelectedRecipeIds,
+  supermarketPreferences,
 }: RecipeSubsectionProps) {
   console.log({ recipes });
+
+  let filteredRecipes = [...recipes];
+  if (!supermarketPreferences.wooliesEnabled) {
+    filteredRecipes = [...filteredRecipes].filter(
+      (recipe) => recipe.supermarket !== "Woolies",
+    );
+  }
+  if (!supermarketPreferences.colesEnabled) {
+    filteredRecipes = [...filteredRecipes].filter(
+      (recipe) => recipe.supermarket !== "Coles",
+    );
+  }
+
+  if (label === "Breakfast")
+    console.log({ filteredRecipesBreakfast: filteredRecipes });
+
   return (
     <div className={cn("mb-12 rounded-lg", className)}>
       <div className={"flex flex-row items-center gap-2"}>
@@ -42,15 +60,22 @@ export default function RecipeSubsection({
             "flex flex-row justify-start items-center gap-12 whitespace-nowrap pb-10 pr-16"
           }
         >
-          {recipes.map((recipe, index) => (
-            <div key={index}>
-              <RecipePreviewTile
-                recipe={recipe}
-                isSelected={selectedRecipeIds.includes(recipe.recipeId)}
-                setSelectedRecipeIds={setSelectedRecipeIds}
-              />
-            </div>
-          ))}
+          {!!filteredRecipes && filteredRecipes.length > 0 ? (
+            filteredRecipes.map((recipe, index) => (
+              <div key={index}>
+                <RecipePreviewTile
+                  recipe={recipe}
+                  isSelected={selectedRecipeIds.includes(recipe.recipeId)}
+                  setSelectedRecipeIds={setSelectedRecipeIds}
+                />
+              </div>
+            ))
+          ) : (
+            <p className={"font-light text-black text-sm"}>
+              It looks like we couldn't find any {label.toLowerCase()} recipes
+              that align with your preferences.
+            </p>
+          )}
         </div>
         <ScrollBar orientation="horizontal" />
       </ScrollArea>

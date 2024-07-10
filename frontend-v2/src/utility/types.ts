@@ -58,3 +58,8 @@ export interface ServingsInfo {
   numberOfDays: number;
   startEatingOn: DayOfWeek;
 }
+
+export interface SupermarketPreferences {
+  wooliesEnabled: boolean;
+  colesEnabled: boolean;
+}

@@ -62,10 +62,10 @@ export default function RecipePreviewTile({
       );
   };
 
-  useEffect(() => {
-    !!recipe.recipeTitle &&
-      getImage(recipe.recipeTitle).then((url) => setImageURL(url));
-  }, []);
+  // useEffect(() => {
+  //   !!recipe.recipeTitle &&
+  //     getImage(recipe.recipeTitle).then((url) => setImageURL(url));
+  // }, []);
 
   const pricePerServing = (recipe.totalCost / recipe.numServings).toFixed(2);
 
@@ -82,27 +82,40 @@ export default function RecipePreviewTile({
     >
       <div
         className={cn(
-          "transition-all rounded-2xl w-72",
+          "transition-all rounded-2xl w-72 relative",
           isSelected && "border-[#33E14D] border-4 p-2",
         )}
       >
         <div
           className={cn(
-            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-full bg-zinc-200",
+            "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200",
           )}
         >
-          {!!imageURL ? (
+          {!!recipe.recipeImageURL ? (
             <img
               className={
                 "min-h-full min-w-full object-cover rounded-2xl transition-all duration-200 ease-out hover:scale-110 -z-20"
               }
-              src={imageURL}
-              alt="Recipe preview"
+              src={recipe.recipeImageURL}
+              alt=""
             />
           ) : (
-            <Skeleton className="size-80" />
+            <Skeleton className="size-full" />
           )}
         </div>
+        {recipe.supermarket === "Woolies" ? (
+          <img
+            src={"/assets/woolworths.svg"}
+            alt=""
+            className={"absolute -right-6 -bottom-8 w-16"}
+          />
+        ) : (
+          <img
+            src={"/assets/coles-square-2.png"}
+            alt=""
+            className={"absolute -right-14 -bottom-8 w-32"}
+          />
+        )}
       </div>
 
       <div className={"mt-1 pl-2 w-full"}>

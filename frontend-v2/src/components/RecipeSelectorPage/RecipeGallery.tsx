@@ -1,4 +1,4 @@
-import { Recipe } from "@/utility/types.ts";
+import { Recipe, SupermarketPreferences } from "@/utility/types.ts";
 import RecipeSubsection from "@/components/RecipeSelectorPage/RecipeSubsection.tsx";
 import { DotLoader } from "react-spinners";
 import { CloudMoon, Sun, SunHorizon } from "@phosphor-icons/react";
@@ -9,12 +9,14 @@ interface RecipeGalleryProps {
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   isLoading: boolean;
+  supermarketPreferences: SupermarketPreferences;
 }
 export default function RecipeGallery({
   recipeCollection,
   selectedRecipeIds,
   setSelectedRecipeIds,
   isLoading,
+  supermarketPreferences,
 }: RecipeGalleryProps) {
   const [isFabLoading, setIsFabLoading] = useState(true);
 
@@ -48,6 +50,7 @@ export default function RecipeGallery({
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<SunHorizon size={36} />}
           recipes={breakfastRecipes}
+          supermarketPreferences={supermarketPreferences}
           label={"Breakfast"}
         />
       )}
@@ -57,6 +60,7 @@ export default function RecipeGallery({
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<Sun size={36} />}
           recipes={lunchRecipes}
+          supermarketPreferences={supermarketPreferences}
           label={"Lunch"}
         />
       )}
@@ -66,6 +70,7 @@ export default function RecipeGallery({
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<CloudMoon size={36} />}
           recipes={dinnerRecipes}
+          supermarketPreferences={supermarketPreferences}
           label={"Dinner"}
         />
       )}

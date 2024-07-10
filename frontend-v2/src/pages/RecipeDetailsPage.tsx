@@ -3,6 +3,7 @@ import {
   decimalToMixedFractionString,
   getFormattedTime,
   getRecipeObjectByIdOrNull,
+  parseFractionString,
   roundToNearestQuarter,
 } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
@@ -29,21 +30,39 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   const [numServings, setNumServings] = useState(1);
   const [fabricatedWaitRunning, setFabricatedWaitRunning] = useState(true);
 
-  const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const mealPlan = useContext(RecipeCollectionContext);
+  const { id } = useParams<{ id: string }>();
 
-  const [imageURL, setImageURL] = useState<string>("");
+  // const [imageURL, setImageURL] = useState<string>("");
 
   useEffect(() => {
-    mealPlan && id && setActiveRecipe(getRecipeObjectByIdOrNull(mealPlan, id));
+    // id && console.log({ found: getRecipeObjectByIdOrNull(mealPlan, id) });
+    const urlArr = window.location.href.split("/");
+    console.log(urlArr[urlArr.length - 1]);
+    if (mealPlan) {
+      // setActiveRecipe(
+      //   getRecipeObjectByIdOrNull(
+      //     mealPlan,
+      //     id ??
+      //       window.location.href.split("/")[window.location.href.length - 1],
+      //   ),
+      // );
+      const urlArr = window.location.href.split("/");
+      console.log(urlArr[urlArr.length - 1]);
+      setActiveRecipe(
+        getRecipeObjectByIdOrNull(mealPlan, urlArr[urlArr.length - 1]),
+      );
+    } else {
+      console.log("here");
+    }
   }, [mealPlan, id]);
 
   useEffect(() => {
-    console.log(activeRecipe);
+    console.log({ activeRecipe });
 
-    activeRecipe &&
-      getImage(activeRecipe.recipeTitle).then((url) => setImageURL(url));
+    // activeRecipe &&
+    //   getImage(activeRecipe.recipeTitle).then((url) => setImageURL(url));
 
     !!activeRecipe && setNumServings(activeRecipe.numServings);
   }, [activeRecipe]);
@@ -52,13 +71,14 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
     setTimeout(() => setFabricatedWaitRunning(false), 450);
   }, []);
 
-  if (!activeRecipe || imageURL === "" || fabricatedWaitRunning) {
+  if (!activeRecipe || fabricatedWaitRunning) {
     return (
       <div className={"flex justify-center items-center w-screen h-screen"}>
         <DotLoader />
       </div>
     );
   }
+
   const multiplierOnOriginalQty = numServings / activeRecipe.numServings;
 
   return (
@@ -139,10 +159,10 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <div
             className={"size-[36rem] aspect-square overflow-hidden rounded-2xl"}
           >
-            {!!imageURL ? (
+            {!!activeRecipe.recipeImageURL ? (
               <img
                 className={"min-h-full min-w-full object-cover"}
-                src={imageURL}
+                src={activeRecipe.recipeImageURL}
                 alt="Recipe preview"
               />
             ) : (
@@ -173,7 +193,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               return (
                 <li
                   key={index}
-                >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                >{`${decimalToMixedFractionString(roundToNearestQuarter(parseFractionString(ingredient.qtyNumber) * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
               );
             })}
           </ul>
