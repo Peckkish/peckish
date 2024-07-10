@@ -3,25 +3,13 @@ import { getRecipeCollection } from "@/api/api.ts";
 import { Robot } from "@phosphor-icons/react";
 import { Utensils } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import {
-  Dispatch,
-  SetStateAction,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
-import {
-  DietaryPreferences,
-  FullRecipeCollection,
-  Recipe,
-} from "@/utility/types.ts";
-import useGetRecipeCollection from "@/hooks/queries/useGetRecipeCollection.ts";
-import { useQueryClient } from "@tanstack/react-query";
+import { Dispatch, SetStateAction, useContext } from "react";
+import { DietaryPreferences, Recipe } from "@/utility/types.ts";
 import { getRecipeObjectByIdOrNull } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 
 interface SelectorActionButtonPairProps {
-  setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;
+  setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
   dietaryPreferences: DietaryPreferences;
   selectedRecipeIds: string[];
   setIsLoading: Dispatch<SetStateAction<boolean>>;

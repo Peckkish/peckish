@@ -8,9 +8,10 @@ export interface IngredientItem {
 }
 
 export type Supermarket = "Woolies" | "Coles";
+export type BLD = "Breakfast" | "Lunch" | "Dinner";
 
 export interface Recipe {
-  BLD: string;
+  BLD: BLD;
   supermarket: Supermarket;
   recipeTitle: string;
   recipeId: string;
@@ -27,13 +28,7 @@ export interface Recipe {
   numServings: number;
 }
 
-export interface FullRecipeCollection {
-  breakfastRecipes: Recipe[];
-  lunchRecipes: Recipe[];
-  dinnerRecipes: Recipe[];
-}
-
-// Full data structure to receive from backend is of type FullRecipeCollection
+// Full data structure to receive from backend is of type Recipe[]
 
 export interface DietaryPreferences {
   isHighProtein: boolean;

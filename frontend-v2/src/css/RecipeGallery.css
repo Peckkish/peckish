@@ -29,8 +29,8 @@
 	align-items: center;
 	justify-content: center;
 	color: white;
-	font-weight: 400;
-	font-size: 1.2em;
+	font-weight: 500;
+	font-size: 1em;
 }
 
 .preview-image:hover::after {
@@ -40,6 +40,22 @@
 .preview-image:hover img {
 	scale: 110%;
 }
+
+.side-scrolling-container {
+	-webkit-mask-image: linear-gradient(to right, black 90%, transparent);
+	mask-image: linear-gradient(to right, black 90%, transparent);
+	width: 200%;
+}
+
+/*.side-scrolling-container::after {*/
+/*	content: '';*/
+/*	position: absolute;*/
+/*	right: 0;*/
+/*	top: 0;*/
+/*	width: 20%;*/
+/*	height: 100%;*/
+/*	background: linear-gradient(to right, rgba(255, 255, 255, 0), #f8f8f8);*/
+/*}*/
 
 
 

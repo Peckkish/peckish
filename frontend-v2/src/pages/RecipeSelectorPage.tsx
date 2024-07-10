@@ -6,18 +6,13 @@ import {
   useEffect,
   useState,
 } from "react";
-import {
-  DietaryPreferences,
-  FullRecipeCollection,
-  Recipe,
-} from "@/utility/types.ts";
+import { DietaryPreferences, Recipe } from "@/utility/types.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/RecipeSelectorPage/PreferenceSelectorBar.tsx";
-import AppHeader from "@/components/shared/AppHeader.tsx";
 import SelectorActionButtonPair from "@/components/RecipeSelectorPage/SelectorActionButtonPair.tsx";
 
 interface RecipeSelectorPageProps {
-  setRecipeCollection: Dispatch<SetStateAction<FullRecipeCollection | null>>;
+  setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   setUserMealPlan: Dispatch<SetStateAction<Recipe[]>>;

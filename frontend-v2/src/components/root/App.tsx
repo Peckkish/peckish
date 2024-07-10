@@ -29,8 +29,9 @@ export default function App() {
   //   ? JSON.parse(localStorage.getItem("selectedRecipeIds")!)
   //   : [];
 
-  const [recipeCollection, setRecipeCollection] =
-    useState<null | FullRecipeCollection>(initialRecipeCollection);
+  const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>(
+    initialRecipeCollection,
+  );
   const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
   const [userMealPlan, setUserMealPlan] =
     useState<Recipe[]>(initialUserMealPlan);

@@ -1,11 +1,11 @@
-import { FullRecipeCollection } from "@/utility/types.ts";
+import { Recipe } from "@/utility/types.ts";
 import RecipeSubsection from "@/components/RecipeSelectorPage/RecipeSubsection.tsx";
 import { DotLoader } from "react-spinners";
 import { CloudMoon, Sun, SunHorizon } from "@phosphor-icons/react";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 
 interface RecipeGalleryProps {
-  recipeCollection: null | FullRecipeCollection;
+  recipeCollection: Recipe[];
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   isLoading: boolean;
@@ -30,32 +30,42 @@ export default function RecipeGallery({
     );
   }
 
+  const breakfastRecipes = recipeCollection.filter(
+    (recipe) => recipe.BLD === "Breakfast",
+  );
+  const lunchRecipes = recipeCollection.filter(
+    (recipe) => recipe.BLD === "Lunch",
+  );
+  const dinnerRecipes = recipeCollection.filter(
+    (recipe) => recipe.BLD === "Dinner",
+  );
+
   return (
     <div className={"xl:w-[92vw] w-[95vw] min-h-screen z-0"}>
-      {!!recipeCollection.breakfastRecipes && (
+      {breakfastRecipes && (
         <RecipeSubsection
           setSelectedRecipeIds={setSelectedRecipeIds}
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<SunHorizon size={36} />}
-          recipes={recipeCollection.breakfastRecipes}
+          recipes={breakfastRecipes}
           label={"Breakfast"}
         />
       )}
-      {!!recipeCollection.lunchRecipes && (
+      {lunchRecipes && (
         <RecipeSubsection
           setSelectedRecipeIds={setSelectedRecipeIds}
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<Sun size={36} />}
-          recipes={recipeCollection.lunchRecipes}
+          recipes={lunchRecipes}
           label={"Lunch"}
         />
       )}
-      {!!recipeCollection.dinnerRecipes && (
+      {dinnerRecipes && (
         <RecipeSubsection
           setSelectedRecipeIds={setSelectedRecipeIds}
           selectedRecipeIds={selectedRecipeIds}
           headerIcon={<CloudMoon size={36} />}
-          recipes={recipeCollection.dinnerRecipes}
+          recipes={dinnerRecipes}
           label={"Dinner"}
         />
       )}

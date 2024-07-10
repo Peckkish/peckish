@@ -88,7 +88,7 @@ export default function RecipePreviewTile({
       >
         <div
           className={cn(
-            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-full bg-zinc-200",
+            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-64 bg-zinc-200",
           )}
         >
           {!!imageURL ? (
