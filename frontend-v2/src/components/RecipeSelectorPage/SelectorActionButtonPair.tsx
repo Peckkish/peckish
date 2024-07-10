@@ -60,6 +60,7 @@ export default function SelectorActionButtonPair({
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
         disabled={selectedRecipeIds.length < 2}
         onClick={() => {
+          setSelectedRecipeIds([]);
           setUserMealPlan(
             selectedRecipeIds.map(
               (id) => getRecipeObjectByIdOrNull(recipeCollection, id)!,

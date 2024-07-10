@@ -39,7 +39,7 @@ export default function RecipeSubsection({
         {/*>*/}
         <div
           className={
-            "flex flex-row justify-start items-center gap-12 whitespace-nowrap pb-6 pr-16"
+            "flex flex-row justify-start items-center gap-12 whitespace-nowrap pb-10 pr-16"
           }
         >
           {recipes.map((recipe, index) => (

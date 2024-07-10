@@ -82,13 +82,13 @@ export default function RecipePreviewTile({
     >
       <div
         className={cn(
-          "transition-all rounded-2xl",
+          "transition-all rounded-2xl w-72",
           isSelected && "border-[#33E14D] border-4 p-2",
         )}
       >
         <div
           className={cn(
-            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-64 bg-zinc-200",
+            "aspect-square overflow-hidden rounded-2xl shadow-md preview-image relative w-full bg-zinc-200",
           )}
         >
           {!!imageURL ? (
