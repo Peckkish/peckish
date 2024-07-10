@@ -9,9 +9,9 @@
         "cookTime": 78,
         "recipeIngredients": [
             {
-                "product": "zest (no pith) from 1 medium orange",
-                "qtyNumber": "Strips",
-                "qtyUnit": "of"
+                "product": "Strips of zest (no pith) from 1 medium orange",
+                "qtyNumber": "1",
+                "qtyUnit": "medium"
             },
             {
                 "product": "fresh ginger (about one 5-inch piece), peeled and thinly shaved (use a mandoline if you have one)",
@@ -249,7 +249,8 @@
         "recipeRating": 4.3,
         "numRatings": 226,
         "numServings": 3,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Dinner"
     },
     {
         "recipeId": "77244486-4e8b-4ef5-a8c2-8b697d2e0002",
@@ -295,7 +296,8 @@
         "recipeRating": 4.8,
         "numRatings": 105,
         "numServings": 8,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "d5d015d6-95d4-4a9b-90e5-b12706a761e1",
@@ -346,7 +348,8 @@
         "recipeRating": 4.5,
         "numRatings": 350,
         "numServings": 2,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "9759610a-df47-4e80-9d77-d7e4d77693d9",
@@ -438,7 +441,8 @@
         "recipeRating": 3.6,
         "numRatings": 295,
         "numServings": 8,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Dinner"
     },
     {
         "recipeId": "ab5ebbb5-2c1f-4cea-9ddc-b54108b8911f",
@@ -589,7 +593,8 @@
         "recipeRating": 4.3,
         "numRatings": 310,
         "numServings": 5,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Dinner"
     },
     {
         "recipeId": "cc5ebbe6-26ae-4ffb-8bd4-33cd59a57717",
@@ -700,7 +705,8 @@
         "recipeRating": 3.7,
         "numRatings": 431,
         "numServings": 5,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Dinner"
     },
     {
         "recipeId": "b43cbea4-2ffc-454d-9555-56d6b0be06af",
@@ -786,7 +792,8 @@
         "recipeRating": 3.5,
         "numRatings": 373,
         "numServings": 7,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "c2ef163d-cdb4-44c1-a7df-93f32ca9db43",
@@ -824,7 +831,8 @@
         "recipeRating": 3.0,
         "numRatings": 139,
         "numServings": 3,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "352c3687-69ee-44bc-8fdf-e54240c09f4f",
@@ -888,7 +896,8 @@
         "recipeRating": 3.9,
         "numRatings": 438,
         "numServings": 7,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "5c01c734-2a6c-4e47-a9fa-7ebaba4d7265",
@@ -965,7 +974,8 @@
         "recipeRating": 3.5,
         "numRatings": 20,
         "numServings": 4,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Dinner"
     },
     {
         "recipeId": "bcefcaad-3fc2-4e87-8486-0957a39dae65",
@@ -1014,7 +1024,8 @@
         "recipeRating": 4.0,
         "numRatings": 458,
         "numServings": 8,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "21d471df-94a6-4e81-b8cf-71e06d0aef8b",
@@ -1149,7 +1160,8 @@
         "recipeRating": 3.4,
         "numRatings": 200,
         "numServings": 5,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "05d3583b-d0de-4580-a879-29b0122ae2f8",
@@ -1244,7 +1256,8 @@
         "recipeRating": 4.1,
         "numRatings": 17,
         "numServings": 6,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "0e22bd22-6f5e-4ef0-9c60-8bbf88f3fb66",
@@ -1344,7 +1357,8 @@
         "recipeRating": 3.9,
         "numRatings": 257,
         "numServings": 8,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "1c0dc433-10db-4406-9db7-2e3de5ce632c",
@@ -1402,7 +1416,8 @@
         "recipeRating": 4.6,
         "numRatings": 366,
         "numServings": 4,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "25c6b691-9d59-4b69-b294-7bc1b0b1c395",
@@ -1454,7 +1469,8 @@
         "recipeRating": 4.0,
         "numRatings": 147,
         "numServings": 8,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "3644d3c5-5d8a-4473-a89d-d2a2bf054864",
@@ -1808,7 +1824,8 @@
         "recipeRating": 5.0,
         "numRatings": 105,
         "numServings": 5,
-        "supermarket": "Coles"
+        "supermarket": "Coles",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "cadf7320-e7e8-404f-a2c2-9ffbd45c506b",
