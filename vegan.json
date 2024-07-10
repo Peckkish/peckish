@@ -182,7 +182,8 @@
         "recipeRating": 3.1,
         "numRatings": 359,
         "numServings": 2,
-        "supermarket": "Woolies"
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
     },
     {
         "recipeId": "dbfcd49e-0d15-43be-8802-c8c4442d7e9c",
