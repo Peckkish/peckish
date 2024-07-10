@@ -1,5 +1,5 @@
 import { Skeleton } from "@/components/ui/skeleton.tsx";
-import { Recipe } from "@/utility/types.ts";
+import { Difficulty, Recipe } from "@/utility/types.ts";
 import { Badge } from "@/components/ui/badge.tsx";
 import { cn, getFormattedTime } from "@/utility/utils.ts";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
@@ -69,7 +69,7 @@ export default function RecipePreviewTile({
 
   const pricePerServing = (recipe.totalCost / recipe.numServings).toFixed(2);
 
-  const randomDifficultyString =
+  const randomDifficultyString: Difficulty =
     recipe.recipeTitle[0] < "J" ? "Easy" : "Medium";
 
   return (
@@ -132,7 +132,16 @@ export default function RecipePreviewTile({
           )}
         </div>
         <div className={"flex flex-row justify-start gap-2 items-end w-full"}>
-          <Badge variant={"secondary"}>{randomDifficultyString}</Badge>
+          <Badge
+            variant={"secondary"}
+            className={cn(
+              randomDifficultyString === "Easy" && "bg-green-500",
+              randomDifficultyString === "Medium" && "bg-orange-500",
+              randomDifficultyString === "Challenging" && "bg-rose-500",
+            )}
+          >
+            {randomDifficultyString}
+          </Badge>
           {!hideTimeTaken && (
             <Badge variant={"default"}>
               {getFormattedTime(recipe.prepTime + recipe.cookTime)}

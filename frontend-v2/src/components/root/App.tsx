@@ -45,7 +45,7 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem("userMealPlan", JSON.stringify(userMealPlan));
-    console.log(userMealPlan);
+    // console.log(userMealPlan);
   }, [userMealPlan]);
 
   return (

@@ -1,9 +1,11 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import {
+  DayOfWeek,
   FullRecipeCollection,
   IngredientItem,
   Recipe,
+  ServingsInfo,
 } from "@/utility/types.ts";
 import { Dispatch, SetStateAction } from "react";
 
@@ -107,6 +109,41 @@ export function updateMultiplierMapState(
     newMap.set(recipeId, multiplier);
     return newMap;
   });
+}
+
+export function updateServingsMapState(
+  recipeId: string,
+  servingsInfo: ServingsInfo,
+  setRecipeIdToServingsInfoMap: Dispatch<
+    SetStateAction<Map<string, ServingsInfo>>
+  >,
+) {
+  setRecipeIdToServingsInfoMap((prevMap) => {
+    const newMap = new Map(prevMap);
+    newMap.set(recipeId, servingsInfo);
+    return newMap;
+  });
+}
+
+export function getDayOfWeekIndex(day: DayOfWeek): number {
+  switch (day) {
+    case "Monday":
+      return 0;
+    case "Tuesday":
+      return 1;
+    case "Wednesday":
+      return 2;
+    case "Thursday":
+      return 3;
+    case "Friday":
+      return 4;
+    case "Saturday":
+      return 5;
+    case "Sunday":
+      return 6;
+    default:
+      throw new Error("Invalid day of the week");
+  }
 }
 
 export const daysOfWeek = [

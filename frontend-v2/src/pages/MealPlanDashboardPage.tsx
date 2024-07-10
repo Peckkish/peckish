@@ -20,9 +20,16 @@ import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { CaretLeft } from "@phosphor-icons/react";
 import { useNavigate } from "react-router-dom";
-import { IngredientItem, Recipe } from "@/utility/types.ts";
+import {
+  DayOfWeek,
+  IngredientItem,
+  PortionSize,
+  Recipe,
+  ServingsInfo,
+} from "@/utility/types.ts";
 import { Trash } from "lucide-react";
 import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanParametersForm.tsx";
+import { Separator } from "@/components/ui/separator.tsx";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -42,6 +49,9 @@ export default function MealPlanDashboardPage({
   const [recipeIdToMultiplierMap, setRecipeIdToMultiplierMap] = useState<
     Map<string, number>
   >(new Map([]));
+  const [recipeIdToServingsInfoMap, setRecipeIdToServingsInfoMap] = useState<
+    Map<string, ServingsInfo>
+  >(new Map([]));
 
   const navigate = useNavigate();
 
@@ -52,8 +62,12 @@ export default function MealPlanDashboardPage({
       );
   }, [recipeIdToMultiplierMap]);
 
+  useEffect(() => {
+    // console.log(recipeIdToServingsInfoMap);
+  }, [recipeIdToServingsInfoMap]);
+
   return (
-    <div className={"relative"}>
+    <div className={"relative pb-12"}>
       <Button
         className={"w-fit absolute top-4 left-5"}
         onClick={() => navigate("/app")}
@@ -94,15 +108,26 @@ export default function MealPlanDashboardPage({
       </div>
 
       {/* MAIN PAGE CONTENT - ROW */}
-      <div className={"flex flex-row justify-center gap-20 mt-10"}>
+      <div className={"grid grid-cols-[1fr_5fr] gap-20 mt-10 xl:px-28 px-20"}>
         <div className={"flex flex-col"}>
           <h1 className={"font-bold text-2xl"}>Shopping List</h1>
+          <Separator className={"my-3"} />
           <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
             {totalShoppingList.map((ingredient, index) => {
               return (
-                <li
-                  key={index}
-                >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                <li key={index}>
+                  <span>
+                    {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit}`}{" "}
+                  </span>
+                  <a
+                    href="https://woolworths.com.au"
+                    className={
+                      "underline underline-offset-2 text-green-500 font-medium"
+                    }
+                  >
+                    {ingredient.product}
+                  </a>
+                </li>
               );
             })}
           </ul>
@@ -110,6 +135,7 @@ export default function MealPlanDashboardPage({
         <div className={"flex flex-col"}>
           <div className={"mb-8"}>
             <h1 className={"font-bold text-2xl"}>Recipes</h1>
+            <Separator className={"my-3"} />
             <div className={"flex flex-row items-center gap-3 mt-4"}>
               {userMealPlan &&
                 userMealPlan.map((recipe) => {
@@ -126,16 +152,23 @@ export default function MealPlanDashboardPage({
                         showRemoveFromPlanButton
                         setUserMealPlan={setUserMealPlan}
                       />
+                      <Separator className={"w-[65%] mx-auto my-2"} />
                       <MealPlanParametersForm
                         recipe={recipe}
                         setRecipeIdToMultiplierMap={setRecipeIdToMultiplierMap}
+                        setRecipeIdToServingsInfoMap={
+                          setRecipeIdToServingsInfoMap
+                        }
                       />
                     </div>
                   );
                 })}
             </div>
           </div>
-          <InteractiveMealPlan />
+          <InteractiveMealPlan
+            userMealPlan={userMealPlan}
+            recipeIdToServingsInfoMap={recipeIdToServingsInfoMap}
+          />
         </div>
       </div>
     </div>

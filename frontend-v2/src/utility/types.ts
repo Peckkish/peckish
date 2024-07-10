@@ -1,3 +1,5 @@
+import { daysOfWeek } from "@/utility/utils.ts";
+
 export interface IngredientItem {
   product: string;
   qtyNumber: number;
@@ -5,11 +7,11 @@ export interface IngredientItem {
   productURL: string;
 }
 
-export type GroceryStore = "Woolies" | "Coles";
+export type Supermarket = "Woolies" | "Coles";
 
 export interface Recipe {
   BLD: string;
-  groceryStore: GroceryStore;
+  supermarket: Supermarket;
   recipeTitle: string;
   recipeId: string;
   recipeDescription: string;
@@ -45,3 +47,19 @@ export interface DietaryPreferences {
 }
 
 export type Difficulty = "Easy" | "Medium" | "Challenging";
+export type PortionSize = "Standard" | "Large" | "XLarge";
+export type DayOfWeek =
+  | "Monday"
+  | "Tuesday"
+  | "Wednesday"
+  | "Thursday"
+  | "Friday"
+  | "Saturday"
+  | "Sunday";
+
+export interface ServingsInfo {
+  portionSize: PortionSize;
+  peopleServedPerMeal: number;
+  numberOfDays: number;
+  startEatingOn: DayOfWeek;
+}

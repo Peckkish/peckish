@@ -1,4 +1,9 @@
-import { Recipe } from "@/utility/types.ts";
+import {
+  DayOfWeek,
+  PortionSize,
+  Recipe,
+  ServingsInfo,
+} from "@/utility/types.ts";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import {
   Select,
@@ -8,24 +13,33 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select.tsx";
-import { cn, daysOfWeek, updateMultiplierMapState } from "@/utility/utils.ts";
+import {
+  cn,
+  daysOfWeek,
+  updateMultiplierMapState,
+  updateServingsMapState,
+} from "@/utility/utils.ts";
 
 interface MealPlanParametersFormProps {
   recipe: Recipe;
   className?: string;
   setRecipeIdToMultiplierMap: Dispatch<SetStateAction<Map<string, number>>>;
+  setRecipeIdToServingsInfoMap: Dispatch<
+    SetStateAction<Map<string, ServingsInfo>>
+  >;
 }
 
 export default function MealPlanParametersForm({
   recipe,
   className,
   setRecipeIdToMultiplierMap,
+  setRecipeIdToServingsInfoMap,
 }: MealPlanParametersFormProps) {
-  const [formData, setFormData] = useState({
-    portionSize: "Standard",
+  const [formData, setFormData] = useState<ServingsInfo>({
+    portionSize: "Standard" as PortionSize,
     peopleServedPerMeal: 2,
-    numberOfDays: 1,
-    startEatingOn: daysOfWeek[new Date().getDay() - (1 % 7)],
+    numberOfDays: 4,
+    startEatingOn: daysOfWeek[new Date().getDay() - (1 % 7)] as DayOfWeek,
   });
 
   const portionMultiplierMap: Map<string, number> = new Map([
@@ -48,6 +62,12 @@ export default function MealPlanParametersForm({
       getUpdatedQtyMultiplier(),
       setRecipeIdToMultiplierMap,
     );
+
+    updateServingsMapState(
+      recipe.recipeId,
+      { ...formData },
+      setRecipeIdToServingsInfoMap,
+    );
   }, [formData]);
 
   return (
@@ -57,7 +77,7 @@ export default function MealPlanParametersForm({
         onValueChange={(value) =>
           setFormData((prevFormData) => ({
             ...prevFormData,
-            portionSize: value,
+            portionSize: value as PortionSize,
           }))
         }
       >
@@ -91,7 +111,7 @@ export default function MealPlanParametersForm({
           <SelectGroup>
             {[1, 2, 3, 4, 5].map((number) => (
               <SelectItem key={number.toString()} value={number.toString()}>
-                {`${number} People`}
+                {`Feeding ${number} People`}
               </SelectItem>
             ))}
           </SelectGroup>
@@ -114,7 +134,7 @@ export default function MealPlanParametersForm({
           <SelectGroup>
             {[1, 2, 3, 4, 5, 6, 7].map((day) => (
               <SelectItem key={day.toString()} value={day.toString()}>
-                {`${day} Days`}
+                {day > 1 ? `Across ${day} Days` : "Just Once"}
               </SelectItem>
             ))}
           </SelectGroup>
@@ -126,7 +146,7 @@ export default function MealPlanParametersForm({
         onValueChange={(value) =>
           setFormData((prevFormData) => ({
             ...prevFormData,
-            startEatingOn: value,
+            startEatingOn: value as DayOfWeek,
           }))
         }
       >
@@ -137,7 +157,7 @@ export default function MealPlanParametersForm({
           <SelectGroup>
             {daysOfWeek.map((day, index) => (
               <SelectItem key={index.toString()} value={day}>
-                {day}
+                {formData.numberOfDays > 1 ? `Starting on ${day}` : `On ${day}`}
               </SelectItem>
             ))}
           </SelectGroup>
