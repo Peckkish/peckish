@@ -8,15 +8,17 @@ interface RecipeGalleryProps {
   recipeCollection: null | FullRecipeCollection;
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
+  isLoading: boolean;
 }
 export default function RecipeGallery({
   recipeCollection,
   selectedRecipeIds,
   setSelectedRecipeIds,
+  isLoading,
 }: RecipeGalleryProps) {
-  if (!recipeCollection) {
+  if (!recipeCollection || isLoading) {
     return (
-      <div className={"flex justify-center items-center w-full h-screen"}>
+      <div className={"flex justify-center items-center w-full"}>
         <DotLoader />
       </div>
     );

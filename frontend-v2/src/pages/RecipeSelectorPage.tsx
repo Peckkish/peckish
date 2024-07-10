@@ -1,5 +1,11 @@
 import RecipeGallery from "@/components/RecipeSelectorPage/RecipeGallery.tsx";
-import { Dispatch, SetStateAction, useContext, useState } from "react";
+import {
+  Dispatch,
+  SetStateAction,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 import { DietaryPreferences, FullRecipeCollection } from "@/utility/types.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/RecipeSelectorPage/PreferenceSelectorBar.tsx";
@@ -30,6 +36,18 @@ export default function RecipeSelectorPage({
       isDairyFree: false,
       isVegan: false,
     });
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem(
+      "selectedRecipeIds",
+      JSON.stringify(selectedRecipeIds),
+    );
+  }, [selectedRecipeIds]);
+
+  // useEffect(() => {
+  //   localStorage.setItem("recipeCollection", JSON.stringify(recipeCollection));
+  // }, [recipeCollection]);
 
   return (
     <div className={"min-h-screen"}>
@@ -51,6 +69,8 @@ export default function RecipeSelectorPage({
             setRecipeCollection={setRecipeCollection}
             dietaryPreferences={dietaryPreferences}
             selectedRecipeIds={selectedRecipeIds}
+            setIsLoading={setIsLoading}
+            setSelectedRecipeIds={setSelectedRecipeIds}
           />
         </div>
         {!!recipeCollection ? (
@@ -58,6 +78,7 @@ export default function RecipeSelectorPage({
             selectedRecipeIds={selectedRecipeIds}
             setSelectedRecipeIds={setSelectedRecipeIds}
             recipeCollection={recipeCollection}
+            isLoading={isLoading}
           />
         ) : (
           <p className={"mt-10 text-lg text-muted-foreground"}>

@@ -1,6 +1,11 @@
 import { createClient, PhotosWithTotalResults } from "pexels";
-import { dummyMealPlan } from "@/utility/utils.ts";
-import { FullRecipeCollection } from "@/utility/types.ts";
+import {
+  dummyMealPlan1,
+  dummyMealPlan2,
+  dummyMealPlan3,
+  dummyMealPlan4,
+} from "@/utility/utils.ts";
+import { FullRecipeCollection, Recipe } from "@/utility/types.ts";
 
 const client = createClient(import.meta.env.VITE_PEXELS_API_KEY);
 
@@ -69,10 +74,26 @@ export async function getRecipeCollection(
   //   console.log(response.data);
   // } catch (error) {
   //   console.error(error);
+  // // }
+  //
+  // if (!fetchEnabled) {
+  //   return {
+  //     breakfastRecipes: [],
+  //     lunchRecipes: [],
+  //     dinnerRecipes: [],
+  //   };
   // }
+
+  const randomIndex = Math.floor(Math.random() * 4);
+  console.log({ randomIndex });
+
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(dummyMealPlan);
-    }, 800);
+      resolve(
+        [dummyMealPlan1, dummyMealPlan2, dummyMealPlan3, dummyMealPlan4][
+          Math.floor(Math.random() * 4)
+        ],
+      );
+    }, 2200);
   });
 }

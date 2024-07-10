@@ -3,7 +3,7 @@ import { Recipe } from "@/utility/types.ts";
 import { Badge } from "@/components/ui/badge.tsx";
 import { cn, getFormattedTime } from "@/utility/utils.ts";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { getImage } from "@/api/api.tsx";
+import { getImage } from "@/api/api.ts";
 import "../../css/RecipeGallery.css";
 import { Button } from "@/components/ui/button.tsx";
 import { useNavigate } from "react-router-dom";
@@ -55,7 +55,8 @@ export default function RecipePreviewTile({
 
   const pricePerServing = (recipe.totalCost / recipe.numServings).toFixed(2);
 
-  const randomDifficultyString = ["Easy", "Medium"][Math.round(Math.random())];
+  const randomDifficultyString =
+    recipe.recipeTitle[0] < "J" ? "Easy" : "Medium";
 
   return (
     <div

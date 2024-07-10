@@ -19,7 +19,7 @@ import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { CaretLeft } from "@phosphor-icons/react";
 import { useNavigate } from "react-router-dom";
-import { FullRecipeCollection, IngredientItem } from "@/utility/types.ts";
+import { IngredientItem } from "@/utility/types.ts";
 
 interface MealPlanDashboardPageProps {
   selectedRecipeIds: string[];
@@ -97,11 +97,6 @@ export default function MealPlanDashboardPage({
           <div className={"flex flex-col"}>
             <div className={"mb-8"}>
               <h1 className={"font-bold text-2xl"}>Recipes</h1>
-              {/*<div className={"bg-emerald-200 size-56 rounded-2xl"}></div>*/}
-              {/*<p className={"font-bold"}>Lorem ipsum dolor sit.</p>*/}
-              {/*<p className={"text-xs text-zinc-800"}>*/}
-              {/*  Lorem ipsum dolor sit amet, consectetur*/}
-              {/*</p>*/}
               <div className={"flex flex-row items-center gap-3 mt-4"}>
                 {recipeCollection &&
                   selectedRecipeIds.map((selectedRecipeId) => {

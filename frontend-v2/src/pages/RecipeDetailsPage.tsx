@@ -10,7 +10,7 @@ import { Recipe } from "@/utility/types.ts";
 import { useNavigate, useParams } from "react-router-dom";
 import { DotLoader } from "react-spinners";
 import { Button } from "@/components/ui/button.tsx";
-import { getImage } from "@/api/api.tsx";
+import { getImage } from "@/api/api.ts";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Bookmark } from "lucide-react";
