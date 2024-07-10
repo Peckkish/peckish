@@ -9,7 +9,6 @@ import {
   StarAndCrescent,
 } from "@phosphor-icons/react";
 import { Beef, Leaf, WheatOff } from "lucide-react";
-import { Input } from "@/components/ui/input.tsx";
 
 interface PreferenceSelectorBarProps {
   dietaryPreferences: DietaryPreferences;

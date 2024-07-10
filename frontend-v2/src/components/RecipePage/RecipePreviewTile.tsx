@@ -1,7 +1,7 @@
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Recipe } from "@/utility/types.ts";
 import { Badge } from "@/components/ui/badge.tsx";
-import { cn, getFormattedPrice, getFormattedTime } from "@/utility/utils.ts";
+import { cn, getFormattedTime } from "@/utility/utils.ts";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { getImage } from "@/api/api.tsx";
 import "../../css/RecipeGallery.css";

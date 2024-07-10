@@ -15,7 +15,6 @@ import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Bookmark } from "lucide-react";
 import { BowlFood, CaretLeft } from "@phosphor-icons/react";
-import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import NutritionInfo from "@/components/RecipePage/NutritionInfo.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
