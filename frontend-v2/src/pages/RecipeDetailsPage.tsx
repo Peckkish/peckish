@@ -20,6 +20,7 @@ import NutritionInfo from "@/components/RecipePage/NutritionInfo.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
+import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
 
 interface RecipeDetailsPageProps {}
 
@@ -53,8 +54,6 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       </div>
     );
   }
-
-  const isHalfStar = activeRecipe.recipeRating % 1 > 0;
   const multiplierOnOriginalQty = numServings / activeRecipe.numServings;
 
   return (
@@ -86,35 +85,10 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <p className={"text-xl font-medium"}>
             {activeRecipe.recipeDescription}
           </p>
-          <div
-            className={
-              "flex flex-row items-center gap-0.5 mt-2 text-emerald-800"
-            }
-          >
-            {Array.from(
-              { length: Math.floor(activeRecipe.recipeRating) },
-              (_, index) => (
-                <FaStar key={index}></FaStar>
-              ),
-            )}
-            {isHalfStar && <FaStarHalfAlt></FaStarHalfAlt>}
-            {Array.from(
-              {
-                length:
-                  5 -
-                  Math.floor(activeRecipe.recipeRating) -
-                  (isHalfStar ? 1 : 0),
-              },
-              (_, index) => (
-                <FaRegStar key={index}></FaRegStar>
-              ),
-            )}
-            <p className={"ml-2"}>{activeRecipe.recipeRating}</p>
-            <a
-              href={"https://www.epicurious.com/"}
-              className={"ml-3 font-medium underline text-emerald-800"}
-            >{`${activeRecipe.numRatings} ratings`}</a>
-          </div>
+          <RatingDisplay
+            recipeRating={activeRecipe.recipeRating}
+            numRatings={activeRecipe.numRatings}
+          />
           <div className={"mt-4 flex flex-row items-center gap-2.5"}>
             <Button>
               <Bookmark className={"mr-2"} size={20} />

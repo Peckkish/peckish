@@ -8,6 +8,7 @@ import "../../css/RecipeGallery.css";
 import { Button } from "@/components/ui/button.tsx";
 import { useNavigate } from "react-router-dom";
 import { MinusCircle, PlusCircle } from "@phosphor-icons/react";
+import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
 
 interface RecipePreviewTileProps {
   recipe: Recipe;
@@ -52,6 +53,8 @@ export default function RecipePreviewTile({
       getImage(recipe.recipeTitle).then((url) => setImageURL(url));
   }, []);
 
+  const pricePerServing = (recipe.totalCost / recipe.numServings).toFixed(2);
+
   return (
     <div
       onClick={() => navigate(`/app/recipe/${recipe.recipeId}`)}
@@ -85,36 +88,44 @@ export default function RecipePreviewTile({
         </div>
       </div>
 
-      <div className={"mt-3 pl-2 w-full"}>
+      <div className={"mt-1 pl-2 w-full"}>
         <p className={"2xl:text-lg text-base font-semibold"}>
           {recipe.recipeTitle}
         </p>
         <p
           className={
-            "text-xs max-w-64 overflow-hidden text-ellipsis text-nowrap"
+            "text-xs max-w-64 overflow-hidden text-ellipsis text-nowrap -mb-1"
           }
         >
           {recipe.recipeDescription}
         </p>
-        <div
-          className={"flex flex-row justify-start gap-2 items-end w-full mt-2"}
-        >
+        <RatingDisplay
+          recipeRating={recipe.recipeRating}
+          numRatings={recipe.numRatings}
+          small
+        />
+        <div className={"mt-2 flex flex-row items-end gap-1"}>
+          {!hideRecipePrice && (
+            <>
+              <p
+                className={"text-2xl font-semibold"}
+              >{`$${pricePerServing}`}</p>
+              <p className={"text-xs text-zinc-600 mb-1"}>per serving</p>
+            </>
+          )}
+        </div>
+        <div className={"flex flex-row justify-start gap-2 items-end w-full"}>
           <Badge variant={"secondary"}>Easy</Badge>
           {!hideTimeTaken && (
             <Badge variant={"default"}>
               {getFormattedTime(recipe.prepTime + recipe.cookTime)}
             </Badge>
           )}
-          {!hideRecipePrice && (
-            <Badge variant={"destructive"}>
-              {getFormattedPrice(recipe.totalCost)}
-            </Badge>
-          )}
           {!hidePlanAddButton && (
             <Button
               variant={isSelected ? "destructive" : "green"}
               onClick={handleToggleRecipeSelected}
-              className={"ml-auto px-2.5"}
+              className={"ml-auto px-2 rounded-[50%]"}
             >
               {isSelected ? (
                 <MinusCircle weight={"bold"} size={20} />
