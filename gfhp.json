@@ -1,12 +1,12 @@
 [
     {
         "recipeId": "d29bd2d3-ba21-4d28-9545-36113946f151",
-        "recipeTitle": "Italian Sausage and Bread Stuffing",
-        "recipeDescription": "Featuring essential ingredients, this italian sausage and bread stuffing recipe offers both nourishment and delight.",
+        "recipeTitle": "Sausage & Bread Stuffing",
+        "recipeDescription": "with Italian loaf and Parmigiano",
         "recipeLongIntro": "Italian Sausage and Bread Stuffing is a classic dish, traditionally taking about 39 minutes to perfect. Enjoy the blend of flavors! Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 23.47,
-        "prepTime": 12,
-        "cookTime": 27,
+        "prepTime": 10,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "to 1-pound) round Italian loaf, cut into 1-inch cubes (8 cups)",
@@ -97,12 +97,12 @@
     },
     {
         "recipeId": "5bb6f892-3378-42d3-8e01-82b6206219d6",
-        "recipeTitle": "Spiced Lentil and Caramelized Onion Baked Eggs",
-        "recipeDescription": "Simple yet savory, this spiced lentil and caramelized onion baked eggs promises to enhance your dining experience.",
+        "recipeTitle": "Spiced Lentils & Eggs",
+        "recipeDescription": "with Aleppo pepper and cumin",
         "recipeLongIntro": "Master the art of making Spiced Lentil and Caramelized Onion Baked Eggs with this recipe, requiring roughly 61 minutes to bring all the ingredients together. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Make sure to season well to enhance flavors.",
         "totalCost": 26.75,
-        "prepTime": 18,
-        "cookTime": 43,
+        "prepTime": 20,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "can basic lentil soup, like Amy\u2019s",
@@ -202,12 +202,12 @@
     },
     {
         "recipeId": "7bf7146f-0865-484e-8d84-a310b2ba9289",
-        "recipeTitle": "Chicken and Rice With Leeks and Salsa Verde",
-        "recipeDescription": "Featuring essential ingredients, this chicken and rice with leeks and salsa verde recipe offers both nourishment and delight.",
+        "recipeTitle": "Chicken & Leek Rice",
+        "recipeDescription": "with lemon zest and capers",
         "recipeLongIntro": "Master the art of making Chicken and Rice With Leeks and Salsa Verde with this recipe, requiring roughly 90 minutes to bring all the ingredients together. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Consider marinating overnight to deepen the flavors.",
         "totalCost": 23.54,
-        "prepTime": 27,
-        "cookTime": 63,
+        "prepTime": 25,
+        "cookTime": 60,
         "recipeIngredients": [
             {
                 "product": "skinless, boneless chicken thighs (4\u20138 depending on size)",
@@ -304,12 +304,12 @@
     },
     {
         "recipeId": "ed749d2c-a0b1-4ae7-b3e0-e4c308c6150c",
-        "recipeTitle": "Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur\u00c3\u00a9e",
-        "recipeDescription": "Enjoy a classic blend of flavors in this roasted beets with crispy sunchokes and pickled orange-ginger pur\u00e3\u00a9e, perfect for any meal occasion.",
+        "recipeTitle": "Beets with Crispy Sunchokes",
+        "recipeDescription": "with champagne vinegar and cashews",
         "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur\u00c3\u00a9e, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 22.88,
-        "prepTime": 33,
-        "cookTime": 78,
+        "prepTime": 35,
+        "cookTime": 80,
         "recipeIngredients": [
             {
                 "product": "zest (no pith) from 1 medium orange",
@@ -490,12 +490,12 @@
     },
     {
         "recipeId": "4eab7109-92d1-4e47-a003-b2b38ab35faa",
-        "recipeTitle": "Sloppy Joe Shirred Eggs With Spinach",
-        "recipeDescription": "Indulge in the rich flavors of this sloppy joe shirred eggs with spinach, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Sloppy Joe Eggs",
+        "recipeDescription": "with smoked paprika and ground turkey",
         "recipeLongIntro": "Relish in the making of Sloppy Joe Shirred Eggs With Spinach, a recipe that typically spans 51 minutes from start to finish, ensuring deep flavors. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.76,
         "prepTime": 15,
-        "cookTime": 36,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "carrot, top removed and cut into about 6 pieces",
@@ -599,11 +599,11 @@
     {
         "recipeId": "b30e2af3-e1cf-412b-81a9-c91441f287b3",
         "recipeTitle": "Baigan Chokha",
-        "recipeDescription": "Simple yet savory, this baigan chokha promises to enhance your dining experience.",
+        "recipeDescription": "with canola oil and roasted eggplant",
         "recipeLongIntro": "Embrace the culinary journey with Baigan Chokha, which usually takes 53 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 21.86,
-        "prepTime": 16,
-        "cookTime": 37,
+        "prepTime": 15,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "Italian eggplants",
@@ -676,12 +676,12 @@
     },
     {
         "recipeId": "d9fd8824-01ba-4b0f-b695-4b06b7f9d1bd",
-        "recipeTitle": "Shrimp Creole",
-        "recipeDescription": "Indulge in the rich flavors of this shrimp creole, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Creole Shrimp",
+        "recipeDescription": "with bell peppers and cumin",
         "recipeLongIntro": "Shrimp Creole combines traditional techniques with modern twists, all within about 60 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.59,
-        "prepTime": 18,
-        "cookTime": 42,
+        "prepTime": 20,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "cloves, minced",
@@ -773,12 +773,12 @@
     },
     {
         "recipeId": "c173e237-2d8b-429d-914f-f4a63a21bb8a",
-        "recipeTitle": "Chicken Pelau",
-        "recipeDescription": "Simple yet savory, this chicken pelau promises to enhance your dining experience.",
+        "recipeTitle": "Pelau Chicken",
+        "recipeDescription": "with pigeon peas and calabaza",
         "recipeLongIntro": "Chicken Pelau is a classic dish, traditionally taking about 92 minutes to perfect. Enjoy the blend of flavors! This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 21.56,
-        "prepTime": 28,
-        "cookTime": 64,
+        "prepTime": 30,
+        "cookTime": 60,
         "recipeIngredients": [
             {
                 "product": "dry or 1 (12-ounce) can pigeon peas, pinto beans, or black-eyed peas",
@@ -910,12 +910,12 @@
     },
     {
         "recipeId": "c96665eb-79a3-4987-b906-fc1a1317adfd",
-        "recipeTitle": "Frozen Avocado Cake",
-        "recipeDescription": "Featuring essential ingredients, this frozen avocado cake recipe offers both nourishment and delight.",
+        "recipeTitle": "Avocado Ice Cake",
+        "recipeDescription": "with Hass avocados and cream cheese",
         "recipeLongIntro": "Frozen Avocado Cake combines traditional techniques with modern twists, all within about 49 minutes of cooking. This dish is steeped in cultural heritage, often served during special occasions. Consider marinating overnight to deepen the flavors.",
         "totalCost": 24.52,
         "prepTime": 15,
-        "cookTime": 34,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "(for the pan)",
@@ -992,12 +992,12 @@
     },
     {
         "recipeId": "4e154bd8-fad7-4f0d-afbd-4afcbf1175a8",
-        "recipeTitle": "Sesame-Scallion Chicken Salad",
-        "recipeDescription": "Featuring essential ingredients, this sesame-scallion chicken salad recipe offers both nourishment and delight.",
+        "recipeTitle": "Sesame Chicken Salad",
+        "recipeDescription": "with tahini and lime juice",
         "recipeLongIntro": "Master the art of making Sesame-Scallion Chicken Salad with this recipe, requiring roughly 91 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.72,
-        "prepTime": 27,
-        "cookTime": 64,
+        "prepTime": 25,
+        "cookTime": 60,
         "recipeIngredients": [
             {
                 "product": "boneless chicken breasts (1\u20131\u00bd lb. total)",
@@ -1096,12 +1096,12 @@
     },
     {
         "recipeId": "59515390-ca2c-4063-abcf-836d22b47843",
-        "recipeTitle": "Braised Chicken Legs With Grapes and Fennel",
-        "recipeDescription": "Indulge in the rich flavors of this braised chicken legs with grapes and fennel, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Chicken, Grapes & Fennel",
+        "recipeDescription": "with grapes and Calabrian chile",
         "recipeLongIntro": "Relish in the making of Braised Chicken Legs With Grapes and Fennel, a recipe that typically spans 90 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.69,
-        "prepTime": 27,
-        "cookTime": 63,
+        "prepTime": 25,
+        "cookTime": 60,
         "recipeIngredients": [
             {
                 "product": "legs (thigh and drumstick; about 3\u00bd lb.), patted dry",
@@ -1184,12 +1184,12 @@
     },
     {
         "recipeId": "88b534c4-f078-43ad-80b5-6ed53ea3a0db",
-        "recipeTitle": "Summer Bean Soup With Tomato Brown Butter",
-        "recipeDescription": "Simple yet savory, this summer bean soup with tomato brown butter promises to enhance your dining experience.",
+        "recipeTitle": "Summer Bean Tomato Soup",
+        "recipeDescription": "with Romano beans and kombu",
         "recipeLongIntro": "Summer Bean Soup With Tomato Brown Butter is a classic dish, traditionally taking about 155 minutes to perfect. Enjoy the blend of flavors! This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 20.72,
-        "prepTime": 46,
-        "cookTime": 108,
+        "prepTime": 45,
+        "cookTime": 110,
         "recipeIngredients": [
             {
                 "product": "(230 g) dried beans, such as flageolet or navy, or fresh shelling beans",
@@ -1370,12 +1370,12 @@
     },
     {
         "recipeId": "b20e45c4-429b-4abc-8194-3efce0cbecae",
-        "recipeTitle": "Nut Butter Granola Bars",
-        "recipeDescription": "Enjoy a classic blend of flavors in this nut butter granola bars, perfect for any meal occasion.",
+        "recipeTitle": "Nutty Granola Bars",
+        "recipeDescription": "with almonds and blueberries",
         "recipeLongIntro": "Relish in the making of Nut Butter Granola Bars, a recipe that typically spans 49 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 20.33,
         "prepTime": 15,
-        "cookTime": 34,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "raw nuts (such as almonds, walnuts, pistachios, pecans, and/or blanched hazelnuts)",
@@ -1458,11 +1458,11 @@
     },
     {
         "recipeId": "dd6fbfdf-ddae-423d-9d02-1366fb210b5d",
-        "recipeTitle": "Maple Barbecue Grilled Chicken",
-        "recipeDescription": "Featuring essential ingredients, this maple barbecue grilled chicken recipe offers both nourishment and delight.",
+        "recipeTitle": "Tropical Cobb Salad",
+        "recipeDescription": "with mango and papaya",
         "recipeLongIntro": "Master the art of making Maple Barbecue Grilled Chicken with this recipe, requiring roughly 114 minutes to bring all the ingredients together. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Low and slow cooking will yield the best texture.",
         "totalCost": 19.49,
-        "prepTime": 34,
+        "prepTime": 35,
         "cookTime": 80,
         "recipeIngredients": [
             {
@@ -1546,12 +1546,12 @@
     },
     {
         "recipeId": "39649015-e8c0-4136-ba9e-d22c6e5b6d8f",
-        "recipeTitle": "Pork Chops and Padr\u00c3\u00b3n Chiles en Escab\u00c3\u00a8che",
-        "recipeDescription": "Enjoy a classic blend of flavors in this pork chops and padr\u00e3\u00b3n chiles en escab\u00e3\u00a8che, perfect for any meal occasion.",
+        "recipeTitle": "Zucchini Lentil Patties",
+        "recipeDescription": "with zucchini and feta",
         "recipeLongIntro": "Master the art of making Pork Chops and Padr\u00c3\u00b3n Chiles en Escab\u00c3\u00a8che with this recipe, requiring roughly 41 minutes to bring all the ingredients together. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 24.56,
-        "prepTime": 12,
-        "cookTime": 29,
+        "prepTime": 10,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "bone-in pork chops (about 1 lb. total)",
@@ -1656,12 +1656,12 @@
     },
     {
         "recipeId": "861f2584-4347-408d-876d-0a46fb72313c",
-        "recipeTitle": "Thai Muslim\u00e2\u20ac\u201cStyle Grilled Chicken",
-        "recipeDescription": "Featuring essential ingredients, this thai muslim\u00e2\u20ac\u201cstyle grilled chicken recipe offers both nourishment and delight.",
+        "recipeTitle": "Festive Mac & Cheese",
+        "recipeDescription": "with Gruy\u00e8re and truffle oil",
         "recipeLongIntro": "Relish in the making of Thai Muslim\u00e2\u20ac\u201cStyle Grilled Chicken, a recipe that typically spans 113 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.01,
-        "prepTime": 34,
-        "cookTime": 79,
+        "prepTime": 35,
+        "cookTime": 80,
         "recipeIngredients": [
             {
                 "product": "whole chicken",
@@ -1833,12 +1833,12 @@
     },
     {
         "recipeId": "c89c0d17-cbd0-4401-9ccd-2d305f995804",
-        "recipeTitle": "Dakgangjeong (\u00eb\u2039\u00ad\u00ea\u00b0\u2022\u00ec\u00a0\u2022 / Korean Sweet, Crunchy Fried Chicken)",
-        "recipeDescription": "Enjoy a classic blend of flavors in this dakgangjeong (\u00eb\u2039\u00ad\u00ea\u00b0\u2022\u00ec\u00a0\u2022 / korean sweet, crunchy fried chicken), perfect for any meal occasion.",
+        "recipeTitle": "Doenjang Stew",
+        "recipeDescription": "with doenjang and gochujang",
         "recipeLongIntro": "Dakgangjeong (\u00eb\u2039\u00ad\u00ea\u00b0\u2022\u00ec\u00a0\u2022 / Korean Sweet, Crunchy Fried Chicken) is a classic dish, traditionally taking about 103 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.73,
-        "prepTime": 31,
-        "cookTime": 72,
+        "prepTime": 30,
+        "cookTime": 70,
         "recipeIngredients": [
             {
                 "product": "pounds chicken wingettes or dumettes or small pieces of chicken (see headnote)",
@@ -1956,12 +1956,12 @@
     },
     {
         "recipeId": "969bae02-9211-41aa-806b-bfd3dac46b02",
-        "recipeTitle": "Salted PB&J; Ice Cream Pie",
-        "recipeDescription": "Indulge in the rich flavors of this salted pb&j; ice cream pie, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Comfort Soup",
+        "recipeDescription": "with barley and porcini mushrooms",
         "recipeLongIntro": "Salted PB&J; Ice Cream Pie is a classic dish, traditionally taking about 56 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.3,
-        "prepTime": 17,
-        "cookTime": 39,
+        "prepTime": 15,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "(110 g) Ritz crackers or other cracker of your choice",
@@ -2067,12 +2067,12 @@
     },
     {
         "recipeId": "aa91b564-72d6-410e-9e2b-e3f6a1f3195b",
-        "recipeTitle": "Tacos de Gobernador (Shrimp, Poblano, and Cheese Tacos)",
-        "recipeDescription": "Indulge in the rich flavors of this tacos de gobernador (shrimp, poblano, and cheese tacos), a must-try for every culinary enthusiast.",
+        "recipeTitle": "Farmer's Market Farro",
+        "recipeDescription": "with farro and microgreens",
         "recipeLongIntro": "Relish in the making of Tacos de Gobernador (Shrimp, Poblano, and Cheese Tacos), a recipe that typically spans 45 minutes from start to finish, ensuring deep flavors. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 21.06,
-        "prepTime": 14,
-        "cookTime": 31,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "neutral cooking oil, such as canola oil",
@@ -2161,12 +2161,12 @@
     },
     {
         "recipeId": "03fabb6c-c1ed-444a-b779-eb4d32513c66",
-        "recipeTitle": "Spicy Pork Belly Sliders",
-        "recipeDescription": "Indulge in the rich flavors of this spicy pork belly sliders, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Sweet Corn Frittata",
+        "recipeDescription": "with sweet corn and chives",
         "recipeLongIntro": "Master the art of making Spicy Pork Belly Sliders with this recipe, requiring roughly 45 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.76,
-        "prepTime": 14,
-        "cookTime": 31,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "onion, thinly sliced",
@@ -2275,12 +2275,12 @@
     },
     {
         "recipeId": "0e22bd22-6f5e-4ef0-9c60-8bbf88f3fb66",
-        "recipeTitle": "Kale and Pumpkin Falafels With Pickled Carrot Slaw",
-        "recipeDescription": "Indulge in the rich flavors of this kale and pumpkin falafels with pickled carrot slaw, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Kale and Pumpkin Falafels W",
+        "recipeDescription": "with Italian sausage and ",
         "recipeLongIntro": "Kale and Pumpkin Falafels With Pickled Carrot Slaw combines traditional techniques with modern twists, all within about 48 minutes of cooking. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 25.59,
-        "prepTime": 14,
-        "cookTime": 34,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "(120g or 4\u00bd oz) toasted pepitas (pumpkin seeds)",
@@ -2376,12 +2376,12 @@
     },
     {
         "recipeId": "9a4a1df6-eef6-4b0a-a49d-aff6f8f09e44",
-        "recipeTitle": "Tamale Pie with Fresh Tomato and Corn",
-        "recipeDescription": "Featuring essential ingredients, this tamale pie with fresh tomato and corn recipe offers both nourishment and delight.",
+        "recipeTitle": "Tamale Pie with Fresh Tomat",
+        "recipeDescription": "with Italian sausage and ground beef",
         "recipeLongIntro": "Embrace the culinary journey with Tamale Pie with Fresh Tomato and Corn, which usually takes 54 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.15,
-        "prepTime": 16,
-        "cookTime": 38,
+        "prepTime": 15,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "fresh chorizo, casings removed (about 2 links), or vegetarian substitute such as Lightlife Plant-Based Italian Sausage",
@@ -2483,12 +2483,12 @@
     },
     {
         "recipeId": "19ab5f78-255e-42b7-8176-32512bf59c43",
-        "recipeTitle": "Butternut Squash and Apple Soup",
-        "recipeDescription": "Indulge in the rich flavors of this butternut squash and apple soup, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Butternut Squash and Apple ",
+        "recipeDescription": "with Italian sausage and bacon",
         "recipeLongIntro": "Butternut Squash and Apple Soup combines traditional techniques with modern twists, all within about 66 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Low and slow cooking will yield the best texture.",
         "totalCost": 23.22,
         "prepTime": 20,
-        "cookTime": 46,
+        "cookTime": 50,
         "recipeIngredients": [
             {
                 "product": "bacon, cut crosswise into \u00bd-inch pieces",
@@ -2563,12 +2563,12 @@
     },
     {
         "recipeId": "2defa9fc-0d8f-4150-a9f1-ef98e356191f",
-        "recipeTitle": "Drunk Apricot Shito (Ghanaian Hot Pepper Sauce)",
-        "recipeDescription": "Simple yet savory, this drunk apricot shito (ghanaian hot pepper sauce) promises to enhance your dining experience.",
+        "recipeTitle": "Drunk Apricot Shito (Ghanai",
+        "recipeDescription": "with Italian sausage and dried apricots",
         "recipeLongIntro": "Drunk Apricot Shito (Ghanaian Hot Pepper Sauce) combines traditional techniques with modern twists, all within about 42 minutes of cooking. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 21.68,
-        "prepTime": 13,
-        "cookTime": 29,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "dried apricots",
@@ -2723,12 +2723,12 @@
     },
     {
         "recipeId": "2e5b3bb3-d929-476b-b7df-ab7d2ac952f0",
-        "recipeTitle": "Sweet Corn Frittata With Cherry Tomato Compote",
-        "recipeDescription": "Indulge in the rich flavors of this sweet corn frittata with cherry tomato compote, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Sweet Corn Frittata With Ch",
+        "recipeDescription": "with Italian sausage and olive oil",
         "recipeLongIntro": "Master the art of making Sweet Corn Frittata With Cherry Tomato Compote with this recipe, requiring roughly 48 minutes to bring all the ingredients together. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 19.29,
-        "prepTime": 14,
-        "cookTime": 34,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "olive oil",
@@ -2837,11 +2837,11 @@
     {
         "recipeId": "2f0fe856-cf8c-43ba-92da-8526abe2476a",
         "recipeTitle": "Best Deviled Eggs",
-        "recipeDescription": "Simple yet savory, this best deviled eggs promises to enhance your dining experience.",
+        "recipeDescription": "with Italian sausage and mayonnaise",
         "recipeLongIntro": "Relish in the making of Best Deviled Eggs, a recipe that typically spans 33 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 20.37,
         "prepTime": 10,
-        "cookTime": 23,
+        "cookTime": 20,
         "recipeIngredients": [
             {
                 "product": "eggs",
@@ -2893,11 +2893,11 @@
     {
         "recipeId": "3de7ac96-fb0c-4358-9c95-94d9f5c250f5",
         "recipeTitle": "Hot Pimento Cheese Dip",
-        "recipeDescription": "Enjoy a classic blend of flavors in this hot pimento cheese dip, perfect for any meal occasion.",
+        "recipeDescription": "with Italian sausage and oz./200 g) can chipotle in adobo sauce",
         "recipeLongIntro": "Hot Pimento Cheese Dip combines traditional techniques with modern twists, all within about 59 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.88,
-        "prepTime": 18,
-        "cookTime": 41,
+        "prepTime": 20,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "oz./200 g) can chipotle in adobo sauce",
@@ -2976,11 +2976,11 @@
     },
     {
         "recipeId": "4344f578-8002-4211-a6f8-694610d4e3e6",
-        "recipeTitle": "Crispy Salt and Pepper Potatoes",
-        "recipeDescription": "Enjoy a classic blend of flavors in this crispy salt and pepper potatoes, perfect for any meal occasion.",
+        "recipeTitle": "Crispy Salt and Pepper Pota",
+        "recipeDescription": "with Italian sausage and egg whites",
         "recipeLongIntro": "Relish in the making of Crispy Salt and Pepper Potatoes, a recipe that typically spans 57 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.67,
-        "prepTime": 17,
+        "prepTime": 15,
         "cookTime": 40,
         "recipeIngredients": [
             {
@@ -3036,11 +3036,11 @@
     {
         "recipeId": "4b0f0149-b863-43f7-8e48-cdc7b0fe4595",
         "recipeTitle": "Enfrijoladas",
-        "recipeDescription": "Indulge in the rich flavors of this enfrijoladas, a must-try for every culinary enthusiast.",
+        "recipeDescription": "with Italian sausage and vegetable oil",
         "recipeLongIntro": "Master the art of making Enfrijoladas with this recipe, requiring roughly 56 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.21,
-        "prepTime": 17,
-        "cookTime": 39,
+        "prepTime": 15,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "vegetable oil, divided",
@@ -3123,11 +3123,11 @@
     {
         "recipeId": "50c5ef66-7709-428e-a0df-f4a0569fd79f",
         "recipeTitle": "Spicy Coconut Pumpkin Soup",
-        "recipeDescription": "Simple yet savory, this spicy coconut pumpkin soup promises to enhance your dining experience.",
+        "recipeDescription": "with Italian sausage and cloves",
         "recipeLongIntro": "Relish in the making of Spicy Coconut Pumpkin Soup, a recipe that typically spans 176 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Consider marinating overnight to deepen the flavors.",
         "totalCost": 19.37,
-        "prepTime": 53,
-        "cookTime": 123,
+        "prepTime": 55,
+        "cookTime": 120,
         "recipeIngredients": [
             {
                 "product": "coconut oil",
@@ -3206,12 +3206,12 @@
     },
     {
         "recipeId": "547041a9-ef8b-487d-b17e-65bc53bbf9fb",
-        "recipeTitle": "Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea\u00b0\u0153 / Fermented-Soybean Stew)",
-        "recipeDescription": "Featuring essential ingredients, this doenjang jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0153\u00ea\u00b0\u0153 / fermented-soybean stew) recipe offers both nourishment and delight.",
+        "recipeTitle": "Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea",
+        "recipeDescription": "with Italian sausage and Dashi",
         "recipeLongIntro": "Embrace the culinary journey with Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea\u00b0\u0153 / Fermented-Soybean Stew), which usually takes 147 minutes to prepare, yielding delicious results. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.29,
-        "prepTime": 44,
-        "cookTime": 103,
+        "prepTime": 45,
+        "cookTime": 100,
         "recipeIngredients": [
             {
                 "product": "Dashi",
@@ -3304,11 +3304,11 @@
     {
         "recipeId": "5a77c701-6ef0-483a-b83d-0dc0e4959a3c",
         "recipeTitle": "Dad\u00e2\u20ac\u2122s Curried Chicken",
-        "recipeDescription": "Indulge in the rich flavors of this dad\u00e2\u20ac\u2122s curried chicken, a must-try for every culinary enthusiast.",
+        "recipeDescription": "with Italian sausage and freshly squeezed lime juice",
         "recipeLongIntro": "Relish in the making of Dad\u00e2\u20ac\u2122s Curried Chicken, a recipe that typically spans 116 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 23.39,
         "prepTime": 35,
-        "cookTime": 81,
+        "cookTime": 80,
         "recipeIngredients": [
             {
                 "product": "chicken, cut into 8 pieces, skin removed",
@@ -3393,11 +3393,11 @@
     {
         "recipeId": "5fceaf3c-92a2-4976-a413-9fc302151b7f",
         "recipeTitle": "Veselka's Famous Borscht",
-        "recipeDescription": "Enjoy a classic blend of flavors in this veselka's famous borscht, perfect for any meal occasion.",
+        "recipeDescription": "with Italian sausage and ",
         "recipeLongIntro": "Veselka's Famous Borscht combines traditional techniques with modern twists, all within about 60 minutes of cooking. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.37,
-        "prepTime": 18,
-        "cookTime": 42,
+        "prepTime": 20,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "(10 to 12) small beets, scrubbed thoroughly but not peeled",
@@ -3503,11 +3503,11 @@
     {
         "recipeId": "717c7b4d-3fe8-4b94-87d7-fcf5cdfa8266",
         "recipeTitle": "Tropi-Cobb Salad",
-        "recipeDescription": "Simple yet savory, this tropi-cobb salad promises to enhance your dining experience.",
+        "recipeDescription": "with Italian sausage and ground coriander",
         "recipeLongIntro": "Tropi-Cobb Salad combines traditional techniques with modern twists, all within about 26 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.18,
-        "prepTime": 8,
-        "cookTime": 18,
+        "prepTime": 10,
+        "cookTime": 20,
         "recipeIngredients": [
             {
                 "product": "ground coriander",
@@ -3619,12 +3619,12 @@
     },
     {
         "recipeId": "757f480d-178d-47bd-89d8-d4f71cf50535",
-        "recipeTitle": "Creole Cream Cheesecake With Caramel-Apple Topping",
-        "recipeDescription": "Indulge in the rich flavors of this creole cream cheesecake with caramel-apple topping, a must-try for every culinary enthusiast.",
+        "recipeTitle": "Creole Cream Cheesecake Wit",
+        "recipeDescription": "with Italian sausage and graham cracker crumbs",
         "recipeLongIntro": "Master the art of making Creole Cream Cheesecake With Caramel-Apple Topping with this recipe, requiring roughly 54 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 21.87,
-        "prepTime": 16,
-        "cookTime": 38,
+        "prepTime": 15,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "graham cracker crumbs (about 16 whole crackers)",
@@ -3779,12 +3779,12 @@
     },
     {
         "recipeId": "b158408e-81a1-4dee-8ed7-f70794364d15",
-        "recipeTitle": "Zucchini-Lentil Fritters With Lemony Yogurt",
-        "recipeDescription": "Simple yet savory, this zucchini-lentil fritters with lemony yogurt promises to enhance your dining experience.",
+        "recipeTitle": "Zucchini-Lentil Fritters Wi",
+        "recipeDescription": "with Italian sausage and whole-milk yogurt",
         "recipeLongIntro": "Relish in the making of Zucchini-Lentil Fritters With Lemony Yogurt, a recipe that typically spans 49 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 22.48,
         "prepTime": 15,
-        "cookTime": 34,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "whole-milk yogurt",
@@ -3889,11 +3889,11 @@
     {
         "recipeId": "bee2a282-7502-4479-b967-66f2c1548985",
         "recipeTitle": "Thanksgiving Mac and Cheese",
-        "recipeDescription": "Indulge in the rich flavors of this thanksgiving mac and cheese, a must-try for every culinary enthusiast.",
+        "recipeDescription": "with Italian sausage and evaporated milk",
         "recipeLongIntro": "Thanksgiving Mac and Cheese combines traditional techniques with modern twists, all within about 39 minutes of cooking. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
         "totalCost": 21.14,
-        "prepTime": 12,
-        "cookTime": 27,
+        "prepTime": 10,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "evaporated milk",
@@ -3969,12 +3969,12 @@
     },
     {
         "recipeId": "cadf7320-e7e8-404f-a2c2-9ffbd45c506b",
-        "recipeTitle": "Spiral Ham in the Slow Cooker",
-        "recipeDescription": "Featuring essential ingredients, this spiral ham in the slow cooker recipe offers both nourishment and delight.",
+        "recipeTitle": "Spiral Ham in the Slow Cook",
+        "recipeDescription": "with Italian sausage and to 7-pound) bone-in",
         "recipeLongIntro": "Master the art of making Spiral Ham in the Slow Cooker with this recipe, requiring roughly 42 minutes to bring all the ingredients together. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Make sure to season well to enhance flavors.",
         "totalCost": 20.01,
-        "prepTime": 13,
-        "cookTime": 29,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "to 7-pound) bone-in, hickory-smoked, uncured fully cooked ham",
@@ -4049,11 +4049,11 @@
     {
         "recipeId": "e4c339b3-aa57-4ed8-a962-83974898fc4b",
         "recipeTitle": "Warm Comfort",
-        "recipeDescription": "Enjoy a classic blend of flavors in this warm comfort, perfect for any meal occasion.",
+        "recipeDescription": "with Italian sausage and tea bags",
         "recipeLongIntro": "Warm Comfort combines traditional techniques with modern twists, all within about 60 minutes of cooking. Known for its comforting qualities, this dish is a favorite in many households. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 25.02,
-        "prepTime": 18,
-        "cookTime": 42,
+        "prepTime": 20,
+        "cookTime": 40,
         "recipeIngredients": [
             {
                 "product": "tea bags",
@@ -4094,11 +4094,11 @@
     {
         "recipeId": "fdaabc1c-1ec2-4ef8-a644-f4f0bd7d0d9c",
         "recipeTitle": "Farmers Market Farro Bowls",
-        "recipeDescription": "Indulge in the rich flavors of this farmers market farro bowls, a must-try for every culinary enthusiast.",
+        "recipeDescription": "with Italian sausage and kosher salt",
         "recipeLongIntro": "Farmers Market Farro Bowls is a classic dish, traditionally taking about 45 minutes to perfect. Enjoy the blend of flavors! This dish is steeped in cultural heritage, often served during special occasions. Low and slow cooking will yield the best texture.",
         "totalCost": 24.45,
-        "prepTime": 14,
-        "cookTime": 31,
+        "prepTime": 15,
+        "cookTime": 30,
         "recipeIngredients": [
             {
                 "product": "semi-pearled farro",
