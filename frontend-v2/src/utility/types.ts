@@ -43,3 +43,5 @@ export interface DietaryPreferences {
   isDairyFree: boolean;
   isVegan: boolean;
 }
+
+export type Difficulty = "Easy" | "Medium" | "Challenging";

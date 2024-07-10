@@ -55,6 +55,8 @@ export default function RecipePreviewTile({
 
   const pricePerServing = (recipe.totalCost / recipe.numServings).toFixed(2);
 
+  const randomDifficultyString = ["Easy", "Medium"][Math.round(Math.random())];
+
   return (
     <div
       onClick={() => navigate(`/app/recipe/${recipe.recipeId}`)}
@@ -115,7 +117,7 @@ export default function RecipePreviewTile({
           )}
         </div>
         <div className={"flex flex-row justify-start gap-2 items-end w-full"}>
-          <Badge variant={"secondary"}>Easy</Badge>
+          <Badge variant={"secondary"}>{randomDifficultyString}</Badge>
           {!hideTimeTaken && (
             <Badge variant={"default"}>
               {getFormattedTime(recipe.prepTime + recipe.cookTime)}
