@@ -13,6 +13,7 @@ import {
   getRecipeObjectByIdOrNull,
   getTotalShoppingList,
   roundToNearestQuarter,
+  updateMultiplierMapState,
 } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
@@ -20,6 +21,8 @@ import { Button } from "@/components/ui/button.tsx";
 import { CaretLeft } from "@phosphor-icons/react";
 import { useNavigate } from "react-router-dom";
 import { IngredientItem, Recipe } from "@/utility/types.ts";
+import { Trash } from "lucide-react";
+import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanParametersForm.tsx";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -36,14 +39,18 @@ export default function MealPlanDashboardPage({
   const [totalShoppingList, setTotalShoppingList] = useState<IngredientItem[]>(
     [],
   );
+  const [recipeIdToMultiplierMap, setRecipeIdToMultiplierMap] = useState<
+    Map<string, number>
+  >(new Map([]));
 
   const navigate = useNavigate();
 
   useEffect(() => {
-    userMealPlan && setTotalShoppingList(getTotalShoppingList(userMealPlan));
-  }, []);
-
-  const multiplierOnOriginalQty = 1;
+    userMealPlan &&
+      setTotalShoppingList(
+        getTotalShoppingList(userMealPlan, recipeIdToMultiplierMap),
+      );
+  }, [recipeIdToMultiplierMap]);
 
   return (
     <div className={"relative"}>
@@ -53,6 +60,18 @@ export default function MealPlanDashboardPage({
       >
         <CaretLeft weight={"bold"} className={"mr-2"} />
         <span>Go Back</span>
+      </Button>
+      <Button
+        className={"w-fit absolute top-4 right-5"}
+        variant={"destructive"}
+        onClick={() => {
+          localStorage.removeItem("userMealPlan");
+          setUserMealPlan([]);
+          navigate("/app");
+        }}
+      >
+        <Trash className={"mr-2"} />
+        <span>Delete Meal Plan</span>
       </Button>
       <div className={"flex flex-col items-center"}>
         <h1 className={"mt-16 text-6xl font-semibold"}>Meal Plan Dashboard</h1>
@@ -83,7 +102,7 @@ export default function MealPlanDashboardPage({
               return (
                 <li
                   key={index}
-                >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
+                >{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
               );
             })}
           </ul>
@@ -95,7 +114,10 @@ export default function MealPlanDashboardPage({
               {userMealPlan &&
                 userMealPlan.map((recipe) => {
                   return (
-                    <div key={recipe.recipeId}>
+                    <div
+                      className={"flex flex-col items-start gap-3"}
+                      key={recipe.recipeId}
+                    >
                       <RecipePreviewTile
                         recipe={recipe}
                         setSelectedRecipeIds={setSelectedRecipeIds}
@@ -103,6 +125,10 @@ export default function MealPlanDashboardPage({
                         hidePlanAddButton
                         showRemoveFromPlanButton
                         setUserMealPlan={setUserMealPlan}
+                      />
+                      <MealPlanParametersForm
+                        recipe={recipe}
+                        setRecipeIdToMultiplierMap={setRecipeIdToMultiplierMap}
                       />
                     </div>
                   );

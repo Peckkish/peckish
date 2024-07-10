@@ -5,6 +5,7 @@ import {
   IngredientItem,
   Recipe,
 } from "@/utility/types.ts";
+import { Dispatch, SetStateAction } from "react";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -45,10 +46,20 @@ export function getRecipeObjectByIdOrNull(
   );
 }
 
-export const getTotalShoppingList = (recipes: Recipe[]) => {
+export const getTotalShoppingList = (
+  recipes: Recipe[],
+  recipeIdToMultiplierMap: Map<string, number>,
+) => {
   let totalShoppingList: IngredientItem[] = [];
   for (const recipe of recipes) {
-    totalShoppingList = [...totalShoppingList, ...recipe.recipeIngredients];
+    const multiplier = recipeIdToMultiplierMap.get(recipe.recipeId) ?? 1;
+    const multipliedIngredientList = recipe.recipeIngredients.map(
+      (ingredient) => ({
+        ...ingredient,
+        qtyNumber: ingredient.qtyNumber * multiplier,
+      }),
+    );
+    totalShoppingList = [...totalShoppingList, ...multipliedIngredientList];
   }
   return totalShoppingList;
 };
@@ -85,6 +96,28 @@ export function decimalToMixedFractionString(decimal: number): string {
   const quotient = decimal - decimalRemainder;
   return `${quotient === 0 ? "" : quotient.toString()}  ${decimalRemainder === 0 ? "" : decimalToFraction(decimalRemainder)}`;
 }
+
+export function updateMultiplierMapState(
+  recipeId: string,
+  multiplier: number,
+  setRecipeIdToMultiplierMap: Dispatch<SetStateAction<Map<string, number>>>,
+) {
+  setRecipeIdToMultiplierMap((prevMap) => {
+    const newMap = new Map(prevMap);
+    newMap.set(recipeId, multiplier);
+    return newMap;
+  });
+}
+
+export const daysOfWeek = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
 
 export const dummyMealPlan1: FullRecipeCollection = {
   breakfastRecipes: [
