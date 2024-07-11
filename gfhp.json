@@ -9,9 +9,9 @@
         "cookTime": 30,
         "recipeIngredients": [
             {
-                "product": "to 1-pound) round Italian loaf, cut into 1-inch cubes (8 cups)",
+                "product": "round Italian loaf, cut into 1-inch cubes (8 cups)",
                 "qtyNumber": "1",
-                "qtyUnit": "(\u00be-"
+                "qtyUnit": "(\u00be-to 1-pound)"
             },
             {
                 "product": "olive oil, divided",
@@ -39,9 +39,9 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "5",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "eggs, lightly beaten",
@@ -59,7 +59,7 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "grated Parmigiano-Reggiano (2 ounces)",
+                "product": "grated Parmigiano-Reggiano",
                 "qtyNumber": "1",
                 "qtyUnit": "cup"
             },
@@ -105,9 +105,9 @@
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "can basic lentil soup, like Amy\u2019s",
+                "product": "basic lentil soup",
                 "qtyNumber": "1",
-                "qtyUnit": "(14.5-ounce)"
+                "qtyUnit": "(14.5-ounce) can"
             },
             {
                 "product": "onion, thinly sliced",
@@ -150,24 +150,19 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "",
-                "qtyNumber": "Olive",
-                "qtyUnit": "oil"
+                "product": "Olive oil",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
-                "product": "and freshly ground black pepper",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "Kosher salt and freshly ground black pepper",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
-                "product": "",
-                "qtyNumber": "Parsley",
+                "product": "Parsley",
+                "qtyNumber": "",
                 "qtyUnit": ""
-            },
-            {
-                "product": "",
-                "qtyNumber": "for",
-                "qtyUnit": "finishing"
             }
         ],
         "recipeSteps": [
@@ -215,9 +210,14 @@
                 "qtyUnit": "lb."
             },
             {
-                "product": "freshly ground pepper",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt,"
+                "product": "kosher salt and freshly ground black pepper",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
+            },
+            {
+                "product": "freshly ground black pepper",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
                 "product": "unsalted butter, divided",
@@ -225,14 +225,14 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "or 3 medium leeks, white and pale green parts only, halved lengthwise, thinly sliced",
-                "qtyNumber": "2",
+                "product": "medium leeks, white and pale green parts only, halved lengthwise, thinly sliced",
+                "qtyNumber": "3",
                 "qtyUnit": "large"
             },
             {
-                "product": "juice of 1 lemon, divided",
-                "qtyNumber": "Zest",
-                "qtyUnit": "and"
+                "product": "Zest and juice of lemon, divided",
+                "qtyNumber": "1",
+                "qtyUnit": ""
             },
             {
                 "product": "long-grain white rice, rinsed until water runs clear",
@@ -245,14 +245,14 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "anchovy fillet",
+                "product": "oil-packed anchovy fillet",
                 "qtyNumber": "1",
-                "qtyUnit": "oil-packed"
+                "qtyUnit":  ""
             },
             {
-                "product": "cloves",
+                "product": "garlic ",
                 "qtyNumber": "2",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "drained capers",
@@ -260,9 +260,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "pepper flakes",
-                "qtyNumber": "Crushed",
-                "qtyUnit": "red"
+                "product": "crushed red pepper flakes",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
                 "product": "tender herb leaves (such as parsley, cilantro, and/or mint)",
@@ -312,9 +312,9 @@
         "cookTime": 80,
         "recipeIngredients": [
             {
-                "product": "zest (no pith) from 1 medium orange",
-                "qtyNumber": "Strips",
-                "qtyUnit": "of"
+                "product": "Strips of zest (no pith) from 1 medium orange",
+                "qtyNumber": "1",
+                "qtyUnit": "medium"
             },
             {
                 "product": "fresh ginger (about one 5-inch piece), peeled and thinly shaved (use a mandoline if you have one)",
@@ -347,9 +347,9 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "chile, with seeds",
+                "product": "Thai chile, with seeds",
                 "qtyNumber": "\u00bd",
-                "qtyUnit": "Thai"
+                "qtyUnit": "individual"
             },
             {
                 "product": "beets (use a mix of colors if possible), about 5 medium",
@@ -372,9 +372,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "and freshly ground black pepper",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "Kosher salt and freshly ground black pepper",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
                 "product": "extra-virgin olive oil",
@@ -392,14 +392,14 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "",
-                "qtyNumber": "Vegetable",
-                "qtyUnit": "oil"
+                "product": "vegetable oil",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
                 "product": "orange",
@@ -407,19 +407,19 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "",
-                "qtyNumber": "Roasted",
-                "qtyUnit": "Beets"
+                "product": "Roasted Beets",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
-                "product": "oil",
-                "qtyNumber": "Extra-virgin",
-                "qtyUnit": "olive"
+                "product": "Extra-virgin olive oil",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "Kosher salt",
+                "qtyNumber":  "",
+                "qtyUnit":  ""
             },
             {
                 "product": "Pickled Orange-Ginger Puree",
@@ -427,9 +427,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "",
-                "qtyNumber": "Toasted",
-                "qtyUnit": "Cashews"
+                "product": "Toasted cashews",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "roughly chopped tarragon",
@@ -442,9 +442,9 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "",
-                "qtyNumber": "Sunchoke",
-                "qtyUnit": "Chips"
+                "product": "Sunchoke Chips",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -486,7 +486,7 @@
         "numRatings": 359,
         "numServings": 2,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "4eab7109-92d1-4e47-a003-b2b38ab35faa",
@@ -503,9 +503,9 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "can diced tomatoes, or 2 scant cups roughly chopped fresh tomatoes",
+                "product": "diced tomatoes",
                 "qtyNumber": "1",
-                "qtyUnit": "(14.5-ounce)"
+                "qtyUnit": "(14.5-ounce) can"
             },
             {
                 "product": "extra virgin olive oil, divided",
@@ -513,12 +513,12 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
-                "product": "fresh spinach (4 cups packed)",
+                "product": "fresh spinach",
                 "qtyNumber": "8",
                 "qtyUnit": "ounces"
             },
@@ -561,11 +561,6 @@
                 "product": "eggs Parmigiano Reggiano",
                 "qtyNumber": "4",
                 "qtyUnit": "large"
-            },
-            {
-                "product": "(optional)",
-                "qtyNumber": "for",
-                "qtyUnit": "serving"
             }
         ],
         "recipeSteps": [
@@ -599,7 +594,7 @@
     {
         "recipeId": "b30e2af3-e1cf-412b-81a9-c91441f287b3",
         "recipeTitle": "Baigan Chokha",
-        "recipeDescription": "with canola oil and roasted eggplant",
+        "recipeDescription": "with cilantro and roasted eggplant",
         "recipeLongIntro": "Embrace the culinary journey with Baigan Chokha, which usually takes 53 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 21.86,
         "prepTime": 15,
@@ -636,9 +631,9 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "black pepper to taste",
-                "qtyNumber": "Freshly",
-                "qtyUnit": "ground"
+                "product": "Freshly ground black pepper to taste",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "coarsely chopped cilantro",
@@ -646,14 +641,9 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "",
-                "qtyNumber": "Roti",
+                "product": "Roti",
+                "qtyNumber": "",
                 "qtyUnit": ""
-            },
-            {
-                "product": "",
-                "qtyNumber": "for",
-                "qtyUnit": "serving"
             }
         ],
         "recipeSteps": [
@@ -684,9 +674,9 @@
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "onions, chopped fine",
@@ -699,14 +689,14 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "bell pepper, cut into \u00bd-inch dice",
+                "product": "red bell pepper, cut into \u00bd-inch dice",
                 "qtyNumber": "1",
-                "qtyUnit": "red"
+                "qtyUnit": ""
             },
             {
-                "product": "bell pepper, cut into \u00bd-inch dice",
+                "product": "green bell pepper, cut into \u00bd-inch dice",
                 "qtyNumber": "\u00bd",
-                "qtyUnit": "green"
+                "qtyUnit": ""
             },
             {
                 "product": "olive oil",
@@ -719,14 +709,14 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "can whole tomatoes, drained and chopped",
+                "product": "whole tomatoes, drained and chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "(28-ounce)"
+                "qtyUnit": "(28-ounce) can"
             },
             {
-                "product": "leaf",
+                "product": "bay leaf",
                 "qtyNumber": "1",
-                "qtyUnit": "bay"
+                "qtyUnit": ""
             },
             {
                 "product": "ground cumin",
@@ -750,13 +740,8 @@
             },
             {
                 "product": "cup uncooked rice",
-                "qtyNumber": "Accompaniment:",
-                "qtyUnit": "1"
-            },
-            {
-                "product": "to package instructions but without butter or margarine",
-                "qtyNumber": "prepared",
-                "qtyUnit": "according"
+                "qtyNumber": "1",
+                "qtyUnit": "cup"
             }
         ],
         "recipeSteps": [
@@ -797,7 +782,7 @@
             },
             {
                 "product": "sugar (white or brown)",
-                "qtyNumber": "3/4",
+                "qtyNumber": "0.75",
                 "qtyUnit": "cup"
             },
             {
@@ -821,9 +806,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "leaf",
+                "product": "bay leaf",
                 "qtyNumber": "1",
-                "qtyUnit": "bay"
+                "qtyUnit": ""
             },
             {
                 "product": "Green Seasoning",
@@ -832,7 +817,7 @@
             },
             {
                 "product": "chopped parsley",
-                "qtyNumber": "1/2",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -851,9 +836,9 @@
                 "qtyUnit": "scallions,"
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "cubed fresh calabaza or butternut squash",
@@ -867,7 +852,7 @@
             },
             {
                 "product": "ketchup",
-                "qtyNumber": "1/2",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -911,31 +896,31 @@
     {
         "recipeId": "c96665eb-79a3-4987-b906-fc1a1317adfd",
         "recipeTitle": "Avocado Ice Cake",
-        "recipeDescription": "with Hass avocados and cream cheese",
+        "recipeDescription": "with condensed milk and cream cheese",
         "recipeLongIntro": "Frozen Avocado Cake combines traditional techniques with modern twists, all within about 49 minutes of cooking. This dish is steeped in cultural heritage, often served during special occasions. Consider marinating overnight to deepen the flavors.",
         "totalCost": 24.52,
         "prepTime": 15,
         "cookTime": 30,
         "recipeIngredients": [
             {
-                "product": "(for the pan)",
-                "qtyNumber": "Softened",
-                "qtyUnit": "butter"
+                "product": "Softened butter (for the pan)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "graham crackers (120 g)",
+                "product": "graham crackers",
                 "qtyNumber": "8",
                 "qtyUnit": "whole"
             },
             {
-                "product": "biscuits or 4 additional graham crackers (60 g)",
+                "product": "digestive biscuits",
                 "qtyNumber": "11",
-                "qtyUnit": "digestive"
+                "qtyUnit": ""
             },
             {
-                "product": "oz/397 g) cans sweetened condensed milk",
+                "product": "sweetened condensed milk",
                 "qtyNumber": "2",
-                "qtyUnit": "(14"
+                "qtyUnit": "(14oz) cans"
             },
             {
                 "product": "avocados",
@@ -943,24 +928,24 @@
                 "qtyUnit": "Hass"
             },
             {
-                "product": "(455 g) cream cheese, at room temperature",
+                "product": "cream cheese, at room temperature",
                 "qtyNumber": "1",
                 "qtyUnit": "pound"
             },
             {
-                "product": "sea salt",
+                "product": "fine sea salt",
                 "qtyNumber": "Pinch",
-                "qtyUnit": "fine"
+                "qtyUnit": ""
             },
             {
-                "product": "",
+                "product": "lemons",
                 "qtyNumber": "2",
-                "qtyUnit": "lemons"
+                "qtyUnit": ""
             },
             {
-                "product": "",
+                "product": "limes",
                 "qtyNumber": "2",
-                "qtyUnit": "limes"
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -992,8 +977,8 @@
     },
     {
         "recipeId": "4e154bd8-fad7-4f0d-afbd-4afcbf1175a8",
-        "recipeTitle": "Sesame Chicken Salad",
-        "recipeDescription": "with tahini and lime juice",
+        "recipeTitle": "Sesame-Chicken Salad",
+        "recipeDescription": "with scallion and tahini",
         "recipeLongIntro": "Master the art of making Sesame-Scallion Chicken Salad with this recipe, requiring roughly 91 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.72,
         "prepTime": 25,
@@ -1010,14 +995,14 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "thinly sliced on a deep diagonal",
+                "product": "scallions thinly sliced on a deep diagonal",
                 "qtyNumber": "3",
-                "qtyUnit": "scallions,"
+                "qtyUnit": ","
             },
             {
-                "product": "cucumbers",
+                "product": "Persian cucumbers",
                 "qtyNumber": "3",
-                "qtyUnit": "Persian"
+                "qtyUnit": ""
             },
             {
                 "product": "toasted sesame seeds, divided",
@@ -1055,14 +1040,14 @@
                 "qtyUnit": "head"
             },
             {
-                "product": "of cilantro leaves with tender stems",
-                "qtyNumber": "Big",
-                "qtyUnit": "handful"
+                "product": "cilantro leaves with tender stems",
+                "qtyNumber": "1 ",
+                "qtyUnit": "big handful"
             },
             {
-                "product": "(for serving)",
+                "product": "lime (for serving)",
                 "qtyNumber": "\u00bd",
-                "qtyUnit": "lime"
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -1097,16 +1082,16 @@
     {
         "recipeId": "59515390-ca2c-4063-abcf-836d22b47843",
         "recipeTitle": "Chicken, Grapes & Fennel",
-        "recipeDescription": "with grapes and Calabrian chile",
+        "recipeDescription": "with fennel and Calabrian chile",
         "recipeLongIntro": "Relish in the making of Braised Chicken Legs With Grapes and Fennel, a recipe that typically spans 90 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.69,
         "prepTime": 25,
         "cookTime": 60,
         "recipeIngredients": [
             {
-                "product": "legs (thigh and drumstick; about 3\u00bd lb.), patted dry",
+                "product": "chicken legs (thigh and drumstick), patted dry",
                 "qtyNumber": "4",
-                "qtyUnit": "chicken"
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
@@ -1180,19 +1165,19 @@
         "numRatings": 429,
         "numServings": 3,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "88b534c4-f078-43ad-80b5-6ed53ea3a0db",
         "recipeTitle": "Summer Bean Tomato Soup",
-        "recipeDescription": "with Romano beans and kombu",
+        "recipeDescription": "with shallots and kombu",
         "recipeLongIntro": "Summer Bean Soup With Tomato Brown Butter is a classic dish, traditionally taking about 155 minutes to perfect. Enjoy the blend of flavors! This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 20.72,
         "prepTime": 45,
         "cookTime": 110,
         "recipeIngredients": [
             {
-                "product": "(230 g) dried beans, such as flageolet or navy, or fresh shelling beans",
+                "product": "dried beans, such as flageolet or navy, or fresh shelling beans",
                 "qtyNumber": "8",
                 "qtyUnit": "oz."
             },
@@ -1212,32 +1197,32 @@
                 "qtyUnit": "celery"
             },
             {
-                "product": "",
+                "product": "carrot",
                 "qtyNumber": "1",
-                "qtyUnit": "carrot"
+                "qtyUnit": ""
             },
             {
-                "product": "white and light green parts only",
+                "product": "leek white and light green parts only",
                 "qtyNumber": "1",
-                "qtyUnit": "leek,"
+                "qtyUnit": ""
             },
             {
-                "product": "skins intact",
+                "product": "shallots skins intact",
                 "qtyNumber": "6",
-                "qtyUnit": "shallots,"
+                "qtyUnit": ""
             },
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "6",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
-                "product": "anchovy fillets",
+                "product": "oil-packed anchovy fillets",
                 "qtyNumber": "4",
-                "qtyUnit": "oil-packed"
+                "qtyUnit": ""
             },
             {
-                "product": "(90 ml) extra-virgin olive oil",
+                "product": "extra-virgin olive oil",
                 "qtyNumber": "6",
                 "qtyUnit": "Tbsp."
             },
@@ -1247,9 +1232,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "Tbsp. kosher salt",
-                "qtyNumber": "1",
-                "qtyUnit": "\u00bd"
+                "product": "kosher salt",
+                "qtyNumber": "1\u00bd",
+                "qtyUnit": "Tbsp."
             },
             {
                 "product": "red pepper flakes",
@@ -1262,19 +1247,19 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "(230 g) bacon",
+                "product": "bacon",
                 "qtyNumber": "8",
                 "qtyUnit": "oz."
             },
             {
-                "product": "(230 g) Romano beans or green beans, chopped into 1 in. pieces",
+                "product": "Romano beans or green beans, chopped into 1 in. pieces",
                 "qtyNumber": "8",
                 "qtyUnit": "oz."
             },
             {
-                "product": "thinly sliced",
+                "product": "shallots thinly sliced",
                 "qtyNumber": "2",
-                "qtyUnit": "shallots,"
+                "qtyUnit": ""
             },
             {
                 "product": "red pepper flakes",
@@ -1282,24 +1267,24 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "juice of 1 lemon",
-                "qtyNumber": "Zest",
-                "qtyUnit": "and"
-            },
-            {
-                "product": "clove, grated",
+                "product": "lemon zest and juice",
                 "qtyNumber": "1",
-                "qtyUnit": "garlic"
+                "qtyUnit": ""
             },
             {
-                "product": "green beans (see Basic Wet Salt Method, below)",
+                "product": "garlic, grated",
+                "qtyNumber": "1",
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "pickled green beans",
                 "qtyNumber": "12",
-                "qtyUnit": "pickled"
+                "qtyUnit": ""
             },
             {
-                "product": "tomatoes, quartered",
+                "product": "cherry tomatoes, quartered",
                 "qtyNumber": "9",
-                "qtyUnit": "cherry"
+                "qtyUnit": ""
             },
             {
                 "product": "extra-virgin olive oil",
@@ -1312,24 +1297,19 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "Butter",
-                "qtyNumber": "Tomato",
-                "qtyUnit": "Brown"
+                "product": "Tomato Brown Butter",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "",
-                "qtyNumber": "Crumbled",
-                "qtyUnit": "feta"
+                "product": "Crumbled feta",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "",
-                "qtyNumber": "parsley",
-                "qtyUnit": "leaves"
-            },
-            {
-                "product": "leaves for garnish",
-                "qtyNumber": "and",
-                "qtyUnit": "marjoram"
+                "product": "marjoram and parsley leaves for garnish",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -1458,8 +1438,8 @@
     },
     {
         "recipeId": "dd6fbfdf-ddae-423d-9d02-1366fb210b5d",
-        "recipeTitle": "Tropical Cobb Salad",
-        "recipeDescription": "with mango and papaya",
+        "recipeTitle": "Maple BBQ Grilled Chicken",
+        "recipeDescription": "with maple and sriracha sauce",
         "recipeLongIntro": "Master the art of making Maple Barbecue Grilled Chicken with this recipe, requiring roughly 114 minutes to bring all the ingredients together. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Low and slow cooking will yield the best texture.",
         "totalCost": 19.49,
         "prepTime": 35,
@@ -1471,9 +1451,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "cloves, crushed",
+                "product": "garlic, crushed",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "double-concentrated tomato paste",
@@ -1506,9 +1486,9 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "(for grill)",
-                "qtyNumber": "Vegetable",
-                "qtyUnit": "oil"
+                "product": "vegetable oil (for grill)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "whole chicken, cut into 6\u20138 pieces, or whatever bone-in cut of chicken you feel like cooking",
@@ -1516,9 +1496,9 @@
                 "qtyUnit": "(3\u00bd\u20134-lb.)"
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -1546,8 +1526,8 @@
     },
     {
         "recipeId": "39649015-e8c0-4136-ba9e-d22c6e5b6d8f",
-        "recipeTitle": "Zucchini Lentil Patties",
-        "recipeDescription": "with zucchini and feta",
+        "recipeTitle": "Padron Chiles en Escabeche",
+        "recipeDescription": "with pork chops and coriander",
         "recipeLongIntro": "Master the art of making Pork Chops and Padr\u00c3\u00b3n Chiles en Escab\u00c3\u00a8che with this recipe, requiring roughly 41 minutes to bring all the ingredients together. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 24.56,
         "prepTime": 10,
@@ -1617,11 +1597,6 @@
                 "product": "coarsely chopped oregano",
                 "qtyNumber": "3",
                 "qtyUnit": "Tbsp."
-            },
-            {
-                "product": "mill or a mortar and pestle",
-                "qtyNumber": "A",
-                "qtyUnit": "spice"
             }
         ],
         "recipeSteps": [
@@ -1656,8 +1631,8 @@
     },
     {
         "recipeId": "861f2584-4347-408d-876d-0a46fb72313c",
-        "recipeTitle": "Festive Mac & Cheese",
-        "recipeDescription": "with Gruy\u00e8re and truffle oil",
+        "recipeTitle": "Thai Grilled Chicken (Halal)",
+        "recipeDescription": "with peppercorns and pineapple",
         "recipeLongIntro": "Relish in the making of Thai Muslim\u00e2\u20ac\u201cStyle Grilled Chicken, a recipe that typically spans 113 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.01,
         "prepTime": 35,
@@ -1674,14 +1649,14 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "cloves",
+                "product": "garlic",
                 "qtyNumber": "6",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
-                "product": "roots, chopped, or 2 Tbsp. (heaping) finely chopped cilantro stems",
+                "product": "cilantro, chopped",
                 "qtyNumber": "2",
-                "qtyUnit": "cilantro"
+                "qtyUnit": "roots"
             },
             {
                 "product": "(packed) light brown sugar",
@@ -1719,9 +1694,9 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "(packed) chopped fresh ripe pineapple",
+                "product": "chopped fresh ripe pineapple",
                 "qtyNumber": "\u00bd",
-                "qtyUnit": "cup"
+                "qtyUnit": "cup (packed)"
             },
             {
                 "product": "distilled white vinegar or apple cider vinegar",
@@ -1729,14 +1704,14 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "garlic cloves, finely chopped",
+                "product": "garlic, finely chopped",
                 "qtyNumber": "6",
-                "qtyUnit": "large"
+                "qtyUnit": "large cloves"
             },
             {
-                "product": "jalape\u00f1os or serrano chiles, seeds removed, finely chopped",
+                "product": "red jalape\u00f1os or serrano chiles, seeds removed, finely chopped",
                 "qtyNumber": "3",
-                "qtyUnit": "red"
+                "qtyUnit": ""
             },
             {
                 "product": "granulated sugar",
@@ -1774,9 +1749,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "(for grill; optional)",
-                "qtyNumber": "Vegetable",
-                "qtyUnit": "oil"
+                "product": "vegetable oil (for grill)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "coarsely chopped cilantro",
@@ -1784,14 +1759,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "rice, coconut rice, or sticky rice (for serving)",
-                "qtyNumber": "Cooked",
-                "qtyUnit": "jasmine"
-            },
-            {
-                "product": "mill or a mortar and pestle",
-                "qtyNumber": "A",
-                "qtyUnit": "spice"
+                "product": "Cooked jasmine rice, coconut rice, or sticky rice (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -1833,15 +1803,15 @@
     },
     {
         "recipeId": "c89c0d17-cbd0-4401-9ccd-2d305f995804",
-        "recipeTitle": "Doenjang Stew",
-        "recipeDescription": "with doenjang and gochujang",
+        "recipeTitle": "Dakgangjeong",
+        "recipeDescription": "with chicken wingettes and peanuts",
         "recipeLongIntro": "Dakgangjeong (\u00eb\u2039\u00ad\u00ea\u00b0\u2022\u00ec\u00a0\u2022 / Korean Sweet, Crunchy Fried Chicken) is a classic dish, traditionally taking about 103 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.73,
         "prepTime": 30,
         "cookTime": 70,
         "recipeIngredients": [
             {
-                "product": "pounds chicken wingettes or dumettes or small pieces of chicken (see headnote)",
+                "product": "pounds chicken wingettes or dumettes",
                 "qtyNumber": "2",
                 "qtyUnit": "\u00bd"
             },
@@ -1861,9 +1831,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "",
-                "qtyNumber": "Vegetable",
-                "qtyUnit": "oil"
+                "product": "vegetable oil",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "toasted peanuts (optional)",
@@ -1901,9 +1871,9 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "cloves, mined",
+                "product": "garlic, mined",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "minced peeled ginger",
@@ -1921,9 +1891,9 @@
                 "qtyUnit": "teaspoons"
             },
             {
-                "product": "3 teaspoons crushed red pepper flakes (optional)",
+                "product": "crushed red pepper flakes (optional)",
                 "qtyNumber": "2",
-                "qtyUnit": "to"
+                "qtyUnit": "tsp."
             }
         ],
         "recipeSteps": [
@@ -1956,31 +1926,31 @@
     },
     {
         "recipeId": "969bae02-9211-41aa-806b-bfd3dac46b02",
-        "recipeTitle": "Comfort Soup",
-        "recipeDescription": "with barley and porcini mushrooms",
+        "recipeTitle": "Salted PB&J + Ice Cream Pie",
+        "recipeDescription": "with vanilla and grape jelly",
         "recipeLongIntro": "Salted PB&J; Ice Cream Pie is a classic dish, traditionally taking about 56 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.3,
         "prepTime": 15,
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "(110 g) Ritz crackers or other cracker of your choice",
+                "product": "Ritz crackers or other cracker of your choice",
                 "qtyNumber": "1",
                 "qtyUnit": "sleeve"
             },
             {
-                "product": "(45 g) raw peanuts or other nut or seed, finely chopped",
+                "product": "raw peanuts or other nut or seed, finely chopped",
                 "qtyNumber": "\u2153",
                 "qtyUnit": "cup"
             },
             {
-                "product": "(67 g; packed) light or dark brown sugar",
+                "product": "light or dark brown sugar",
                 "qtyNumber": "\u2153",
                 "qtyUnit": "cup"
             },
             {
-                "product": "Diamond Crystal or \u00bc tsp. Morton kosher salt",
-                "qtyNumber": "\u00bd",
+                "product": "Morton kosher salt",
+                "qtyNumber": "\u00bc",
                 "qtyUnit": "tsp."
             },
             {
@@ -1994,13 +1964,13 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "(100 g; packed) light or dark brown sugar",
+                "product": "light or dark brown sugar",
                 "qtyNumber": "\u00bd",
                 "qtyUnit": "cup"
             },
             {
-                "product": "Diamond Crystal or \u00bc tsp. Morton kosher salt",
-                "qtyNumber": "\u00bd",
+                "product": "Morton kosher salt",
+                "qtyNumber": "\u00bc",
                 "qtyUnit": "tsp."
             },
             {
@@ -2009,7 +1979,7 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "(128 g) natural peanut butter or other natural nut or seed butter",
+                "product": "natural peanut butter or other natural nut or seed butter",
                 "qtyNumber": "\u00bd",
                 "qtyUnit": "cup"
             },
@@ -2019,19 +1989,9 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "(100 g) grape jelly (preferably Bonne Maman) or other jelly",
+                "product": "grape jelly or other jelly/jam/compote",
                 "qtyNumber": "\u2153",
                 "qtyUnit": "cup"
-            },
-            {
-                "product": "",
-                "qtyNumber": "jam",
-                "qtyUnit": ""
-            },
-            {
-                "product": "",
-                "qtyNumber": "or",
-                "qtyUnit": "compote"
             }
         ],
         "recipeSteps": [
@@ -2067,8 +2027,8 @@
     },
     {
         "recipeId": "aa91b564-72d6-410e-9e2b-e3f6a1f3195b",
-        "recipeTitle": "Farmer's Market Farro",
-        "recipeDescription": "with farro and microgreens",
+        "recipeTitle": "Tacos de Gobernador",
+        "recipeDescription": "with bacon and provolone cheese",
         "recipeLongIntro": "Relish in the making of Tacos de Gobernador (Shrimp, Poblano, and Cheese Tacos), a recipe that typically spans 45 minutes from start to finish, ensuring deep flavors. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 21.06,
         "prepTime": 15,
@@ -2080,29 +2040,29 @@
                 "qtyUnit": "teaspoons"
             },
             {
-                "product": "peeled and diced",
+                "product": "onion peeled and diced",
                 "qtyNumber": "1",
-                "qtyUnit": "onion,"
+                "qtyUnit": ""
             },
             {
-                "product": "clove, peeled and minced",
+                "product": "garlic, peeled and minced",
                 "qtyNumber": "1",
-                "qtyUnit": "garlic"
+                "qtyUnit": "clove"
             },
             {
-                "product": "chiles, stems removed, cut into 1\u20444-inch-wide strips",
+                "product": "poblano chiles, stems removed, cut into 1\u20444-inch-wide strips",
                 "qtyNumber": "2",
-                "qtyUnit": "poblano"
+                "qtyUnit": ""
             },
             {
-                "product": "tortillas",
+                "product": "corn tortillas",
                 "qtyNumber": "8",
-                "qtyUnit": "corn"
+                "qtyUnit": ""
             },
             {
-                "product": "3 limes",
-                "qtyNumber": "Juice",
-                "qtyUnit": "of"
+                "product": "juice of lime",
+                "qtyNumber": "3",
+                "qtyUnit": ""
             },
             {
                 "product": "bacon, diced small",
@@ -2120,25 +2080,26 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "Queso Asadero cheese (if not available, substitute Teleme or Monterey Jack)",
+                "product": "mild/young provolone cheese",
                 "qtyNumber": "1",
                 "qtyUnit": "cup"
             },
             {
-                "product": "cut into wedges",
+                "product": "limes cut into wedges",
                 "qtyNumber": "2",
-                "qtyUnit": "limes,"
+                "qtyUnit": ""
             },
             {
-                "product": "store-bought tangy red salsa",
-                "qtyNumber": "Homemade",
-                "qtyUnit": "or"
+                "product": "tangy red salsa",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
             "Warm 3 teaspoons of the oil in a frying pan over medium-low heat",
             "Add the onion and cook for 5 minutes, stirring gently",
             "Add the garlic and continue to cook for 3 minutes",
+
             "(If, at any time during the cooking process, the items in the pan dry out at all, deglaze the pan with some lime juice, scraping up the browned bits with a wooden spoon, and continue.) Turn the heat to medium and add the chiles",
             "Cook for 10 minutes, or until the chiles are thoroughly cooked.\\nAt this point, warm a separate frying pan over medium heat and add the remaining 1 teaspoon oil",
             "Interleaved with finishing the rest of the recipe, heat each tortilla in the oil-coated pan for about 20 seconds per side, just long enough to make them the slightest bit golden but still pliable, and put between two towels to stay warm and wick away any excess oil.\\nOnce the chiles have cooked for 10 minutes, pour the lime juice on the ingredients in the pan",
@@ -2157,12 +2118,12 @@
         "numRatings": 48,
         "numServings": 4,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "03fabb6c-c1ed-444a-b779-eb4d32513c66",
-        "recipeTitle": "Sweet Corn Frittata",
-        "recipeDescription": "with sweet corn and chives",
+        "recipeTitle": "Spicy Pork Belly Sliders",
+        "recipeDescription": "with gochujang and chives",
         "recipeLongIntro": "Master the art of making Spicy Pork Belly Sliders with this recipe, requiring roughly 45 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.76,
         "prepTime": 15,
@@ -2214,44 +2175,24 @@
                 "qtyUnit": "pounds"
             },
             {
-                "product": "",
-                "qtyNumber": "Unsalted",
-                "qtyUnit": "butter"
+                "product": "unsalted butter",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "buns",
+                "product": "slider buns",
                 "qtyNumber": "12",
-                "qtyUnit": "slider"
-            },
-            {
-                "product": "",
-                "qtyNumber": "Mayonnaise",
                 "qtyUnit": ""
             },
             {
-                "product": "cucumbers",
+                "product": "mayonnaise",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "peeled cucumbers, halved lengthwise, seeded, and sliced into matchsticks",
                 "qtyNumber": "2",
-                "qtyUnit": "English"
-            },
-            {
-                "product": "",
-                "qtyNumber": "peeled",
                 "qtyUnit": ""
-            },
-            {
-                "product": "",
-                "qtyNumber": "halved",
-                "qtyUnit": "lengthwise"
-            },
-            {
-                "product": "",
-                "qtyNumber": "seeded",
-                "qtyUnit": ""
-            },
-            {
-                "product": "into matchsticks",
-                "qtyNumber": "and",
-                "qtyUnit": "sliced"
             }
         ],
         "recipeSteps": [
@@ -2275,20 +2216,20 @@
     },
     {
         "recipeId": "0e22bd22-6f5e-4ef0-9c60-8bbf88f3fb66",
-        "recipeTitle": "Kale and Pumpkin Falafels W",
-        "recipeDescription": "with Italian sausage and ",
+        "recipeTitle": "Kale and Pumpkin Falafels",
+        "recipeDescription": "with toasted pepitas and turmeric",
         "recipeLongIntro": "Kale and Pumpkin Falafels With Pickled Carrot Slaw combines traditional techniques with modern twists, all within about 48 minutes of cooking. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 25.59,
         "prepTime": 15,
         "cookTime": 30,
         "recipeIngredients": [
             {
-                "product": "(120g or 4\u00bd oz) toasted pepitas (pumpkin seeds)",
+                "product": "toasted pepitas (pumpkin seeds)",
                 "qtyNumber": "\u00be",
                 "qtyUnit": "cup"
             },
             {
-                "product": "(90g or 3 oz) shredded kale, stems removed (about 3 large leaves)",
+                "product": "shredded kale, stems removed (about 3 large leaves)",
                 "qtyNumber": "3",
                 "qtyUnit": "cups"
             },
@@ -2298,9 +2239,9 @@
                 "qtyUnit": "clove"
             },
             {
-                "product": "oz or 400g ) can chickpeas (garbanzo beans), rinsed, drained",
+                "product": "can chickpeas (garbanzo beans), rinsed, drained",
                 "qtyNumber": "1",
-                "qtyUnit": "(16"
+                "qtyUnit": "16oz can"
             },
             {
                 "product": "ground turmeric",
@@ -2308,34 +2249,44 @@
                 "qtyUnit": "teaspoons"
             },
             {
-                "product": "(6g or \u00bc oz) coriander (cilantro) leaves",
+                "product": "coriander (cilantro) leaves",
                 "qtyNumber": "\u00bd",
                 "qtyUnit": "cup"
             },
             {
-                "product": "and cracked black pepper",
-                "qtyNumber": "Sea",
-                "qtyUnit": "salt"
+                "product": "Sea salt and cracked black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "(450g or 1 lb) firmly packed grated pumpkin",
+                "product": "cracked black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "firmly packed grated pumpkin",
                 "qtyNumber": "3",
                 "qtyUnit": "cups"
             },
             {
-                "product": "olive oil, for brushing",
-                "qtyNumber": "Extra",
-                "qtyUnit": "virgin"
+                "product": "Extra virgin olive oil, for brushing",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "yogurt and hulled tahini, to serve",
-                "qtyNumber": "Plain",
-                "qtyUnit": "Greek-style"
+                "product": "Plain Greek-style yogurt, to serve",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "shredded using a julienne peeler",
+                "product": "hulled tahini, to serve",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "carrots shredded using a julienne peeler",
                 "qtyNumber": "6",
-                "qtyUnit": "carrots,"
+                "qtyUnit": ""
             },
             {
                 "product": "apple cider vinegar",
@@ -2353,7 +2304,7 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "(6g or \u00bc oz) coriander (cilantro) leaves",
+                "product": "coriander (cilantro) leaves",
                 "qtyNumber": "\u00bd",
                 "qtyUnit": "cup"
             }
@@ -2372,24 +2323,24 @@
         "numRatings": 257,
         "numServings": 8,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "9a4a1df6-eef6-4b0a-a49d-aff6f8f09e44",
-        "recipeTitle": "Tamale Pie with Fresh Tomat",
-        "recipeDescription": "with Italian sausage and ground beef",
+        "recipeTitle": "Tamale Pie",
+        "recipeDescription": "with fresh chorizo and corn",
         "recipeLongIntro": "Embrace the culinary journey with Tamale Pie with Fresh Tomato and Corn, which usually takes 54 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.15,
         "prepTime": 15,
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "fresh chorizo, casings removed (about 2 links), or vegetarian substitute such as Lightlife Plant-Based Italian Sausage",
+                "product": "fresh chorizo, casings removed (about 2 links)",
                 "qtyNumber": "1/2",
                 "qtyUnit": "pound"
             },
             {
-                "product": "ground beef, or vegetarian substitute such as Lightlife Plant-Based Ground",
+                "product": "ground beef, or vegetarian substitute",
                 "qtyNumber": "1/2",
                 "qtyUnit": "pound"
             },
@@ -2399,9 +2350,9 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "teaspoons cumin",
-                "qtyNumber": "2",
-                "qtyUnit": "1/2"
+                "product": "cumin",
+                "qtyNumber": "2.5",
+                "qtyUnit": "tsp."
             },
             {
                 "product": "onion, grated on a box grater, divided",
@@ -2414,22 +2365,22 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "teaspoons kosher salt, divided",
-                "qtyNumber": "1",
-                "qtyUnit": "3/4"
+                "product": "kosher salt, divided",
+                "qtyNumber": "1.75",
+                "qtyUnit": "tps"
             },
             {
-                "product": "beefsteak tomatoes (about 2 pounds), cut into 1/2\" cubes",
+                "product": "beefsteak tomatoes, cut into 1/2\" cubes",
                 "qtyNumber": "2",
                 "qtyUnit": "large"
             },
             {
-                "product": "corn kernels (preferably fresh; from about 3 ears of corn), divided",
+                "product": "corn kernels, divided",
                 "qtyNumber": "2",
                 "qtyUnit": "cups"
             },
             {
-                "product": "cheddar cheese, grated (about 2 cups)",
+                "product": "cheddar cheese, grated",
                 "qtyNumber": "8",
                 "qtyUnit": "ounces"
             },
@@ -2449,9 +2400,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "cups cornmeal",
-                "qtyNumber": "1",
-                "qtyUnit": "1/4"
+                "product": "cornmeal",
+                "qtyNumber": "1.25",
+                "qtyUnit": "cup"
             },
             {
                 "product": "baking powder",
@@ -2479,12 +2430,12 @@
         "numRatings": 405,
         "numServings": 4,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "19ab5f78-255e-42b7-8176-32512bf59c43",
-        "recipeTitle": "Butternut Squash and Apple ",
-        "recipeDescription": "with Italian sausage and bacon",
+        "recipeTitle": "Butternut Squash and Apple",
+        "recipeDescription": "with cinnamon and bacon",
         "recipeLongIntro": "Butternut Squash and Apple Soup combines traditional techniques with modern twists, all within about 66 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Low and slow cooking will yield the best texture.",
         "totalCost": 23.22,
         "prepTime": 20,
@@ -2496,14 +2447,14 @@
                 "qtyUnit": "slices"
             },
             {
-                "product": "ribs, chopped",
+                "product": "celery ribs, chopped",
                 "qtyNumber": "2",
-                "qtyUnit": "celery"
+                "qtyUnit": ""
             },
             {
-                "product": "chopped",
+                "product": "carrot, chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "carrot,"
+                "qtyUnit": ""
             },
             {
                 "product": "onion, chopped",
@@ -2536,14 +2487,14 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "2\u00bd cups water",
+                "product": "water",
                 "qtyNumber": "2",
-                "qtyUnit": "to"
+                "qtyUnit": "cups"
             },
             {
-                "product": "",
-                "qtyNumber": "Sour",
-                "qtyUnit": "cream"
+                "product": "sour cream",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -2563,8 +2514,8 @@
     },
     {
         "recipeId": "2defa9fc-0d8f-4150-a9f1-ef98e356191f",
-        "recipeTitle": "Drunk Apricot Shito (Ghanai",
-        "recipeDescription": "with Italian sausage and dried apricots",
+        "recipeTitle": "Drunk Apricot Shito",
+        "recipeDescription": "with dark rum and dried apricots",
         "recipeLongIntro": "Drunk Apricot Shito (Ghanaian Hot Pepper Sauce) combines traditional techniques with modern twists, all within about 42 minutes of cooking. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 21.68,
         "prepTime": 15,
@@ -2591,12 +2542,12 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "plus 1 tsp. coconut sugar or dark brown sugar",
-                "qtyNumber": "3",
+                "product": "coconut sugar or dark brown sugar",
+                "qtyNumber": "3 1/3",
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "of selim pods",
+                "product": "selim pods",
                 "qtyNumber": "2",
                 "qtyUnit": "grains"
             },
@@ -2626,9 +2577,9 @@
                 "qtyUnit": "garlic"
             },
             {
-                "product": "piece ginger, peeled, finely grated (unpeeled if organic)",
+                "product": "ginger, peeled, finely grated (unpeeled if organic)",
                 "qtyNumber": "1",
-                "qtyUnit": "1\""
+                "qtyUnit": "piece"
             },
             {
                 "product": "crushed red pepper flakes",
@@ -2671,14 +2622,9 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "bonnet or habanero chile, pierced a few times with a knife",
+                "product": "Scotch bonnet or habanero chile, pierced a few times with a knife",
                 "qtyNumber": "1",
-                "qtyUnit": "Scotch"
-            },
-            {
-                "product": "mill or mortar and pestle",
-                "qtyNumber": "A",
-                "qtyUnit": "spice"
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -2723,8 +2669,8 @@
     },
     {
         "recipeId": "2e5b3bb3-d929-476b-b7df-ab7d2ac952f0",
-        "recipeTitle": "Sweet Corn Frittata With Ch",
-        "recipeDescription": "with Italian sausage and olive oil",
+        "recipeTitle": "Sweet Corn Frittata",
+        "recipeDescription": "with cherry tomatoes and white wine",
         "recipeLongIntro": "Master the art of making Sweet Corn Frittata With Cherry Tomato Compote with this recipe, requiring roughly 48 minutes to bring all the ingredients together. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 19.29,
         "prepTime": 15,
@@ -2736,7 +2682,7 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "of garlic, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "2",
                 "qtyUnit": "cloves"
             },
@@ -2751,19 +2697,19 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "10 fresh basil leaves, thinly sliced",
+                "product": "fresh basil leaves, thinly sliced",
                 "qtyNumber": "8",
-                "qtyUnit": "to"
+                "qtyUnit": ""
             },
             {
-                "product": "of fine sea salt",
-                "qtyNumber": "Healthy",
+                "product": "fine sea salt",
+                "qtyNumber": "1",
                 "qtyUnit": "pinch"
             },
             {
-                "product": "black pepper",
-                "qtyNumber": "Freshly",
-                "qtyUnit": "ground"
+                "product": "Freshly ground black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "cooking fat",
@@ -2771,12 +2717,12 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "of scallions, white parts and green parts diced separately",
+                "product": "scallions, white parts and green parts diced separately",
                 "qtyNumber": "1",
                 "qtyUnit": "bunch"
             },
             {
-                "product": "of garlic, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "2",
                 "qtyUnit": "cloves"
             },
@@ -2801,14 +2747,9 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "feta cheese",
+                "product": "feta cheese, crumbled",
                 "qtyNumber": "4",
                 "qtyUnit": "ounces"
-            },
-            {
-                "product": "",
-                "qtyNumber": "crumbled",
-                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -2837,7 +2778,7 @@
     {
         "recipeId": "2f0fe856-cf8c-43ba-92da-8526abe2476a",
         "recipeTitle": "Best Deviled Eggs",
-        "recipeDescription": "with Italian sausage and mayonnaise",
+        "recipeDescription": "with cayenne and dijon mustard",
         "recipeLongIntro": "Relish in the making of Best Deviled Eggs, a recipe that typically spans 33 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 20.37,
         "prepTime": 10,
@@ -2850,7 +2791,7 @@
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "1/4",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -2859,19 +2800,14 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "cayenne",
+                "product": "cayenne spice",
                 "qtyNumber": "1/8",
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "and chopped fresh chives",
-                "qtyNumber": "Garnishes:",
-                "qtyUnit": "paprika"
-            },
-            {
-                "product": "fitted with 1/2-inch star tip (optional)",
-                "qtyNumber": "Pastry",
-                "qtyUnit": "bag"
+                "product": "paprika and chopped fresh chives (for garnish)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -2888,31 +2824,31 @@
         "numRatings": 59,
         "numServings": 8,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "3de7ac96-fb0c-4358-9c95-94d9f5c250f5",
         "recipeTitle": "Hot Pimento Cheese Dip",
-        "recipeDescription": "with Italian sausage and oz./200 g) can chipotle in adobo sauce",
+        "recipeDescription": "with cream cheese and adobo sauce",
         "recipeLongIntro": "Hot Pimento Cheese Dip combines traditional techniques with modern twists, all within about 59 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.88,
         "prepTime": 20,
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "oz./200 g) can chipotle in adobo sauce",
+                "product": "can chipotle in adobo sauce",
                 "qtyNumber": "1",
-                "qtyUnit": "(7"
+                "qtyUnit": "7oz can"
             },
             {
-                "product": "clove, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "\u00bd",
-                "qtyUnit": "garlic"
+                "qtyUnit": "clove"
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "cornstarch",
@@ -2920,29 +2856,29 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "fl oz./150 ml) can evaporated milk (about \u00bd cup plus 2 Tbsp)",
+                "product": "evaporated milk",
                 "qtyNumber": "1",
-                "qtyUnit": "(5"
+                "qtyUnit": "5 fl oz. can"
             },
             {
-                "product": "(230 g) sharp or extra-sharp Cheddar cheese, coarsely grated (about 2 cups)",
+                "product": "sharp or extra-sharp Cheddar cheese, coarsely grated",
                 "qtyNumber": "8",
                 "qtyUnit": "oz."
             },
             {
-                "product": "(55 g) cream cheese, roughly diced, at room temperature",
+                "product": "cream cheese, roughly diced, at room temperature",
                 "qtyNumber": "2",
                 "qtyUnit": "oz."
             },
             {
-                "product": "(60 g) mayonnaise",
+                "product": "mayonnaise",
                 "qtyNumber": "\u00bc",
                 "qtyUnit": "cup"
             },
             {
-                "product": "oz./115 g) jar diced pimento peppers, drained",
+                "product": "diced pimento peppers, drained",
                 "qtyNumber": "1",
-                "qtyUnit": "(4"
+                "qtyUnit": "4oz. jar"
             },
             {
                 "product": "Chipotle Pepper Pur\u00e9e",
@@ -2972,12 +2908,12 @@
         "numRatings": 443,
         "numServings": 8,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "4344f578-8002-4211-a6f8-694610d4e3e6",
         "recipeTitle": "Crispy Salt and Pepper Pota",
-        "recipeDescription": "with Italian sausage and egg whites",
+        "recipeDescription": "with rosemary and thyme",
         "recipeLongIntro": "Relish in the making of Crispy Salt and Pepper Potatoes, a recipe that typically spans 57 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 21.67,
         "prepTime": 15,
@@ -3031,12 +2967,12 @@
         "numRatings": 349,
         "numServings": 4,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "4b0f0149-b863-43f7-8e48-cdc7b0fe4595",
         "recipeTitle": "Enfrijoladas",
-        "recipeDescription": "with Italian sausage and vegetable oil",
+        "recipeDescription": "with fresh chorizo and cilantro",
         "recipeLongIntro": "Master the art of making Enfrijoladas with this recipe, requiring roughly 56 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.21,
         "prepTime": 15,
@@ -3048,9 +2984,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "tortillas",
+                "product": "corn tortillas",
                 "qtyNumber": "8",
-                "qtyUnit": "corn"
+                "qtyUnit": ""
             },
             {
                 "product": "fresh chorizo",
@@ -3058,9 +2994,9 @@
                 "qtyUnit": "oz."
             },
             {
-                "product": "cloves, crushed",
+                "product": "garlic, crushed",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "white onion, thinly sliced, plus more for serving",
@@ -3068,14 +3004,14 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "cans black beans, rinsed, or 3 cups Frijoles de la Olla, drained",
+                "product": "black beans, rinsed",
                 "qtyNumber": "2",
-                "qtyUnit": "(15-oz.)"
+                "qtyUnit": "(15-oz.) cans"
             },
             {
                 "product": "low-sodium chicken broth",
@@ -3088,9 +3024,9 @@
                 "qtyUnit": "oz."
             },
             {
-                "product": "with tender stems and sliced avocado (for serving)",
-                "qtyNumber": "Cilantro",
-                "qtyUnit": "leaves"
+                "product": "Cilantro leaves with tender stems and sliced avocado (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -3118,12 +3054,12 @@
         "numRatings": 381,
         "numServings": 5,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "50c5ef66-7709-428e-a0df-f4a0569fd79f",
         "recipeTitle": "Spicy Coconut Pumpkin Soup",
-        "recipeDescription": "with Italian sausage and cloves",
+        "recipeDescription": "with cumin and and cilantro",
         "recipeLongIntro": "Relish in the making of Spicy Coconut Pumpkin Soup, a recipe that typically spans 176 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Consider marinating overnight to deepen the flavors.",
         "totalCost": 19.37,
         "prepTime": 55,
@@ -3145,14 +3081,14 @@
                 "qtyUnit": "small"
             },
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "3",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
-                "product": "dulce pepper, seeded and minced",
+                "product": "aj\u00ed dulce pepper, seeded and minced",
                 "qtyNumber": "1",
-                "qtyUnit": "aj\u00ed"
+                "qtyUnit": ""
             },
             {
                 "product": "dark brown sugar",
@@ -3175,9 +3111,14 @@
                 "qtyUnit": "cup"
             },
             {
+                "product": "salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "Salt",
-                "qtyUnit": "and"
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "chopped fresh cilantro",
@@ -3207,7 +3148,7 @@
     {
         "recipeId": "547041a9-ef8b-487d-b17e-65bc53bbf9fb",
         "recipeTitle": "Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea",
-        "recipeDescription": "with Italian sausage and Dashi",
+        "recipeDescription": "with zucchini and Dashi",
         "recipeLongIntro": "Embrace the culinary journey with Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea\u00b0\u0153 / Fermented-Soybean Stew), which usually takes 147 minutes to prepare, yielding delicious results. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.29,
         "prepTime": 45,
@@ -3234,9 +3175,9 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "cloves, minced",
+                "product": "garlic, minced",
                 "qtyNumber": "6",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "soy sauce, or more to taste",
@@ -3254,14 +3195,14 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "Korean chili pepper or other long hot chili, thinly sliced on the bias",
+                "product": "red Korean chili pepper or other long hot chili, thinly sliced on the bias",
                 "qtyNumber": "1",
-                "qtyUnit": "red"
+                "qtyUnit": ""
             },
             {
-                "product": "Korean chili pepper or other long hot chili, thinly sliced on the bias",
+                "product": "green Korean chili pepper or other long hot chili, thinly sliced on the bias",
                 "qtyNumber": "1",
-                "qtyUnit": "green"
+                "qtyUnit": ""
             },
             {
                 "product": "brisket, sliced \u215b inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
@@ -3274,14 +3215,9 @@
                 "qtyUnit": "pound"
             },
             {
-                "product": "scallions",
+                "product": "scallions, cut into 1-inch batons",
                 "qtyNumber": "\u00bd",
                 "qtyUnit": "bunch"
-            },
-            {
-                "product": "1-inch batons",
-                "qtyNumber": "cut",
-                "qtyUnit": "into"
             }
         ],
         "recipeSteps": [
@@ -3304,7 +3240,7 @@
     {
         "recipeId": "5a77c701-6ef0-483a-b83d-0dc0e4959a3c",
         "recipeTitle": "Dad\u00e2\u20ac\u2122s Curried Chicken",
-        "recipeDescription": "with Italian sausage and freshly squeezed lime juice",
+        "recipeDescription": "with Roti and freshly squeezed lime juice",
         "recipeLongIntro": "Relish in the making of Dad\u00e2\u20ac\u2122s Curried Chicken, a recipe that typically spans 116 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 23.39,
         "prepTime": 35,
@@ -3331,9 +3267,9 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "bonnet pepper or other hot red chili pepper, finely chopped",
+                "product": "Scotch bonnet pepper or other hot red chili pepper, finely chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "Scotch"
+                "qtyUnit": ""
             },
             {
                 "product": "garlic, crushed",
@@ -3361,14 +3297,9 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "white rice",
-                "qtyNumber": "Roti",
-                "qtyUnit": "or"
-            },
-            {
-                "product": "",
-                "qtyNumber": "for",
-                "qtyUnit": "serving"
+                "product": "Roti or white rice (to serve)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -3393,14 +3324,14 @@
     {
         "recipeId": "5fceaf3c-92a2-4976-a413-9fc302151b7f",
         "recipeTitle": "Veselka's Famous Borscht",
-        "recipeDescription": "with Italian sausage and ",
+        "recipeDescription": "with pork butt and bay leaf",
         "recipeLongIntro": "Veselka's Famous Borscht combines traditional techniques with modern twists, all within about 60 minutes of cooking. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.37,
         "prepTime": 20,
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "(10 to 12) small beets, scrubbed thoroughly but not peeled",
+                "product": "small beets, scrubbed thoroughly but not peeled",
                 "qtyNumber": "3",
                 "qtyUnit": "pounds"
             },
@@ -3420,9 +3351,9 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "leaf",
+                "product": "bay leaf",
                 "qtyNumber": "1",
-                "qtyUnit": "bay"
+                "qtyUnit": ""
             },
             {
                 "product": "whole allspice berries",
@@ -3445,9 +3376,9 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "head of green cabbage (about \u00be to 1 pound), shredded (about 4 cups)",
+                "product": "green cabbage, shredded",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": "small head"
             },
             {
                 "product": "Idaho potatoes, peeled and cut into \u00bd-inch dice",
@@ -3455,13 +3386,13 @@
                 "qtyUnit": "medium"
             },
             {
-                "product": "can lima beans, drained and rinsed",
+                "product": "lima beans, drained and rinsed",
                 "qtyNumber": "One",
-                "qtyUnit": "15-ounce"
+                "qtyUnit": "15-oz. can"
             },
             {
-                "product": "",
-                "qtyNumber": "Salt",
+                "product": "salt",
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -3503,7 +3434,7 @@
     {
         "recipeId": "717c7b4d-3fe8-4b94-87d7-fcf5cdfa8266",
         "recipeTitle": "Tropi-Cobb Salad",
-        "recipeDescription": "with Italian sausage and ground coriander",
+        "recipeDescription": "with mangos and avocados",
         "recipeLongIntro": "Tropi-Cobb Salad combines traditional techniques with modern twists, all within about 26 minutes of cooking. Often paired with complementary sides, this recipe highlights the main ingredient's natural flavors. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.18,
         "prepTime": 10,
@@ -3535,19 +3466,19 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "cloves, lightly crushed",
+                "product": "garlic, lightly crushed",
                 "qtyNumber": "6",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
-                "product": "boneless chicken thighs, cut into (\u00be\") pieces",
+                "product": "skinless, boneless chicken thighs, cut into (\u00be\") pieces",
                 "qtyNumber": "4",
-                "qtyUnit": "skinless,"
+                "qtyUnit": ""
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "fresh lime juice",
@@ -3555,9 +3486,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "avocados, sliced",
+                "product": "ripe avocados, sliced",
                 "qtyNumber": "2",
-                "qtyUnit": "ripe"
+                "qtyUnit": ""
             },
             {
                 "product": "ripe mangoes, sliced",
@@ -3580,19 +3511,19 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "salt",
-                "qtyNumber": "Flaky",
-                "qtyUnit": "sea"
+                "product": "Flaky sea salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "pepper flakes",
-                "qtyNumber": "mild",
-                "qtyUnit": "red"
+                "product": "mild red pepper flakes",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "and/or mint leaves (for serving)",
-                "qtyNumber": "and",
-                "qtyUnit": "basil"
+                "product": "basil and/or mint leaves (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -3615,12 +3546,12 @@
         "numRatings": 88,
         "numServings": 8,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "757f480d-178d-47bd-89d8-d4f71cf50535",
         "recipeTitle": "Creole Cream Cheesecake Wit",
-        "recipeDescription": "with Italian sausage and graham cracker crumbs",
+        "recipeDescription": "with vanilla bean and graham cracker crumbs",
         "recipeLongIntro": "Master the art of making Creole Cream Cheesecake With Caramel-Apple Topping with this recipe, requiring roughly 54 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 21.87,
         "prepTime": 15,
@@ -3672,14 +3603,19 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "at room temperature",
+                "product": "eggs",
                 "qtyNumber": "2",
-                "qtyUnit": "eggs,"
+                "qtyUnit": ""
             },
             {
-                "product": "You can substitute 1 cup sour cream mixed with 1\u20444 cup buttermilk for the 1\u2153 cups Creole Cream Cheese.",
-                "qtyNumber": "Ingredient",
-                "qtyUnit": "Info:"
+                "product": "sour cream (mixed with 1\u20444 cup buttermilk)",
+                "qtyNumber": "1",
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "cup buttermilk",
+                "qtyNumber": "1\u20444",
+                "qtyUnit": "cup"
             },
             {
                 "product": "unsalted butter",
@@ -3779,8 +3715,8 @@
     },
     {
         "recipeId": "b158408e-81a1-4dee-8ed7-f70794364d15",
-        "recipeTitle": "Zucchini-Lentil Fritters Wi",
-        "recipeDescription": "with Italian sausage and whole-milk yogurt",
+        "recipeTitle": "Zucchini-Lentil Fritters",
+        "recipeDescription": "with red lentils and whole-milk yogurt",
         "recipeLongIntro": "Relish in the making of Zucchini-Lentil Fritters With Lemony Yogurt, a recipe that typically spans 49 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 22.48,
         "prepTime": 15,
@@ -3802,9 +3738,9 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
                 "product": "red lentils (masoor dal)",
@@ -3884,12 +3820,12 @@
         "numRatings": 72,
         "numServings": 7,
         "supermarket": "Coles",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "bee2a282-7502-4479-b967-66f2c1548985",
         "recipeTitle": "Thanksgiving Mac and Cheese",
-        "recipeDescription": "with Italian sausage and evaporated milk",
+        "recipeDescription": "with smoked paprika and cheddar cheese",
         "recipeLongIntro": "Thanksgiving Mac and Cheese combines traditional techniques with modern twists, all within about 39 minutes of cooking. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
         "totalCost": 21.14,
         "prepTime": 10,
@@ -3965,21 +3901,21 @@
         "numRatings": 200,
         "numServings": 3,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     },
     {
         "recipeId": "cadf7320-e7e8-404f-a2c2-9ffbd45c506b",
         "recipeTitle": "Spiral Ham in the Slow Cook",
-        "recipeDescription": "with Italian sausage and to 7-pound) bone-in",
+        "recipeDescription": "with parsnips and bone-in ham",
         "recipeLongIntro": "Master the art of making Spiral Ham in the Slow Cooker with this recipe, requiring roughly 42 minutes to bring all the ingredients together. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Make sure to season well to enhance flavors.",
         "totalCost": 20.01,
         "prepTime": 15,
         "cookTime": 30,
         "recipeIngredients": [
             {
-                "product": "to 7-pound) bone-in, hickory-smoked, uncured fully cooked ham",
+                "product": "bone-in, hickory-smoked, uncured fully cooked ham",
                 "qtyNumber": "1",
-                "qtyUnit": "(6-"
+                "qtyUnit": "6-7lb."
             },
             {
                 "product": "parsnips, peeled and halved lengthwise",
@@ -4022,9 +3958,9 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "(if needed)",
-                "qtyNumber": "Kosher",
-                "qtyUnit": "salt"
+                "product": "kosher salt (if needed)",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -4049,7 +3985,7 @@
     {
         "recipeId": "e4c339b3-aa57-4ed8-a962-83974898fc4b",
         "recipeTitle": "Warm Comfort",
-        "recipeDescription": "with Italian sausage and tea bags",
+        "recipeDescription": "with reposado tequila and tea bags",
         "recipeLongIntro": "Warm Comfort combines traditional techniques with modern twists, all within about 60 minutes of cooking. Known for its comforting qualities, this dish is a favorite in many households. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 25.02,
         "prepTime": 20,
@@ -4094,7 +4030,7 @@
     {
         "recipeId": "fdaabc1c-1ec2-4ef8-a644-f4f0bd7d0d9c",
         "recipeTitle": "Farmers Market Farro Bowls",
-        "recipeDescription": "with Italian sausage and kosher salt",
+        "recipeDescription": "with watermelon radish and tofu",
         "recipeLongIntro": "Farmers Market Farro Bowls is a classic dish, traditionally taking about 45 minutes to perfect. Enjoy the blend of flavors! This dish is steeped in cultural heritage, often served during special occasions. Low and slow cooking will yield the best texture.",
         "totalCost": 24.45,
         "prepTime": 15,
@@ -4116,9 +4052,9 @@
                 "qtyUnit": "large"
             },
             {
-                "product": "watermelon radish or 6\u20138 red radishes, trimmed, thinly sliced on a mandoline if you\u2019ve got one",
-                "qtyNumber": "1",
-                "qtyUnit": "large"
+                "product": "red radishes, trimmed, thinly sliced",
+                "qtyNumber": "8",
+                "qtyUnit": ""
             },
             {
                 "product": "unseasoned rice vinegar",
@@ -4131,9 +4067,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "block extra-firm tofu, drained",
+                "product": "extra-firm tofu, drained",
                 "qtyNumber": "1",
-                "qtyUnit": "(14-oz.)"
+                "qtyUnit": "14-oz. block"
             },
             {
                 "product": "plus \u00bc cup grapeseed or vegetable oil, divided",
@@ -4176,34 +4112,29 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "",
-                "qtyNumber": "scallions",
+                "product": "scallions",
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
-                "product": "snap peas",
-                "qtyNumber": "blanched",
-                "qtyUnit": "sugar"
-            },
-            {
-                "product": "choy",
-                "qtyNumber": "baby",
-                "qtyUnit": "bok"
-            },
-            {
-                "product": "",
-                "qtyNumber": "cucumbers",
+                "product": "blanched sugar snap peas",
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
-                "product": "",
-                "qtyNumber": "pea",
-                "qtyUnit": "shoots"
+                "product": "baby bok choy",
+                "qtyNumber": "",
+                "qtyUnit": ""
             },
             {
-                "product": "sprouts)",
-                "qtyNumber": "or",
-                "qtyUnit": "alfalfa"
+                "product": "cucumbers",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "pea shoots or alfalfa sprouts",
+                "qtyNumber": "",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
@@ -4240,6 +4171,6 @@
         "numRatings": 172,
         "numServings": 2,
         "supermarket": "Woolies",
-        "BLD": "Dinner"
+        "BLD": "Lunch"
     }
 ]
