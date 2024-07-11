@@ -6,7 +6,8 @@ supabase: Client = create_client(url, key)
 
 
 def get_ingredients_JSON():
-    response = supabase.table('ingredients').select('name, price').limit(100).execute()
+    response = supabase.table('ingredients').select(
+        'name, price').limit(100).execute()
     if response.data:
         return response.data
     else:
@@ -15,7 +16,8 @@ def get_ingredients_JSON():
 
 
 def get_recipes_JSON():
-    response = supabase.table('recipes_100').select('title, ingredients, instructions').limit(10).execute()
+    response = supabase.table('recipes_100').select(
+        'title, ingredients, instructions').limit(10).execute()
     if response.data:
         return response.data
     else:

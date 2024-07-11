@@ -178,3 +178,9 @@ venv/
 *.csv
 
 prompter.py
+
+langroid_test/
+
+langchain*
+
+chatgpt-retrieval/
