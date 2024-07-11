@@ -250,7 +250,7 @@
                 "qtyUnit":  ""
             },
             {
-                "product": "garlic ",
+                "product": "garlic",
                 "qtyNumber": "2",
                 "qtyUnit": "cloves"
             },
@@ -997,7 +997,7 @@
             {
                 "product": "scallions thinly sliced on a deep diagonal",
                 "qtyNumber": "3",
-                "qtyUnit": ","
+                "qtyUnit": ""
             },
             {
                 "product": "Persian cucumbers",
@@ -1041,7 +1041,7 @@
             },
             {
                 "product": "cilantro leaves with tender stems",
-                "qtyNumber": "1 ",
+                "qtyNumber": "1",
                 "qtyUnit": "big handful"
             },
             {
