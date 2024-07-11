@@ -88,15 +88,19 @@ export default function RecipePreviewTile({
       >
         <div
           className={cn(
-            "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200",
+            "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200 mb-1",
           )}
         >
-          {!!recipe.recipeImageURL ? (
+          {/*{!!recipe.recipeImageURL ? (*/}
+          {true ? (
             <img
               className={
                 "min-h-full min-w-full object-cover rounded-2xl transition-all duration-200 ease-out hover:scale-110 -z-20"
               }
-              src={recipe.recipeImageURL}
+              // src={recipe.recipeImageURL}
+              src={
+                "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
+              }
               alt=""
             />
           ) : (
@@ -144,7 +148,7 @@ export default function RecipePreviewTile({
             </>
           )}
         </div>
-        <div className={"flex flex-row justify-start gap-2 items-end w-full"}>
+        <div className={"flex flex-row justify-start gap-1 items-end w-full"}>
           <Badge
             variant={"secondary"}
             className={cn(
@@ -166,16 +170,16 @@ export default function RecipePreviewTile({
               onClick={handleToggleRecipeSelected}
               className={"ml-auto"}
             >
-              <div className={"flex flex-row items-centerl gap-1"}>
+              <div className={"flex flex-row items-center gap-1.5"}>
                 {isSelected ? (
                   <>
-                    <MinusCircle weight={"bold"} size={"1.6em"} />
-                    <p className={"font-bold mt-[0.175em]"}>Deselect</p>
+                    <MinusCircle weight={"bold"} size={"1.35em"} />
+                    <p className={"font-bold"}>Remove</p>
                   </>
                 ) : (
                   <>
-                    <PlusCircle weight={"bold"} size={"1.6em"} />
-                    <p className={"font-bold mt-[0.175em]"}>Select</p>
+                    <PlusCircle weight={"bold"} size={"1.35em"} />
+                    <p className={"font-bold]"}>Select</p>
                   </>
                 )}
               </div>

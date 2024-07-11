@@ -10,6 +10,7 @@ interface RecipeGalleryProps {
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   isLoading: boolean;
   supermarketPreferences: SupermarketPreferences;
+  hasClickedGetRecipes: boolean;
 }
 export default function RecipeGallery({
   recipeCollection,
@@ -17,6 +18,7 @@ export default function RecipeGallery({
   setSelectedRecipeIds,
   isLoading,
   supermarketPreferences,
+  hasClickedGetRecipes,
 }: RecipeGalleryProps) {
   const [isFabLoading, setIsFabLoading] = useState(true);
 
@@ -41,6 +43,14 @@ export default function RecipeGallery({
   const dinnerRecipes = recipeCollection.filter(
     (recipe) => recipe.BLD === "Dinner",
   );
+
+  if (!hasClickedGetRecipes) {
+    return (
+      <p className={"absolute top-[28rem] text-[#33E14D] brightness-50"}>
+        {"Your recipe options will appear here!"}
+      </p>
+    );
+  }
 
   return (
     <div className={"xl:w-[92vw] w-[95vw] min-h-screen z-0"}>

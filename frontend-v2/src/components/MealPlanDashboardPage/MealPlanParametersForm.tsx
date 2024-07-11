@@ -36,14 +36,14 @@ export default function MealPlanParametersForm({
   setRecipeIdToServingsInfoMap,
 }: MealPlanParametersFormProps) {
   const [formData, setFormData] = useState<ServingsInfo>({
-    portionSize: "Standard" as PortionSize,
+    portionSize: "Regular" as PortionSize,
     peopleServedPerMeal: 2,
     numberOfDays: 4,
     startEatingOn: daysOfWeek[new Date().getDay() - (1 % 7)] as DayOfWeek,
   });
 
   const portionMultiplierMap: Map<string, number> = new Map([
-    ["Standard", 1],
+    ["Regular", 1],
     ["Large", 1.5],
     ["XLarge", 2],
   ]);
@@ -72,29 +72,6 @@ export default function MealPlanParametersForm({
 
   return (
     <div className={cn("flex flex-col items-start gap-1.5 w-full", className)}>
-      <Select
-        value={formData.portionSize}
-        onValueChange={(value) =>
-          setFormData((prevFormData) => ({
-            ...prevFormData,
-            portionSize: value as PortionSize,
-          }))
-        }
-      >
-        <SelectTrigger className={"w-full"}>
-          <SelectValue placeholder={"Select portion size..."} />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectGroup>
-            {["Standard", "Large", "XLarge"].map((portionSize) => (
-              <SelectItem key={portionSize} value={portionSize}>
-                {`${portionSize} Portions`}
-              </SelectItem>
-            ))}
-          </SelectGroup>
-        </SelectContent>
-      </Select>
-
       <Select
         value={formData.peopleServedPerMeal.toString()}
         onValueChange={(value) =>
@@ -158,6 +135,29 @@ export default function MealPlanParametersForm({
             {daysOfWeek.map((day, index) => (
               <SelectItem key={index.toString()} value={day}>
                 {formData.numberOfDays > 1 ? `Starting on ${day}` : `On ${day}`}
+              </SelectItem>
+            ))}
+          </SelectGroup>
+        </SelectContent>
+      </Select>
+
+      <Select
+        value={formData.portionSize}
+        onValueChange={(value) =>
+          setFormData((prevFormData) => ({
+            ...prevFormData,
+            portionSize: value as PortionSize,
+          }))
+        }
+      >
+        <SelectTrigger className={"w-full"}>
+          <SelectValue placeholder={"Select portion size..."} />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectGroup>
+            {["Regular", "Large", "XLarge"].map((portionSize) => (
+              <SelectItem key={portionSize} value={portionSize}>
+                {`${portionSize} Portions`}
               </SelectItem>
             ))}
           </SelectGroup>

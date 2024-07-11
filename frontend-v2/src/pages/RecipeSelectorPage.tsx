@@ -14,6 +14,7 @@ import {
 import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/RecipeSelectorPage/PreferenceSelectorBar.tsx";
 import SelectorActionButtonPair from "@/components/RecipeSelectorPage/SelectorActionButtonPair.tsx";
+import { Separator } from "@/components/ui/separator.tsx";
 
 interface RecipeSelectorPageProps {
   setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
@@ -44,8 +45,8 @@ export default function RecipeSelectorPage({
 
   const [supermarketPreferences, setSupermarketPreferences] =
     useState<SupermarketPreferences>({
-      wooliesEnabled: false,
-      colesEnabled: false,
+      wooliesEnabled: true,
+      colesEnabled: true,
     });
   const [isLoading, setIsLoading] = useState(false);
 
@@ -55,6 +56,8 @@ export default function RecipeSelectorPage({
       JSON.stringify(selectedRecipeIds),
     );
   }, [selectedRecipeIds]);
+
+  const [hasClickedGetRecipes, setHasClickedGetRecipes] = useState(false);
 
   // useEffect(() => {
   //   localStorage.setItem("recipeCollection", JSON.stringify(recipeCollection));
@@ -69,22 +72,21 @@ export default function RecipeSelectorPage({
         Choose your dietary requirements (if any) and pick your favourite
         recipes for your meal plan!
       </p>
-      <div className={"flex flex-row items-center gap-4 w-full z-10"}>
-        <PreferenceSelectorBar
-          dietaryPreferences={dietaryPreferences}
-          setDietaryPreferences={setDietaryPreferences}
-          supermarketPreferences={supermarketPreferences}
-          setSupermarketPreferences={setSupermarketPreferences}
-        />
-        <SelectorActionButtonPair
-          setRecipeCollection={setRecipeCollection}
-          dietaryPreferences={dietaryPreferences}
-          selectedRecipeIds={selectedRecipeIds}
-          setIsLoading={setIsLoading}
-          setSelectedRecipeIds={setSelectedRecipeIds}
-          setUserMealPlan={setUserMealPlan}
-        />
-      </div>
+      <PreferenceSelectorBar
+        dietaryPreferences={dietaryPreferences}
+        setDietaryPreferences={setDietaryPreferences}
+        supermarketPreferences={supermarketPreferences}
+        setSupermarketPreferences={setSupermarketPreferences}
+      />
+      <SelectorActionButtonPair
+        setRecipeCollection={setRecipeCollection}
+        dietaryPreferences={dietaryPreferences}
+        selectedRecipeIds={selectedRecipeIds}
+        setIsLoading={setIsLoading}
+        setSelectedRecipeIds={setSelectedRecipeIds}
+        setUserMealPlan={setUserMealPlan}
+        setHasClickedGetRecipes={setHasClickedGetRecipes}
+      />
       {!!recipeCollection ? (
         <RecipeGallery
           selectedRecipeIds={selectedRecipeIds}
@@ -92,11 +94,15 @@ export default function RecipeSelectorPage({
           recipeCollection={recipeCollection}
           supermarketPreferences={supermarketPreferences}
           isLoading={isLoading}
+          hasClickedGetRecipes={hasClickedGetRecipes}
         />
       ) : (
-        <p className={"mt-10 text-lg text-muted-foreground"}>
-          Your recipes will appear here!
-        </p>
+        <>
+          <Separator />
+          <p className={"mt-10 text-lg text-muted-foreground"}>
+            Your recipes will appear here!
+          </p>
+        </>
       )}
     </div>
   );

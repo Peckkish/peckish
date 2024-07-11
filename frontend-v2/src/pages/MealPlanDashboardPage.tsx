@@ -15,8 +15,7 @@ import {
   roundToNearestQuarter,
   updateMultiplierMapState,
 } from "@/utility/utils.ts";
-import { RecipeCollectionContext } from "@/utility/context.ts";
-import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
+import RecipePreviewTile from "@/components/RecipeSelectorPage/RecipePreviewTile.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { CaretLeft } from "@phosphor-icons/react";
 import { useNavigate } from "react-router-dom";
@@ -30,6 +29,13 @@ import {
 import { Trash } from "lucide-react";
 import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanParametersForm.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -89,12 +95,12 @@ export default function MealPlanDashboardPage({
       </Button>
       <div className={"flex flex-col items-center"}>
         <h1 className={"mt-16 text-6xl font-semibold"}>Meal Plan Dashboard</h1>
-        <p className={"mt-2 mb-4 text-lg text-muted-foreground"}>
+        <p className={"mt-1.5 mb-5 text-lg text-muted-foreground"}>
           Seamlessly view and edit your shopping list, recipes, and meal plan.
         </p>
         <div
           className={
-            "flex flex-row items-center bg-zinc-200/80 rounded-3xl px-3 py-1.5"
+            "flex flex-row items-center bg-[#d8f2dc] rounded-3xl px-4 py-1.5"
           }
         >
           <span className={"font-medium text-xl ml-1 mr-1.5"}>
@@ -108,7 +114,9 @@ export default function MealPlanDashboardPage({
       </div>
 
       {/* MAIN PAGE CONTENT - ROW */}
-      <div className={"grid grid-cols-[1fr_5fr] gap-20 mt-10 xl:px-28 px-20"}>
+      <div
+        className={"grid grid-cols-[2fr_3fr_7fr] gap-20 mt-10 xl:px-16 px-12"}
+      >
         <div className={"flex flex-col"}>
           <h1 className={"font-bold text-2xl"}>Shopping List</h1>
           <Separator className={"my-3"} />
@@ -137,39 +145,74 @@ export default function MealPlanDashboardPage({
             <h1 className={"font-bold text-2xl"}>Recipes</h1>
             <Separator className={"my-3"} />
             <div className={"flex flex-row items-center gap-3 mt-4"}>
-              {userMealPlan &&
-                userMealPlan.map((recipe) => {
-                  return (
-                    <div
-                      className={"flex flex-col items-start gap-3"}
-                      key={recipe.recipeId}
-                    >
-                      <RecipePreviewTile
-                        recipe={recipe}
-                        setSelectedRecipeIds={setSelectedRecipeIds}
-                        className={"w-64"}
-                        hidePlanAddButton
-                        showRemoveFromPlanButton
-                        setUserMealPlan={setUserMealPlan}
-                      />
-                      <Separator className={"w-[65%] mx-auto my-2"} />
-                      <MealPlanParametersForm
-                        recipe={recipe}
-                        setRecipeIdToMultiplierMap={setRecipeIdToMultiplierMap}
-                        setRecipeIdToServingsInfoMap={
-                          setRecipeIdToServingsInfoMap
-                        }
-                      />
-                    </div>
-                  );
-                })}
+              {userMealPlan && (
+                <Carousel
+                  opts={{
+                    align: "start",
+                  }}
+                  className="w-full max-w-sm"
+                >
+                  <CarouselContent>
+                    {userMealPlan
+                      .flatMap((item) => Array(6).fill(item))
+                      .map((recipe, index) => (
+                        <CarouselItem
+                          key={index}
+                          className="2xl:basis-1/3 basis-full"
+                        >
+                          <div className="p-1">
+                            <div>
+                              <div className="flex flex-col items-center justify-center p-6">
+                                <RecipePreviewTile
+                                  recipe={recipe}
+                                  setSelectedRecipeIds={setSelectedRecipeIds}
+                                  hidePlanAddButton
+                                  showRemoveFromPlanButton
+                                  setUserMealPlan={setUserMealPlan}
+                                />
+                                <Separator className={"w-[75%] mx-auto my-5"} />
+                                <MealPlanParametersForm
+                                  recipe={recipe}
+                                  setRecipeIdToMultiplierMap={
+                                    setRecipeIdToMultiplierMap
+                                  }
+                                  setRecipeIdToServingsInfoMap={
+                                    setRecipeIdToServingsInfoMap
+                                  }
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    {/*{Array.from({ length: 5 }).map((_, index) => (*/}
+                    {/*  <CarouselItem*/}
+                    {/*    key={index}*/}
+                    {/*    className="md:basis-1/2 lg:basis-1/3"*/}
+                    {/*  >*/}
+                    {/*    <div className="p-1">*/}
+                    {/*      <div>*/}
+                    {/*        <div className="flex aspect-square items-center justify-center p-6">*/}
+                    {/*          <span className="text-3xl font-semibold">*/}
+                    {/*            {index + 1}*/}
+                    {/*          </span>*/}
+                    {/*        </div>*/}
+                    {/*      </div>*/}
+                    {/*    </div>*/}
+                    {/*  </CarouselItem>*/}
+                    {/*))}*/}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+              )}
             </div>
           </div>
-          <InteractiveMealPlan
-            userMealPlan={userMealPlan}
-            recipeIdToServingsInfoMap={recipeIdToServingsInfoMap}
-          />
         </div>
+        <InteractiveMealPlan
+          userMealPlan={userMealPlan}
+          recipeIdToServingsInfoMap={recipeIdToServingsInfoMap}
+        />
       </div>
     </div>
   );

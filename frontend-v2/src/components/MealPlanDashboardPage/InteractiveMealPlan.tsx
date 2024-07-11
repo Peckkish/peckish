@@ -6,6 +6,8 @@ import {
   getRecipeObjectByIdOrNull,
 } from "@/utility/utils.ts";
 import { useEffect, useState } from "react";
+import { Separator } from "@/components/ui/separator.tsx";
+import { UserRound } from "lucide-react";
 
 interface InteractiveMealPlanProps {
   userMealPlan: Recipe[];
@@ -24,26 +26,51 @@ export default function InteractiveMealPlan({
   };
 
   const [ganttBlockArray, setGanttBlockArray] = useState<
-    { startCol: number; colSpan: number }[]
+    {
+      startCol: number;
+      colSpan: number;
+      numPeople: number;
+      imageURL: string;
+      servingSymbol: string;
+    }[]
   >([]);
 
   useEffect(() => {
     console.log({ recipeIdToServingsInfoMap });
-    let newGanttBlockArray: { startCol: number; colSpan: number }[] = [];
+    let newGanttBlockArray: {
+      startCol: number;
+      colSpan: number;
+      numPeople: number;
+      imageURL: string;
+      servingSymbol: string;
+    }[] = [];
     for (const recipeId of recipeIdToServingsInfoMap.keys()) {
+      const servingsInfo = recipeIdToServingsInfoMap.get(recipeId)!;
+
       // Day index informs startCol
-      const dayIndex = getDayOfWeekIndex(
-        recipeIdToServingsInfoMap.get(recipeId)!.startEatingOn,
-      );
+      const dayIndex = getDayOfWeekIndex(servingsInfo.startEatingOn);
 
       // Number of days informs colSpan
-      const numDays = recipeIdToServingsInfoMap.get(recipeId)!.numberOfDays;
+      const numDays = servingsInfo.numberOfDays;
+
+      const numPeople = servingsInfo.peopleServedPerMeal;
+
+      const servingSymbol =
+        servingsInfo.portionSize === "Regular"
+          ? "M"
+          : servingsInfo.portionSize === "Large"
+            ? "L"
+            : "XL";
 
       newGanttBlockArray = [
         ...newGanttBlockArray,
         {
           startCol: dayIndex + 1,
           colSpan: numDays,
+          numPeople: numPeople,
+          imageURL:
+            "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg",
+          servingSymbol: servingSymbol,
         },
       ];
     }
@@ -56,8 +83,9 @@ export default function InteractiveMealPlan({
 
   return (
     <div>
-      <h1 className="font-bold text-2xl mb-3.5">Plan</h1>
-      <div className={"flex flex-row justify-around mb-2"}>
+      <h1 className="font-bold text-2xl">Plan</h1>
+      <Separator className={"mt-3 mb-7"} />
+      <div className={"grid grid-cols-[repeat(7,1fr)] place-items-center mb-2"}>
         {daysOfWeek.map((day, index) => {
           return (
             <p className={"font-medium text-sm"} key={index}>
@@ -67,8 +95,8 @@ export default function InteractiveMealPlan({
         })}
       </div>
       <div
-        className="w-full bg-black relative border-4 rounded-lg"
-        style={{ height: `${ganttBlockArray.length * 8}rem` }}
+        className="w-full bg-black relative border-4 border-[#d8f2dc] rounded-sm"
+        style={{ height: `${ganttBlockArray.length * 5}rem` }}
       >
         {/* BLOCKS */}
         <div
@@ -87,10 +115,28 @@ export default function InteractiveMealPlan({
                 style={{
                   gridColumn: `${ganttBlock.startCol} / ${ganttBlock.startCol + ganttBlock.colSpan}`,
                   gridRowStart: index + 1,
-                  backgroundColor: `rgba(52, 224, 78, ${(85 - 15 * index + 1) / 100})`,
+                  position: "relative",
+                  // backgroundColor: `rgba(52, 224, 78, ${(85 - 15 * index + 1) / 100})`,
+                  backgroundImage: `url("${ganttBlock.imageURL}")`,
+                  backgroundRepeat: "repeat",
+                  backgroundSize: "contain",
                 }}
-                className={"rounded-xl"}
-              ></div>
+                className={
+                  "rounded-lg flex justify-center items-center my-0.5 outline -outline-offset-[3px]"
+                }
+              >
+                <div className="absolute inset-0 bg-black bg-opacity-50 z-10 rounded-md"></div>
+
+                <div className={"z-20 flex flex-row items-center text-white "}>
+                  <p className={"font-medium text-2xl"}>
+                    {ganttBlock.numPeople}
+                  </p>
+                  <UserRound fontWeight={"bold"} className={"mr-0.5"} />
+                  <p className={"font-medium text-2xl"}>
+                    {`· ${ganttBlock.servingSymbol}`}
+                  </p>
+                </div>
+              </div>
             );
           })}
 
@@ -117,7 +163,10 @@ export default function InteractiveMealPlan({
         >
           {Array.from({ length: 7 * ganttBlockArray.length }).map(
             (_, index) => (
-              <div key={index} className="border-4 bg-white"></div>
+              <div
+                key={index}
+                className="border-2 border-[#d8f2dc] bg-white"
+              ></div>
             ),
           )}
         </div>

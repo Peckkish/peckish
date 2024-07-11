@@ -41,14 +41,14 @@ export async function getRecipeCollection(
 ): Promise<Recipe[]> {
   const urlPath = dietaryPreferences.isVegan ? "/vegan" : "/gfhp";
 
-  try {
-    const response = await axios.get(`http://localhost:8081/api${urlPath}`);
-    console.log(response.data);
-    return response.data;
-  } catch (e) {
-    console.error(e);
-    return [];
-  }
+  // try {
+  //   const response = await axios.get(`http://localhost:8081/api${urlPath}`);
+  //   console.log(response.data);
+  //   return response.data;
+  // } catch (e) {
+  //   console.error(e);
+  //   return [];
+  // }
 
   // const requestOptions = {
   //   method: "POST",
@@ -103,42 +103,42 @@ export async function getRecipeCollection(
   //   };
   // }
 
-  // return new Promise((resolve) => {
-  //   setTimeout(() => {
-  //     resolve(
-  //       [
-  //         [
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan7,
-  //         ],
-  //         [
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan5,
-  //         ],
-  //         [
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan6,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan7,
-  //           ...dummyMealPlan5,
-  //           ...dummyMealPlan7,
-  //         ],
-  //       ][Math.floor(Math.random() * 3)],
-  //     );
-  //   }, 2200);
-  // });
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(
+        [
+          [
+            ...dummyMealPlan5,
+            ...dummyMealPlan6,
+            ...dummyMealPlan7,
+            ...dummyMealPlan5,
+            ...dummyMealPlan6,
+            ...dummyMealPlan7,
+            ...dummyMealPlan6,
+            ...dummyMealPlan7,
+          ],
+          [
+            ...dummyMealPlan7,
+            ...dummyMealPlan6,
+            ...dummyMealPlan5,
+            ...dummyMealPlan7,
+            ...dummyMealPlan6,
+            ...dummyMealPlan5,
+            ...dummyMealPlan6,
+            ...dummyMealPlan5,
+          ],
+          [
+            ...dummyMealPlan6,
+            ...dummyMealPlan5,
+            ...dummyMealPlan7,
+            ...dummyMealPlan6,
+            ...dummyMealPlan5,
+            ...dummyMealPlan7,
+            ...dummyMealPlan5,
+            ...dummyMealPlan7,
+          ],
+        ][Math.floor(Math.random() * 3)],
+      );
+    }, 2200);
+  });
 }

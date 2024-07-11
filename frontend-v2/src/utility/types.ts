@@ -39,10 +39,14 @@ export interface DietaryPreferences {
   isKeto: boolean;
   isDairyFree: boolean;
   isVegan: boolean;
+  isLowFat: boolean;
+  isLowFODMAP: boolean;
+  isAIP: boolean;
+  isLowCalorie: boolean;
 }
 
 export type Difficulty = "Easy" | "Medium" | "Challenging";
-export type PortionSize = "Standard" | "Large" | "XLarge";
+export type PortionSize = "Regular" | "Large" | "XLarge";
 export type DayOfWeek =
   | "Monday"
   | "Tuesday"

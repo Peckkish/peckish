@@ -15,6 +15,7 @@ interface SelectorActionButtonPairProps {
   setIsLoading: Dispatch<SetStateAction<boolean>>;
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   setUserMealPlan: Dispatch<SetStateAction<Recipe[]>>;
+  setHasClickedGetRecipes: Dispatch<SetStateAction<boolean>>;
 }
 
 export default function SelectorActionButtonPair({
@@ -24,6 +25,7 @@ export default function SelectorActionButtonPair({
   setIsLoading,
   setSelectedRecipeIds,
   setUserMealPlan,
+  setHasClickedGetRecipes,
 }: SelectorActionButtonPairProps) {
   const navigate = useNavigate();
   const recipeCollection = useContext(RecipeCollectionContext);
@@ -37,10 +39,13 @@ export default function SelectorActionButtonPair({
   // }, [data]);
 
   return (
-    <div className={"right-4 bottom-4 flex flex-col fixed items-end gap-4"}>
+    <div
+      className={"right-4 bottom-4 flex flex-col fixed items-end gap-4 z-20"}
+    >
       <Button
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
         onClick={async () => {
+          setHasClickedGetRecipes(true);
           setSelectedRecipeIds([]);
           setIsLoading(true);
           getRecipeCollection(dietaryPreferences).then((result) => {

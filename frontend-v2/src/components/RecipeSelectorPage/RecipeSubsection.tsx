@@ -1,4 +1,4 @@
-import RecipePreviewTile from "@/components/RecipePage/RecipePreviewTile.tsx";
+import RecipePreviewTile from "@/components/RecipeSelectorPage/RecipePreviewTile.tsx";
 import { Recipe, SupermarketPreferences } from "@/utility/types.ts";
 import { cn } from "@/utility/utils.ts";
 import { Separator } from "@/components/ui/separator.tsx";
