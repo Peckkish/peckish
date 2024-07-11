@@ -26,7 +26,7 @@ import {
   Recipe,
   ServingsInfo,
 } from "@/utility/types.ts";
-import { Trash } from "lucide-react";
+import { ShoppingCart, Trash } from "lucide-react";
 import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanParametersForm.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 import {
@@ -37,6 +37,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Checkbox } from "@/components/ui/checkbox.tsx";
+import { CheckIcon } from "@radix-ui/react-icons";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -137,32 +139,46 @@ export default function MealPlanDashboardPage({
 
       {/* MAIN PAGE CONTENT - ROW */}
       <div
-        className={"grid grid-cols-[2fr_3fr_7fr] gap-20 mt-10 xl:px-16 px-12"}
+        className={"grid grid-cols-[2fr_3fr_6fr] gap-20 mt-10 xl:px-16 px-12"}
       >
         <div className={"flex flex-col"}>
           <h1 className={"font-bold text-2xl"}>Shopping List</h1>
           <Separator className={"my-3"} />
           <Button variant={"green"} onClick={handleOpenAll}>
-            Open All
+            <ShoppingCart size={18} />
+            <span className={"ml-2"}>Open Shopping Links</span>
           </Button>
           <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
-            {totalShoppingList.map((ingredient, index) => {
-              return (
-                <li key={index}>
-                  <span>
-                    {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit}`}{" "}
-                  </span>
-                  <a
-                    href="https://woolworths.com.au"
-                    className={
-                      "underline underline-offset-2 text-[#33E14D] brightness-75 font-medium"
+            {totalShoppingList.map((ingredient, index) => (
+              <li key={index} className="flex items-center">
+                <Checkbox
+                  className="mr-2"
+                  id={`checkbox-${index}`}
+                  defaultChecked={false}
+                  onCheckedChange={(checked) => {
+                    const ingredientText = document.getElementById(
+                      `ingredient-text-${index}`,
+                    );
+                    if (checked) {
+                      ingredientText.style.textDecoration = "line-through";
+                      ingredientText.style.color = "grey";
+                    } else {
+                      ingredientText.style.textDecoration = "none";
+                      ingredientText.style.color = "inherit";
                     }
-                  >
-                    {ingredient.product}
-                  </a>
-                </li>
-              );
-            })}
+                  }}
+                />
+                <a
+                  id={`link-${index}`}
+                  href="https://woolworths.com.au"
+                  className="text-[#33E14D] brightness-75 font-medium"
+                >
+                  <span id={`ingredient-text-${index}`}>
+                    {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
+                  </span>
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         <div className={"flex flex-col"}>
