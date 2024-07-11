@@ -6,9 +6,9 @@ export default function AppFooter({}: AppFooterProps) {
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-[5fr_3fr_3fr] gap-8">
         <div className="flex flex-col items-center justify-center">
           <img
-            src="/assets/peckish_banner.png"
+            src="/assets/peckish-logo-2.png"
             alt="Company Logo"
-            className="mb-4 h-15"
+            className="mb-4 w-64"
           />
           <p className="text-xs text-gray-600">
             © {new Date().getFullYear()} Peckish. All rights reserved.

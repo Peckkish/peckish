@@ -12,6 +12,7 @@ import {
   decimalToMixedFractionString,
   getRecipeObjectByIdOrNull,
   getTotalShoppingList,
+  parseFractionString,
   roundToNearestQuarter,
   updateMultiplierMapState,
 } from "@/utility/utils.ts";
@@ -65,7 +66,7 @@ export default function MealPlanDashboardPage({
   >(new Map([]));
 
   const navigate = useNavigate();
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(1);
 
   const handleOpenAll = () => {
     totalShoppingList.forEach((ingredientItem) => {
@@ -149,36 +150,48 @@ export default function MealPlanDashboardPage({
             <span className={"ml-2"}>Open Shopping Links</span>
           </Button>
           <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
-            {totalShoppingList.map((ingredient, index) => (
-              <li key={index} className="flex items-center">
-                <Checkbox
-                  className="mr-2"
-                  id={`checkbox-${index}`}
-                  defaultChecked={false}
-                  onCheckedChange={(checked) => {
-                    const ingredientText = document.getElementById(
-                      `ingredient-text-${index}`,
-                    );
-                    if (checked) {
-                      ingredientText.style.textDecoration = "line-through";
-                      ingredientText.style.color = "grey";
-                    } else {
-                      ingredientText.style.textDecoration = "none";
-                      ingredientText.style.color = "inherit";
-                    }
-                  }}
-                />
-                <a
-                  id={`link-${index}`}
-                  href="https://woolworths.com.au"
-                  className="text-[#33E14D] brightness-75 font-medium"
-                >
-                  <span id={`ingredient-text-${index}`}>
-                    {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
-                  </span>
-                </a>
-              </li>
-            ))}
+            {totalShoppingList.map((ingredient, index) => {
+              {
+                const qtyNumber = !ingredient.qtyNumber
+                  ? 0
+                  : typeof ingredient.qtyNumber === "string"
+                    ? parseFractionString(ingredient.qtyNumber)
+                    : ingredient.qtyNumber;
+                console.log(
+                  `The qty number of ${ingredient.product} is ${qtyNumber}`,
+                );
+                return (
+                  <li key={index} className="flex items-center">
+                    <Checkbox
+                      className="mr-2"
+                      id={`checkbox-${index}`}
+                      defaultChecked={false}
+                      onCheckedChange={(checked) => {
+                        const ingredientText = document.getElementById(
+                          `ingredient-text-${index}`,
+                        );
+                        if (checked) {
+                          ingredientText.style.textDecoration = "line-through";
+                          ingredientText.style.color = "grey";
+                        } else {
+                          ingredientText.style.textDecoration = "none";
+                          ingredientText.style.color = "inherit";
+                        }
+                      }}
+                    />
+                    <a
+                      id={`link-${index}`}
+                      href={ingredient.productURL}
+                      className="text-[#33E14D] brightness-75 font-medium"
+                    >
+                      <span id={`ingredient-text-${index}`}>
+                        {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
+                      </span>
+                    </a>
+                  </li>
+                );
+              }
+            })}
           </ul>
         </div>
         <div className={"flex flex-col"}>

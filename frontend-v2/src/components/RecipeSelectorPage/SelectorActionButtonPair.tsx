@@ -15,7 +15,7 @@ interface SelectorActionButtonPairProps {
   setIsLoading: Dispatch<SetStateAction<boolean>>;
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   setUserMealPlan: Dispatch<SetStateAction<Recipe[]>>;
-  setHasClickedGetRecipes: Dispatch<SetStateAction<boolean>>;
+  // setHasClickedGetRecipes: Dispatch<SetStateAction<boolean>>;
 }
 
 export default function SelectorActionButtonPair({
@@ -25,7 +25,7 @@ export default function SelectorActionButtonPair({
   setIsLoading,
   setSelectedRecipeIds,
   setUserMealPlan,
-  setHasClickedGetRecipes,
+  // setHasClickedGetRecipes,
 }: SelectorActionButtonPairProps) {
   const navigate = useNavigate();
   const recipeCollection = useContext(RecipeCollectionContext);
@@ -46,7 +46,7 @@ export default function SelectorActionButtonPair({
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
         onClick={async () => {
           setIsLoading(true);
-          setHasClickedGetRecipes(true);
+          // setHasClickedGetRecipes(true);
           setSelectedRecipeIds([]);
           const fetchedRecipe = await getRecipeCollection(dietaryPreferences);
           setRecipeCollection(fetchedRecipe);
@@ -63,6 +63,7 @@ export default function SelectorActionButtonPair({
         <Robot size={28} className={"mr-3"} />
         <span>Get New Recipes</span>
       </Button>
+
       <Button
         variant={"green"}
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}

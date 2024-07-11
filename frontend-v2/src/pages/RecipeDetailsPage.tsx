@@ -11,7 +11,6 @@ import { Recipe } from "@/utility/types.ts";
 import { useNavigate, useParams } from "react-router-dom";
 import { DotLoader } from "react-spinners";
 import { Button } from "@/components/ui/button.tsx";
-import { getImage } from "@/api/api.ts";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Bookmark } from "lucide-react";
@@ -21,7 +20,6 @@ import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
-import AppHeader from "@/components/shared/AppHeader.tsx";
 
 interface RecipeDetailsPageProps {}
 
@@ -40,8 +38,6 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
 
   useEffect(() => {
     // id && console.log({ found: getRecipeObjectByIdOrNull(mealPlan, id) });
-    const urlArr = window.location.href.split("/");
-    console.log(urlArr[urlArr.length - 1]);
     if (mealPlan) {
       // setActiveRecipe(
       //   getRecipeObjectByIdOrNull(
@@ -51,18 +47,16 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       //   ),
       // );
       const urlArr = window.location.href.split("/");
-      console.log(urlArr[urlArr.length - 1]);
+      // console.log(urlArr[urlArr.length - 1]);
 
       setActiveRecipe(
         getRecipeObjectByIdOrNull(mealPlan, id ?? urlArr[urlArr.length - 1]),
       );
-    } else {
-      console.log("here");
     }
   }, [mealPlan, id]);
 
   useEffect(() => {
-    console.log({ activeRecipe });
+    // console.log({ activeRecipe });
 
     // activeRecipe &&
     //   getImage(activeRecipe.recipeTitle).then((url) => setImageURL(url));
@@ -162,22 +156,22 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <div
             className={"size-[36rem] aspect-square overflow-hidden rounded-2xl"}
           >
-            {/*{!!activeRecipe.recipeImageURL ? (*/}
-            {/*  <img*/}
-            {/*    className={"min-h-full min-w-full object-cover"}*/}
-            {/*    src={activeRecipe.recipeImageURL}*/}
-            {/*    alt="Recipe preview"*/}
-            {/*  />*/}
-            {/*) : (*/}
-            {/*  <Skeleton className={"size-[36rem]"} />*/}
-            {/*)}*/}
-            <img
-              className={"min-h-full min-w-full object-cover"}
-              src={
-                "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
-              }
-              alt="Recipe preview"
-            />
+            {!!activeRecipe.recipeImageURL ? (
+              <img
+                className={"min-h-full min-w-full object-cover"}
+                src={activeRecipe.recipeImageURL}
+                alt="Recipe preview"
+              />
+            ) : (
+              <Skeleton className={"size-[36rem]"} />
+            )}
+            {/*<img*/}
+            {/*  className={"min-h-full min-w-full object-cover"}*/}
+            {/*  src={*/}
+            {/*    "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"*/}
+            {/*  }*/}
+            {/*  alt="Recipe preview"*/}
+            {/*/>*/}
           </div>
         </div>
       </div>

@@ -142,6 +142,10 @@ export function getDayOfWeekIndex(day: DayOfWeek): number {
 }
 
 export function parseFractionString(fraction: string): number {
+  if (fraction === "") {
+    return 0;
+  }
+
   // Dictionary of common fraction symbols and their decimal equivalents
   const fractionValues: Record<string, number> = {
     "¼": 0.25,

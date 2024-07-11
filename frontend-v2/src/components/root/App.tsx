@@ -15,11 +15,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import Layout from "@/components/root/Layout.tsx";
+import { getRecipeCollection } from "@/api/api.ts";
 
 export default function App() {
-  const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
-    ? JSON.parse(localStorage.getItem("recipeCollection")!)
-    : null;
+  // const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
+  //   ? JSON.parse(localStorage.getItem("recipeCollection")!)
+  //   : null;
 
   const initialUserMealPlan = !!localStorage.getItem("userMealPlan")
     ? JSON.parse(localStorage.getItem("userMealPlan")!)
@@ -30,14 +31,15 @@ export default function App() {
   //   : [];
 
   const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>(
-    initialRecipeCollection,
+    // initialRecipeCollection,
+    [],
   );
   const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
   const [userMealPlan, setUserMealPlan] =
     useState<Recipe[]>(initialUserMealPlan);
 
   useEffect(() => {
-    // getRecipeCollection().then((result) => setRecipeCollection(result));
+    getRecipeCollection().then((result) => setRecipeCollection(result));
   }, []);
 
   const queryClient = new QueryClient();
@@ -49,9 +51,9 @@ export default function App() {
     // console.log(userMealPlan);
   }, [userMealPlan]);
 
-  useEffect(() => {
-    console.log(recipeCollection);
-  }, [recipeCollection]);
+  // useEffect(() => {
+  //   console.log({ recipeCollection });
+  // }, [recipeCollection]);
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -73,6 +75,7 @@ export default function App() {
                   path="recipe-selector"
                   element={
                     <RecipeSelectorPage
+                      recipeCollection={recipeCollection}
                       setRecipeCollection={setRecipeCollection}
                       selectedRecipeIds={selectedRecipeIds}
                       setSelectedRecipeIds={setSelectedRecipeIds}

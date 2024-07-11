@@ -20,6 +20,7 @@ import { ArrowCounterClockwise, CaretLeft } from "@phosphor-icons/react";
 
 interface RecipeSelectorPageProps {
   setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
+  recipeCollection: Recipe[] | null;
   selectedRecipeIds: string[];
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   setUserMealPlan: Dispatch<SetStateAction<Recipe[]>>;
@@ -30,8 +31,9 @@ export default function RecipeSelectorPage({
   selectedRecipeIds,
   setSelectedRecipeIds,
   setUserMealPlan,
+  recipeCollection,
 }: RecipeSelectorPageProps) {
-  const recipeCollection = useContext(RecipeCollectionContext);
+  // const recipeCollection = useContext(RecipeCollectionContext);
 
   const [dietaryPreferences, setDietaryPreferences] =
     useState<DietaryPreferences>({
@@ -55,7 +57,7 @@ export default function RecipeSelectorPage({
       colesEnabled: true,
     });
   const [isLoading, setIsLoading] = useState(false);
-  const [hasClickedGetRecipes, setHasClickedGetRecipes] = useState(false);
+  // const [hasClickedGetRecipes, setHasClickedGetRecipes] = useState(false);
 
   useEffect(() => {
     localStorage.setItem(
@@ -66,7 +68,7 @@ export default function RecipeSelectorPage({
 
   const handleClearRecipes = () => {
     localStorage.removeItem("recipeCollection");
-    setHasClickedGetRecipes(false);
+    // setHasClickedGetRecipes(false);
     setRecipeCollection([]);
   };
 
@@ -80,7 +82,7 @@ export default function RecipeSelectorPage({
     >
       <Button
         variant={"outline"}
-        className={"w-fit absolute top-[25px] right-5"}
+        className={"w-fit absolute top-[25px] right-[4vw]"}
         onClick={handleClearRecipes}
       >
         <ArrowCounterClockwise weight={"bold"} className={"mr-2"} />
@@ -106,7 +108,7 @@ export default function RecipeSelectorPage({
         setIsLoading={setIsLoading}
         setSelectedRecipeIds={setSelectedRecipeIds}
         setUserMealPlan={setUserMealPlan}
-        setHasClickedGetRecipes={setHasClickedGetRecipes}
+        // setHasClickedGetRecipes={setHasClickedGetRecipes}
       />
       {!!recipeCollection ? (
         <RecipeGallery
@@ -115,7 +117,7 @@ export default function RecipeSelectorPage({
           recipeCollection={recipeCollection}
           supermarketPreferences={supermarketPreferences}
           isLoading={isLoading}
-          hasClickedGetRecipes={hasClickedGetRecipes}
+          // hasClickedGetRecipes={hasClickedGetRecipes}
         />
       ) : (
         <>

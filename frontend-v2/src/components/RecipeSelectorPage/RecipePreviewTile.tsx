@@ -92,16 +92,15 @@ export default function RecipePreviewTile({
             "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200 mb-1",
           )}
         >
-          {/*{!!recipe.recipeImageURL ? (*/}
-          {true ? (
+          {!!recipe.recipeImageURL ? (
             <img
               className={
                 "min-h-full min-w-full object-cover rounded-2xl transition-all duration-200 ease-out hover:scale-110 -z-20"
               }
-              // src={recipe.recipeImageURL}
-              src={
-                "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
-              }
+              src={recipe.recipeImageURL}
+              // src={
+              //   "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
+              // }
               alt=""
             />
           ) : (

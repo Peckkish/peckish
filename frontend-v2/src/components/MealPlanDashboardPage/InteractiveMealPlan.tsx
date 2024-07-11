@@ -55,6 +55,8 @@ export default function InteractiveMealPlan({
 
       const numPeople = servingsInfo.peopleServedPerMeal;
 
+      const recipeObject = getRecipeInMealPlanById(userMealPlan, recipeId)!;
+
       const servingSymbol =
         servingsInfo.portionSize === "Regular"
           ? "Regular"
@@ -68,8 +70,7 @@ export default function InteractiveMealPlan({
           startCol: dayIndex + 1,
           colSpan: numDays,
           numPeople: numPeople,
-          imageURL:
-            "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg",
+          imageURL: recipeObject.recipeImageURL,
           servingSymbol: servingSymbol,
         },
       ];

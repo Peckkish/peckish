@@ -7,16 +7,16 @@ export default function AppHeader({}: AppHeaderProps) {
   return (
     <div
       className={
-        "w-full shadow-md h-[65px] flex flex-row items-center px-8 bg-[#E3FFDC]"
+        "w-full shadow-md h-[65px] flex flex-row items-center pl-8 bg-white"
       }
     >
       <List size={20} />
       <img
-        className={"h-[65px] ml-8"}
-        src="/assets/peckish_banner.png"
+        className={"h-[65px] ml-5"}
+        src="/assets/peckish-logo-2.png"
         alt=""
       />
-      <Button variant={"green"} className={"ml-auto mr-[3vw]"}>
+      <Button variant={"green"} className={"ml-auto mr-[4vw]"}>
         Sign Up to Save Recipes
       </Button>
     </div>

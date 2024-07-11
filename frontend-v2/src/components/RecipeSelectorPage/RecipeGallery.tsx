@@ -10,7 +10,7 @@ interface RecipeGalleryProps {
   setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
   isLoading: boolean;
   supermarketPreferences: SupermarketPreferences;
-  hasClickedGetRecipes: boolean;
+  // hasClickedGetRecipes: boolean;
 }
 export default function RecipeGallery({
   recipeCollection,
@@ -18,13 +18,28 @@ export default function RecipeGallery({
   setSelectedRecipeIds,
   isLoading,
   supermarketPreferences,
-  hasClickedGetRecipes,
+  // hasClickedGetRecipes,
 }: RecipeGalleryProps) {
   const [isFabLoading, setIsFabLoading] = useState(true);
+  const [breakfastRecipes, setBreakfastRecipes] = useState<Recipe[]>([]);
+  const [lunchRecipes, setLunchRecipes] = useState<Recipe[]>([]);
+  const [dinnerRecipes, setDinnerRecipes] = useState<Recipe[]>([]);
 
   useEffect(() => {
     setTimeout(() => setIsFabLoading(false), 350);
   }, []);
+
+  useEffect(() => {
+    setBreakfastRecipes(
+      recipeCollection.filter((recipe) => recipe.BLD === "Breakfast"),
+    );
+    setLunchRecipes(
+      recipeCollection.filter((recipe) => recipe.BLD === "Lunch"),
+    );
+    setDinnerRecipes(
+      recipeCollection.filter((recipe) => recipe.BLD === "Dinner"),
+    );
+  }, [recipeCollection]);
 
   if (!recipeCollection || isLoading || isFabLoading) {
     return (
@@ -34,18 +49,8 @@ export default function RecipeGallery({
     );
   }
 
-  const breakfastRecipes = recipeCollection.filter(
-    (recipe) => recipe.BLD === "Breakfast",
-  );
-  const lunchRecipes = recipeCollection.filter(
-    (recipe) => recipe.BLD === "Lunch",
-  );
-  const dinnerRecipes = recipeCollection.filter(
-    (recipe) => recipe.BLD === "Dinner",
-  );
-
   if (
-    !hasClickedGetRecipes ||
+    // !hasClickedGetRecipes ||
     breakfastRecipes.length === 0 ||
     lunchRecipes.length === 0 ||
     dinnerRecipes.length === 0
