@@ -10,67 +10,67 @@
         "recipeIngredients": [
             {
                 "product": "round Italian loaf, cut into 1-inch cubes (8 cups)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "olive oil, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "sweet Italian sausage, casings removed, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "unsalted butter, cut into pieces",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "stick"
             },
             {
                 "product": "medium onions, chopped",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "large celery ribs, chopped",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "large eggs, lightly beaten",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "heavy cream, divided",
-                "qtyNumber": "¾",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "turkey giblet stock or reduced-sodium chicken broth",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "grated Parmigiano-Reggiano",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "coarsely chopped flat-leaf parsley",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "shallow ceramic or glass baking dish",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             }
         ],
@@ -106,62 +106,62 @@
         "recipeIngredients": [
             {
                 "product": "basic lentil soup",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "(14.5-ounce) can"
             },
             {
                 "product": "large onion, thinly sliced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "turmeric",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "cumin",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "Aleppo pepper or .125 tsp. crushed red pepper flakes",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "tomato paste",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "ghee, unsalted butter, or olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "whole cumin seeds",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "Olive oil",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "Kosher salt and freshly ground black pepper",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "Parsley",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -206,72 +206,72 @@
         "recipeIngredients": [
             {
                 "product": "skinless, boneless chicken thighs (4-8 depending on size)",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "lb."
             },
             {
                 "product": "kosher salt and freshly ground black pepper",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "unsalted butter, divided",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "large-to-medium leeks, white and pale green parts only, halved lengthwise, thinly sliced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "Zest and juice of lemon, divided",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "long-grain white rice, rinsed until water runs clear",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "cups"
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "2.75",
+                "qtyNumber": 2.75,
                 "qtyUnit": "cups"
             },
             {
                 "product": "oil-packed anchovy fillet",
-                "qtyNumber": "1",
-                "qtyUnit":  ""
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
             },
             {
                 "product": "garlic",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "drained capers",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "tender herb leaves (such as parsley, cilantro, and/or mint)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "4-5",
+                "qtyNumber": 5.0,
                 "qtyUnit": "Tbsp."
             }
         ],
@@ -306,144 +306,144 @@
         "recipeId": "ed749d2c-a0b1-4ae7-b3e0-e4c308c6150c",
         "recipeTitle": "Beets with Crispy Sunchokes",
         "recipeDescription": "with champagne vinegar and cashews",
-        "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur©e, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
+        "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur\u00a9e, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 22.88,
         "prepTime": 35,
         "cookTime": 80,
         "recipeIngredients": [
             {
                 "product": "Strips of zest (no pith) from 1 medium orange",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "fresh ginger (about one 5-inch piece), peeled and thinly shaved (use a mandoline if you have one)",
-                "qtyNumber": "2.5",
+                "qtyNumber": 2.5,
                 "qtyUnit": "ounces"
             },
             {
                 "product": "fresh lime juice",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "champagne vinegar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "sugar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "plus 0.75 teaspoon kosher salt",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "Thai chile, with seeds",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": ""
             },
             {
                 "product": "beets (use a mix of colors if possible), about 5 medium",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "white wine vinegar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "water",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Kosher salt and freshly ground black pepper",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "roughly chopped cashews",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "large sunchokes, thinly shaved (use a mandoline if you have one)",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "vegetable oil",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "medium orange",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "Roasted Beets",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "Extra-virgin olive oil",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "Kosher salt",
-                "qtyNumber":  "",
-                "qtyUnit":  ""
+                "qtyNumber": null,
+                "qtyUnit": ""
             },
             {
                 "product": "Pickled Orange-Ginger Puree",
-                "qtyNumber": "¼",
+                "qtyNumber": 1,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Toasted cashews",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "roughly chopped tarragon",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "roughly chopped dill fronds",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "Sunchoke Chips",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -499,67 +499,67 @@
         "recipeIngredients": [
             {
                 "product": "medium carrot, top removed and cut into about 6 pieces",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "diced tomatoes",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "(14.5-ounce) can"
             },
             {
                 "product": "extra virgin olive oil, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "fresh spinach",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "ounces"
             },
             {
                 "product": "kosher salt, divided",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "ground turkey",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pound"
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "smoked paprika",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground black pepper",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "R-Rated Onions",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "red wine vinegar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             }
         ],
@@ -602,47 +602,47 @@
         "recipeIngredients": [
             {
                 "product": "large Italian eggplants",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "canola oil",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "medium onion, chopped",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, finely chopped",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "small tomato, chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "coarse salt, or to taste",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "Freshly ground black pepper to taste",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "coarsely chopped cilantro",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "Roti",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -652,7 +652,7 @@
             "Remove and allow to cool.  Once cool, cut open the eggplants and scrape out the flesh",
             "The flesh should be soft to the touch and pulpy, and should easily come away from the skin",
             "Set aside.  Heat the canola oil in a frying pan",
-            "Add the onion and sautÃe until translucent",
+            "Add the onion and saut\u00c3e until translucent",
             "Add the garlic and fry until the garlic turns a dark golden brown, then add the tomato and fry for 1 to 2 minutes.  Stir in the mashed eggplant and cook for about 2 minutes",
             "Season with salt and black pepper to taste",
             "Garnish with the cilantro and serve with roti."
@@ -675,72 +675,72 @@
         "recipeIngredients": [
             {
                 "product": "garlic, minced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "large onions, chopped fine",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "finely chopped celery (about 2 stalks)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "red bell pepper, cut into .5-inch dice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "green bell pepper, cut into .5-inch dice",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": ""
             },
             {
                 "product": "olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "chicken broth",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "whole tomatoes, drained and chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "(28-ounce) can"
             },
             {
                 "product": "bay leaf",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "salt, or to taste",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "large shrimp (about 32), shelled and deveined",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "cup uncooked rice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             }
         ],
@@ -767,97 +767,97 @@
         "recipeIngredients": [
             {
                 "product": "dry or 1 (12-ounce) can pigeon peas, pinto beans, or black-eyed peas",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "long-grain rice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "canola oil",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "sugar (white or brown)",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "cup"
             },
             {
                 "product": "(3-pound) chicken, cut into 8 pieces, skin removed",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "small onion, chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, finely chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "clove"
             },
             {
                 "product": "coconut milk",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "bay leaf",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "Green Seasoning",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "chopped parsley",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "thyme",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "sprig"
             },
             {
                 "product": "carrots peeled and chopped",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "scallions chopped (white and green parts)",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "cubed fresh calabaza or butternut squash",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "small whole Scotch bonnet pepper",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "ketchup",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "butter",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             }
         ],
@@ -904,47 +904,47 @@
         "recipeIngredients": [
             {
                 "product": "Softened butter (for the pan)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "whole graham crackers",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "digestive biscuits",
-                "qtyNumber": "11",
+                "qtyNumber": 11.0,
                 "qtyUnit": ""
             },
             {
                 "product": "sweetened condensed milk",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "(14oz) cans"
             },
             {
                 "product": "Hass avocados",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "cream cheese, at room temperature",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pound"
             },
             {
                 "product": "Pinch fine sea salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "lemons",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "limes",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             }
         ],
@@ -986,67 +986,67 @@
         "recipeIngredients": [
             {
                 "product": "skinless, boneless chicken breasts (1-1.5 lb. total)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt, plus more",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "scallions thinly sliced on a deep diagonal",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "Persian cucumbers",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "toasted sesame seeds, divided",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "fresh lime juice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "tahini",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "honey",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "romaine or green or red leaf lettuce",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "head"
             },
             {
                 "product": "cilantro leaves with tender stems",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "big handful"
             },
             {
                 "product": "lime (for serving)",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": ""
             }
         ],
@@ -1090,47 +1090,47 @@
         "recipeIngredients": [
             {
                 "product": "chicken legs (thigh and drumstick), patted dry",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
-                "qtyNumber": "4.5",
+                "qtyNumber": 4.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "extra-virgin olive oil, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "medium fennel bulbs (about 1 lb.), plus .25 cup coarsely chopped fronds",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "Red Flame or green table grapes, stems removed (about 2 cups)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "lb."
             },
             {
                 "product": "unsalted chicken broth",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "honey",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Calabrian chile paste or chopped Calabrian chiles",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "red wine vinegar",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             }
         ],
@@ -1178,137 +1178,137 @@
         "recipeIngredients": [
             {
                 "product": "dried beans, such as flageolet or navy, or fresh shelling beans",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "square dried kombu",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "in."
             },
             {
                 "product": "large tomatoes",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "celery ribs",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "carrot",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "leek white and light green parts only",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "shallots skins intact",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "oil-packed anchovy fillets",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "maple syrup",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "red pepper flakes",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "whole-grain mustard",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "bacon",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "Romano beans or green beans, chopped into 1 in. pieces",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "shallots thinly sliced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "red pepper flakes",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "lemon zest and juice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, grated",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "clove"
             },
             {
                 "product": "pickled green beans",
-                "qtyNumber": "12",
+                "qtyNumber": 12.0,
                 "qtyUnit": ""
             },
             {
                 "product": "cherry tomatoes, quartered",
-                "qtyNumber": "9",
+                "qtyNumber": 9.0,
                 "qtyUnit": ""
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "sherry vinegar",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "Tomato Brown Butter",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "Crumbled feta",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "marjoram and parsley leaves for garnish",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -1359,52 +1359,52 @@
         "recipeIngredients": [
             {
                 "product": "raw nuts (such as almonds, walnuts, pistachios, pecans, and/or blanched hazelnuts)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "raw pumpkin seeds",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "extra-virgin olive oil, plus more for pan",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "old-fashioned oats, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "dried fruit (such as tart cherries, raisins, currants, dates, apricots, and/or blueberries)",
-                "qtyNumber": "1.25",
+                "qtyNumber": 1.25,
                 "qtyUnit": "cups"
             },
             {
                 "product": "unsalted or low-salt natural peanut butter",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "cup"
             },
             {
                 "product": "plus 2 Tbsp. honey",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "vanilla extract",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "large egg white",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             }
         ],
@@ -1447,57 +1447,57 @@
         "recipeIngredients": [
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "garlic, crushed",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "double-concentrated tomato paste",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "pure maple syrup",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Worcestershire sauce",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "unseasoned rice vinegar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "Sriracha or other hot sauce",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "vegetable oil (for grill)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
-                "product": "(3½–4-lb.) whole chicken, cut into 6-8 pieces, or whatever bone-in cut of chicken you feel like cooking",
-                "qtyNumber": "1",
+                "product": "(3\u00bd\u20134-lb.) whole chicken, cut into 6-8 pieces, or whatever bone-in cut of chicken you feel like cooking",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -1535,67 +1535,67 @@
         "recipeIngredients": [
             {
                 "product": "bone-in pork chops (about 1 lb. total)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "coriander seeds",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "small Padr on chiles or shishito peppers, stems trimmed of dry ends but not completely cut off",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "small red onion, halved through root end, sliced .25\" thick",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "small garlic cloves, thinly sliced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "small carrots (about 6), tops trimmed, scrubbed, sliced .25\" thick on a diagonal, or 8 oz. large carrots (about 2), tops trimmed, peeled, halved, sliced .25\" thick on a diagonal",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "red wine vinegar",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "sherry vinegar or red wine vinegar",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "honey",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "paprika",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "extra-virgin olive oil, divided",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "coarsely chopped oregano",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             }
         ],
@@ -1640,127 +1640,127 @@
         "recipeIngredients": [
             {
                 "product": "4-lb. whole chicken",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "white or black peppercorns",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "garlic",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "cilantro, chopped",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "roots"
             },
             {
                 "product": "(packed) light brown sugar",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "fish sauce",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "ground coriander",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground cardamom",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "chopped fresh ripe pineapple",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup (packed)"
             },
             {
                 "product": "distilled white vinegar or apple cider vinegar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "garlic, finely chopped",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "large cloves"
             },
             {
                 "product": "red jalapeos or serrano chiles, seeds removed, finely chopped",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "freshly ground white pepper",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "(lightly packed) saffron threads or 1 tsp. ground turmeric",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "virgin coconut oil",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             },
             {
                 "product": "vegetable oil (for grill)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "coarsely chopped cilantro",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "Cooked jasmine rice, coconut rice, or sticky rice (for serving)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -1780,7 +1780,7 @@
             "Transfer to a small saucepan and add granulated sugar, salt, and .25 cup water and cook over medium heat just until heated through and small bubbles appear around the edges of the pan",
             "Whisk in coconut oil and remove from heat.  If using a grill, prepare a grill for medium-high indirect heat (for a charcoal grill, bank coals on one side of grill; for a gas grill, leave one or two burners off); oil grate",
             "Arrange chicken, skin side up, on cooler part of grill",
-            "Close lid and grill, rotating chicken but keeping skin side up every 5â-10 minutes, until skin looks dry and golden brown and an instant-read thermometer inserted into thickest part of breast and thighs registers 130F-140F, 35040 minutes",
+            "Close lid and grill, rotating chicken but keeping skin side up every 5\u00e2-10 minutes, until skin looks dry and golden brown and an instant-read thermometer inserted into thickest part of breast and thighs registers 130F-140F, 35040 minutes",
             "If using charcoal and your coals are dying, start a new chimney of coals 15 minutes before this point so you are ready for the next step.  Uncover grill and increase heat to high (add more coals for a charcoal grill)",
             "Brush one fourth of basting liquid over skin and turn chicken over, positioning over direct heat on the hot side of the grill",
             "Grill, brushing half of remaining basting liquid over bone side of chicken, until skin is browned and lightly charred in spots, about 3 minutes",
@@ -1812,93 +1812,93 @@
         "recipeIngredients": [
             {
                 "product": "chicken wingettes or dumettes",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "lb."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground black pepper",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "potato starch",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "vegetable oil",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "toasted peanuts (optional)",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             },
             {
                 "product": "rice syrup or honey",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "brown or white sugar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "white vinegar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "yellow mustard",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "vegetable oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "garlic, mined",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "minced peeled ginger",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "small dried red chili peppers",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "toasted sesame seeds",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "crushed red pepper flakes (optional)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tsp."
             }
         ],
         "recipeSteps": [
             "Mix the chicken pieces, salt, and black pepper in a large bowl",
-            "Transfer to a large zipper-lock bag, add the potato starch, close the bag, and mix well by flipping the bag over and back again until the chicken is well coated.  Place a large mesh strainer over a bowl.  Heat 2 inches vegetable oil in a large, deep pan or wok over medium-high heat until it reaches about 340°F, 8 to 10 minutes",
+            "Transfer to a large zipper-lock bag, add the potato starch, close the bag, and mix well by flipping the bag over and back again until the chicken is well coated.  Place a large mesh strainer over a bowl.  Heat 2 inches vegetable oil in a large, deep pan or wok over medium-high heat until it reaches about 340\u00b0F, 8 to 10 minutes",
             "If you don't have a thermometer, test it by dipping a tip of a chicken piece into the oil",
             "If it bubbles, it's ready",
             "Carefully add the chicken to the oil one piece at a time, working in batches to avoid overcrowding.  Deep-fry, turning the chicken with tongs, until all sides are light golden brown and crunchy, 10 to 12 minutes",
@@ -1935,62 +1935,62 @@
         "recipeIngredients": [
             {
                 "product": "Ritz crackers or other cracker of your choice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "sleeve"
             },
             {
                 "product": "raw peanuts or other nut or seed, finely chopped",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             },
             {
                 "product": "light or dark brown sugar",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Morton kosher salt",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "unsalted butter, melted",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "light or dark brown sugar",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Morton kosher salt",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "vanilla extract",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "natural peanut butter or other natural nut or seed butter",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "heavy cream",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "cups"
             },
             {
                 "product": "grape jelly or other jelly/jam/compote",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             }
         ],
@@ -2036,62 +2036,62 @@
         "recipeIngredients": [
             {
                 "product": "neutral cooking oil, such as canola oil",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "onion peeled and diced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, peeled and minced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "clove"
             },
             {
                 "product": "poblano chiles, stems removed, cut into 1/4-inch-wide strips",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "corn tortillas",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "juice of lime",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "bacon, diced small",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "slice"
             },
             {
                 "product": "peeled and deveined medium shrimp (preferably sizes 36/40 or 41/50; if you have bigger shrimp, slice them in half lengthwise)",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "ounces"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "mild/young provolone cheese",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "limes cut into wedges",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "tangy red salsa",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -2099,7 +2099,6 @@
             "Warm 3 teaspoons of the oil in a frying pan over medium-low heat",
             "Add the onion and cook for 5 minutes, stirring gently",
             "Add the garlic and continue to cook for 3 minutes",
-
             "(If, at any time during the cooking process, the items in the pan dry out at all, deglaze the pan with some lime juice, scraping up the browned bits with a wooden spoon, and continue.) Turn the heat to medium and add the chiles",
             "Cook for 10 minutes, or until the chiles are thoroughly cooked.  At this point, warm a separate frying pan over medium heat and add the remaining 1 teaspoon oil",
             "Interleaved with finishing the rest of the recipe, heat each tortilla in the oil-coated pan for about 20 seconds per side, just long enough to make them the slightest bit golden but still pliable, and put between two towels to stay warm and wick away any excess oil.  Once the chiles have cooked for 10 minutes, pour the lime juice on the ingredients in the pan",
@@ -2131,67 +2130,67 @@
         "recipeIngredients": [
             {
                 "product": "medium onion, thinly sliced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "gochujang (Korean red chili paste)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "minced garlic",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "sugar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "sake",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "mirin",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "toasted sesame oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "skinless pork belly, sliced .25 inch thick (ask the butcher to slice it) and cut into 2-inch squares",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "unsalted butter",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "slider buns",
-                "qtyNumber": "12",
+                "qtyNumber": 12.0,
                 "qtyUnit": ""
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "peeled cucumbers, halved lengthwise, seeded, and sliced into matchsticks",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             }
         ],
@@ -2225,87 +2224,87 @@
         "recipeIngredients": [
             {
                 "product": "toasted pepitas (pumpkin seeds)",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "cup"
             },
             {
                 "product": "shredded kale, stems removed (about 3 large leaves)",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "garlic, crushed",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "clove"
             },
             {
                 "product": "can chickpeas (garbanzo beans), rinsed, drained",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "16oz can"
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "coriander (cilantro) leaves",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Sea salt and cracked black pepper",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "cracked black pepper",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "firmly packed grated pumpkin",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "Extra virgin olive oil, for brushing",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "Plain Greek-style yogurt, to serve",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "hulled tahini, to serve",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "carrots shredded using a julienne peeler",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": ""
             },
             {
                 "product": "apple cider vinegar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "honey",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "red chiles, sliced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "large"
             },
             {
                 "product": "coriander (cilantro) leaves",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             }
         ],
@@ -2336,77 +2335,77 @@
         "recipeIngredients": [
             {
                 "product": "fresh chorizo, casings removed (about 2 links)",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "pound"
             },
             {
                 "product": "ground beef, or vegetarian substitute",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "pound"
             },
             {
                 "product": "tomato paste",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "cumin",
-                "qtyNumber": "2.5",
+                "qtyNumber": 2.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "large onion, grated on a box grater, divided",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "medium jalapenos, thinly sliced, seeded if desired, divided",
-                "qtyNumber": "1-2",
+                "qtyNumber": 2,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
-                "qtyNumber": "1.75",
+                "qtyNumber": 1.75,
                 "qtyUnit": "tsp"
             },
             {
                 "product": "large beefsteak tomatoes, cut into 1/2\" cubes",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "corn kernels, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "cheddar cheese, grated",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "ounces"
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "unsalted butter, melted",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "sour cream, plus more for serving",
-                "qtyNumber": "0.3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "cup"
             },
             {
                 "product": "cornmeal",
-                "qtyNumber": "1.25",
+                "qtyNumber": 1.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "baking powder",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             }
         ],
@@ -2443,57 +2442,57 @@
         "recipeIngredients": [
             {
                 "product": "bacon, cut crosswise into .5-inch pieces",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "slices"
             },
             {
                 "product": "celery ribs, chopped",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "carrot, chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "medium onion, chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "cinnamon",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "boiling potatoes",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "pound"
             },
             {
                 "product": "medium Granny Smith apples (about 0.75 pound total)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "pounds butternut squash, peeled, seeded, and cut into .5-inch pieces (3.5 to 4 cups)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "0.5"
             },
             {
                 "product": "reduced-sodium chicken stock or broth",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "water",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "sour cream",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -2523,107 +2522,107 @@
         "recipeIngredients": [
             {
                 "product": "dried apricots",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "dark rum or arrack",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "unsalted butter",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "ground cinnamon",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "coconut sugar or dark brown sugar",
-                "qtyNumber": "3.3",
+                "qtyNumber": 3.3,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "selim pods",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "grains"
             },
             {
                 "product": "cubeb pepper or Ashanti pepper (uziza)",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "peanut oil or vegetable oil",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "medium white onion, finely chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "small red onion, thinly sliced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, coarsely chopped",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "ginger, peeled, finely grated (unpeeled if organic)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "piece"
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "chopped rosemary",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "chopped thyme",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "dried prawn or shrimp powder",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "okra salt or kosher salt, plus more",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "tomato puree",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "dried chile powder",
-                "qtyNumber": "34",
+                "qtyNumber": 34.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "0.6",
+                "qtyNumber": 0.6,
                 "qtyUnit": "cups"
             },
             {
                 "product": "Scotch bonnet or habanero chile, pierced a few times with a knife",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             }
         ],
@@ -2651,7 +2650,7 @@
             "salt to pot and cook, stirring occasionally, about 2 minutes",
             "Add drunk apricots along with any syrup and cook, stirring often, about 2 minutes.  Add tomato puree to pot and cook, stirring occasionally, 4 minutes, then stir in chile powder",
             "Add broth and fresh chile",
-            "Cover pot and cook, stirring occasionally to prevent sticking, until a loose dark brown paste forms, 30“40 minutes",
+            "Cover pot and cook, stirring occasionally to prevent sticking, until a loose dark brown paste forms, 30\u201c40 minutes",
             "The oil will rise to the surface when the sauce is ready",
             "Remove from heat; taste and season with more salt if needed",
             "If you like texture, leave as is, or blend with an immersion blender (or let it cool slightly and blend it in a blender) to make it smooth",
@@ -2678,77 +2677,77 @@
         "recipeIngredients": [
             {
                 "product": "olive oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "cherry tomatoes (any variety will work)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "dry white wine",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "fresh basil leaves, thinly sliced",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "fine sea salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pinch"
             },
             {
                 "product": "Freshly ground black pepper",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "cooking fat",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "scallions, white parts and green parts diced separately",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "bunch"
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "medium potato, scrubbed and cut into 1/4-inch chunks",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "fresh or thawed frozen corn kernels",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "feta cheese, crumbled",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "ounces"
             }
         ],
@@ -2786,27 +2785,27 @@
         "recipeIngredients": [
             {
                 "product": "large eggs",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": ""
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Dijon mustard",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "cayenne spice",
-                "qtyNumber": "0.125",
+                "qtyNumber": 0.125,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "paprika and chopped fresh chives (for garnish)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -2837,52 +2836,52 @@
         "recipeIngredients": [
             {
                 "product": "can chipotle in adobo sauce",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "7oz can"
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "clove"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "cornstarch",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "evaporated milk",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "5 fl oz. can"
             },
             {
                 "product": "sharp or extra-sharp Cheddar cheese, coarsely grated",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "cream cheese, roughly diced, at room temperature",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "diced pimento peppers, drained",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "4oz. jar"
             },
             {
                 "product": "Chipotle Pepper Pure",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "tsp."
             }
         ],
@@ -2921,37 +2920,37 @@
         "recipeIngredients": [
             {
                 "product": "large egg whites",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "new potatoes (about 1 inch in diameter)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pound"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "finely ground black pepper",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "finely chopped rosemary",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "finely chopped thyme",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "finely chopped parsley",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             }
         ],
@@ -2980,52 +2979,52 @@
         "recipeIngredients": [
             {
                 "product": "vegetable oil, divided",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "corn tortillas",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "fresh chorizo",
-                "qtyNumber": "12",
+                "qtyNumber": 12.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "garlic, crushed",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "medium white onion, thinly sliced, plus more for serving",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "black beans, rinsed",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "(15-oz.) cans"
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "cups"
             },
             {
                 "product": "queso fresco or Cotija cheese, crumbled",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "Cilantro leaves with tender stems and sliced avocado (for serving)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -3067,62 +3066,62 @@
         "recipeIngredients": [
             {
                 "product": "coconut oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "calabaza pumpkin, seeded, peeled, and cut into chunks",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pound"
             },
             {
                 "product": "small onion, minced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "aja dulce pepper, seeded and minced",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "dark brown sugar",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "coconut milk",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "chicken broth or vegetable broth",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "chopped fresh cilantro",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             }
         ],
@@ -3156,67 +3155,67 @@
         "recipeIngredients": [
             {
                 "product": "Dashi",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "doenjang (Korean fermented soybean paste)",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "gochujang (Korean red chili paste)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "gochugaru (Korean red chili flakes)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "soy sauce, or more to taste",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "medium onions, cut into 1-inch dice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "medium green zucchini, cut into 1-inch chunks",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "red Korean chili pepper or other long hot chili, thinly sliced on the bias",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "green Korean chili pepper or other long hot chili, thinly sliced on the bias",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
-                "product": "brisket, sliced ⅛ inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
-                "qtyNumber": "0.5",
+                "product": "brisket, sliced \u215b inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
+                "qtyNumber": 0.5,
                 "qtyUnit": "pound"
             },
             {
                 "product": "soft or silken tofu, homemade (page 67) or store-bought, cut into 1-inch cubes",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "pound"
             },
             {
                 "product": "scallions, cut into 1-inch batons",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "bunch"
             }
         ],
@@ -3248,57 +3247,57 @@
         "recipeIngredients": [
             {
                 "product": "chicken, cut into 8 pieces, skin removed",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "(4-pound)"
             },
             {
                 "product": "freshly squeezed lime juice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "Green Seasoning",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "coarse salt",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "Scotch bonnet pepper or other hot red chili pepper, finely chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "garlic, crushed",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "Trinidad Curry Powder",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "canola oil",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "medium onion, chopped",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "chicken stock or water",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Roti or white rice (to serve)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -3332,67 +3331,67 @@
         "recipeIngredients": [
             {
                 "product": "small beets, scrubbed thoroughly but not peeled",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "white vinegar",
-                "qtyNumber": "9",
+                "qtyNumber": 9.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "boneless pork butt, halved",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "2-pound"
             },
             {
                 "product": "beef, chicken, or vegetable stock",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "bay leaf",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "whole allspice berries",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "whole black peppercorns",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "large carrots, peeled and sliced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "large celery stalks, sliced",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": ""
             },
             {
                 "product": "green cabbage, shredded",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "small head"
             },
             {
                 "product": "medium Idaho potatoes, peeled and cut into .5-inch dice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "lima beans, drained and rinsed",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "15-oz. can"
             },
             {
                 "product": "salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -3417,7 +3416,7 @@
             "Reserve the cubed meat and 4 cups of the broth.  To cook the vegetables, place the carrots and celery in a large stockpot and pour the reserved meat broth over them",
             "Bring to a boil, reduce the heat, and simmer until the carrots and celery are just tender, about 8 minutes",
             "Add the cabbage and potatoes and continue to cook until the potatoes and carrots are easily pierced with a pairing knife but keep their shape, 15 to 20 additional minutes",
-            "Add the lima beans and cook for 5 additional minutes, just to meld the flavors", 
+            "Add the lima beans and cook for 5 additional minutes, just to meld the flavors",
             "Gradually add the remaining 7 tablespoons white vinegar, tasting between additions and stopping when the flavor is to your liking",
             "Remove the soup from the heat and set aside.  To compose the soup, in a large soup pot combine the beet water and meat broth with the vegetables",
             "Add the cubed pork and the grated beets",
@@ -3442,87 +3441,87 @@
         "recipeIngredients": [
             {
                 "product": "ground coriander",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "extra-virgin olive oil, divided",
-                "qtyNumber": "7",
+                "qtyNumber": 7.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "garlic, lightly crushed",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "cloves"
             },
             {
                 "product": "skinless, boneless chicken thighs, cut into (0.75\") pieces",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "fresh lime juice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "ripe avocados, sliced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "small ripe mangoes, sliced",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "redonion, thinly sliced",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": ""
             },
             {
                 "product": "torn Little Gem or green lettuce leaves",
-                "qtyNumber": "6",
+                "qtyNumber": 6.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "cherry tomatoes, halved",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Flaky sea salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "mild red pepper flakes",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "basil and/or mint leaves (for serving)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -3559,122 +3558,122 @@
         "recipeIngredients": [
             {
                 "product": "graham cracker crumbs (about 16 whole crackers)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "firmly packed light brown sugar",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1/4",
+                "qtyNumber": 0.25,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "unsalted butter, melted",
-                "qtyNumber": "1/2",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "cream cheese, at room temperature",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "pounds"
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "Creole Cream Cheese",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "vanilla bean paste",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "eggs",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": ""
             },
             {
                 "product": "sour cream (mixed with 1/4 cup buttermilk)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "cup buttermilk",
-                "qtyNumber": "1/4",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "unsalted butter",
-                "qtyNumber": "30.75",
+                "qtyNumber": 30.75,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "3/4",
+                "qtyNumber": 0.75,
                 "qtyUnit": "cup"
             },
             {
                 "product": "firmly packed light brown sugar",
-                "qtyNumber": "1/4",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "honey",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "peeled, cored, and evenly chopped Granny Smith apples (about 7)",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "finely grated lemon zest",
-                "qtyNumber": "1.5",
+                "qtyNumber": 1.5,
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "fresh lemon juice",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tablespoon"
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "3/4",
+                "qtyNumber": 0.75,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground cinnamon",
-                "qtyNumber": "3/4",
+                "qtyNumber": 0.75,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground cardamom",
-                "qtyNumber": "1/3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground ginger",
-                "qtyNumber": "1/3",
+                "qtyNumber": 0.3,
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "vanilla extract",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "teaspoon"
             }
         ],
@@ -3724,67 +3723,67 @@
         "recipeIngredients": [
             {
                 "product": "whole-milk yogurt",
-                "qtyNumber": "0.75",
+                "qtyNumber": 0.75,
                 "qtyUnit": "cup"
             },
             {
                 "product": "fresh lemon juice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "sugar",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "red lentils (masoor dal)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "medium zucchini (about 5 oz.)",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "medium onion, thinly sliced",
-                "qtyNumber": "½",
+                "qtyNumber": 1,
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided, plus more",
-                "qtyNumber": "1.75",
+                "qtyNumber": 1.75,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "Kashmiri chile powder or .25 tsp. cayenne pepper",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "parsley leaves with tender stems",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "finely grated lemon zest",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "ghee or neutral vegetable oil",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             }
         ],
@@ -3801,7 +3800,7 @@
             "Let sit until vegetables look wilted and softened and about 1 Tbsp",
             "liquid has released into bowl, 30 minutes to 2 hours",
             "Gently pat dry with paper towels to remove any excess moisture.  Drain lentils and transfer to a food processor",
-            "Add chile powder, turmeric, and ¾ tsp",
+            "Add chile powder, turmeric, and \u00be tsp",
             "salt",
             "Pulse, scraping down sides, until a puree forms",
             "Transfer to a medium bowl and add zucchini and onion, parsley, and lemon zest",
@@ -3833,52 +3832,52 @@
         "recipeIngredients": [
             {
                 "product": "evaporated milk",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "whole milk",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "garlic powder",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "onion powder",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "smoked paprika",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "kosher salt, plus more",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "extra-sharp cheddar, coarsely grated",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "lb."
             },
             {
                 "product": "full-fat cream cheese",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": "oz."
             },
             {
                 "product": "elbow macaroni",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "lb."
             }
         ],
@@ -3914,52 +3913,52 @@
         "recipeIngredients": [
             {
                 "product": "bone-in, hickory-smoked, uncured fully cooked ham",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "6-7lb."
             },
             {
                 "product": "medium parsnips, peeled and halved lengthwise",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": ""
             },
             {
                 "product": "medium carrots, peeled and halved lengthwise",
-                "qtyNumber": "5",
+                "qtyNumber": 5.0,
                 "qtyUnit": ""
             },
             {
                 "product": "maple syrup",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "unsweetened apple juice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "packed dark brown sugar",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "smooth Dijon mustard",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "grainy Dijon mustard",
-                "qtyNumber": "0.5",
+                "qtyNumber": 0.5,
                 "qtyUnit": "cup"
             },
             {
                 "product": "apple cider vinegar",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "kosher salt (if needed)",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -3993,102 +3992,102 @@
         "recipeIngredients": [
             {
                 "product": "semi-pearled farro",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "cup"
             },
             {
                 "product": "kosher salt, plus more",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "tsp."
             },
             {
                 "product": "large eggs",
-                "qtyNumber": "4",
+                "qtyNumber": 4.0,
                 "qtyUnit": ""
             },
             {
                 "product": "red radishes, trimmed, thinly sliced",
-                "qtyNumber": "8",
+                "qtyNumber": 8.0,
                 "qtyUnit": ""
             },
             {
                 "product": "unseasoned rice vinegar",
-                "qtyNumber": "0.25",
+                "qtyNumber": 0.25,
                 "qtyUnit": "cup"
             },
             {
                 "product": "sugar, divided",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "extra-firm tofu, drained",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "14-oz. block"
             },
             {
                 "product": "plus .25 cup grapeseed or vegetable oil, divided",
-                "qtyNumber": "3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "fresh lime juice",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "gochujang (Korean hot pepper paste)",
-                "qtyNumber": "2",
+                "qtyNumber": 2.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "plus 1 tsp. soy sauce",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "plus 1 tsp. toasted sesame oil",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "medium zucchini or summer squash, halved lengthwise, cut crosswise into (.25\"-thick) half-moons",
-                "qtyNumber": "1",
+                "qtyNumber": 1.0,
                 "qtyUnit": ""
             },
             {
                 "product": "thinly sliced or shredded raw vegetables (such as carrots",
-                "qtyNumber": "2-3",
+                "qtyNumber": 3.0,
                 "qtyUnit": "cups"
             },
             {
                 "product": "scallions",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "blanched sugar snap peas",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "baby bok choy",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "cucumbers",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             },
             {
                 "product": "pea shoots or alfalfa sprouts",
-                "qtyNumber": "",
+                "qtyNumber": null,
                 "qtyUnit": ""
             }
         ],
@@ -4107,7 +4106,7 @@
             "grapeseed oil in a large nonstick skillet over medium-high",
             "Add tofu in a single layer, season with salt, and cook, undisturbed, until golden brown underneath, about 4 minutes",
             "Turn over and cook until golden brown on second side, about 4 minutes",
-            "Transfer tofu to a plate; reserve skillet (no need to wipe out).  Whisk lime juice, gochujang, mayonnaise, ¼ cup grapeseed oil, 1 Tbsp",
+            "Transfer tofu to a plate; reserve skillet (no need to wipe out).  Whisk lime juice, gochujang, mayonnaise, \u00bc cup grapeseed oil, 1 Tbsp",
             "soy sauce, 1 Tbsp",
             "sesame oil, and remaining 1 Tbsp",
             "sugar in a small bowl",
