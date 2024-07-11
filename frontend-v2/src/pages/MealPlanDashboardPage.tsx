@@ -40,6 +40,7 @@ import {
 } from "@/components/ui/carousel";
 import { Checkbox } from "@/components/ui/checkbox.tsx";
 import { CheckIcon } from "@radix-ui/react-icons";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area.tsx";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -149,52 +150,59 @@ export default function MealPlanDashboardPage({
             <ShoppingCart size={18} />
             <span className={"ml-2"}>Open Shopping Links</span>
           </Button>
-          <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
-            {totalShoppingList.map((ingredient, index) => {
-              // const qtyNumber = ingredient.qtyNumber.parseFloat();
-              // const qtyNumber = !ingredient.qtyNumber
-              //   ? 0
-              //   : typeof ingredient.qtyNumber === "string"
-              //     ? parseFractionString(ingredient.qtyNumber)
-              //     : ingredient.qtyNumber;
-              // console.log(
-              //   `The qty number of ${ingredient.product} is ${qtyNumber}`,
-              // );
-              return (
-                <li key={index} className="flex items-center">
-                  <Checkbox
-                    className="mr-2"
-                    id={`checkbox-${index}`}
-                    defaultChecked={false}
-                    onCheckedChange={(checked) => {
-                      const ingredientText = document.getElementById(
-                        `ingredient-text-${index}`,
-                      );
-                      if (checked) {
-                        ingredientText.style.textDecoration = "line-through";
-                        ingredientText.style.color = "grey";
-                      } else {
-                        ingredientText.style.textDecoration = "none";
-                        ingredientText.style.color = "inherit";
-                      }
-                    }}
-                  />
-                  <a
-                    id={`link-${index}`}
-                    href={ingredient.productURL}
-                    className="text-[#33E14D] brightness-75 font-medium"
-                  >
-                    <span id={`ingredient-text-${index}`}>
-                      {/*{decimalToMixedFractionString(*/}
-                      {/*  roundToNearestQuarter(ingredient.qtyNumber),*/}
-                      {/*)}*/}
-                      {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
-                    </span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
+          <ScrollArea className={"pr-5 mt-2"}>
+            <ScrollBar orientation={"vertical"} forceMount />
+            <ul
+              className={
+                "list-disc mt-4 font-light flex flex-col gap-3 max-h-[36rem]"
+              }
+            >
+              {totalShoppingList.map((ingredient, index) => {
+                // const qtyNumber = ingredient.qtyNumber.parseFloat();
+                // const qtyNumber = !ingredient.qtyNumber
+                //   ? 0
+                //   : typeof ingredient.qtyNumber === "string"
+                //     ? parseFractionString(ingredient.qtyNumber)
+                //     : ingredient.qtyNumber;
+                // console.log(
+                //   `The qty number of ${ingredient.product} is ${qtyNumber}`,
+                // );
+                return (
+                  <li key={index} className="flex items-center">
+                    <Checkbox
+                      className="mr-2"
+                      id={`checkbox-${index}`}
+                      defaultChecked={false}
+                      onCheckedChange={(checked) => {
+                        const ingredientText = document.getElementById(
+                          `ingredient-text-${index}`,
+                        );
+                        if (checked) {
+                          ingredientText.style.textDecoration = "line-through";
+                          ingredientText.style.color = "grey";
+                        } else {
+                          ingredientText.style.textDecoration = "none";
+                          ingredientText.style.color = "inherit";
+                        }
+                      }}
+                    />
+                    <a
+                      id={`link-${index}`}
+                      href={ingredient.productURL}
+                      className="text-[#33E14D] brightness-75 font-medium"
+                    >
+                      <span id={`ingredient-text-${index}`}>
+                        {/*{decimalToMixedFractionString(*/}
+                        {/*  roundToNearestQuarter(ingredient.qtyNumber),*/}
+                        {/*)}*/}
+                        {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </ScrollArea>
         </div>
         <div className={"flex flex-col"}>
           <div className={"mb-8"}>
