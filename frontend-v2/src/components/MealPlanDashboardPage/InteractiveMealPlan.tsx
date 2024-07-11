@@ -125,7 +125,7 @@ export default function InteractiveMealPlan({
                     backgroundSize: "contain",
                   }}
                   className={
-                    "rounded-lg flex justify-center items-center my-0.5 outline -outline-offset-[3px]"
+                    "rounded-lg flex justify-center items-center my-0.5 outline -outline-offset-[3px] outline-[#051407]"
                   }
                 >
                   <div className="absolute inset-0 bg-black bg-opacity-50 z-10 rounded-md"></div>

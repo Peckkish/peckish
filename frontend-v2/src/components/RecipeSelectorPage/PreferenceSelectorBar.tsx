@@ -35,11 +35,11 @@ export default function PreferenceSelectorBar({
     <div className={"w-screen py-8 px-[4vw] mb-2 mt-6"}>
       <div
         className={
-          "flex flex-row w-full justify-around items-center gap-4 shadow-lg px-10 pb-8 rounded-lg"
+          "flex flex-row w-full justify-around items-center gap-3 shadow-lg px-10 pb-8 rounded-lg"
         }
       >
         <div className={"flex flex-col items-center gap-0.5"}>
-          <p className={"font-semibold text-xl"}>
+          <p className={"font-medium text-xl"}>
             Dietary Restrictions/Preferences
           </p>
           <div className={"flex flex-row items-center gap-4 mt-4 flex-wrap"}>
@@ -73,11 +73,13 @@ export default function PreferenceSelectorBar({
               }
             />
             <PreferenceToggle
-              label={"Vegetarian"}
-              toggleProperty={"isVegetarian"}
+              label={"Vegan"}
+              toggleProperty={"isVegan"}
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
-              iconComponent={<Leaf className={"mr-2"} size={"22"} />}
+              iconComponent={
+                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
+              }
             />
             <PreferenceToggle
               label={"Gluten-Free"}
@@ -118,6 +120,13 @@ export default function PreferenceSelectorBar({
               }
             />
             <PreferenceToggle
+              label={"Vegetarian"}
+              toggleProperty={"isVegetarian"}
+              dietaryPreferences={dietaryPreferences}
+              setDietaryPreferences={setDietaryPreferences}
+              iconComponent={<Leaf className={"mr-2"} size={"22"} />}
+            />
+            <PreferenceToggle
               label={"Low FODMAP"}
               toggleProperty={"isLowFODMAP"}
               dietaryPreferences={dietaryPreferences}
@@ -142,19 +151,10 @@ export default function PreferenceSelectorBar({
                 <Feather size={"22"} weight={"bold"} className={"mr-2"} />
               }
             />
-            <PreferenceToggle
-              label={"Vegan"}
-              toggleProperty={"isVegan"}
-              dietaryPreferences={dietaryPreferences}
-              setDietaryPreferences={setDietaryPreferences}
-              iconComponent={
-                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
-              }
-            />
           </div>
         </div>
         <div className={"flex flex-col items-center ml-22 mr-auto gap-0.5"}>
-          <p className={"font-semibold text-xl"}>Supermarkets</p>
+          <p className={"font-medium text-xl"}>Supermarkets</p>
           <div
             className={"flex flex-row justify-between items-center gap-4 mt-4"}
           >

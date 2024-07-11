@@ -65,6 +65,12 @@ export default function MealPlanDashboardPage({
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  const handleOpenAll = () => {
+    totalShoppingList.forEach((ingredientItem) => {
+      window.open(ingredientItem.productURL, "_blank");
+    });
+  };
+
   useEffect(() => {
     userMealPlan &&
       setTotalShoppingList(
@@ -136,6 +142,9 @@ export default function MealPlanDashboardPage({
         <div className={"flex flex-col"}>
           <h1 className={"font-bold text-2xl"}>Shopping List</h1>
           <Separator className={"my-3"} />
+          <Button variant={"green"} onClick={handleOpenAll}>
+            Open All
+          </Button>
           <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
             {totalShoppingList.map((ingredient, index) => {
               return (
