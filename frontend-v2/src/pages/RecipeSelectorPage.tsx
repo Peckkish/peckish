@@ -79,6 +79,7 @@ export default function RecipeSelectorPage({
       className={"flex flex-col items-center px-[4vw] relative min-h-[150vh]"}
     >
       <Button
+        variant={"outline"}
         className={"w-fit absolute top-[25px] right-5"}
         onClick={handleClearRecipes}
       >

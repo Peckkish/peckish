@@ -174,40 +174,38 @@ export default function MealPlanDashboardPage({
                     className="w-full max-w-sm -mt-4 shadow-lg rounded-lg"
                   >
                     <CarouselContent>
-                      {userMealPlan
-                        .flatMap((item) => Array(6).fill(item))
-                        .map((recipe, index) => (
-                          <CarouselItem
-                            key={index}
-                            className="2xl:basis-1/3 basis-full"
-                          >
-                            <div className="p-1">
-                              <div>
-                                <div className="flex flex-col items-center justify-center p-6 gap-5">
-                                  <RecipePreviewTile
-                                    recipe={recipe}
-                                    setSelectedRecipeIds={setSelectedRecipeIds}
-                                    hidePlanAddButton
-                                    showRemoveFromPlanButton
-                                    setUserMealPlan={setUserMealPlan}
-                                  />
-                                  {/*<Separator*/}
-                                  {/*  className={"w-[75%] mx-auto my-5"}*/}
-                                  {/*/>*/}
-                                  <MealPlanParametersForm
-                                    recipe={recipe}
-                                    setRecipeIdToMultiplierMap={
-                                      setRecipeIdToMultiplierMap
-                                    }
-                                    setRecipeIdToServingsInfoMap={
-                                      setRecipeIdToServingsInfoMap
-                                    }
-                                  />
-                                </div>
+                      {userMealPlan.map((recipe, index) => (
+                        <CarouselItem
+                          key={index}
+                          className="2xl:basis-1/3 basis-full"
+                        >
+                          <div className="p-1">
+                            <div>
+                              <div className="flex flex-col items-center justify-center p-6 gap-5">
+                                <RecipePreviewTile
+                                  recipe={recipe}
+                                  setSelectedRecipeIds={setSelectedRecipeIds}
+                                  hidePlanAddButton
+                                  showRemoveFromPlanButton
+                                  setUserMealPlan={setUserMealPlan}
+                                />
+                                {/*<Separator*/}
+                                {/*  className={"w-[75%] mx-auto my-5"}*/}
+                                {/*/>*/}
+                                <MealPlanParametersForm
+                                  recipe={recipe}
+                                  setRecipeIdToMultiplierMap={
+                                    setRecipeIdToMultiplierMap
+                                  }
+                                  setRecipeIdToServingsInfoMap={
+                                    setRecipeIdToServingsInfoMap
+                                  }
+                                />
                               </div>
                             </div>
-                          </CarouselItem>
-                        ))}
+                          </div>
+                        </CarouselItem>
+                      ))}
                       {/*{Array.from({ length: 5 }).map((_, index) => (*/}
                       {/*  <CarouselItem*/}
                       {/*    key={index}*/}

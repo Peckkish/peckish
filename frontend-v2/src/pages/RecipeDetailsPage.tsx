@@ -31,7 +31,9 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   const [fabricatedWaitRunning, setFabricatedWaitRunning] = useState(true);
 
   const navigate = useNavigate();
-  const mealPlan = useContext(RecipeCollectionContext);
+  const mealPlan =
+    useContext(RecipeCollectionContext) ??
+    JSON.parse(localStorage.getItem("recipeCollection")!);
   const { id } = useParams<{ id: string }>();
 
   // const [imageURL, setImageURL] = useState<string>("");
@@ -50,8 +52,9 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       // );
       const urlArr = window.location.href.split("/");
       console.log(urlArr[urlArr.length - 1]);
+
       setActiveRecipe(
-        getRecipeObjectByIdOrNull(mealPlan, urlArr[urlArr.length - 1]),
+        getRecipeObjectByIdOrNull(mealPlan, id ?? urlArr[urlArr.length - 1]),
       );
     } else {
       console.log("here");
@@ -84,12 +87,12 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   return (
     <div
       className={
-        "flex flex-col items-center pt-24 px-24 min-h-screen 2xl:max-w-[60%] mx-auto"
+        "flex flex-col items-center py-24 px-24 min-h-screen 2xl:max-w-[60%] mx-auto"
       }
     >
       <Button
         className={"w-fit absolute top-[85px] left-5"}
-        onClick={() => navigate("/app")}
+        onClick={() => navigate(-1)}
       >
         <CaretLeft weight={"bold"} className={"mr-2"} />
         <span>Go Back</span>
@@ -107,7 +110,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <h1 className={"text-6xl font-bold mt-4"}>
             {activeRecipe.recipeTitle}
           </h1>
-          <p className={"text-lg font-base text-zinc-400 mb-1"}>
+          <p className={"text-lg font-base text-zinc-500 mb-1"}>
             {activeRecipe.recipeDescription}
           </p>
           <RatingDisplay

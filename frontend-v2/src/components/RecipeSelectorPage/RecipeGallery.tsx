@@ -51,7 +51,7 @@ export default function RecipeGallery({
     dinnerRecipes.length === 0
   ) {
     return (
-      <p className={"absolute top-[28rem] text-[#33E14D] brightness-50"}>
+      <p className={"mt-20 text-[#33E14D] brightness-50"}>
         {"Your recipe options will appear here!"}
       </p>
     );

@@ -57,7 +57,7 @@ export default function InteractiveMealPlan({
 
       const servingSymbol =
         servingsInfo.portionSize === "Regular"
-          ? "M"
+          ? "Regular"
           : servingsInfo.portionSize === "Large"
             ? "L"
             : "XL";
