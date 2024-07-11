@@ -17,9 +17,9 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 import Layout from "@/components/root/Layout.tsx";
 
 export default function App() {
-  // const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
-  //   ? JSON.parse(localStorage.getItem("recipeCollection")!)
-  //   : null;
+  const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
+    ? JSON.parse(localStorage.getItem("recipeCollection")!)
+    : null;
 
   const initialUserMealPlan = !!localStorage.getItem("userMealPlan")
     ? JSON.parse(localStorage.getItem("userMealPlan")!)
@@ -30,7 +30,7 @@ export default function App() {
   //   : [];
 
   const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>(
-    null,
+    initialRecipeCollection,
   );
   const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
   const [userMealPlan, setUserMealPlan] =
@@ -55,7 +55,7 @@ export default function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools initialIsOpen={true} />
+      {/*<ReactQueryDevtools initialIsOpen={true} />*/}
       <RecipeCollectionContext.Provider value={recipeCollection}>
         <Router>
           <div ref={animationParent}>

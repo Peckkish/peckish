@@ -54,6 +54,10 @@ export default function SelectorActionButtonPair({
           // await queryClient.invalidateQueries({
           //   queryKey: ["recipeCollection"],
           // });
+          localStorage.setItem(
+            "recipeCollection",
+            JSON.stringify(recipeCollection),
+          );
         }}
       >
         <Robot size={28} className={"mr-3"} />
