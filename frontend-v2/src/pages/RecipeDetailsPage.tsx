@@ -211,11 +211,15 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">
             {activeRecipe.recipeIngredients.map(
               (ingredient: any, index: number) => {
-                const qtyNumber =
-                  typeof ingredient.qtyNumber === "string"
-                    ? parseFractionString(ingredient.qtyNumber)
-                    : ingredient.qtyNumber;
-
+                // const qtyNumber = !ingredient.qtyNumber
+                //   ? 0
+                //   : typeof ingredient.qtyNumber === "string"
+                //     ? parseFractionString(ingredient.qtyNumber)
+                //     : ingredient.qtyNumber;
+                const qtyNumber = 1;
+                console.log(
+                  `Ingred ${ingredient.product}: ${ingredient.qtyNumber}`,
+                );
                 return (
                   <li key={index}>
                     {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}
