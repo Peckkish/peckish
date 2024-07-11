@@ -208,7 +208,11 @@ export default function MealPlanDashboardPage({
           <div className={"mb-8"}>
             <h1 className={"font-bold text-2xl"}>Recipes</h1>
             <Separator className={"my-3"} />
-            <div className={"flex flex-row items-center gap-3 mt-4"}>
+            <div
+              className={
+                "flex flex-row justify-center items-center gap-3 mt-4 "
+              }
+            >
               {userMealPlan && (
                 <div className={"flex flex-col"}>
                   <div className="pt-2 text-center text-sm text-muted-foreground">
@@ -223,10 +227,7 @@ export default function MealPlanDashboardPage({
                   >
                     <CarouselContent>
                       {userMealPlan.map((recipe, index) => (
-                        <CarouselItem
-                          key={index}
-                          className="2xl:basis-1/3 basis-full"
-                        >
+                        <CarouselItem key={index} className="basis-full">
                           <div className="p-1">
                             <div>
                               <div className="flex flex-col items-center justify-center p-6 gap-5">

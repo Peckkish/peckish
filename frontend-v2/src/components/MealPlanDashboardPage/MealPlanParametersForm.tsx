@@ -38,8 +38,9 @@ export default function MealPlanParametersForm({
   const [formData, setFormData] = useState<ServingsInfo>({
     portionSize: "Regular" as PortionSize,
     peopleServedPerMeal: 2,
-    numberOfDays: 4,
-    startEatingOn: daysOfWeek[new Date().getDay() - (1 % 7)] as DayOfWeek,
+    numberOfDays: 5,
+    // startEatingOn: daysOfWeek[new Date().getDay() - (1 % 7)] as DayOfWeek,
+    startEatingOn: "Monday",
   });
 
   const portionMultiplierMap: Map<string, number> = new Map([
