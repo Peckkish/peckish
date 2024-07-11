@@ -165,7 +165,7 @@ export default function InteractiveMealPlan({
             (_, index) => (
               <div
                 key={index}
-                className="border-2 border-[#d8f2dc] bg-white"
+                className="border-[1px] border-[#d8f2dc] bg-white"
               ></div>
             ),
           )}

@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button.tsx";
 import { useNavigate } from "react-router-dom";
 import { MinusCircle, PlusCircle } from "@phosphor-icons/react";
 import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
+import { X } from "lucide-react";
 
 interface RecipePreviewTileProps {
   recipe: Recipe;
@@ -187,11 +188,14 @@ export default function RecipePreviewTile({
           )}
           {showRemoveFromPlanButton && (
             <Button
-              variant={isSelected ? "destructive" : "green"}
+              variant={"destructive"}
               onClick={removeRecipe}
               className={"ml-auto"}
             >
-              <div className={"flex flex-row items-center gap-1"}>X Remove</div>
+              <div className={"flex flex-row items-center gap-1"}>
+                <X size={18} />
+                <p>Remove</p>
+              </div>
             </Button>
           )}
         </div>

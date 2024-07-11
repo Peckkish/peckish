@@ -68,9 +68,9 @@ export default function RecipeSelectorPage({
       <h1 className={"mt-16 text-6xl font-semibold"}>
         Add recipes to your plan.
       </h1>
-      <p className={"mt-2 text-lg text-muted-foreground"}>
-        Choose your dietary requirements (if any) and pick your favourite
-        recipes for your meal plan!
+      <p className={"mt-3 text-lg text-muted-foreground"}>
+        Choose any dietaries and your preferred supermarkets, then pick your
+        favourite recipes for your meal plan!
       </p>
       <PreferenceSelectorBar
         dietaryPreferences={dietaryPreferences}

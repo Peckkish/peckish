@@ -28,7 +28,7 @@ export default function RecipeGallery({
 
   if (!recipeCollection || isLoading || isFabLoading) {
     return (
-      <div className={"flex justify-center items-center w-full"}>
+      <div className={"flex justify-center items-center pt-32 w-full"}>
         <DotLoader />
       </div>
     );

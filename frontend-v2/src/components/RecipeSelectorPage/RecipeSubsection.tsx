@@ -45,7 +45,7 @@ export default function RecipeSubsection({
     <div className={cn("mb-12 rounded-lg", className)}>
       <div className={"flex flex-row items-center gap-2"}>
         {headerIcon && headerIcon}
-        <h1 className={"text-4xl font-semibold"}>{label}</h1>
+        <h1 className={"text-3xl font-semibold"}>{label}</h1>
       </div>
       <Separator className={"w-full h-[1px] mb-8 mt-3"} />
       <ScrollArea className={"side-scrolling-container max-w-[95vw]"}>

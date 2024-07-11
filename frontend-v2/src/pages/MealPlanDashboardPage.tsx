@@ -90,7 +90,7 @@ export default function MealPlanDashboardPage({
           navigate("/app");
         }}
       >
-        <Trash className={"mr-2"} />
+        <Trash className={"mr-2"} size={20} />
         <span>Delete Meal Plan</span>
       </Button>
       <div className={"flex flex-col items-center"}>
@@ -130,7 +130,7 @@ export default function MealPlanDashboardPage({
                   <a
                     href="https://woolworths.com.au"
                     className={
-                      "underline underline-offset-2 text-green-500 font-medium"
+                      "underline underline-offset-2 text-[#33E14D] brightness-75 font-medium"
                     }
                   >
                     {ingredient.product}

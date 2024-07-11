@@ -5,10 +5,13 @@ import {
   Avocado,
   Bread,
   Cow,
+  DropHalfBottom,
+  Feather,
   Plant,
+  ShieldCheck,
   StarAndCrescent,
 } from "@phosphor-icons/react";
-import { Beef, Leaf, WheatOff } from "lucide-react";
+import { BeanOff, Beef, Leaf, WheatOff } from "lucide-react";
 import SupermarketToggle from "@/components/RecipeSelectorPage/SupermarketToggle.tsx";
 import { cn } from "@/utility/utils.ts";
 
@@ -29,8 +32,12 @@ export default function PreferenceSelectorBar({
     console.log(supermarketPreferences);
   }, [supermarketPreferences]);
   return (
-    <div className={"w-screen bg-[#33E14D]/20 py-8 px-[4vw] mb-16 mt-10"}>
-      <div className={"flex flex-row w-full justify-around items-center gap-4"}>
+    <div className={"w-screen py-8 px-[4vw] mb-2 mt-6"}>
+      <div
+        className={
+          "flex flex-row w-full justify-around items-center gap-4 shadow-lg px-10 pb-8 rounded-lg"
+        }
+      >
         <div className={"flex flex-col items-center gap-0.5"}>
           <p className={"font-semibold text-xl"}>
             Dietary Restrictions/Preferences
@@ -48,7 +55,9 @@ export default function PreferenceSelectorBar({
               toggleProperty={"isLowCarb"}
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
-              iconComponent={<Bread size={"22"} className={"mr-2"} />}
+              iconComponent={
+                <Bread size={"22"} weight={"bold"} className={"mr-2"} />
+              }
             />
             <PreferenceToggle
               label={"Low Fat"}
@@ -56,7 +65,11 @@ export default function PreferenceSelectorBar({
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
               iconComponent={
-                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
+                <DropHalfBottom
+                  size={"22"}
+                  weight={"bold"}
+                  className={"mr-2"}
+                />
               }
             />
             <PreferenceToggle
@@ -105,13 +118,11 @@ export default function PreferenceSelectorBar({
               }
             />
             <PreferenceToggle
-              label={"Low-FODMAP"}
+              label={"Low FODMAP"}
               toggleProperty={"isLowFODMAP"}
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
-              iconComponent={
-                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
-              }
+              iconComponent={<BeanOff size={"22"} className={"mr-2"} />}
             />
             <PreferenceToggle
               label={"AIP Diet"}
@@ -128,7 +139,7 @@ export default function PreferenceSelectorBar({
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
               iconComponent={
-                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
+                <ShieldCheck size={"22"} weight={"bold"} className={"mr-2"} />
               }
             />
             <PreferenceToggle
