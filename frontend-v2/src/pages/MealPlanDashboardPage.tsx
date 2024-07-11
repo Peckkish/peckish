@@ -185,8 +185,10 @@ export default function MealPlanDashboardPage({
                     className="text-[#33E14D] brightness-75 font-medium"
                   >
                     <span id={`ingredient-text-${index}`}>
-                      {ingredient.qtyNumber}
-                      {/*{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}*/}
+                      {/*{decimalToMixedFractionString(*/}
+                      {/*  roundToNearestQuarter(ingredient.qtyNumber),*/}
+                      {/*)}*/}
+                      {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
                     </span>
                   </a>
                 </li>
