@@ -84,7 +84,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   return (
     <div
       className={
-        "flex flex-col items-center pt-24 px-12 min-h-screen max-w-[60%] mx-auto"
+        "flex flex-col items-center pt-24 px-24 min-h-screen 2xl:max-w-[60%] mx-auto"
       }
     >
       <Button
@@ -95,7 +95,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         <span>Go Back</span>
       </Button>
       {/* TOP ROW */}
-      <div className={"flex flex-row justify-between gap-16 w-full"}>
+      <div className={"flex flex-row justify-between gap-14 w-full"}>
         {/* TOP ROW LEFT COLUMN */}
         <div className={"flex flex-col items-start"}>
           <div className={"flex flex-row items-center gap-2 my-4"}>
@@ -107,7 +107,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <h1 className={"text-6xl font-bold mt-4"}>
             {activeRecipe.recipeTitle}
           </h1>
-          <p className={"text-lg font-base text-zinc-500 mb-1"}>
+          <p className={"text-lg font-base text-zinc-400 mb-1"}>
             {activeRecipe.recipeDescription}
           </p>
           <RatingDisplay
@@ -130,7 +130,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
             }
           >
             <div className={"flex flex-col items-center p-6 w-28"}>
-              <p className={"font-semibold text-xl"}>Prep</p>
+              <p className={"font-semibold 2xl:text-xl text-lg"}>Prep</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.prepTime)}
               </p>
@@ -138,13 +138,13 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
             <div
               className={"flex flex-col items-center p-6 border-x-[1px] w-28"}
             >
-              <p className={"font-semibold text-xl"}>Cook</p>
+              <p className={"font-semibold 2xl:text-xl text-lg"}>Cook</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.cookTime)}
               </p>
             </div>
             <div className={"flex flex-col items-center p-6 w-28"}>
-              <p className={"font-semibold text-xl"}>Difficulty</p>
+              <p className={"font-semibold 2xl:text-xl text-lg"}>Difficulty</p>
               <p className={"font-light mt-2 text-sm"}>Easy</p>
             </div>
           </div>
@@ -159,24 +159,33 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <div
             className={"size-[36rem] aspect-square overflow-hidden rounded-2xl"}
           >
-            {!!activeRecipe.recipeImageURL ? (
-              <img
-                className={"min-h-full min-w-full object-cover"}
-                src={activeRecipe.recipeImageURL}
-                alt="Recipe preview"
-              />
-            ) : (
-              <Skeleton className={"size-[36rem]"} />
-            )}
+            {/*{!!activeRecipe.recipeImageURL ? (*/}
+            {/*  <img*/}
+            {/*    className={"min-h-full min-w-full object-cover"}*/}
+            {/*    src={activeRecipe.recipeImageURL}*/}
+            {/*    alt="Recipe preview"*/}
+            {/*  />*/}
+            {/*) : (*/}
+            {/*  <Skeleton className={"size-[36rem]"} />*/}
+            {/*)}*/}
+            <img
+              className={"min-h-full min-w-full object-cover"}
+              src={
+                "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
+              }
+              alt="Recipe preview"
+            />
           </div>
         </div>
       </div>
 
-      <Separator className={"h-[1px] my-8"} />
+      <Separator className={"h-[1px] my-8 mx-8"} />
 
       {/* DESCRIPTION ROW*/}
       {!!activeRecipe.recipeLongIntro && (
-        <div className={"self-start mb-6"}>{activeRecipe.recipeLongIntro}</div>
+        <div className={"self-start mb-6 text-zinc-600"}>
+          {activeRecipe.recipeLongIntro}
+        </div>
       )}
 
       {/* INGREDIENTS AND METHOD ROW */}
@@ -188,14 +197,35 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
             numServings={numServings}
             className={"w-40"}
           />
-          <ul className={"flex flex-col list-disc ml-[1.5ch] gap-2 mt-4"}>
-            {activeRecipe.recipeIngredients.map((ingredient, index) => {
-              return (
-                <li
-                  key={index}
-                >{`${decimalToMixedFractionString(roundToNearestQuarter(parseFractionString(ingredient.qtyNumber) * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>
-              );
-            })}
+          {/*>{`${decimalToMixedFractionString(roundToNearestQuarter(parseFractionString(ingredient.qtyNumber) * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>*/}
+          {/*<ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">*/}
+          {/*  {activeRecipe.recipeIngredients.map((ingredient: any, index: number) => {*/}
+          {/*    const qtyNumber = typeof ingredient.qtyNumber === 'string'*/}
+          {/*      ? parseFractionString(ingredient.qtyNumber)*/}
+          {/*      : ingredient.qtyNumber;*/}
+
+          {/*    return (*/}
+          {/*      <li key={index}>*/}
+          {/*        {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}*/}
+          {/*      </li>*/}
+          {/*    );*/}
+          {/*  })}*/}
+          {/*</ul>*/}
+          <ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">
+            {activeRecipe.recipeIngredients.map(
+              (ingredient: any, index: number) => {
+                const qtyNumber =
+                  typeof ingredient.qtyNumber === "string"
+                    ? parseFractionString(ingredient.qtyNumber)
+                    : ingredient.qtyNumber;
+
+                return (
+                  <li key={index}>
+                    {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}
+                  </li>
+                );
+              },
+            )}
           </ul>
         </div>
         <div className={"flex flex-col items-start"}>

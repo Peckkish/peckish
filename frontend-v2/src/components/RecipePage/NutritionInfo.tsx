@@ -17,7 +17,7 @@ export default function NutritionInfo({
   return (
     <div className={"flex flex-col items-start mt-auto gap-3"}>
       <div
-        className={"grid min-w-[30vw] gap-3"}
+        className={"grid 2xl:min-w-[30vw] min-w-[35vw] gap-3"}
         style={{
           gridTemplateColumns: "repeat(auto-fit, minmax(min(50px, 100%), 1fr))",
         }}
@@ -29,7 +29,7 @@ export default function NutritionInfo({
         />
       </div>
       <div
-        className={"grid min-w-[30vw] min-h-24 gap-3"}
+        className={"grid 2xl:min-w-[30vw] min-w-[35vw] min-h-24 gap-3"}
         style={{
           gridTemplateColumns: "repeat(auto-fit, minmax(min(50px, 100%), 1fr))",
         }}

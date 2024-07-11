@@ -44,7 +44,12 @@ export default function RecipeGallery({
     (recipe) => recipe.BLD === "Dinner",
   );
 
-  if (!hasClickedGetRecipes) {
+  if (
+    !hasClickedGetRecipes ||
+    breakfastRecipes.length === 0 ||
+    lunchRecipes.length === 0 ||
+    dinnerRecipes.length === 0
+  ) {
     return (
       <p className={"absolute top-[28rem] text-[#33E14D] brightness-50"}>
         {"Your recipe options will appear here!"}

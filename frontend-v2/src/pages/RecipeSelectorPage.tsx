@@ -15,6 +15,8 @@ import { RecipeCollectionContext } from "@/utility/context.ts";
 import PreferenceSelectorBar from "@/components/RecipeSelectorPage/PreferenceSelectorBar.tsx";
 import SelectorActionButtonPair from "@/components/RecipeSelectorPage/SelectorActionButtonPair.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { ArrowCounterClockwise, CaretLeft } from "@phosphor-icons/react";
 
 interface RecipeSelectorPageProps {
   setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
@@ -41,6 +43,10 @@ export default function RecipeSelectorPage({
       isKeto: false,
       isDairyFree: false,
       isVegan: false,
+      isAIP: false,
+      isLowCalorie: false,
+      isLowFat: false,
+      isLowFODMAP: false,
     });
 
   const [supermarketPreferences, setSupermarketPreferences] =
@@ -49,6 +55,7 @@ export default function RecipeSelectorPage({
       colesEnabled: true,
     });
   const [isLoading, setIsLoading] = useState(false);
+  const [hasClickedGetRecipes, setHasClickedGetRecipes] = useState(false);
 
   useEffect(() => {
     localStorage.setItem(
@@ -57,14 +64,27 @@ export default function RecipeSelectorPage({
     );
   }, [selectedRecipeIds]);
 
-  const [hasClickedGetRecipes, setHasClickedGetRecipes] = useState(false);
+  const handleClearRecipes = () => {
+    localStorage.removeItem("recipeCollection");
+    setHasClickedGetRecipes(false);
+    setRecipeCollection([]);
+  };
 
-  // useEffect(() => {
-  //   localStorage.setItem("recipeCollection", JSON.stringify(recipeCollection));
-  // }, [recipeCollection]);
+  useEffect(() => {
+    localStorage.setItem("recipeCollection", JSON.stringify(recipeCollection));
+  }, [recipeCollection]);
 
   return (
-    <div className={"flex flex-col items-center px-[4vw] relative"}>
+    <div
+      className={"flex flex-col items-center px-[4vw] relative min-h-[150vh]"}
+    >
+      <Button
+        className={"w-fit absolute top-[25px] right-5"}
+        onClick={handleClearRecipes}
+      >
+        <ArrowCounterClockwise weight={"bold"} className={"mr-2"} />
+        <span>Clear Recipes</span>
+      </Button>
       <h1 className={"mt-16 text-6xl font-semibold"}>
         Add recipes to your plan.
       </h1>

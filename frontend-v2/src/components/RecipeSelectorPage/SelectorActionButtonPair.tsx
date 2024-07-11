@@ -45,19 +45,18 @@ export default function SelectorActionButtonPair({
       <Button
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
         onClick={async () => {
+          setIsLoading(true);
           setHasClickedGetRecipes(true);
           setSelectedRecipeIds([]);
-          setIsLoading(true);
-          getRecipeCollection(dietaryPreferences).then((result) => {
-            setRecipeCollection(result);
-            setIsLoading(false);
-          });
+          const fetchedRecipe = await getRecipeCollection(dietaryPreferences);
+          setRecipeCollection(fetchedRecipe);
+          setIsLoading(false);
           // await queryClient.invalidateQueries({
           //   queryKey: ["recipeCollection"],
           // });
         }}
       >
-        <Robot size={32} className={"mr-3"} />
+        <Robot size={28} className={"mr-3"} />
         <span>Get New Recipes</span>
       </Button>
       <Button
@@ -74,7 +73,7 @@ export default function SelectorActionButtonPair({
           navigate("/app/plans/myMealPlan");
         }}
       >
-        <Utensils size={32} className={"mr-3"} />
+        <Utensils size={28} className={"mr-3"} />
         <span>
           {selectedRecipeIds.length < 2
             ? "Select at Least Two Recipes"

@@ -31,6 +31,7 @@ import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanP
 import { Separator } from "@/components/ui/separator.tsx";
 import {
   Carousel,
+  CarouselApi,
   CarouselContent,
   CarouselItem,
   CarouselNext,
@@ -48,6 +49,8 @@ export default function MealPlanDashboardPage({
   setUserMealPlan,
   setSelectedRecipeIds,
 }: MealPlanDashboardPageProps) {
+  const [api, setApi] = useState<CarouselApi>();
+
   const [mealPlanName, setMealPlanName] = useState("My First Meal Plan");
   const [totalShoppingList, setTotalShoppingList] = useState<IngredientItem[]>(
     [],
@@ -60,6 +63,7 @@ export default function MealPlanDashboardPage({
   >(new Map([]));
 
   const navigate = useNavigate();
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     userMealPlan &&
@@ -71,6 +75,18 @@ export default function MealPlanDashboardPage({
   useEffect(() => {
     // console.log(recipeIdToServingsInfoMap);
   }, [recipeIdToServingsInfoMap]);
+
+  useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setCurrentSlide(api.selectedScrollSnap() + 1);
+
+    api.on("select", () => {
+      setCurrentSlide(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
 
   return (
     <div className={"relative pb-12"}>
@@ -146,65 +162,73 @@ export default function MealPlanDashboardPage({
             <Separator className={"my-3"} />
             <div className={"flex flex-row items-center gap-3 mt-4"}>
               {userMealPlan && (
-                <Carousel
-                  opts={{
-                    align: "start",
-                  }}
-                  className="w-full max-w-sm"
-                >
-                  <CarouselContent>
-                    {userMealPlan
-                      .flatMap((item) => Array(6).fill(item))
-                      .map((recipe, index) => (
-                        <CarouselItem
-                          key={index}
-                          className="2xl:basis-1/3 basis-full"
-                        >
-                          <div className="p-1">
-                            <div>
-                              <div className="flex flex-col items-center justify-center p-6">
-                                <RecipePreviewTile
-                                  recipe={recipe}
-                                  setSelectedRecipeIds={setSelectedRecipeIds}
-                                  hidePlanAddButton
-                                  showRemoveFromPlanButton
-                                  setUserMealPlan={setUserMealPlan}
-                                />
-                                <Separator className={"w-[75%] mx-auto my-5"} />
-                                <MealPlanParametersForm
-                                  recipe={recipe}
-                                  setRecipeIdToMultiplierMap={
-                                    setRecipeIdToMultiplierMap
-                                  }
-                                  setRecipeIdToServingsInfoMap={
-                                    setRecipeIdToServingsInfoMap
-                                  }
-                                />
+                <div className={"flex flex-col"}>
+                  <div className="pt-2 text-center text-sm text-muted-foreground">
+                    {currentSlide} of {userMealPlan.length}
+                  </div>
+                  <Carousel
+                    setApi={setApi}
+                    opts={{
+                      align: "start",
+                    }}
+                    className="w-full max-w-sm -mt-4 shadow-lg rounded-lg"
+                  >
+                    <CarouselContent>
+                      {userMealPlan
+                        .flatMap((item) => Array(6).fill(item))
+                        .map((recipe, index) => (
+                          <CarouselItem
+                            key={index}
+                            className="2xl:basis-1/3 basis-full"
+                          >
+                            <div className="p-1">
+                              <div>
+                                <div className="flex flex-col items-center justify-center p-6 gap-5">
+                                  <RecipePreviewTile
+                                    recipe={recipe}
+                                    setSelectedRecipeIds={setSelectedRecipeIds}
+                                    hidePlanAddButton
+                                    showRemoveFromPlanButton
+                                    setUserMealPlan={setUserMealPlan}
+                                  />
+                                  {/*<Separator*/}
+                                  {/*  className={"w-[75%] mx-auto my-5"}*/}
+                                  {/*/>*/}
+                                  <MealPlanParametersForm
+                                    recipe={recipe}
+                                    setRecipeIdToMultiplierMap={
+                                      setRecipeIdToMultiplierMap
+                                    }
+                                    setRecipeIdToServingsInfoMap={
+                                      setRecipeIdToServingsInfoMap
+                                    }
+                                  />
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </CarouselItem>
-                      ))}
-                    {/*{Array.from({ length: 5 }).map((_, index) => (*/}
-                    {/*  <CarouselItem*/}
-                    {/*    key={index}*/}
-                    {/*    className="md:basis-1/2 lg:basis-1/3"*/}
-                    {/*  >*/}
-                    {/*    <div className="p-1">*/}
-                    {/*      <div>*/}
-                    {/*        <div className="flex aspect-square items-center justify-center p-6">*/}
-                    {/*          <span className="text-3xl font-semibold">*/}
-                    {/*            {index + 1}*/}
-                    {/*          </span>*/}
-                    {/*        </div>*/}
-                    {/*      </div>*/}
-                    {/*    </div>*/}
-                    {/*  </CarouselItem>*/}
-                    {/*))}*/}
-                  </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </Carousel>
+                          </CarouselItem>
+                        ))}
+                      {/*{Array.from({ length: 5 }).map((_, index) => (*/}
+                      {/*  <CarouselItem*/}
+                      {/*    key={index}*/}
+                      {/*    className="md:basis-1/2 lg:basis-1/3"*/}
+                      {/*  >*/}
+                      {/*    <div className="p-1">*/}
+                      {/*      <div>*/}
+                      {/*        <div className="flex aspect-square items-center justify-center p-6">*/}
+                      {/*          <span className="text-3xl font-semibold">*/}
+                      {/*            {index + 1}*/}
+                      {/*          </span>*/}
+                      {/*        </div>*/}
+                      {/*      </div>*/}
+                      {/*    </div>*/}
+                      {/*  </CarouselItem>*/}
+                      {/*))}*/}
+                    </CarouselContent>
+                    <CarouselPrevious className={"bg-[#33E14D]"} />
+                    <CarouselNext className={"bg-[#33E14D]"} />
+                  </Carousel>
+                </div>
               )}
             </div>
           </div>

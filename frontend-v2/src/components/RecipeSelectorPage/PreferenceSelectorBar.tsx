@@ -130,7 +130,7 @@ export default function PreferenceSelectorBar({
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
               iconComponent={
-                <Plant size={"22"} weight={"bold"} className={"mr-2"} />
+                <ShieldCheck size={"22"} weight={"bold"} className={"mr-2"} />
               }
             />
             <PreferenceToggle
@@ -139,7 +139,7 @@ export default function PreferenceSelectorBar({
               dietaryPreferences={dietaryPreferences}
               setDietaryPreferences={setDietaryPreferences}
               iconComponent={
-                <ShieldCheck size={"22"} weight={"bold"} className={"mr-2"} />
+                <Feather size={"22"} weight={"bold"} className={"mr-2"} />
               }
             />
             <PreferenceToggle
