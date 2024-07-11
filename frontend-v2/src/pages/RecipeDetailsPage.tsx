@@ -216,13 +216,14 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
                 //   : typeof ingredient.qtyNumber === "string"
                 //     ? parseFractionString(ingredient.qtyNumber)
                 //     : ingredient.qtyNumber;
-                const qtyNumber = 1;
+                // const qtyNumber = 1;
                 console.log(
                   `Ingred ${ingredient.product}: ${ingredient.qtyNumber}`,
                 );
                 return (
                   <li key={index}>
-                    {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}
+                    {/*{`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}*/}
+                    {`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}
                   </li>
                 );
               },
