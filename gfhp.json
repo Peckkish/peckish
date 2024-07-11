@@ -151,17 +151,17 @@
             },
             {
                 "product": "Olive oil",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Kosher salt and freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Parsley",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -211,12 +211,12 @@
             },
             {
                 "product": "kosher salt and freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -261,7 +261,7 @@
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -373,7 +373,7 @@
             },
             {
                 "product": "Kosher salt and freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -393,12 +393,12 @@
             },
             {
                 "product": "vegetable oil",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -408,17 +408,17 @@
             },
             {
                 "product": "Roasted Beets",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Extra-virgin olive oil",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -428,7 +428,7 @@
             },
             {
                 "product": "Toasted cashews",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -443,7 +443,7 @@
             },
             {
                 "product": "Sunchoke Chips",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -632,7 +632,7 @@
             },
             {
                 "product": "Freshly ground black pepper to taste",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -642,7 +642,7 @@
             },
             {
                 "product": "Roti",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -837,7 +837,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -904,7 +904,7 @@
         "recipeIngredients": [
             {
                 "product": "Softened butter (for the pan)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -934,7 +934,7 @@
             },
             {
                 "product": "Pinch fine sea salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -1298,17 +1298,17 @@
             },
             {
                 "product": "Tomato Brown Butter",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Crumbled feta",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "marjoram and parsley leaves for garnish",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -1487,7 +1487,7 @@
             },
             {
                 "product": "vegetable oil (for grill)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -1497,7 +1497,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -1750,7 +1750,7 @@
             },
             {
                 "product": "vegetable oil (for grill)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -1760,7 +1760,7 @@
             },
             {
                 "product": "Cooked jasmine rice, coconut rice, or sticky rice (for serving)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -1832,7 +1832,7 @@
             },
             {
                 "product": "vegetable oil",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2091,7 +2091,7 @@
             },
             {
                 "product": "tangy red salsa",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -2175,7 +2175,7 @@
             },
             {
                 "product": "unsalted butter",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2185,7 +2185,7 @@
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2254,12 +2254,12 @@
             },
             {
                 "product": "Sea salt and cracked black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "cracked black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2269,17 +2269,17 @@
             },
             {
                 "product": "Extra virgin olive oil, for brushing",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "Plain Greek-style yogurt, to serve",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "hulled tahini, to serve",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2492,7 +2492,7 @@
             },
             {
                 "product": "sour cream",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -2707,7 +2707,7 @@
             },
             {
                 "product": "Freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -2805,7 +2805,7 @@
             },
             {
                 "product": "paprika and chopped fresh chives (for garnish)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -2846,7 +2846,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -3004,7 +3004,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -3024,7 +3024,7 @@
             },
             {
                 "product": "Cilantro leaves with tender stems and sliced avocado (for serving)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -3111,12 +3111,12 @@
             },
             {
                 "product": "salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -3297,7 +3297,7 @@
             },
             {
                 "product": "Roti or white rice (to serve)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -3391,7 +3391,7 @@
             },
             {
                 "product": "salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -3476,7 +3476,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -3511,17 +3511,17 @@
             },
             {
                 "product": "Flaky sea salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "mild red pepper flakes",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "basil and/or mint leaves (for serving)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -3738,7 +3738,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -3958,7 +3958,7 @@
             },
             {
                 "product": "kosher salt (if needed)",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
@@ -4067,27 +4067,27 @@
             },
             {
                 "product": "scallions",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "blanched sugar snap peas",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "baby bok choy",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "cucumbers",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
                 "product": "pea shoots or alfalfa sprouts",
-                "qtyNumber": null,
+                "qtyNumber": "",
                 "qtyUnit": ""
             }
         ],
