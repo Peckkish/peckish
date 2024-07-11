@@ -11,7 +11,7 @@
             {
                 "product": "round Italian loaf, cut into 1-inch cubes (8 cups)",
                 "qtyNumber": "1",
-                "qtyUnit": "(\u00be-to 1-pound)"
+                "qtyUnit": ""
             },
             {
                 "product": "olive oil, divided",
@@ -29,14 +29,14 @@
                 "qtyUnit": "stick"
             },
             {
-                "product": "onions, chopped",
+                "product": "medium onions, chopped",
                 "qtyNumber": "3",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "celery ribs, chopped",
+                "product": "large celery ribs, chopped",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "garlic, minced",
@@ -44,18 +44,18 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "eggs, lightly beaten",
+                "product": "large eggs, lightly beaten",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "heavy cream, divided",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "¾",
                 "qtyUnit": "cup"
             },
             {
                 "product": "turkey giblet stock or reduced-sodium chicken broth",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -65,25 +65,25 @@
             },
             {
                 "product": "coarsely chopped flat-leaf parsley",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
-                "product": "ceramic or glass baking dish",
-                "qtyNumber": "4-qt",
-                "qtyUnit": "shallow"
+                "product": "shallow ceramic or glass baking dish",
+                "qtyNumber": "4",
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 350\u00c2\u00b0F with rack in middle",
+            "Preheat oven to 350F with rack in middle",
             "Generously butter baking dish.  Put bread in 2 shallow baking pans and bake, switching position of pans halfway through baking, until just dried out, about 10 minutes.  Heat 1 tablespoon oil in a 12-inch heavy skillet over medium-high heat until it shimmers, then cook half of sausage, stirring and breaking it into small pieces, until golden brown, about 6 minutes",
             "Transfer with a slotted spoon to a large bowl",
             "Brown remaining sausage in remaining tablespoon oil, transferring to bowl.  Pour off fat from skillet and wipe clean",
-            "Heat butter over medium heat until foam subsides, then cook onions, celery, garlic, and \u00c2\u00bd teaspoon each of salt and pepper, stirring occasionally, until golden, 12 to 15 minutes",
-            "Add vegetables and bread to sausage.  Whisk together eggs, \u00c2\u00bd cup cream, turkey stock, cheese, and parsley, then stir into stuffing and cool completely, about 30 minutes",
-            "Reserve 5 cups stuffing to stuff turkey and spoon remainder into baking dish, then drizzle with remaining \u00c2\u00bc cup cream",
+            "Heat butter over medium heat until foam subsides, then cook onions, celery, garlic, and .5 teaspoon each of salt and pepper, stirring occasionally, until golden, 12 to 15 minutes",
+            "Add vegetables and bread to sausage.  Whisk together eggs, .5 cup cream, turkey stock, cheese, and parsley, then stir into stuffing and cool completely, about 30 minutes",
+            "Reserve 5 cups stuffing to stuff turkey and spoon remainder into baking dish, then drizzle with remaining .25 cup cream",
             "Cover stuffing and chill.  About 1 hour before stuffed turkey is finished roasting, bring dish of stuffing to room temperature",
-            "When turkey is done, increase oven temperature to 425\u00c2\u00b0F and bake stuffing, covered tightly with foil, until hot throughout, about 20 minutes",
+            "When turkey is done, increase oven temperature to 425F and bake stuffing, covered tightly with foil, until hot throughout, about 20 minutes",
             "Remove foil and bake until top is golden and crisp, about 15 minutes more.  Cooks' Note: Bread can be toasted 3 days ahead and kept (once cool) in a sealed bag at room temperature",
             "Stuffing can be prepared (but not baked) 4 hours before roasting turkey",
             "If baking stuffing at the same time as potatoes, put stuffing in upper third of oven and potatoes in bottom third (allow extra time)."
@@ -110,13 +110,13 @@
                 "qtyUnit": "(14.5-ounce) can"
             },
             {
-                "product": "onion, thinly sliced",
+                "product": "large onion, thinly sliced",
                 "qtyNumber": "1",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "turmeric",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -125,8 +125,8 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "Aleppo pepper or \u215b tsp. crushed red pepper flakes",
-                "qtyNumber": "\u00bc",
+                "product": "Aleppo pepper or .125 tsp. crushed red pepper flakes",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
@@ -135,9 +135,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "3",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "ghee, unsalted butter, or olive oil",
@@ -146,7 +146,7 @@
             },
             {
                 "product": "whole cumin seeds",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -166,25 +166,25 @@
             }
         ],
         "recipeSteps": [
-            "Place an oven rack in the center of the oven, then preheat to 350\u00c2\u00b0F.  In a medium, oven-safe pan, heat 1 Tbsp",
+            "Place an oven rack in the center of the oven, then preheat to 350F.  In a medium, oven-safe pan, heat 1 Tbsp",
             "olive oil over medium heat",
-            "Add 1 large, thinly sliced onion and \u00c2\u00bd tsp",
+            "Add 1 large, thinly sliced onion and .5 tsp",
             "Kosher salt",
-            "Cook, stirring often, until golden brown, about 25 minutes.  Add \u00c2\u00bd tsp",
+            "Cook, stirring often, until golden brown, about 25 minutes.  Add .5 tsp",
             "turmeric, 1 tsp",
-            "cumin, \u00c2\u00bc tsp",
-            "Aleppo pepper (or \u00e2\u2026\u203a tsp",
+            "cumin, .25 tsp",
+            "Aleppo pepper (or 2 tsp",
             "crushed red pepper flakes), and 2 Tbsp",
             "tomato paste",
             "Cook and stir constantly until the onions are coated and the tomato paste has darkened slightly, about 2 minutes",
-            "Add \u00e2\u2026\u201c cup water; stir and scrape up all the browned bits on the bottom of the pan for 1 to 2 minutes, or until the liquid looks thickened and saucy",
+            "Add cup water; stir and scrape up all the browned bits on the bottom of the pan for 1 to 2 minutes, or until the liquid looks thickened and saucy",
             "Add one 14-oz",
             "can of lentil soup; cook, stirring to combine, 1 to 2 minutes",
             "Turn off the heat and season with salt, pepper, and more Aleppo pepper or red pepper flakes to taste.  Using a spoon, create 3 wells in the lentil mixture",
             "Carefully crack 1 egg into each well",
             "Transfer the pan to the oven and bake until the whites of the eggs are just set, 11 to 13 minutes.  While the eggs bake, in a small pot or butter warmer, heat 2 Tbsp",
             "unsalted butter, ghee, or olive oil over medium heat",
-            "Add \u00c2\u00bd tsp",
+            "Add .5 tsp",
             "cumin seeds; swirl the pan until the seeds start to sizzle and brown, 30 seconds to 1 minute",
             "Remove from the heat.  Drizzle the finished eggs with the butter mixture, season with salt and pepper, and garnish with parsley before serving."
         ],
@@ -205,8 +205,8 @@
         "cookTime": 60,
         "recipeIngredients": [
             {
-                "product": "skinless, boneless chicken thighs (4\u20138 depending on size)",
-                "qtyNumber": "1\u00bd",
+                "product": "skinless, boneless chicken thighs (4-8 depending on size)",
+                "qtyNumber": "1.5",
                 "qtyUnit": "lb."
             },
             {
@@ -225,9 +225,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "medium leeks, white and pale green parts only, halved lengthwise, thinly sliced",
+                "product": "large-to-medium leeks, white and pale green parts only, halved lengthwise, thinly sliced",
                 "qtyNumber": "3",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "Zest and juice of lemon, divided",
@@ -236,12 +236,12 @@
             },
             {
                 "product": "long-grain white rice, rinsed until water runs clear",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "cups"
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "2\u00be",
+                "qtyNumber": "2.75",
                 "qtyUnit": "cups"
             },
             {
@@ -271,7 +271,7 @@
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "4\u20135",
+                "qtyNumber": "4-5",
                 "qtyUnit": "Tbsp."
             }
         ],
@@ -306,7 +306,7 @@
         "recipeId": "ed749d2c-a0b1-4ae7-b3e0-e4c308c6150c",
         "recipeTitle": "Beets with Crispy Sunchokes",
         "recipeDescription": "with champagne vinegar and cashews",
-        "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur\u00c3\u00a9e, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
+        "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Pur©e, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
         "totalCost": 22.88,
         "prepTime": 35,
         "cookTime": 80,
@@ -314,30 +314,30 @@
             {
                 "product": "Strips of zest (no pith) from 1 medium orange",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "fresh ginger (about one 5-inch piece), peeled and thinly shaved (use a mandoline if you have one)",
-                "qtyNumber": "2\u00bd",
+                "qtyNumber": "2.5",
                 "qtyUnit": "ounces"
             },
             {
                 "product": "fresh lime juice",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "champagne vinegar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "sugar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
-                "product": "plus \u00be teaspoon kosher salt",
+                "product": "plus 0.75 teaspoon kosher salt",
                 "qtyNumber": "2",
                 "qtyUnit": "tablespoons"
             },
@@ -348,27 +348,27 @@
             },
             {
                 "product": "Thai chile, with seeds",
-                "qtyNumber": "\u00bd",
-                "qtyUnit": "individual"
+                "qtyNumber": "0.5",
+                "qtyUnit": ""
             },
             {
                 "product": "beets (use a mix of colors if possible), about 5 medium",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "pounds"
             },
             {
                 "product": "extra-virgin olive oil",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "white wine vinegar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "water",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -383,13 +383,13 @@
             },
             {
                 "product": "roughly chopped cashews",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
-                "product": "sunchokes, thinly shaved (use a mandoline if you have one)",
+                "product": "large sunchokes, thinly shaved (use a mandoline if you have one)",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "vegetable oil",
@@ -402,9 +402,9 @@
                 "qtyUnit":  ""
             },
             {
-                "product": "orange",
+                "product": "medium orange",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "Roasted Beets",
@@ -423,7 +423,7 @@
             },
             {
                 "product": "Pickled Orange-Ginger Puree",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "¼",
                 "qtyUnit": "cup"
             },
             {
@@ -452,7 +452,7 @@
             "Bring the water to a boil, then drain",
             "Repeat this process two more times (blanching the orange zest removes any bitter flavors)",
             "Place the ginger and orange zest in a jar or heatproof container",
-            "In a saucepan, bring the lime juice, vinegar, sugar, and \u00c2\u00be teaspoon salt to a boil",
+            "In a saucepan, bring the lime juice, vinegar, sugar, and .75 teaspoon salt to a boil",
             "Pour over the ginger and orange",
             "Let cool to room temperature, then cover and refrigerate overnight",
             "The pickled ginger can be refrigerated for a couple of months.  Drain the pickled ginger and orange and save 3 tablespoons of the pickling liquid",
@@ -460,7 +460,7 @@
             "Blend until very smooth, scraping down the side of the blender as needed",
             "Transfer to a container and refrigerate until ready to use",
             "The puree can be made a couple of days ahead",
-            "(Makes about 1 cup.)  Preheat the oven to 375\u00c2\u00b0F",
+            "(Makes about 1 cup.)  Preheat the oven to 375F",
             "Place the beets in a baking dish (if using a mix of red and golden beets, separate them into two smaller dishes and divide the oil, vinegar, and water between the two dishes)",
             "Drizzle with the oil and add the water and vinegar",
             "Season with salt and pepper",
@@ -473,7 +473,7 @@
             "At this point the sunchokes will rapidly go from golden brown to burnt, so quickly transfer the chips to paper towels to drain",
             "Lightly season with salt",
             "The sunchoke chips can be stored in an airtight container at room temperature for a day or two, or until they start to soften",
-            "(Makes about \u00c2\u00bd cup.)  Using a sharp knife, cut the peel and pith off the orange",
+            "(Makes about .5 cup.)  Using a sharp knife, cut the peel and pith off the orange",
             "Working over a bowl, cut the orange between the membranes to release the segments",
             "Dice the segments, then return them to the bowl.  Drizzle the beet wedges with a little bit of olive oil, season with salt, and toss.  Spread the ginger puree on the bottom of a shallow serving bowl or plate",
             "Arrange the beets over the puree",
@@ -498,9 +498,9 @@
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "carrot, top removed and cut into about 6 pieces",
+                "product": "medium carrot, top removed and cut into about 6 pieces",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "diced tomatoes",
@@ -544,12 +544,12 @@
             },
             {
                 "product": "ground black pepper",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "R-Rated Onions",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -558,21 +558,21 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "eggs Parmigiano Reggiano",
+                "product": "large eggs",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
-            "Preheat your oven to 400\u00c2\u00b0F",
+            "Preheat your oven to 400F",
             "Combine the carrot, tomatoes plus their juice, and 1 cup water in a blender",
-            "Blitz till it\u00e2\u20ac\u2122s as smooth as your blender allows.  In an ovenproof 12-inch saut\u00c3\u00a9 pan or skillet set over medium heat, cook 1 tablespoon of the olive oil and the minced garlic",
-            "Watch for the garlic to start sizzling, then stir in the spinach and \u00c2\u00bd teaspoon of the salt",
+            "Blitz till it's as smooth as your blender allows.  In an ovenproof 12-inch saute pan or skillet set over medium heat, cook 1 tablespoon of the olive oil and the minced garlic",
+            "Watch for the garlic to start sizzling, then stir in the spinach and .5 teaspoon of the salt",
             "Continue stirring for a minute, until all the spinach is wilted",
             "Remove it from the pan and set aside.  Add the final tablespoon olive oil to the pan, raise the heat to medium, and add the turkey plus 1 teaspoon salt",
             "Using a wooden spoon or spatula, break the turkey up into small morsels as it browns",
             "When you have browned turkey, add the cumin, paprika, and black pepper",
-            "Stir to incorporate, toasting the spices for about 30 seconds.  Add the carrot-tomato mixture, the R-Rated Onions, vinegar, and \u00c2\u00bd teaspoon salt",
+            "Stir to incorporate, toasting the spices for about 30 seconds.  Add the carrot-tomato mixture, the R-Rated Onions, vinegar, and .5 teaspoon salt",
             "Let this cook for about 15 minutes, uncovered, stirring occasionally",
             "You may need to lower the heat to prevent Joe from sticking or splattering",
             "When the ragout is done it will be thick and juicy",
@@ -601,9 +601,9 @@
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "Italian eggplants",
+                "product": "large Italian eggplants",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "canola oil",
@@ -611,9 +611,9 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "onion, chopped",
-                "qtyNumber": "\u00bd",
-                "qtyUnit": "medium"
+                "product": "medium onion, chopped",
+                "qtyNumber": "0.5",
+                "qtyUnit": ""
             },
             {
                 "product": "garlic, finely chopped",
@@ -621,13 +621,13 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "tomato, chopped",
+                "product": "small tomato, chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
                 "product": "coarse salt, or to taste",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -652,7 +652,7 @@
             "Remove and allow to cool.  Once cool, cut open the eggplants and scrape out the flesh",
             "The flesh should be soft to the touch and pulpy, and should easily come away from the skin",
             "Set aside.  Heat the canola oil in a frying pan",
-            "Add the onion and saut\u00c3\u00a9 until translucent",
+            "Add the onion and sautÃe until translucent",
             "Add the garlic and fry until the garlic turns a dark golden brown, then add the tomato and fry for 1 to 2 minutes.  Stir in the mashed eggplant and cook for about 2 minutes",
             "Season with salt and black pepper to taste",
             "Garnish with the cilantro and serve with roti."
@@ -679,9 +679,9 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "onions, chopped fine",
+                "product": "large onions, chopped fine",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "finely chopped celery (about 2 stalks)",
@@ -689,13 +689,13 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "red bell pepper, cut into \u00bd-inch dice",
+                "product": "red bell pepper, cut into .5-inch dice",
                 "qtyNumber": "1",
                 "qtyUnit": ""
             },
             {
-                "product": "green bell pepper, cut into \u00bd-inch dice",
-                "qtyNumber": "\u00bd",
+                "product": "green bell pepper, cut into .5-inch dice",
+                "qtyNumber": "0.5",
                 "qtyUnit": ""
             },
             {
@@ -730,12 +730,12 @@
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "large shrimp (about 32), shelled and deveined",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "pounds"
             },
             {
@@ -786,14 +786,14 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "chicken, cut into 8 pieces, skin removed",
+                "product": "(3-pound) chicken, cut into 8 pieces, skin removed",
                 "qtyNumber": "1",
-                "qtyUnit": "(3-pound)"
+                "qtyUnit": ""
             },
             {
-                "product": "onion, chopped",
+                "product": "small onion, chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
                 "product": "garlic, finely chopped",
@@ -826,14 +826,14 @@
                 "qtyUnit": "sprig"
             },
             {
-                "product": "peeled and chopped",
+                "product": "carrots peeled and chopped",
                 "qtyNumber": "2",
-                "qtyUnit": "carrots,"
+                "qtyUnit": ""
             },
             {
-                "product": "chopped (white and green parts)",
+                "product": "scallions chopped (white and green parts)",
                 "qtyNumber": "5",
-                "qtyUnit": "scallions,"
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
@@ -846,9 +846,9 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "whole Scotch bonnet pepper",
+                "product": "small whole Scotch bonnet pepper",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
                 "product": "ketchup",
@@ -908,9 +908,9 @@
                 "qtyUnit": ""
             },
             {
-                "product": "graham crackers",
+                "product": "whole graham crackers",
                 "qtyNumber": "8",
-                "qtyUnit": "whole"
+                "qtyUnit": ""
             },
             {
                 "product": "digestive biscuits",
@@ -923,9 +923,9 @@
                 "qtyUnit": "(14oz) cans"
             },
             {
-                "product": "avocados",
+                "product": "Hass avocados",
                 "qtyNumber": "3",
-                "qtyUnit": "Hass"
+                "qtyUnit": ""
             },
             {
                 "product": "cream cheese, at room temperature",
@@ -933,8 +933,8 @@
                 "qtyUnit": "pound"
             },
             {
-                "product": "fine sea salt",
-                "qtyNumber": "Pinch",
+                "product": "Pinch fine sea salt",
+                "qtyNumber": "",
                 "qtyUnit": ""
             },
             {
@@ -949,10 +949,10 @@
             }
         ],
         "recipeSteps": [
-            "Preheat the oven to 350\u00c2\u00b0F (180\u00c2\u00b0C)",
+            "Preheat the oven to 350F (180C)",
             "Lightly butter the inside of a 9-inch (23-cm) springform pan.  Make the crust: Crumble the crackers and cookies into a medium bowl",
             "Use a pestle or the bottom of a heavy bottle to crush them into fine crumbs",
-            "Add \u00e2\u2026\u201c cup (75 ml) of the condensed milk and stir until very well combined",
+            "Add - cup (75 ml) of the condensed milk and stir until very well combined",
             "(You can grind the crumbled graham crackers and mix them with the condensed milk in a food processor if you prefer.) Press the crumb mixture firmly and evenly into the bottom of the pan",
             "Bake until the crust looks a little darker and smells sweet and toasty, 12 to 15 minutes",
             "Cool the crust in the pan on a wire rack.  One at a time, cut an avocado in half lengthwise",
@@ -963,7 +963,7 @@
             "Use a large spoon to scoop the avocado flesh onto a chopping board, discarding the skins",
             "Coarsely chop the avocados.  Add the chopped avocados, cream cheese, remaining condensed milk, and salt to a food processor",
             "(You can combine the filling in a blender instead but you may need to work in batches.) Grate the zest of 1 lemon and set aside",
-            "Squeeze the zested lemon and the limes (you should have about \u00e2\u2026\u201c cup/75 ml lemon), reserving the remaining lemon for garnish",
+            "Squeeze the zested lemon and the limes (you should have about - cup/75 ml lemon), reserving the remaining lemon for garnish",
             "Add the juice to the avocados and process the mixture until smooth, scraping down the sides of the bowl as needed.  Spread the filling in the cooled crust and sprinkle with the grated lemon zest",
             "Cover the pan and freeze until the filling is firm, at least 6 hours or preferably overnight.  Let the frozen cake stand at room temperature for 15 to 30 minutes before slicing",
             "Dipping a thin knife into hot water between each cut, slice the cake into wedges and serve, topping each serving with freshly grated lemon zest."
@@ -985,9 +985,9 @@
         "cookTime": 60,
         "recipeIngredients": [
             {
-                "product": "boneless chicken breasts (1\u20131\u00bd lb. total)",
+                "product": "skinless, boneless chicken breasts (1-1.5 lb. total)",
                 "qtyNumber": "2",
-                "qtyUnit": "skinless,"
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt, plus more",
@@ -1006,7 +1006,7 @@
             },
             {
                 "product": "toasted sesame seeds, divided",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -1031,12 +1031,12 @@
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
-                "product": "of romaine or green or red leaf lettuce or 1 head of Little Gem lettuce",
-                "qtyNumber": "\u00bc",
+                "product": "romaine or green or red leaf lettuce or 1 head of Little Gem lettuce",
+                "qtyNumber": "0.25",
                 "qtyUnit": "head"
             },
             {
@@ -1046,15 +1046,15 @@
             },
             {
                 "product": "lime (for serving)",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": ""
             }
         ],
         "recipeSteps": [
             "Bring chicken, 3 Tbsp",
             "kosher salt, and 5 cups water to a bare simmer in a medium pot over medium heat (chicken should be submerged)",
-            "Be patient\u00e2\u20ac\u201dthis will take a little while",
-            "Once liquid begins to simmer, reduce heat to low and cook (water should not be simmering at all now) until juices run clear when thickest part of chicken is pierced, 8\u00e2\u20ac\u201c10 minutes",
+            "Be patient this will take a little while",
+            "Once liquid begins to simmer, reduce heat to low and cook (water should not be simmering at all now) until juices run clear when thickest part of chicken is pierced, 8-10 minutes",
             "Transfer chicken to a medium bowl; discard poaching liquid",
             "Let chicken sit until cool enough to handle, then shred meat into big pieces; set aside.  Meanwhile, place scallions in a small bowl and pour in very cold water to cover; let soak 10 minutes.  Drain scallions in a mesh sieve or colander, then rinse under cold running water, swishing vigorously to rinse and to encourage them to curl up",
             "Shake off as much water as possible and place in a large bowl; set aside.  Working one at a time, slice cucumbers in half crosswise, then slice each piece in half lengthwise",
@@ -1064,7 +1064,7 @@
             "Crush remaining sesame seeds in a mortar and pestle until some of the seeds have turned to powder, but with plenty of whole seeds left",
             "(Alternatively, you can pulse seeds a few times in a food processor or spice mill, then transfer to a medium bowl before proceeding)",
             "Add lime juice, tahini, soy sauce, honey, and red pepper flakes and mash to create a paste",
-            "Add \u00c2\u00bc cup water and whisk to combine (if you don\u00e2\u20ac\u2122t have a small enough whisk, work in with the pestle)",
+            "Add .25 cup water and whisk to combine (if you don't have a small enough whisk, work in with the pestle)",
             "Taste and season with salt.  Add lettuce and cilantro to bowl with reserved scallions",
             "Pour half of dressing over and toss to coat",
             "Arrange on a platter",
@@ -1095,7 +1095,7 @@
             },
             {
                 "product": "kosher salt, divided",
-                "qtyNumber": "4\u00bd",
+                "qtyNumber": "4.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -1104,9 +1104,9 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "fennel bulbs (about 1 lb.), plus \u00bc cup coarsely chopped fronds",
+                "product": "medium fennel bulbs (about 1 lb.), plus .25 cup coarsely chopped fronds",
                 "qtyNumber": "2",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "Red Flame or green table grapes, stems removed (about 2 cups)",
@@ -1120,7 +1120,7 @@
             },
             {
                 "product": "honey",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -1135,7 +1135,7 @@
             }
         ],
         "recipeSteps": [
-            "Place a rack in middle of oven; preheat to 375\u00c2\u00b0F",
+            "Place a rack in middle of oven; preheat to 375F",
             "Season chicken legs all over with 3 tsp",
             "salt.  Swirl 1 Tbsp",
             "oil in a large Dutch oven or other heavy pot to coat and heat over medium-high",
@@ -1144,9 +1144,9 @@
             "Turn over and cook until golden on other side, about 2 minutes",
             "Transfer to a large plate",
             "Repeat with remaining 2 chicken legs; reserve pot.  Meanwhile, working one at a time, stand a bulb, root end down, on a cutting board and slice off a short end to create a flat surface",
-            "Turn cut side down and slice \u00c2\u00bd\" thick, starting from the top end of bulb so the root end can hold the layers in place while you slice",
-            "Discard last \u00c2\u00bc\" (root end) of each bulb and pop out and discard tougher center from slices",
-            "Transfer fennel to a large bowl and add half of the grapes, \u00c2\u00bd tsp",
+            "Turn cut side down and slice .5\" thick, starting from the top end of bulb so the root end can hold the layers in place while you slice",
+            "Discard last .25\" (root end) of each bulb and pop out and discard tougher center from slices",
+            "Transfer fennel to a large bowl and add half of the grapes, .5 tsp",
             "salt, and remaining 1 Tbsp",
             "oil; toss to coat",
             "Set aside.  Reduce heat to medium and combine broth, honey, chile paste, and remaining 1 tsp",
@@ -1154,10 +1154,10 @@
             "Stir to combine and dissolve salt",
             "Place remaining grapes in pot and arrange chicken legs, skin side up and overlapping if needed, over grapes",
             "Top with dressed fennel and grapes",
-            "(Don\u00e2\u20ac\u2122t worry if it looks crowded: Fennel will soften as it cooks.)  Transfer pot, uncovered, to oven and roast until fennel is slightly softened, with some crispy, caramelized edges, grapes on top are swollen and browned in spots, and chicken is cooked through, 30\u00e2\u20ac\u201c40 minutes",
+            "(Don't worry if it looks crowded: Fennel will soften as it cooks.)  Transfer pot, uncovered, to oven and roast until fennel is slightly softened, with some crispy, caramelized edges, grapes on top are swollen and browned in spots, and chicken is cooked through, 30-40 minutes",
             "Let cool 5 minutes.  Using a slotted spoon or tongs, transfer grapes and fennel to a bowl and chicken to a platter",
             "Place pot over medium-high heat and bring braising liquid to a simmer",
-            "Cook until reduced by half (you should have about 1 cup liquid), 8\u00e2\u20ac\u201c10 minutes",
+            "Cook until reduced by half (you should have about 1 cup liquid), 8-10 minutes",
             "Remove from heat and stir in vinegar and fennel fronds.  Spoon sauce over chicken and serve with fennel and grapes alongside."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f737a125a7e264184aab1b4/1:1/w_1920,c_limit/ChickenGrapesFennel_HEROv2_12175.jpg",
@@ -1187,14 +1187,14 @@
                 "qtyUnit": "in."
             },
             {
-                "product": "tomatoes",
+                "product": "large tomatoes",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
-                "product": "ribs",
+                "product": "celery ribs",
                 "qtyNumber": "2",
-                "qtyUnit": "celery"
+                "qtyUnit": ""
             },
             {
                 "product": "carrot",
@@ -1233,7 +1233,7 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "Tbsp."
             },
             {
@@ -1319,26 +1319,26 @@
             "pieces",
             "As soon as the water boils, decrease the heat to medium-low and add the vegetables to the pot, along with the whole shallots and minced garlic",
             "Continue to cook at a gentle simmer until the beans are very creamy, 60 to 90 minutes for dried beans and about half that for fresh.  Remove the pot from the heat and use a slotted spoon to reserve the tomatoes; remove and discard the other vegetables.  Set up a sieve over a heat proof container and strain the beans (there should be about 3 cups or 480 g), reserving all the cooking liquid.  In a blender, combine 1 cup (160 g) of the cooked beans with 2 cups (480 ml) of the cooking liquid, plus the tomatoes, anchovies, oil, maple syrup, salt, red pepper flakes, and mustard",
-            "Pur\u00c3\u00a9e until extremely smooth, pour into a large bowl, and fold in the reserved cooked beans by hand",
-            "At this point, you can serve it right away or transfer to an airtight container and refrigerate for up to 3 days, gently rewarming over medium-low heat when you\u00e2\u20ac\u2122re ready to serve.  While the bean soup is cooking, preheat the oven to 325\u00c2\u00b0F",
-            "Cut the bacon into \u00c2\u00bc in",
+            "Puree until extremely smooth, pour into a large bowl, and fold in the reserved cooked beans by hand",
+            "At this point, you can serve it right away or transfer to an airtight container and refrigerate for up to 3 days, gently rewarming over medium-low heat when you're ready to serve.  While the bean soup is cooking, preheat the oven to 325F",
+            "Cut the bacon into .25 in",
             "lardons; reserve 3 whole beans for garnish and cut the rest into 2 to 3 in",
             "pieces.  In a medium saucepan or Dutch oven, spread the bacon in an even layer and cook over medium-low heat until it starts to turn golden and crisp, about 10 minutes",
-            "Use a slotted spoon to remove the pieces but leave the fat behind.  Increase the heat slightly, and saut\u00c3\u00a9 the shallots until translucent, 5 to 10 minutes",
+            "Use a slotted spoon to remove the pieces but leave the fat behind.  Increase the heat slightly, and saute the shallots until translucent, 5 to 10 minutes",
             "Stir in the chopped beans, bacon, and red pepper flakes",
             "Cover with a lid or a tight layer of foil and bake until the beans are very soft, 60 to 90 minutes",
             "Stir in the lemon zest, juice, and garlic as soon as the beans come out of the oven and cover again; the residual steam will cook the garlic.  Thinly slice the pickled green beans on the bias",
             "Combine with the cherry tomatoes, oil, and vinegar.  To serve, ladle the bean soup into bowls with a big spoonful of the baked beans on top",
             "Garnish with the pickled green bean mix, a swirl of tomato brown butter, crumbled feta, and torn fresh herbs",
-            "Leftovers can all be refrigerated in separate airtight containers, though the green bean salad is best on the day it\u00e2\u20ac\u2122s made, when the beans are most crisp and the tomatoes are fresh.  This works for any amount of dense vegetables or dense, underripe fruit, either whole or cut up, such as carrots, turnips, beets, winter squash, onions, green beans, Brussels sprouts, green tomatoes, small apples, underripe peaches, and whole baby cabbages",
+            "Leftovers can all be refrigerated in separate airtight containers, though the green bean salad is best on the day it's made, when the beans are most crisp and the tomatoes are fresh.  This works for any amount of dense vegetables or dense, underripe fruit, either whole or cut up, such as carrots, turnips, beets, winter squash, onions, green beans, Brussels sprouts, green tomatoes, small apples, underripe peaches, and whole baby cabbages",
             "Peel off any tough skins, such as on beets, winter squash, and onions, and trim the tops",
             "Leave the vegetables whole or cut them into the desired finished shape",
-            "Place the vegetables in a nonreactive container and pour water to completely submerge them; as you do so, keep track of how much water you\u00e2\u20ac\u2122re adding since the amount of water will dictate the amount of salt (generally 3.5 percent salt by weight of the water for most vegetables, although cucumbers can handle 4 to 5 percent and the increased salt assists with keeping their texture crispy)",
+            "Place the vegetables in a nonreactive container and pour water to completely submerge them; as you do so, keep track of how much water you're adding since the amount of water will dictate the amount of salt (generally 3.5 percent salt by weight of the water for most vegetables, although cucumbers can handle 4 to 5 percent and the increased salt assists with keeping their texture crispy)",
             "With a long wooden spoon, stir kosher salt into the brine (or add the salt, cap the jar, and give it a hearty shake) until the salt is dissolved",
             "Place a weight on top of the vegetables to keep them submerged in the brine",
             "Seal the container, using a lid with an airlock if you have one",
-            "If you don\u00e2\u20ac\u2122t have an airlock, you\u00e2\u20ac\u2122ll just need to open the container every few days or so to release carbon dioxide buildup and check for mold",
-            "Place the container in a clean, low-light area with an ambient temperature of 60\u00c2\u00b0F to 68\u00c2\u00b0F until the pickles taste sour, about 3 weeks",
+            "If you don't have an airlock, you'll just need to open the container every few days or so to release carbon dioxide buildup and check for mold",
+            "Place the container in a clean, low-light area with an ambient temperature of 60F to 68F until the pickles taste sour, about 3 weeks",
             "Refrigerate indefinitely."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f68dc1f5e53351017e171fa/1:1/w_1920,c_limit/SummerBeanSoup.jpg",
@@ -1364,7 +1364,7 @@
             },
             {
                 "product": "raw pumpkin seeds",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -1379,17 +1379,17 @@
             },
             {
                 "product": "dried fruit (such as tart cherries, raisins, currants, dates, apricots, and/or blueberries)",
-                "qtyNumber": "1\u00bc",
+                "qtyNumber": "1.25",
                 "qtyUnit": "cups"
             },
             {
                 "product": "unsalted or low-salt natural peanut butter",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "cup"
             },
             {
                 "product": "plus 2 Tbsp. honey",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -1403,15 +1403,15 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "egg white",
+                "product": "large egg white",
                 "qtyNumber": "1",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 350\u00c2\u00b0F",
-            "Toast nuts pumpkin seeds on a rimmed baking sheet until golden brown or slightly darkened in color, 10\u00e2\u20ac\u201c12 minutes",
-            "Transfer to a food processor and let sit until cool enough to handle.  Reduce oven temperature to 300\u00c2\u00b0F",
+            "Preheat oven to 350F",
+            "Toast nuts pumpkin seeds on a rimmed baking sheet until golden brown or slightly darkened in color, 10-12 minutes",
+            "Transfer to a food processor and let sit until cool enough to handle.  Reduce oven temperature to 300F",
             "Lightly oil 13x9\" pan and line with parchment paper, leaving overhang on both long sides",
             "Lightly oil parchment.  Add 1 cup oats to nut mixture in food processor and pulse until nuts are a sandy consistency and no whole oats remain",
             "Transfer to a large bowl.  Pulse any dried fruit larger than a raisin in food processor (no need to wipe out) until about the size of chocolate chips",
@@ -1419,14 +1419,14 @@
             "Add remaining 1 cup oats and stir to combine, breaking up any fruit that is stuck together",
             "Add remaining 3 Tbsp",
             "oil and stir to coat",
-            "Add peanut butter, but don\u00e2\u20ac\u2122t stir it in; set aside.  Bring honey, salt, and vanilla to a boil in a medium saucepan over medium heat (it will bubble up)",
+            "Add peanut butter, but don't stir it in; set aside.  Bring honey, salt, and vanilla to a boil in a medium saucepan over medium heat (it will bubble up)",
             "Reduce heat to medium-low and simmer, stirring occasionally, until it is foaming vigorously and smells like caramel, about 3 minutes.  Immediately pour honey mixture over peanut butter in reserved bowl (it will melt the peanut butter)",
             "Stir to combine, making sure to aggressively break up any clumps.  Using a fork or small whisk, lightly beat egg white in a small bowl to thin out",
             "Add to oat mixture and mix until egg white is no longer visible.  Scrape oat mixture into prepared pan and press firmly into an even layer",
-            "(Be sure to really compact the mixture into the pan\u00e2\u20ac\u201dit helps to use the bottom of a heavy glass or metal measuring cup.)  Bake granola bars until deep golden brown and no longer sticky or wet, 30-35 minutes",
-            "Let cool 5 minutes, then lightly score into 16 long rectangles (1 cut lengthwise and 7 cuts crosswise will make bars that are about 6\u00c2\u00bdx1\")",
+            "(Be sure to really compact the mixture into the pan it helps to use the bottom of a heavy glass or metal measuring cup.)  Bake granola bars until deep golden brown and no longer sticky or wet, 30-35 minutes",
+            "Let cool 5 minutes, then lightly score into 16 long rectangles (1 cut lengthwise and 7 cuts crosswise will make bars that are about 6.5x1\")",
             "Let cool completely in pan, then use parchment to hoist bars out onto a cutting board",
-            "Using a sharp chef\u00e2\u20ac\u2122s knife, cut along marks to separate bars.  Do Ahead: Bars can be made 1 week ahead",
+            "Using a sharp chef's knife, cut along marks to separate bars.  Do Ahead: Bars can be made 1 week ahead",
             "Store airtight at room temperature."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f57e012ed1941607d725ccd/1:1/w_1920,c_limit/nut-butter-granola-bars-recipe-BA-090820.jpg",
@@ -1462,17 +1462,17 @@
             },
             {
                 "product": "pure maple syrup",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "Worcestershire sauce",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -1491,9 +1491,9 @@
                 "qtyUnit": ""
             },
             {
-                "product": "whole chicken, cut into 6\u20138 pieces, or whatever bone-in cut of chicken you feel like cooking",
+                "product": "(3½–4-lb.) whole chicken, cut into 6-8 pieces, or whatever bone-in cut of chicken you feel like cooking",
                 "qtyNumber": "1",
-                "qtyUnit": "(3\u00bd\u20134-lb.)"
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
@@ -1512,8 +1512,8 @@
             "Season chicken generously with salt",
             "Grill chicken over direct heat, turning every minute, until browned on all sides, about 5 minutes",
             "Move chicken over indirect heat",
-            "Cover, positioning vent (if your grill has one) over chicken, and continue to grill, keeping grill covered as much as possible and turning every 5 minutes or so, until an instant-read thermometer inserted into thickest part registers 140\u00c2\u00b0F\u00e2\u20ac\u201c145\u00c2\u00b0F, 18\u00e2\u20ac\u201c25 minutes depending on the size of the pieces",
-            "Baste chicken with barbecue sauce and grill, turning and basting occasionally, until an instant-read thermometer inserted into thickest part registers 160\u00c2\u00b0F for breast and 165\u00c2\u00b0F for dark meat, about 10 minutes longer.  Arrange chicken on a platter",
+            "Cover, positioning vent (if your grill has one) over chicken, and continue to grill, keeping grill covered as much as possible and turning every 5 minutes or so, until an instant-read thermometer inserted into thickest part registers 140F-145F, 18-25 minutes depending on the size of the pieces",
+            "Baste chicken with barbecue sauce and grill, turning and basting occasionally, until an instant-read thermometer inserted into thickest part registers 160F for breast and 165F for dark meat, about 10 minutes longer.  Arrange chicken on a platter",
             "Serve with reserved barbecue sauce alongside.  Do Ahead: Barbecue sauce can be made 2 weeks ahead",
             "Transfer to an airtight container; cover and chill."
         ],
@@ -1528,7 +1528,7 @@
         "recipeId": "39649015-e8c0-4136-ba9e-d22c6e5b6d8f",
         "recipeTitle": "Padron Chiles en Escabeche",
         "recipeDescription": "with pork chops and coriander",
-        "recipeLongIntro": "Master the art of making Pork Chops and Padr\u00c3\u00b3n Chiles en Escab\u00c3\u00a8che with this recipe, requiring roughly 41 minutes to bring all the ingredients together. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
+        "recipeLongIntro": "Master the art of making Pork Chops and Padron Chiles en Escabche with this recipe, requiring roughly 41 minutes to bring all the ingredients together. This dish is steeped in cultural heritage, often served during special occasions. Serving immediately after cooking captures the best texture and aroma.",
         "totalCost": 24.56,
         "prepTime": 10,
         "cookTime": 30,
@@ -1536,7 +1536,7 @@
             {
                 "product": "bone-in pork chops (about 1 lb. total)",
                 "qtyNumber": "2",
-                "qtyUnit": "1\u20131\u00bd\""
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
@@ -1549,22 +1549,22 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "small Padr\u00f3n chiles or shishito peppers, stems trimmed of dry ends but not completely cut off",
+                "product": "small Padr on chiles or shishito peppers, stems trimmed of dry ends but not completely cut off",
                 "qtyNumber": "2",
                 "qtyUnit": "cups"
             },
             {
-                "product": "red onion, halved through root end, sliced \u00bc\" thick",
+                "product": "small red onion, halved through root end, sliced .25\" thick",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
-                "product": "garlic cloves, thinly sliced",
+                "product": "small garlic cloves, thinly sliced",
                 "qtyNumber": "2",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
-                "product": "small carrots (about 6), tops trimmed, scrubbed, sliced \u00bc\" thick on a diagonal, or 8 oz. large carrots (about 2), tops trimmed, peeled, halved, sliced \u00bc\" thick on a diagonal",
+                "product": "small carrots (about 6), tops trimmed, scrubbed, sliced .25\" thick on a diagonal, or 8 oz. large carrots (about 2), tops trimmed, peeled, halved, sliced .25\" thick on a diagonal",
                 "qtyNumber": "8",
                 "qtyUnit": "oz."
             },
@@ -1601,10 +1601,10 @@
         ],
         "recipeSteps": [
             "Season each pork chop all over with 1 tsp",
-            "salt and let sit at least 1 hour or chill on a wire rack set inside a rimmed baking sheet, uncovered, up to 2 days.  Preheat oven to 425\u00c2\u00b0",
-            "If pork chops have been chilling in the fridge, let sit at room temperature while you make the escab\u00c3\u00a8che.  Finely grind coriander seeds in a spice mill or with a mortar and pestle; set aside",
+            "salt and let sit at least 1 hour or chill on a wire rack set inside a rimmed baking sheet, uncovered, up to 2 days.  Preheat oven to 425",
+            "If pork chops have been chilling in the fridge, let sit at room temperature while you make the escabeche.  Finely grind coriander seeds in a spice mill or with a mortar and pestle; set aside",
             "Heat a dry large skillet over high",
-            "Add chiles in a single layer and cook, turning with tongs or a large spoon, until evenly blistered on all sides and deeply browned in spots, 5\u00e2\u20ac\u201c7 minutes",
+            "Add chiles in a single layer and cook, turning with tongs or a large spoon, until evenly blistered on all sides and deeply browned in spots, 5-7 minutes",
             "Transfer chiles to a small pot; reserve skillet",
             "Add red onion, garlic, carrots, red wine vinegar, sherry vinegar, honey, paprika, reserved ground coriander, 4 Tbsp",
             "oil, remaining 4 tsp",
@@ -1612,13 +1612,13 @@
             "water to pot",
             "Set over low heat, cover, and bring liquid to a gentle simmer",
             "Cook, stirring vegetables often to keep submerged, until just-cooked through and still al dente, about 10 minutes",
-            "Remove escab\u00c3\u00a8che from heat and stir in oregano.  Heat remaining 1 Tbsp",
+            "Remove escabeche from heat and stir in oregano.  Heat remaining 1 Tbsp",
             "oil in reserved skillet over high",
             "Arrange pork chops in pan so bone ends are in the center (this part cooks slower and this will help with even browning) and press down on pork chops with tongs to ensure surface is making good contact with the pan",
             "Cook until golden underneath, about 3 minutes",
             "Turn pork chops over and press down on them again",
-            "Transfer to oven and roast until an instant-read thermometer inserted into the thickest part registers 130\u00c2\u00b0 for medium (you should still have a little pink flesh; temperature should rise to about 145\u00c2\u00b0 when the pork chops rest), 5\u00e2\u20ac\u201c7 minutes",
-            "Transfer pork chops to a cutting board and let rest 10 minutes.  To serve, transfer pork chops to plates and spoon escab\u00c3\u00a8che over.  Do ahead: Escab\u00c3\u00a8che can be made 2 weeks ahead",
+            "Transfer to oven and roast until an instant-read thermometer inserted into the thickest part registers 130 for medium (you should still have a little pink flesh; temperature should rise to about 145 when the pork chops rest), 5-7 minutes",
+            "Transfer pork chops to a cutting board and let rest 10 minutes.  To serve, transfer pork chops to plates and spoon escabeche over.  Do ahead: Escabeche can be made 2 weeks ahead",
             "Transfer to an airtight container and let cool",
             "Cover and chill."
         ],
@@ -1633,15 +1633,15 @@
         "recipeId": "861f2584-4347-408d-876d-0a46fb72313c",
         "recipeTitle": "Thai Grilled Chicken (Halal)",
         "recipeDescription": "with peppercorns and pineapple",
-        "recipeLongIntro": "Relish in the making of Thai Muslim\u00e2\u20ac\u201cStyle Grilled Chicken, a recipe that typically spans 113 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
+        "recipeLongIntro": "Relish in the making of Thai Muslim-Style Grilled Chicken, a recipe that typically spans 113 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Low and slow cooking will yield the best texture.",
         "totalCost": 23.01,
         "prepTime": 35,
         "cookTime": 80,
         "recipeIngredients": [
             {
-                "product": "whole chicken",
+                "product": "4-lb. whole chicken",
                 "qtyNumber": "1",
-                "qtyUnit": "3\u00bd\u20134-lb."
+                "qtyUnit": ""
             },
             {
                 "product": "white or black peppercorns",
@@ -1695,12 +1695,12 @@
             },
             {
                 "product": "chopped fresh ripe pineapple",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup (packed)"
             },
             {
                 "product": "distilled white vinegar or apple cider vinegar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -1709,13 +1709,13 @@
                 "qtyUnit": "large cloves"
             },
             {
-                "product": "red jalape\u00f1os or serrano chiles, seeds removed, finely chopped",
+                "product": "red jalapeos or serrano chiles, seeds removed, finely chopped",
                 "qtyNumber": "3",
                 "qtyUnit": ""
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -1725,7 +1725,7 @@
             },
             {
                 "product": "freshly ground white pepper",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -1745,7 +1745,7 @@
             },
             {
                 "product": "virgin coconut oil",
-                "qtyNumber": "\u2153",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             },
             {
@@ -1767,30 +1767,30 @@
         "recipeSteps": [
             "Spatchcock chicken the Thai way by placing it breast side up on a large cutting board",
             "Using a sharp, heavy knife and working just to the side of the center of the breast, cut down through to the breastbone (do not cut all the way through to the backbone)",
-            "Now that the path has been created, use the same knife\u00e2\u20ac\u201dor, easier, a sturdy pair of kitchen scissors\u00e2\u20ac\u201dto make a clean cut all the way through the breastbone and anything else that is still connecting the 2 sides of the breast together",
+            "Now that the path has been created, use the same knife or, easier, a sturdy pair of kitchen scissors to make a clean cut all the way through the breastbone and anything else that is still connecting the 2 sides of the breast together",
             "Open up chicken and turn skin side up",
             "Press down on chicken to flatten",
             "Pat thoroughly dry.  Grind peppercorns in a spice mill or a mortar and pestle",
             "Transfer to a food processor or leave in mortar and pestle and add garlic, cilantro roots, brown sugar, fish sauce, turmeric, salt, coriander, cumin, and cardamom and process or pound until smooth",
             "Coat chicken completely in marinade, pressing to adhere and working into nooks and crannies",
             "Place in a large bowl and cover with a plate",
-            "Let chill at least 12 hours and up to 24 hours.  Let chicken sit at room temperature 1 hour before grilling or baking.  Pur\u00c3\u00a9e pineapple and vinegar in a food processor or blender until smooth",
-            "Transfer to a small saucepan and add garlic, jalape\u00c3\u00b1os, granulated sugar, salt, and pepper",
+            "Let chill at least 12 hours and up to 24 hours.  Let chicken sit at room temperature 1 hour before grilling or baking.  Pure pineapple and vinegar in a food processor or blender until smooth",
+            "Transfer to a small saucepan and add garlic, jalapenos, granulated sugar, salt, and pepper",
             "Bring to a boil over medium heat, then reduce heat so sauce is at a simmer and cook until thick and smooth (consistency should be similar to cocktail sauce), about 5 minutes.  Grind saffron to a fine powder in a spice mill or a mortar and pestle",
-            "Transfer to a small saucepan and add granulated sugar, salt, and \u00c2\u00bc cup water and cook over medium heat just until heated through and small bubbles appear around the edges of the pan",
+            "Transfer to a small saucepan and add granulated sugar, salt, and .25 cup water and cook over medium heat just until heated through and small bubbles appear around the edges of the pan",
             "Whisk in coconut oil and remove from heat.  If using a grill, prepare a grill for medium-high indirect heat (for a charcoal grill, bank coals on one side of grill; for a gas grill, leave one or two burners off); oil grate",
             "Arrange chicken, skin side up, on cooler part of grill",
-            "Close lid and grill, rotating chicken but keeping skin side up every 5\u00e2\u20ac\u201c10 minutes, until skin looks dry and golden brown and an instant-read thermometer inserted into thickest part of breast and thighs registers 130\u00c2\u00b0\u00e2\u20ac\u201c140\u00c2\u00b0, 35\u00e2\u20ac\u201c40 minutes",
+            "Close lid and grill, rotating chicken but keeping skin side up every 5â-10 minutes, until skin looks dry and golden brown and an instant-read thermometer inserted into thickest part of breast and thighs registers 130F-140F, 35040 minutes",
             "If using charcoal and your coals are dying, start a new chimney of coals 15 minutes before this point so you are ready for the next step.  Uncover grill and increase heat to high (add more coals for a charcoal grill)",
             "Brush one fourth of basting liquid over skin and turn chicken over, positioning over direct heat on the hot side of the grill",
             "Grill, brushing half of remaining basting liquid over bone side of chicken, until skin is browned and lightly charred in spots, about 3 minutes",
             "(Watch carefully as this can happen quickly.) Turn chicken over and return to cooler side of grill",
             "Brush skin with remaining basting liquid",
-            "Cover grill and continue to grill chicken until thermometer inserted into thickest part of breast registers 160\u00c2\u00b0 and thickest part of thighs registers 165\u00c2\u00b0, 10\u00e2\u20ac\u201c15 minutes longer.  If using an oven, place a rack in bottom third of oven and preheat to 350\u00c2\u00b0",
+            "Cover grill and continue to grill chicken until thermometer inserted into thickest part of breast registers 160 and thickest part of thighs registers 165, 10-15 minutes longer.  If using an oven, place a rack in bottom third of oven and preheat to 350",
             "Place chicken, skin side up, on a wire rack set inside a rimmed baking sheet",
             "Brush one third of basting liquid over skin",
-            "Bake, rotating baking sheet every 10 minutes, until an instant-read thermometer inserted into thickest part of breast and thighs registers 130\u00c2\u00b0\u00e2\u20ac\u201c140\u00c2\u00b0, 35\u00e2\u20ac\u201c40 minutes.  Increase oven temperature to 450\u00c2\u00b0",
-            "Brush remaining basting liquid over skin and continue to bake, rotating baking sheet halfway through, until skin is crisp and charred and thermometer inserted into thickest part of breast registers 160\u00c2\u00b0 and thickest part of thighs registers 165\u00c2\u00b0, 10\u00e2\u20ac\u201c15 minutes longer.  Transfer chicken to a cutting board and let rest at least 15 minutes",
+            "Bake, rotating baking sheet every 10 minutes, until an instant-read thermometer inserted into thickest part of breast and thighs registers 130-140, 35-40 minutes.  Increase oven temperature to 450",
+            "Brush remaining basting liquid over skin and continue to bake, rotating baking sheet halfway through, until skin is crisp and charred and thermometer inserted into thickest part of breast registers 160 and thickest part of thighs registers 165, 10-15 minutes longer.  Transfer chicken to a cutting board and let rest at least 15 minutes",
             "Carve up further as desired.  Top dipping sauce with cilantro",
             "Serve chicken with rice and dipping sauce alongside.  If you cook the chicken in the oven, using the dhungar method to perfume the finished chicken with the scent of smoky ghee is highly recommended."
         ],
@@ -1805,29 +1805,29 @@
         "recipeId": "c89c0d17-cbd0-4401-9ccd-2d305f995804",
         "recipeTitle": "Dakgangjeong",
         "recipeDescription": "with chicken wingettes and peanuts",
-        "recipeLongIntro": "Dakgangjeong (\u00eb\u2039\u00ad\u00ea\u00b0\u2022\u00ec\u00a0\u2022 / Korean Sweet, Crunchy Fried Chicken) is a classic dish, traditionally taking about 103 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
+        "recipeLongIntro": "Dakgangjeong (Korean Sweet, Crunchy Fried Chicken) is a classic dish, traditionally taking about 103 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
         "totalCost": 22.73,
         "prepTime": 30,
         "cookTime": 70,
         "recipeIngredients": [
             {
-                "product": "pounds chicken wingettes or dumettes",
+                "product": "chicken wingettes or dumettes",
                 "qtyNumber": "2",
-                "qtyUnit": "\u00bd"
+                "qtyUnit": "lb."
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground black pepper",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "potato starch",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -1837,12 +1837,12 @@
             },
             {
                 "product": "toasted peanuts (optional)",
-                "qtyNumber": "\u2153",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             },
             {
                 "product": "rice syrup or honey",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -1881,9 +1881,9 @@
                 "qtyUnit": "teaspoon"
             },
             {
-                "product": "dried red chili peppers",
+                "product": "small dried red chili peppers",
                 "qtyNumber": "8",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
                 "product": "toasted sesame seeds",
@@ -1898,13 +1898,13 @@
         ],
         "recipeSteps": [
             "Mix the chicken pieces, salt, and black pepper in a large bowl",
-            "Transfer to a large zipper-lock bag, add the potato starch, close the bag, and mix well by flipping the bag over and back again until the chicken is well coated.  Place a large mesh strainer over a bowl.  Heat 2 inches vegetable oil in a large, deep pan or wok over medium-high heat until it reaches about 340\u00c2\u00b0F, 8 to 10 minutes",
-            "If you don\u00e2\u20ac\u2122t have a thermometer, test it by dipping a tip of a chicken piece into the oil",
-            "If it bubbles, it\u00e2\u20ac\u2122s ready",
+            "Transfer to a large zipper-lock bag, add the potato starch, close the bag, and mix well by flipping the bag over and back again until the chicken is well coated.  Place a large mesh strainer over a bowl.  Heat 2 inches vegetable oil in a large, deep pan or wok over medium-high heat until it reaches about 340°F, 8 to 10 minutes",
+            "If you don't have a thermometer, test it by dipping a tip of a chicken piece into the oil",
+            "If it bubbles, it's ready",
             "Carefully add the chicken to the oil one piece at a time, working in batches to avoid overcrowding.  Deep-fry, turning the chicken with tongs, until all sides are light golden brown and crunchy, 10 to 12 minutes",
             "As each piece is done, transfer it to the strainer",
             "Once the chicken has drained, transfer it to a large bowl",
-            "Repeat with the rest of the chicken, making sure to bring the oil back up to 340\u00c2\u00b0F between batches.  Return the oil to 340\u00c2\u00b0F over high heat and carefully add all the chicken\u00e2\u20ac\u201dthere\u00e2\u20ac\u2122s no need to work in batches this time",
+            "Repeat with the rest of the chicken, making sure to bring the oil back up to 340F between batches.  Return the oil to 340F over high heat and carefully add all the chicken there's no need to work in batches this time",
             "The chicken will look a little soggy at first",
             "Deep-fry, turning occasionally, until all the chicken pieces are dark golden brown and very crunchy, another 10 to 13 minutes",
             "Transfer the chicken pieces to the strainer or a rack to drain, then place in a large bowl.  If using the peanuts, place them in a slotted spoon or a small mesh strainer, carefully dip them into the hot oil, and fry for 15 to 30 seconds, just until light golden brown",
@@ -1940,17 +1940,17 @@
             },
             {
                 "product": "raw peanuts or other nut or seed, finely chopped",
-                "qtyNumber": "\u2153",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             },
             {
                 "product": "light or dark brown sugar",
-                "qtyNumber": "\u2153",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             },
             {
                 "product": "Morton kosher salt",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
@@ -1959,18 +1959,18 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "3",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "light or dark brown sugar",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
                 "product": "Morton kosher salt",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
@@ -1980,40 +1980,40 @@
             },
             {
                 "product": "natural peanut butter or other natural nut or seed butter",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
                 "product": "heavy cream",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "cups"
             },
             {
                 "product": "grape jelly or other jelly/jam/compote",
-                "qtyNumber": "\u2153",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 275\u00c2\u00b0F",
+            "Preheat oven to 275F",
             "Place crackers in a deep pie dish (a shallower one will work but you may have some filling left over) and gently crush with your hands until you have a mix of dime-size pieces, small crumbs, and everything in between",
             "Add peanuts, brown sugar, and salt and toss to combine",
             "Drizzle in butter and toss to evenly coat",
             "Using your hands and the bottom of a measuring cup, press firmly and evenly into bottom and up sides of dish",
-            "(Mixture will look and feel crumbly, but it will hold together when baked.) Bake crust until a shade darker, 20\u00e2\u20ac\u201c25 minutes",
+            "(Mixture will look and feel crumbly, but it will hold together when baked.) Bake crust until a shade darker, 20-25 minutes",
             "Let cool.  Do Ahead: Crust can be baked 3 days ahead",
-            "Store tightly wrapped at room temperature, or freeze up to 1 month.  Pour water into a medium saucepan to come 1\u00c2\u00bd\" up the sides and bring to a bare simmer over medium-low heat",
-            "Whisk eggs, brown sugar, and salt in a large heatproof bowl just to combine (or use the bowl of a stand mixer if you\u00e2\u20ac\u2122ve got one)",
+            "Store tightly wrapped at room temperature, or freeze up to 1 month.  Pour water into a medium saucepan to come 1.5\" up the sides and bring to a bare simmer over medium-low heat",
+            "Whisk eggs, brown sugar, and salt in a large heatproof bowl just to combine (or use the bowl of a stand mixer if you've got one)",
             "Set over saucepan (bowl should not touch water) and heat egg mixture, stirring constantly with a heatproof rubber spatula, until sugar dissolves, about 4 minutes (mixture will no longer feel gritty when rubbed between your fingers)",
-            "If you are concerned about undercooked eggs, heat mixture longer, still stirring constantly, until an instant-read thermometer registers 165\u00c2\u00b0F, about 3 minutes more",
+            "If you are concerned about undercooked eggs, heat mixture longer, still stirring constantly, until an instant-read thermometer registers 165F, about 3 minutes more",
             "Remove bowl from heat and add vanilla to egg mixture",
             "Using an electric mixer, beat on high speed until thick and pale and doubled in volume, about 10 minutes",
-            "(Or, if using a stand mixer, beat with the whisk attachment, 6\u00e2\u20ac\u201c8 minutes.)  Using spatula, mix peanut butter in another large bowl to loosen up and smooth out",
+            "(Or, if using a stand mixer, beat with the whisk attachment, 6-8 minutes.)  Using spatula, mix peanut butter in another large bowl to loosen up and smooth out",
             "Stir one third of egg mixture into peanut butter to lighten, then gently fold in half of remaining egg mixture, running spatula down sides and along bottom of bowl, then lifting up through center and over top while rotating bowl, until just combined",
-            "Repeat with remaining egg mixture (it will lose a lot of volume, and that\u00e2\u20ac\u2122s okay).  Starting on low speed and gradually increasing to medium-high, beat cream in the same bowl you used for egg mixture (no need to wash) until soft peaks form, about 2 minutes",
+            "Repeat with remaining egg mixture (it will lose a lot of volume, and that's okay).  Starting on low speed and gradually increasing to medium-high, beat cream in the same bowl you used for egg mixture (no need to wash) until soft peaks form, about 2 minutes",
             "Gently fold into peanut butter mixture and scrape into crust",
             "Dollop jelly all over; swirl with a butter knife",
-            "(For more defined swirls, freeze pie 30 minutes before adding jelly.) Freeze at least 8 hours before serving.  To slice, run a chef\u00e2\u20ac\u2122s knife under hot water to warm up the blade, then wipe to clean and dry between slices",
+            "(For more defined swirls, freeze pie 30 minutes before adding jelly.) Freeze at least 8 hours before serving.  To slice, run a chef's knife under hot water to warm up the blade, then wipe to clean and dry between slices",
             "Use an offset spatula or fork to loosen slices from dish",
             "If pie is frozen very hard, you may need to let it temper in the fridge 30 minutes before serving.  Do Ahead: Pie can be made 2 weeks ahead",
             "Wrap tightly and freeze."
@@ -2050,7 +2050,7 @@
                 "qtyUnit": "clove"
             },
             {
-                "product": "poblano chiles, stems removed, cut into 1\u20444-inch-wide strips",
+                "product": "poblano chiles, stems removed, cut into 1/4-inch-wide strips",
                 "qtyNumber": "2",
                 "qtyUnit": ""
             },
@@ -2130,9 +2130,9 @@
         "cookTime": 30,
         "recipeIngredients": [
             {
-                "product": "onion, thinly sliced",
+                "product": "medium onion, thinly sliced",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "gochujang (Korean red chili paste)",
@@ -2141,17 +2141,17 @@
             },
             {
                 "product": "soy sauce",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "minced garlic",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
                 "product": "sugar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -2170,7 +2170,7 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "skinless pork belly, sliced \u00bc inch thick (ask the butcher to slice it) and cut into 2-inch squares",
+                "product": "skinless pork belly, sliced .25 inch thick (ask the butcher to slice it) and cut into 2-inch squares",
                 "qtyNumber": "2",
                 "qtyUnit": "pounds"
             },
@@ -2198,8 +2198,8 @@
         "recipeSteps": [
             "To make the marinade, put the onion, gochujang, soy sauce, garlic, sugar, sake, mirin, and sesame oil in a bowl and mix well to combine",
             "Add the pork and turn to coat the meat",
-            "Cover and refrigerate overnight.  The next day, set a large saut\u00c3\u00a9 pan over medium heat",
-            "Once it\u00e2\u20ac\u2122s hot, add the pork, working in batches so as not to overcrowd the pan and leaving any liquid in the bowl",
+            "Cover and refrigerate overnight.  The next day, set a large saute pan over medium heat",
+            "Once it's hot, add the pork, working in batches so as not to overcrowd the pan and leaving any liquid in the bowl",
             "Cook, stirring occasionally and flipping the meat, until lightly caramelized and golden brown on both sides, about 10 minutes",
             "(If you overcrowd the pan, the meat will steam instead of sear.) Transfer to a platter.  When the meat is cooked, open the buns, butter the interiors, and toast them until they are a light golden brown.  To serve, spread both cut sides of each bun with a healthy smear of mayo and pile the spicy pork generously on the bottoms of the buns",
             "Top with the sliced cucumbers",
@@ -2225,7 +2225,7 @@
         "recipeIngredients": [
             {
                 "product": "toasted pepitas (pumpkin seeds)",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "cup"
             },
             {
@@ -2245,12 +2245,12 @@
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "teaspoons"
             },
             {
                 "product": "coriander (cilantro) leaves",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -2305,12 +2305,12 @@
             },
             {
                 "product": "coriander (cilantro) leaves",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 220\u00c2\u00b0C (425\u00c2\u00b0F).  Place the pepitas into the bowl of a food processor and process until finely chopped",
+            "Preheat oven to 220C (425F).  Place the pepitas into the bowl of a food processor and process until finely chopped",
             "Add the kale, garlic, chickpeas, turmeric, coriander, salt and pepper and process until well combined",
             "Add the pumpkin and stir through to combine",
             "Shape large tablespoonfuls of pumpkin mixture into balls",
@@ -2336,12 +2336,12 @@
         "recipeIngredients": [
             {
                 "product": "fresh chorizo, casings removed (about 2 links)",
-                "qtyNumber": "1/2",
+                "qtyNumber": "0.5",
                 "qtyUnit": "pound"
             },
             {
                 "product": "ground beef, or vegetarian substitute",
-                "qtyNumber": "1/2",
+                "qtyNumber": "0.5",
                 "qtyUnit": "pound"
             },
             {
@@ -2355,24 +2355,24 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "onion, grated on a box grater, divided",
+                "product": "large onion, grated on a box grater, divided",
                 "qtyNumber": "1",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
-                "product": "jalape\u00f1os, thinly sliced, seeded if desired, divided",
-                "qtyNumber": "1\u20132",
-                "qtyUnit": "medium"
+                "product": "medium jalapenos, thinly sliced, seeded if desired, divided",
+                "qtyNumber": "1-2",
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided",
                 "qtyNumber": "1.75",
-                "qtyUnit": "tps"
+                "qtyUnit": "tsp"
             },
             {
-                "product": "beefsteak tomatoes, cut into 1/2\" cubes",
+                "product": "large beefsteak tomatoes, cut into 1/2\" cubes",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "corn kernels, divided",
@@ -2385,9 +2385,9 @@
                 "qtyUnit": "ounces"
             },
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "unsalted butter, melted",
@@ -2396,7 +2396,7 @@
             },
             {
                 "product": "sour cream, plus more for serving",
-                "qtyNumber": "1/3",
+                "qtyNumber": "0.3",
                 "qtyUnit": "cup"
             },
             {
@@ -2411,18 +2411,18 @@
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 450\u00c2\u00b0F",
+            "Preheat oven to 450F",
             "Heat an 8\" cast-iron skillet over high",
             "Pat chorizo and beef dry with paper towels, then press into an even layer in bottom of hot skillet with a spatula",
             "Cook, undisturbed, until a brown crust begins to form on the bottom, about 6 minutes",
             "Turn, break into pieces, and continue to cook until cooked through, about 4 minutes",
-            "Add tomato paste, cumin, half of grated onion, half of jalape\u00c3\u00b1o, and 1 1/4 tsp",
+            "Add tomato paste, cumin, half of grated onion, half of jalapeno, and 1 1/4 tsp",
             "salt and cook, stirring constantly, until fragrant and well combined, about 1 minute",
             "Remove from heat and stir in tomatoes, 1 1/2 cups corn, and 1 1/2 cups cheese.  Whisk eggs, butter, 1/3 cup sour cream, and remaining onion in a medium bowl",
             "Whisk cornmeal, baking powder, and remaining 1/2 tsp",
             "salt in a small bowl",
             "Add dry ingredients to butter mixture and stir to combine, then stir in 1/4 cup cheese and remaining 1/2 cup corn.  Dollop cornbread batter over meat mixture, then smooth into an even layer",
-            "Top with remaining jalape\u00c3\u00b1os and 1/4 cup cheese.  Bake cornbread until golden brown, 15\u00e2\u20ac\u201c18 minutes",
+            "Top with remaining jalapenos and 1/4 cup cheese.  Bake cornbread until golden brown, 15-18 minutes",
             "Serve with sour cream alongside."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/59b6e97bd18aa146dbedf18c/1:1/w_1920,c_limit/Fresh-Tomato-Tamale-Cornbread-Pie-hero-06092017.jpg",
@@ -2442,7 +2442,7 @@
         "cookTime": 50,
         "recipeIngredients": [
             {
-                "product": "bacon, cut crosswise into \u00bd-inch pieces",
+                "product": "bacon, cut crosswise into .5-inch pieces",
                 "qtyNumber": "6",
                 "qtyUnit": "slices"
             },
@@ -2457,29 +2457,29 @@
                 "qtyUnit": ""
             },
             {
-                "product": "onion, chopped",
+                "product": "medium onion, chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "cinnamon",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "boiling potatoes",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "pound"
             },
             {
-                "product": "Granny Smith apples (about \u00be pound total)",
+                "product": "medium Granny Smith apples (about 0.75 pound total)",
                 "qtyNumber": "2",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "pounds butternut squash, peeled, seeded, and cut into \u00bd-inch pieces (3\u00bd to 4 cups)",
+                "product": "pounds butternut squash, peeled, seeded, and cut into .5-inch pieces (3.5 to 4 cups)",
                 "qtyNumber": "1",
-                "qtyUnit": "\u00bd"
+                "qtyUnit": "0.5"
             },
             {
                 "product": "reduced-sodium chicken stock or broth",
@@ -2503,7 +2503,7 @@
             "Add cinnamon and cook, uncovered, stirring, 1 minute.  While vegetables are cooking, peel potatoes and coarsely chop",
             "Peel and core 1 apple and coarsely chop.  Stir squash, potato, chopped apple, stock, 2 cups water, 1 teaspoon salt and 1/2 teaspoon pepper into onion mixture, then simmer, uncovered, stirring occasionally, until vegetables are very tender, 15 to 20 minutes.  Puree soup in 4 batches in a blender (use caution when blending hot liquids), then heat in cleaned pot over medium low heat, stirring occasionally",
             "(Add additional 1/2 cup water to thin, if necessary.)  While soup is heating, cut enough of remaining apple into thin matchsticks (about 1 1/2-inches long) to measure about 1/2 cup.  Serve soup topped with sour cream, bacon, and apple matchsticks.  Cooks' Notes: Soup can be made 2 days ahead and chilled, covered once cooled",
-            "Cooked bacon can be kept refrigerated in an airtight container\u00e2\u20ac\u201dreheat in a 375\u00c2\u00b0F oven in a small baking pan."
+            "Cooked bacon can be kept refrigerated in an airtight container reheat in a 375F oven in a small baking pan."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5c5a01d994580c2d4b9d4b11/1:1/w_1920,c_limit/Butternut-Squash-&-Apple-Soup-31012019.jpg",
         "recipeRating": 3.8,
@@ -2528,7 +2528,7 @@
             },
             {
                 "product": "dark rum or arrack",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -2538,12 +2538,12 @@
             },
             {
                 "product": "ground cinnamon",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
                 "product": "coconut sugar or dark brown sugar",
-                "qtyNumber": "3 1/3",
+                "qtyNumber": "3.3",
                 "qtyUnit": "Tbsp."
             },
             {
@@ -2553,28 +2553,28 @@
             },
             {
                 "product": "cubeb pepper or Ashanti pepper (uziza)",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
                 "product": "peanut oil or vegetable oil",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
-                "product": "white onion, finely chopped",
+                "product": "medium white onion, finely chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "red onion, thinly sliced",
+                "product": "small red onion, thinly sliced",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
-                "product": "cloves, coarsely chopped",
+                "product": "garlic, coarsely chopped",
                 "qtyNumber": "2",
-                "qtyUnit": "garlic"
+                "qtyUnit": "cloves"
             },
             {
                 "product": "ginger, peeled, finely grated (unpeeled if organic)",
@@ -2598,7 +2598,7 @@
             },
             {
                 "product": "dried prawn or shrimp powder",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "tsp."
             },
             {
@@ -2607,18 +2607,18 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "tomato pur\u00e9e",
+                "product": "tomato puree",
                 "qtyNumber": "2",
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "dried chile powder",
-                "qtyNumber": "3\u20134",
+                "qtyNumber": "34",
                 "qtyUnit": "Tbsp."
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "\u2154",
+                "qtyNumber": "0.6",
                 "qtyUnit": "cups"
             },
             {
@@ -2636,28 +2636,28 @@
             "Reserve apricots and rum separately.  Melt butter in a medium saucepan over medium heat",
             "Add cinnamon, 3 Tbsp",
             "coconut sugar, and reserved apricots",
-            "Cook, stirring occasionally, until apricots are slightly softened and coated in caramel, 6\u00e2\u20ac\u201c8 minutes",
+            "Cook, stirring occasionally, until apricots are slightly softened and coated in caramel, 6-8 minutes",
             "Add reserved rum and cook, stirring often, until thickened and syrupy, about 5 minutes",
             "Let cool slightly",
             "(Just FYI: You can eat these drunk apricots right away over vanilla ice cream and be very happy.)  Toast grains of selim pods and cubeb peppers in a small skillet over medium-low heat, shaking occasionally, until fragrant, about 3 minutes",
             "Transfer to a spice mill or mortar and pestle and let cool",
             "Grind as well as you can",
-            "The grains of selim won\u00e2\u20ac\u2122t completely break up, so cracked open but mostly whole is okay\u00e2\u20ac\u201dyou just want to release some of their flavor.  Heat oil in a large Dutch oven or other heavy pot over medium",
-            "Cook white and red onions, stirring occasionally, until softened and just starting brown, 20\u00e2\u20ac\u201c25 minutes",
+            "The grains of selim won't completely break up, so cracked open but mostly whole is okay you just want to release some of their flavor.  Heat oil in a large Dutch oven or other heavy pot over medium",
+            "Cook white and red onions, stirring occasionally, until softened and just starting brown, 20-25 minutes",
             "Stir in ground grains of selim and cubeb pepper, garlic, ginger, and remaining 1 tsp",
             "coconut sugar",
             "Cook, stirring occasionally, 5 minutes",
             "Add red pepper flakes, rosemary, thyme, prawn powder, and 1 tsp",
             "salt to pot and cook, stirring occasionally, about 2 minutes",
-            "Add drunk apricots along with any syrup and cook, stirring often, about 2 minutes.  Add tomato pur\u00c3\u00a9e to pot and cook, stirring occasionally, 4 minutes, then stir in chile powder",
+            "Add drunk apricots along with any syrup and cook, stirring often, about 2 minutes.  Add tomato puree to pot and cook, stirring occasionally, 4 minutes, then stir in chile powder",
             "Add broth and fresh chile",
-            "Cover pot and cook, stirring occasionally to prevent sticking, until a loose dark brown paste forms, 30\u00e2\u20ac\u201c40 minutes",
+            "Cover pot and cook, stirring occasionally to prevent sticking, until a loose dark brown paste forms, 30“40 minutes",
             "The oil will rise to the surface when the sauce is ready",
             "Remove from heat; taste and season with more salt if needed",
             "If you like texture, leave as is, or blend with an immersion blender (or let it cool slightly and blend it in a blender) to make it smooth",
-            "Let cool completely.  Spoon shito into jars or an airtight container with at least a \u00c2\u00bc\" layer of oil on top.  Do ahead: Shito can made 1 week ahead",
-            "Cover and chill.  Note: The amount of chile described in this recipe is what I would classify as pretty hot\u00e2\u20ac\u201dsome West Africans might call this medium hot, some very hot",
-            "Folks familiar with heat will enjoy this, but if you don\u00e2\u20ac\u2122t like super-jacked heat you should probably err on the lower end of the range",
+            "Let cool completely.  Spoon shito into jars or an airtight container with at least a .25\" layer of oil on top.  Do ahead: Shito can made 1 week ahead",
+            "Cover and chill.  Note: The amount of chile described in this recipe is what I would classify as pretty hot some West Africans might call this medium hot, some very hot",
+            "Folks familiar with heat will enjoy this, but if you don't like super-jacked heat you should probably err on the lower end of the range",
             "West African pantry staples can be found at Zoe's Ghana Kitchen."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f6a47998e6fb6a5bb1bcaa4/1:1/w_1920,c_limit/Shito_RECIPE_091620_11803.jpg",
@@ -2693,7 +2693,7 @@
             },
             {
                 "product": "dry white wine",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -2727,9 +2727,9 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "potato, scrubbed and cut into 1/4-inch chunks",
+                "product": "medium potato, scrubbed and cut into 1/4-inch chunks",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "fresh or thawed frozen corn kernels",
@@ -2737,13 +2737,13 @@
                 "qtyUnit": "cups"
             },
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -2785,9 +2785,9 @@
         "cookTime": 20,
         "recipeIngredients": [
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "6",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "mayonnaise",
@@ -2801,7 +2801,7 @@
             },
             {
                 "product": "cayenne spice",
-                "qtyNumber": "1/8",
+                "qtyNumber": "0.125",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -2842,7 +2842,7 @@
             },
             {
                 "product": "garlic, minced",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "clove"
             },
             {
@@ -2852,7 +2852,7 @@
             },
             {
                 "product": "cornstarch",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -2872,7 +2872,7 @@
             },
             {
                 "product": "mayonnaise",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -2881,25 +2881,25 @@
                 "qtyUnit": "4oz. jar"
             },
             {
-                "product": "Chipotle Pepper Pur\u00e9e",
-                "qtyNumber": "1\u00bd",
+                "product": "Chipotle Pepper Pure",
+                "qtyNumber": "1.5",
                 "qtyUnit": "tsp."
             }
         ],
         "recipeSteps": [
-            "Put the chipotle peppers and adobo sauce in a small food processor or blender and blend until the mixture turns into a smooth pur\u00c3\u00a9e",
+            "Put the chipotle peppers and adobo sauce in a small food processor or blender and blend until the mixture turns into a smooth puree",
             "Set aside",
-            "The chipotle pur\u00c3\u00a9e can be made in advance, stored in an airtight container, and refrigerated for up to 2 months.  On a cutting board, sprinkle the garlic with a large pinch of salt and gather it into a small mound",
-            "Holding the blunt side of the knife with both hands, press and scrape the knife\u00e2\u20ac\u2122s sharp end, holding it at a slight angle, across the garlic mound to flatten it",
+            "The chipotle puree can be made in advance, stored in an airtight container, and refrigerated for up to 2 months.  On a cutting board, sprinkle the garlic with a large pinch of salt and gather it into a small mound",
+            "Holding the blunt side of the knife with both hands, press and scrape the knife's sharp end, holding it at a slight angle, across the garlic mound to flatten it",
             "Repeat, dragging it across the garlic, until you have a smooth paste",
-            "Set aside.  In a small bowl, mix the cornstarch and 1\u00c2\u00bd tsp",
+            "Set aside.  In a small bowl, mix the cornstarch and 1.5 tsp",
             "of the evaporated milk into a slurry",
             "Pour the rest of the evaporated milk into a medium saucepan and stir in the slurry",
             "Bring to a boil over medium-high heat, whisking constantly",
             "Turn the heat to low and add the Cheddar gradually by the handful, stirring until the Cheddar is melted and the mixture is smooth",
             "Add the cream cheese and whisk until it melts",
-            "Stir in the mayonnaise, pimento peppers, 1\u00c2\u00bd tsp",
-            "of the chipotle pur\u00c3\u00a9e, and the garlic paste",
+            "Stir in the mayonnaise, pimento peppers, 1.5 tsp",
+            "of the chipotle puree, and the garlic paste",
             "Season with salt",
             "Transfer to a serving bowl or keep it warm in a slow cooker and serve immediately.  To reheat the sauce, microwave it, stirring every 30 seconds, until fully melted."
         ],
@@ -2920,9 +2920,9 @@
         "cookTime": 40,
         "recipeIngredients": [
             {
-                "product": "egg whites",
+                "product": "large egg whites",
                 "qtyNumber": "2",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "new potatoes (about 1 inch in diameter)",
@@ -2936,7 +2936,7 @@
             },
             {
                 "product": "finely ground black pepper",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -2956,11 +2956,11 @@
             }
         ],
         "recipeSteps": [
-            "Preheat oven to 400\u00c2\u00b0F and line a rimmed baking sheet with parchment",
-            "In a large bowl, whisk the egg whites until foamy (there shouldn\u00e2\u20ac\u2122t be any liquid whites in the bowl)",
-            "Add the potatoes and toss until they\u00e2\u20ac\u2122re well coated with the egg whites, then transfer to a strainer or colander and let the excess whites drain",
+            "Preheat oven to 400F and line a rimmed baking sheet with parchment",
+            "In a large bowl, whisk the egg whites until foamy (there shouldnt be any liquid whites in the bowl)",
+            "Add the potatoes and toss until they're well coated with the egg whites, then transfer to a strainer or colander and let the excess whites drain",
             "Season the potatoes with the salt, pepper, and herbs",
-            "Scatter the potatoes on the baking sheet (make sure they\u00e2\u20ac\u2122re not touching) and roast until the potatoes are very crispy and tender when poked with a knife, 15 to 20 minutes (depending on the size of the potatoes).  Transfer to a bowl and serve."
+            "Scatter the potatoes on the baking sheet (make sure they're not touching) and roast until the potatoes are very crispy and tender when poked with a knife, 15 to 20 minutes (depending on the size of the potatoes).  Transfer to a bowl and serve."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f808a66735b0f9aa995eb7b/1:1/w_1920,c_limit/CracklePotatoes_RECIPE_100320_0394.jpg",
         "recipeRating": 4.9,
@@ -2999,9 +2999,9 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "white onion, thinly sliced, plus more for serving",
-                "qtyNumber": "\u00bd",
-                "qtyUnit": "medium"
+                "product": "medium white onion, thinly sliced, plus more for serving",
+                "qtyNumber": "0.5",
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt",
@@ -3015,7 +3015,7 @@
             },
             {
                 "product": "low-sodium chicken broth",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "cups"
             },
             {
@@ -3036,17 +3036,17 @@
             "Working in batches, cook until lightly browned and starting to crisp, about 1 minute per side",
             "Set aside.  Heat remaining 3 Tbsp",
             "oil in same skillet over medium-high",
-            "Cook chorizo, breaking up with a wooden spoon, until browned and cooked through, 7\u00e2\u20ac\u201c9 minutes",
-            "Using a slotted spoon, transfer to a medium bowl; set aside.  Add garlic and \u00c2\u00bd onion to same skillet, season with salt, and cook, tossing occasionally, until tender and beginning to brown, 6\u00e2\u20ac\u201c8 minutes",
+            "Cook chorizo, breaking up with a wooden spoon, until browned and cooked through, 7-9 minutes",
+            "Using a slotted spoon, transfer to a medium bowl; set aside.  Add garlic and .5 onion to same skillet, season with salt, and cook, tossing occasionally, until tender and beginning to brown, 6-8 minutes",
             "Using slotted spoon, transfer garlic mixture to a blender; reserve pan with oil",
-            "Add beans and broth to blender and pur\u00c3\u00a9e until smooth (it should be the consistency of yogurt); season with salt.  Set reserved pan over medium-high and heat oil",
-            "Transfer bean pur\u00c3\u00a9e to skillet and bring to a boil",
+            "Add beans and broth to blender and puree until smooth (it should be the consistency of yogurt); season with salt.  Set reserved pan over medium-high and heat oil",
+            "Transfer bean puree to skillet and bring to a boil",
             "Reduce heat to low",
-            "Working one at a time and using tongs, dip tortillas in bean pur\u00c3\u00a9e, turning to coat and leaving until softened, about 3 seconds per side (they will soften more as they sit)",
+            "Working one at a time and using tongs, dip tortillas in bean puree, turning to coat and leaving until softened, about 3 seconds per side (they will soften more as they sit)",
             "Transfer to a baking sheet as you go",
             "Spoon 1 Tbsp",
             "chorizo and 1 Tbsp",
-            "queso fresco across the center of each tortilla; fold over like a taco.  Divide among plates and spoon remaining bean pur\u00c3\u00a9e over",
+            "queso fresco across the center of each tortilla; fold over like a taco.  Divide among plates and spoon remaining bean puree over",
             "Top with cilantro, avocado, more onion, remaining chorizo, and remaining queso."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f88da4a663d697173eda4b1/1:1/w_1920,c_limit/enfrijoladas-recipe-BA-101520.jpg",
@@ -3076,9 +3076,9 @@
                 "qtyUnit": "pound"
             },
             {
-                "product": "onion, minced",
+                "product": "small onion, minced",
                 "qtyNumber": "1",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
                 "product": "garlic, minced",
@@ -3086,7 +3086,7 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "aj\u00ed dulce pepper, seeded and minced",
+                "product": "aja dulce pepper, seeded and minced",
                 "qtyNumber": "1",
                 "qtyUnit": ""
             },
@@ -3097,7 +3097,7 @@
             },
             {
                 "product": "ground cumin",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -3128,13 +3128,13 @@
         ],
         "recipeSteps": [
             "Heat the coconut oil in a large saucepan over medium heat",
-            "Add the pumpkin, stir well, and cook, covered, for 15 minutes.  Add the onion, garlic, and aj\u00c3\u00ad dulce and stir well",
-            "Saut\u00c3\u00a9 until the onion becomes translucent, 3 to 5 minutes, then add the brown sugar and cumin",
+            "Add the pumpkin, stir well, and cook, covered, for 15 minutes.  Add the onion, garlic, and  aja dulce and stir well",
+            "Saute until the onion becomes translucent, 3 to 5 minutes, then add the brown sugar and cumin",
             "Mix well",
             "Cook until the sugar melts, 2 to 3 minutes.  Stir in the coconut milk and broth",
-            "Bring to a simmer and cook, uncovered, until the pumpkin is very soft, about 15 minutes.  Using an immersion blender, blend the soup into a smooth pur\u00c3\u00a9e",
+            "Bring to a simmer and cook, uncovered, until the pumpkin is very soft, about 15 minutes.  Using an immersion blender, blend the soup into a smooth puree",
             "Alternatively, remove the solids with a slotted spoon and place in a blender or food processor",
-            "Pur\u00c3\u00a9e until smooth and return to the pan.  Bring back to a simmer and cook gently for 5 minutes so the flavors combine",
+            "Puree until smooth and return to the pan.  Bring back to a simmer and cook gently for 5 minutes so the flavors combine",
             "Season with salt and black pepper to taste",
             "Serve hot, garnished with the cilantro."
         ],
@@ -3147,9 +3147,9 @@
     },
     {
         "recipeId": "547041a9-ef8b-487d-b17e-65bc53bbf9fb",
-        "recipeTitle": "Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea",
+        "recipeTitle": "Doenjang Jjigae",
         "recipeDescription": "with zucchini and Dashi",
-        "recipeLongIntro": "Embrace the culinary journey with Doenjang Jjigae (\u00eb\u0090\u0153\u00ec\u017e\u00a5\u00ec\u00b0\u0152\u00ea\u00b0\u0153 / Fermented-Soybean Stew), which usually takes 147 minutes to prepare, yielding delicious results. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
+        "recipeLongIntro": "Embrace the culinary journey with Doenjang Jjigae / Fermented-Soybean Stew), which usually takes 147 minutes to prepare, yielding delicious results. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
         "totalCost": 22.29,
         "prepTime": 45,
         "cookTime": 100,
@@ -3161,7 +3161,7 @@
             },
             {
                 "product": "doenjang (Korean fermented soybean paste)",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -3185,14 +3185,14 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "onions, cut into 1-inch dice",
+                "product": "medium onions, cut into 1-inch dice",
                 "qtyNumber": "2",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "green zucchini, cut into 1-inch chunks",
+                "product": "medium green zucchini, cut into 1-inch chunks",
                 "qtyNumber": "2",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "red Korean chili pepper or other long hot chili, thinly sliced on the bias",
@@ -3205,8 +3205,8 @@
                 "qtyUnit": ""
             },
             {
-                "product": "brisket, sliced \u215b inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
-                "qtyNumber": "\u00bd",
+                "product": "brisket, sliced ⅛ inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
+                "qtyNumber": "0.5",
                 "qtyUnit": "pound"
             },
             {
@@ -3216,7 +3216,7 @@
             },
             {
                 "product": "scallions, cut into 1-inch batons",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "bunch"
             }
         ],
@@ -3239,9 +3239,9 @@
     },
     {
         "recipeId": "5a77c701-6ef0-483a-b83d-0dc0e4959a3c",
-        "recipeTitle": "Dad\u00e2\u20ac\u2122s Curried Chicken",
+        "recipeTitle": "Dad's Curried Chicken",
         "recipeDescription": "with Roti and freshly squeezed lime juice",
-        "recipeLongIntro": "Relish in the making of Dad\u00e2\u20ac\u2122s Curried Chicken, a recipe that typically spans 116 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
+        "recipeLongIntro": "Relish in the making of Dad's Curried Chicken, a recipe that typically spans 116 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
         "totalCost": 23.39,
         "prepTime": 35,
         "cookTime": 80,
@@ -3278,7 +3278,7 @@
             },
             {
                 "product": "Trinidad Curry Powder",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -3287,9 +3287,9 @@
                 "qtyUnit": "tablespoons"
             },
             {
-                "product": "onion, chopped",
+                "product": "medium onion, chopped",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "chicken stock or water",
@@ -3309,7 +3309,7 @@
             "Toss well to coat and refrigerate for at least 30 minutes but ideally overnight.  Combine the curry powder with just enough water to form a thick paste",
             "Heat the oil in a heavy-bottomed pot",
             "Add the curry paste and onion",
-            "Cook, stirring constantly, for 1 to 2 minutes over medium-low heat\u00e2\u20ac\u201ddo not allow the curry to scorch",
+            "Cook, stirring constantly, for 1 to 2 minutes over medium-low heat do not allow the curry to scorch",
             "Add the chicken pieces and stir well to coat",
             "Add the stock or water, cover, and simmer for 30 to 40 minutes, or until the chicken is tender.  Remove the lid and simmer for 5 minutes more over medium-high heat, until the sauce reduces by one-third",
             "Serve with roti or white rice."
@@ -3342,7 +3342,7 @@
             },
             {
                 "product": "boneless pork butt, halved",
-                "qtyNumber": "One",
+                "qtyNumber": "1",
                 "qtyUnit": "2-pound"
             },
             {
@@ -3366,14 +3366,14 @@
                 "qtyUnit": "tablespoon"
             },
             {
-                "product": "carrots, peeled and sliced",
+                "product": "large carrots, peeled and sliced",
                 "qtyNumber": "3",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
-                "product": "celery stalks, sliced",
+                "product": "large celery stalks, sliced",
                 "qtyNumber": "3",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "green cabbage, shredded",
@@ -3381,13 +3381,13 @@
                 "qtyUnit": "small head"
             },
             {
-                "product": "Idaho potatoes, peeled and cut into \u00bd-inch dice",
+                "product": "medium Idaho potatoes, peeled and cut into .5-inch dice",
                 "qtyNumber": "2",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "lima beans, drained and rinsed",
-                "qtyNumber": "One",
+                "qtyNumber": "1",
                 "qtyUnit": "15-oz. can"
             },
             {
@@ -3397,7 +3397,7 @@
             }
         ],
         "recipeSteps": [
-            "To make the \u00e2\u20ac\u0153beet water,\u00e2\u20ac\u009d roughly chop 2 pounds of the beets (select the smaller ones), preferably in a food processor fitted with the metal blade",
+            "To make the beet water, roughly chop 2 pounds of the beets (select the smaller ones), preferably in a food processor fitted with the metal blade",
             "Place the chopped beets in a large stockpot",
             "Add 10 cups of water and 1 tablespoon vinegar.  Place the stockpot over high heat and bring to a boil, then reduce the heat to low, and simmer for 2 hours",
             "(If it seems like the liquid is evaporating too quickly, you may need to cover the pot partially with an offset lid.) The beets should be extremely soft and the liquid bright red.  Strain the liquid, pressing the cooked beets against the side of the strainer to extract as much liquid as possible",
@@ -3412,14 +3412,14 @@
             "Add the bay leaf, allspice berries, and peppercorns",
             "Bring to a boil, reduce the heat to low, and simmer until the meat is tender and beginning to fall apart, about 2 hours",
             "Set the pork aside to cool",
-            "When the pork is cool enough to handle, remove it from the pot and cut the meat into \u00c2\u00bd-inch cubes",
+            "When the pork is cool enough to handle, remove it from the pot and cut the meat into .5-inch cubes",
             "Strain the broth and discard the bay leaf, allspice berries, and peppercorns",
             "Reserve the cubed meat and 4 cups of the broth.  To cook the vegetables, place the carrots and celery in a large stockpot and pour the reserved meat broth over them",
             "Bring to a boil, reduce the heat, and simmer until the carrots and celery are just tender, about 8 minutes",
             "Add the cabbage and potatoes and continue to cook until the potatoes and carrots are easily pierced with a pairing knife but keep their shape, 15 to 20 additional minutes",
-            "Add the lima beans and cook for 5 additional minutes, just to meld the flavors",
+            "Add the lima beans and cook for 5 additional minutes, just to meld the flavors", 
             "Gradually add the remaining 7 tablespoons white vinegar, tasting between additions and stopping when the flavor is to your liking",
-            "Remove the soup from the heat and set aside.  To compose the soup, in a large soup pot combine the \u00e2\u20ac\u0153beet water\u00e2\u20ac\u009d and meat broth with the vegetables",
+            "Remove the soup from the heat and set aside.  To compose the soup, in a large soup pot combine the beet water and meat broth with the vegetables",
             "Add the cubed pork and the grated beets",
             "Stir to combine and bring to a simmer over low heat",
             "Season to taste with salt and serve immediately."
@@ -3452,12 +3452,12 @@
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
                 "product": "crushed red pepper flakes",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -3471,7 +3471,7 @@
                 "qtyUnit": "cloves"
             },
             {
-                "product": "skinless, boneless chicken thighs, cut into (\u00be\") pieces",
+                "product": "skinless, boneless chicken thighs, cut into (0.75\") pieces",
                 "qtyNumber": "4",
                 "qtyUnit": ""
             },
@@ -3491,14 +3491,14 @@
                 "qtyUnit": ""
             },
             {
-                "product": "ripe mangoes, sliced",
+                "product": "small ripe mangoes, sliced",
                 "qtyNumber": "2",
-                "qtyUnit": "small"
+                "qtyUnit": ""
             },
             {
-                "product": "onion, thinly sliced",
-                "qtyNumber": "\u00bc",
-                "qtyUnit": "red"
+                "product": "redonion, thinly sliced",
+                "qtyNumber": "0.25",
+                "qtyUnit": ""
             },
             {
                 "product": "torn Little Gem or green lettuce leaves",
@@ -3574,12 +3574,12 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "1\u20444",
+                "qtyNumber": "1/4",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "unsalted butter, melted",
-                "qtyNumber": "1\u20442",
+                "qtyNumber": "1/2",
                 "qtyUnit": "cup"
             },
             {
@@ -3594,7 +3594,7 @@
             },
             {
                 "product": "Creole Cream Cheese",
-                "qtyNumber": "1\u2153",
+                "qtyNumber": "1",
                 "qtyUnit": "cups"
             },
             {
@@ -3608,33 +3608,33 @@
                 "qtyUnit": ""
             },
             {
-                "product": "sour cream (mixed with 1\u20444 cup buttermilk)",
+                "product": "sour cream (mixed with 1/4 cup buttermilk)",
                 "qtyNumber": "1",
                 "qtyUnit": "cup"
             },
             {
                 "product": "cup buttermilk",
-                "qtyNumber": "1\u20444",
+                "qtyNumber": "1/4",
                 "qtyUnit": "cup"
             },
             {
                 "product": "unsalted butter",
-                "qtyNumber": "3\u00be",
+                "qtyNumber": "30.75",
                 "qtyUnit": "tablespoons"
             },
             {
                 "product": "granulated sugar",
-                "qtyNumber": "3\u20444",
+                "qtyNumber": "3/4",
                 "qtyUnit": "cup"
             },
             {
                 "product": "firmly packed light brown sugar",
-                "qtyNumber": "1\u20444",
+                "qtyNumber": "1/4",
                 "qtyUnit": "cup"
             },
             {
                 "product": "honey",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "tablespoons"
             },
             {
@@ -3644,7 +3644,7 @@
             },
             {
                 "product": "finely grated lemon zest",
-                "qtyNumber": "1\u00bd",
+                "qtyNumber": "1.5",
                 "qtyUnit": "teaspoons"
             },
             {
@@ -3654,22 +3654,22 @@
             },
             {
                 "product": "kosher salt",
-                "qtyNumber": "3\u20444",
+                "qtyNumber": "3/4",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground cinnamon",
-                "qtyNumber": "3\u20444",
+                "qtyNumber": "3/4",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground cardamom",
-                "qtyNumber": "1\u20443",
+                "qtyNumber": "1/3",
                 "qtyUnit": "teaspoon"
             },
             {
                 "product": "ground ginger",
-                "qtyNumber": "1\u20443",
+                "qtyNumber": "1/3",
                 "qtyUnit": "teaspoon"
             },
             {
@@ -3680,7 +3680,7 @@
         ],
         "recipeSteps": [
             "Make the crust",
-            "Preheat the oven to 375\u00c2\u00b0F",
+            "Preheat the oven to 375F",
             "In a medium bowl, stir together the graham cracker crumbs, granulated sugar, brown sugar, salt, and butter to combine",
             "Pat the mixture into a 10-inch springform pan, pressing the crumbs firmly in an even layer on the bottom and making sure they come at least halfway up the side of the pan",
             "Bake for 7 to 10 minutes, until the crust is fragrant, dry, and toasty",
@@ -3689,16 +3689,16 @@
             "Add the Creole Cream Cheese and vanilla paste and beat on medium-high speed for about 2 minutes, scraping down the bowl once more",
             "Decrease the speed to medium and beat in the eggs, one at a time, incorporating each one before adding the next",
             "Mix just until the batter is smooth and uniform",
-            "Continuing to mix past that point, even though the batter won\u00e2\u20ac\u2122t look different, only incorporates extra air, which will cause the cheesecake to bubble excessively and the surface to crack as that air tries to escape during the baking process.  Decrease the oven temperature to 350\u00c2\u00b0F",
+            "Continuing to mix past that point, even though the batter won't look different, only incorporates extra air, which will cause the cheesecake to bubble excessively and the surface to crack as that air tries to escape during the baking process.  Decrease the oven temperature to 350F",
             "Pour the batter into the prepared crust and tap the pan gently on the counter a few times to remove any large air bubbles",
             "Place the springform pan in a large baking or roasting pan (just big enough for the springform pan to fit in) and set the pan on the middle rack in the oven",
             "Fill the pan with enough hot water to reach the rim of the springform pan",
             "Bake for about 1 hour, or until the sides of the custard are set and the middle is still just slightly wobbly",
             "Generally, if the entirety of the custard is fully set, your cheesecake is overbaked",
-            "Don\u00e2\u20ac\u2122t panic\u00e2\u20ac\u201dit\u00e2\u20ac\u2122ll still be delicious, and you\u00e2\u20ac\u2122ll do better next time!  Let the cheesecake cool in the water until it is about room temperature",
-            "(You don\u00e2\u20ac\u2122t want to have to try to grab the pan out of hot water if you can help it.) However, if you\u00e2\u20ac\u2122re worried that your cheesecake might be slightly overbaked, you\u00e2\u20ac\u2122ll want to pull it out rather quickly, and let it cool at room temperature",
+            "Don't panic it'll still be delicious, and you'll do better next time!  Let the cheesecake cool in the water until it is about room temperature",
+            "(You don't want to have to try to grab the pan out of hot water if you can help it.) However, if you're worried that your cheesecake might be slightly overbaked, you'll want to pull it out rather quickly, and let it cool at room temperature",
             "Refrigerate for at least 3 hours before slicing",
-            "The cake can be refrigerated, covered, for up to 4 days.  In a large heavy-bottomed saut\u00c3\u00a9 pan, heat the butter until melted",
+            "The cake can be refrigerated, covered, for up to 4 days.  In a large heavy-bottomed saute pan, heat the butter until melted",
             "Stir in the granulated sugar, brown sugar, and honey and let cook until bubbling",
             "Add the apples and toss to coat",
             "Stir in the lemon zest, lemon juice, salt, cinnamon, cardamom, and ginger; stir to combine",
@@ -3724,7 +3724,7 @@
         "recipeIngredients": [
             {
                 "product": "whole-milk yogurt",
-                "qtyNumber": "\u00be",
+                "qtyNumber": "0.75",
                 "qtyUnit": "cup"
             },
             {
@@ -3734,7 +3734,7 @@
             },
             {
                 "product": "sugar",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -3748,28 +3748,28 @@
                 "qtyUnit": "cup"
             },
             {
-                "product": "zucchini (about 5 oz.)",
+                "product": "medium zucchini (about 5 oz.)",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "onion, thinly sliced",
-                "qtyNumber": "\u00bd",
-                "qtyUnit": "medium"
+                "product": "medium onion, thinly sliced",
+                "qtyNumber": "½",
+                "qtyUnit": ""
             },
             {
                 "product": "kosher salt, divided, plus more",
-                "qtyNumber": "1\u00be",
+                "qtyNumber": "1.75",
                 "qtyUnit": "tsp."
             },
             {
-                "product": "Kashmiri chile powder or \u00bc tsp. cayenne pepper",
-                "qtyNumber": "\u00bd",
+                "product": "Kashmiri chile powder or .25 tsp. cayenne pepper",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
                 "product": "ground turmeric",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "tsp."
             },
             {
@@ -3793,26 +3793,26 @@
             "Season with salt.  Do Ahead: Yogurt can be made 1 day ahead",
             "Cover and chill.  Rinse lentils, then soak in 2 cups water at room temperature at least 1 hour and up to 12 hours",
             "(Soaking the lentils makes them tender and a lot easier to blend.)  Meanwhile, trim ends of zucchini and cut crosswise into 3 pieces about 2\" long",
-            "Cut each piece lengthwise into \u00c2\u00bc\"-thick planks",
-            "Stack a few planks and slice lengthwise into \u00c2\u00bc\"-thick matchsticks (about the size of a skinny french fry)",
+            "Cut each piece lengthwise into .25\"-thick planks",
+            "Stack a few planks and slice lengthwise into .25\"-thick matchsticks (about the size of a skinny french fry)",
             "Transfer zucchini to a colander set in a medium bowl",
             "Add onion and 1 tsp",
             "salt and toss to combine",
             "Let sit until vegetables look wilted and softened and about 1 Tbsp",
             "liquid has released into bowl, 30 minutes to 2 hours",
             "Gently pat dry with paper towels to remove any excess moisture.  Drain lentils and transfer to a food processor",
-            "Add chile powder, turmeric, and \u00c2\u00be tsp",
+            "Add chile powder, turmeric, and ¾ tsp",
             "salt",
-            "Pulse, scraping down sides, until a pur\u00c3\u00a9e forms",
+            "Pulse, scraping down sides, until a puree forms",
             "Transfer to a medium bowl and add zucchini and onion, parsley, and lemon zest",
             "Toss with a rubber spatula to combine.  Line a rimmed baking sheet with paper towels; set a wire rack inside",
             "Heat ghee in a medium cast-iron skillet over medium-high until a pinch of batter added to the pan sizzles and sputters",
-            "Using a large spoon, scoop out about \u00c2\u00bc cup batter, then use a second large spoon dipped in the hot ghee to carefully scrape into pan; flatten with ghee-coated spoon",
+            "Using a large spoon, scoop out about .25 cup batter, then use a second large spoon dipped in the hot ghee to carefully scrape into pan; flatten with ghee-coated spoon",
             "Repeat to make 3 more fritters",
             "Fry until deep golden brown underneath, about 3 minutes",
             "Turn over with a wide slotted spatula and fry until deep golden brown on the second side, about 3 minutes",
             "Transfer fritters to prepared rack to drain; season immediately with salt",
-            "Repeat with remaining batter (you end up with 8\u00e2\u20ac\u201c10 fritters total).  Transfer fritters to a platter",
+            "Repeat with remaining batter (you end up with 8-10 fritters total).  Transfer fritters to a platter",
             "Serve with lemony yogurt alongside."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f43eaa3c7a5ec760fdc88a5/1:1/w_1920,c_limit/zucchini-lentil-fritters-with-lemony-yogurt-recipe-BA-082420.jpg",
@@ -3858,7 +3858,7 @@
             },
             {
                 "product": "freshly ground black pepper",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "tsp."
             },
             {
@@ -3883,7 +3883,7 @@
             }
         ],
         "recipeSteps": [
-            "Place a rack in middle of oven; preheat to 400\u00c2\u00b0",
+            "Place a rack in middle of oven; preheat to 400F",
             "Bring evaporated milk and whole milk to a bare simmer in a large saucepan over medium heat",
             "Whisk in garlic powder, onion powder, paprika, pepper, and 1 tsp",
             "salt",
@@ -3918,14 +3918,14 @@
                 "qtyUnit": "6-7lb."
             },
             {
-                "product": "parsnips, peeled and halved lengthwise",
+                "product": "medium parsnips, peeled and halved lengthwise",
                 "qtyNumber": "5",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
-                "product": "carrots, peeled and halved lengthwise",
+                "product": "medium carrots, peeled and halved lengthwise",
                 "qtyNumber": "5",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "maple syrup",
@@ -3939,17 +3939,17 @@
             },
             {
                 "product": "packed dark brown sugar",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
                 "product": "smooth Dijon mustard",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
                 "product": "grainy Dijon mustard",
-                "qtyNumber": "\u00bd",
+                "qtyNumber": "0.5",
                 "qtyUnit": "cup"
             },
             {
@@ -3969,61 +3969,16 @@
             "Pour the maple syrup and apple juice over the ham, and sprinkle the brown sugar over the top",
             "Cook on high, uncovered, for 30 to 45 minutes, then cover the slow cooker and cook on low until the ham is tender, 3 to 4 hours",
             "Hams vary in size and tenderness, so be patient",
-            "When it\u00e2\u20ac\u2122s tender, the meat should come off the bone with very little resistance",
+            "When it's tender, the meat should come off the bone with very little resistance",
             "Taste a small piece for tenderness.  Transfer the ham and vegetables to a deep serving platter (reserve the liquid in the pot)",
             "Use a pair of kitchen shears or scissors to cut the slices of ham off the bone and let them fall onto the platter",
-            "Stir both kinds of mustard and the vinegar into the cooking liquid left in the slow cooker and taste for seasoning\u00e2\u20ac\u201dthe sauce may or may not need salt",
+            "Stir both kinds of mustard and the vinegar into the cooking liquid left in the slow cooker and taste for seasoning the sauce may or may not need salt",
             "Pour the liquid over the ham and vegetables, and serve."
         ],
         "recipeImageURL": "https://assets.epicurious.com/photos/5f92fc3f819b886aba0a282a/1:1/w_1920,c_limit/Cook%20with%20Me_Spiral%20Ham%20in%20the%20Slow%20Cooker.jpg",
         "recipeRating": 3.1,
         "numRatings": 461,
         "numServings": 4,
-        "supermarket": "Woolies",
-        "BLD": "Dinner"
-    },
-    {
-        "recipeId": "e4c339b3-aa57-4ed8-a962-83974898fc4b",
-        "recipeTitle": "Warm Comfort",
-        "recipeDescription": "with reposado tequila and tea bags",
-        "recipeLongIntro": "Warm Comfort combines traditional techniques with modern twists, all within about 60 minutes of cooking. Known for its comforting qualities, this dish is a favorite in many households. Serving immediately after cooking captures the best texture and aroma.",
-        "totalCost": 25.02,
-        "prepTime": 20,
-        "cookTime": 40,
-        "recipeIngredients": [
-            {
-                "product": "tea bags",
-                "qtyNumber": "2",
-                "qtyUnit": "chamomile"
-            },
-            {
-                "product": "reposado tequila",
-                "qtyNumber": "1\u00bd",
-                "qtyUnit": "oz."
-            },
-            {
-                "product": "fresh lemon juice",
-                "qtyNumber": "\u00be",
-                "qtyUnit": "oz."
-            },
-            {
-                "product": "agave nectar",
-                "qtyNumber": "1",
-                "qtyUnit": "Tbsp."
-            }
-        ],
-        "recipeSteps": [
-            "Place 2 chamomile tea bags in a heatsafe vessel, such as a large liquid measuring cup",
-            "Pour in 1 \u00c2\u00bd cups boiling water, and let steep 5 minutes, then remove tea bags.  Add 1 \u00c2\u00bd oz",
-            "reposado tequila, \u00c2\u00be oz",
-            "fresh lemon juice, and 1 Tbsp",
-            "agave nectar and stir until incorporated",
-            "Pour into a 16-ounce insulated mug (or two smaller 8-ounce mugs) and drink hot."
-        ],
-        "recipeImageURL": "https://assets.epicurious.com/photos/5f8f46300f37c1c2769f1022/1:1/w_1920,c_limit/WarmComfort_RECIPE_101520_0876_VOG_final.jpg",
-        "recipeRating": 3.1,
-        "numRatings": 266,
-        "numServings": 3,
         "supermarket": "Woolies",
         "BLD": "Dinner"
     },
@@ -4047,9 +4002,9 @@
                 "qtyUnit": "tsp."
             },
             {
-                "product": "eggs",
+                "product": "large eggs",
                 "qtyNumber": "4",
-                "qtyUnit": "large"
+                "qtyUnit": ""
             },
             {
                 "product": "red radishes, trimmed, thinly sliced",
@@ -4058,7 +4013,7 @@
             },
             {
                 "product": "unseasoned rice vinegar",
-                "qtyNumber": "\u00bc",
+                "qtyNumber": "0.25",
                 "qtyUnit": "cup"
             },
             {
@@ -4072,7 +4027,7 @@
                 "qtyUnit": "14-oz. block"
             },
             {
-                "product": "plus \u00bc cup grapeseed or vegetable oil, divided",
+                "product": "plus .25 cup grapeseed or vegetable oil, divided",
                 "qtyNumber": "3",
                 "qtyUnit": "Tbsp."
             },
@@ -4102,13 +4057,13 @@
                 "qtyUnit": "Tbsp."
             },
             {
-                "product": "zucchini or summer squash, halved lengthwise, cut crosswise into (\u00bc\"-thick) half-moons",
+                "product": "medium zucchini or summer squash, halved lengthwise, cut crosswise into (.25\"-thick) half-moons",
                 "qtyNumber": "1",
-                "qtyUnit": "medium"
+                "qtyUnit": ""
             },
             {
                 "product": "thinly sliced or shredded raw vegetables (such as carrots",
-                "qtyNumber": "2\u20133",
+                "qtyNumber": "2-3",
                 "qtyUnit": "cups"
             },
             {
@@ -4138,21 +4093,21 @@
             }
         ],
         "recipeSteps": [
-            "Pour farro into a medium saucepan of boiling salted water, reduce heat, and simmer, stirring occasionally, until tender, 25\u00e2\u20ac\u201c30 minutes",
-            "Drain farro and spread out on a rimmed baking sheet; let cool.  Meanwhile, using a slotted spoon, carefully lower eggs into a small saucepan of boiling water and cook 6\u00c2\u00bd minutes for an oozy, jammy yolk or 7 minutes for a slightly firmer middle",
+            "Pour farro into a medium saucepan of boiling salted water, reduce heat, and simmer, stirring occasionally, until tender, 25-30 minutes",
+            "Drain farro and spread out on a rimmed baking sheet; let cool.  Meanwhile, using a slotted spoon, carefully lower eggs into a small saucepan of boiling water and cook 6.5 minutes for an oozy, jammy yolk or 7 minutes for a slightly firmer middle",
             "Transfer eggs to a bowl of ice water with slotted spoon and let sit until cool enough to handle, about 2 minutes",
             "Remove eggs from ice water; peel and slice in half lengthwise.  Pack radish slices into a pint jar",
             "Whisk vinegar, 1 Tbsp",
             "sugar, 1 tsp",
-            "salt, and \u00c2\u00bd cup hot water in a small bowl until sugar and salt are dissolved",
+            "salt, and  cup hot water in a small bowl until sugar and salt are dissolved",
             "Pour brine over radish slices; let cool",
-            "Cover and chill at least 1 hour before using.  Cut tofu crosswise into \u00c2\u00bd\"-thick slabs, then cut each slab on a diagonal to create 2 triangles",
+            "Cover and chill at least 1 hour before using.  Cut tofu crosswise into thick slabs, then cut each slab on a diagonal to create 2 triangles",
             "Pat dry with a clean kitchen towel",
             "Heat 2 Tbsp",
             "grapeseed oil in a large nonstick skillet over medium-high",
             "Add tofu in a single layer, season with salt, and cook, undisturbed, until golden brown underneath, about 4 minutes",
             "Turn over and cook until golden brown on second side, about 4 minutes",
-            "Transfer tofu to a plate; reserve skillet (no need to wipe out).  Whisk lime juice, gochujang, mayonnaise, \u00c2\u00bc cup grapeseed oil, 1 Tbsp",
+            "Transfer tofu to a plate; reserve skillet (no need to wipe out).  Whisk lime juice, gochujang, mayonnaise, ¼ cup grapeseed oil, 1 Tbsp",
             "soy sauce, 1 Tbsp",
             "sesame oil, and remaining 1 Tbsp",
             "sugar in a small bowl",
