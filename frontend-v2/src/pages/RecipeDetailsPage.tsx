@@ -92,14 +92,18 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         <span>Go Back</span>
       </Button>
       {/* TOP ROW */}
-      <div className={"flex flex-row justify-between gap-14 w-full"}>
+      <div className={"flex flex-row justify-between gap-10 w-full"}>
         {/* TOP ROW LEFT COLUMN */}
         <div className={"flex flex-col items-start"}>
           <div className={"flex flex-row items-center gap-2 my-4"}>
-            <Badge>Top rated</Badge>
-            <Badge>{activeRecipe.BLD ?? "Lunch"}</Badge>
-            <Badge>{activeRecipe.recipeTitle.split(" ")[0]}</Badge>
-            <Badge>Mediterranean</Badge>
+            <Badge className={"bg-emerald-800"}>Top rated</Badge>
+            <Badge className={"bg-zinc-800"}>
+              {activeRecipe.BLD ?? "Lunch"}
+            </Badge>
+            <Badge className={"bg-slate-800"}>
+              {activeRecipe.recipeTitle.split(" ")[0]}
+            </Badge>
+            <Badge className={"bg-zinc-600"}>Mediterranean</Badge>
           </div>
           <h1 className={"text-6xl font-bold mt-4"}>
             {activeRecipe.recipeTitle}
@@ -126,21 +130,21 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               "flex flex-row justify-center items-center mt-auto -ml-4"
             }
           >
-            <div className={"flex flex-col items-center p-6 w-28"}>
+            <div className={"flex flex-col items-center p-6 w-32"}>
               <p className={"font-semibold 2xl:text-xl text-lg"}>Prep</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.prepTime)}
               </p>
             </div>
             <div
-              className={"flex flex-col items-center p-6 border-x-[1px] w-28"}
+              className={"flex flex-col items-center p-6 border-x-[1px] w-32"}
             >
               <p className={"font-semibold 2xl:text-xl text-lg"}>Cook</p>
               <p className={"font-light mt-2 text-sm"}>
                 {getFormattedTime(activeRecipe.cookTime)}
               </p>
             </div>
-            <div className={"flex flex-col items-center p-6 w-28"}>
+            <div className={"flex flex-col items-center p-6 w-32"}>
               <p className={"font-semibold 2xl:text-xl text-lg"}>Difficulty</p>
               <p className={"font-light mt-2 text-sm"}>Easy</p>
             </div>
@@ -188,12 +192,15 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       {/* INGREDIENTS AND METHOD ROW */}
       <div className={"grid grid-cols-[6fr_7fr] w-full mt-8 mb-8 gap-24"}>
         <div className={"flex flex-col items-start"}>
-          <h2 className={"text-4xl font-semibold mb-4"}>Ingredients</h2>
-          <ServingsSelector
-            setNumServings={setNumServings}
-            numServings={numServings}
-            className={"w-40"}
-          />
+          <div className="flex flex-row items-center justify-between w-full">
+            <h2 className={"text-4xl font-semibold"}>Ingredients</h2>
+            <ServingsSelector
+              setNumServings={setNumServings}
+              numServings={numServings}
+              className={"w-40"}
+            />
+          </div>
+          <Separator className={"mb-5 mt-2.5"} />
           {/*>{`${decimalToMixedFractionString(roundToNearestQuarter(parseFractionString(ingredient.qtyNumber) * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>*/}
           {/*<ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">*/}
           {/*  {activeRecipe.recipeIngredients.map((ingredient: any, index: number) => {*/}
@@ -208,7 +215,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           {/*    );*/}
           {/*  })}*/}
           {/*</ul>*/}
-          <ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">
+          <ul className="flex flex-col list-disc ml-[1.5ch] gap-3 mt-4">
             {activeRecipe.recipeIngredients.map(
               (ingredient: any, index: number) => {
                 // const qtyNumber = !ingredient.qtyNumber
@@ -231,8 +238,9 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           </ul>
         </div>
         <div className={"flex flex-col items-start"}>
-          <h2 className={"text-4xl font-semibold mb-4"}>Method</h2>
-          <ol className={"flex flex-col list-decimal ml-[1.5ch] gap-2"}>
+          <h2 className={"text-4xl font-semibold"}>Method</h2>
+          <Separator className={"mb-5 mt-2.5"} />
+          <ol className={"flex flex-col list-decimal ml-[1.5ch] gap-3"}>
             {activeRecipe.recipeSteps.map((step, index) => {
               return <li key={index}>{step}</li>;
             })}

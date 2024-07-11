@@ -35,7 +35,7 @@ export default function PreferenceSelectorBar({
     <div className={"w-screen py-8 px-[4vw] mb-2 mt-6"}>
       <div
         className={
-          "flex flex-row w-full justify-around items-center gap-3 shadow-lg px-10 pb-8 rounded-lg bg-green-200/40 pt-8"
+          "flex flex-row w-full justify-around items-start gap-3 shadow-lg px-10 pb-8 rounded-lg bg-emerald-200/30 pt-8"
         }
       >
         <div className={"flex flex-col items-center gap-0.5"}>
