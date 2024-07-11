@@ -151,46 +151,46 @@ export default function MealPlanDashboardPage({
           </Button>
           <ul className={"list-disc mt-4 font-light flex flex-col gap-3"}>
             {totalShoppingList.map((ingredient, index) => {
-              {
-                const qtyNumber = !ingredient.qtyNumber
-                  ? 0
-                  : typeof ingredient.qtyNumber === "string"
-                    ? parseFractionString(ingredient.qtyNumber)
-                    : ingredient.qtyNumber;
-                console.log(
-                  `The qty number of ${ingredient.product} is ${qtyNumber}`,
-                );
-                return (
-                  <li key={index} className="flex items-center">
-                    <Checkbox
-                      className="mr-2"
-                      id={`checkbox-${index}`}
-                      defaultChecked={false}
-                      onCheckedChange={(checked) => {
-                        const ingredientText = document.getElementById(
-                          `ingredient-text-${index}`,
-                        );
-                        if (checked) {
-                          ingredientText.style.textDecoration = "line-through";
-                          ingredientText.style.color = "grey";
-                        } else {
-                          ingredientText.style.textDecoration = "none";
-                          ingredientText.style.color = "inherit";
-                        }
-                      }}
-                    />
-                    <a
-                      id={`link-${index}`}
-                      href={ingredient.productURL}
-                      className="text-[#33E14D] brightness-75 font-medium"
-                    >
-                      <span id={`ingredient-text-${index}`}>
-                        {`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}
-                      </span>
-                    </a>
-                  </li>
-                );
-              }
+              // const qtyNumber = ingredient.qtyNumber.parseFloat();
+              // const qtyNumber = !ingredient.qtyNumber
+              //   ? 0
+              //   : typeof ingredient.qtyNumber === "string"
+              //     ? parseFractionString(ingredient.qtyNumber)
+              //     : ingredient.qtyNumber;
+              // console.log(
+              //   `The qty number of ${ingredient.product} is ${qtyNumber}`,
+              // );
+              return (
+                <li key={index} className="flex items-center">
+                  <Checkbox
+                    className="mr-2"
+                    id={`checkbox-${index}`}
+                    defaultChecked={false}
+                    onCheckedChange={(checked) => {
+                      const ingredientText = document.getElementById(
+                        `ingredient-text-${index}`,
+                      );
+                      if (checked) {
+                        ingredientText.style.textDecoration = "line-through";
+                        ingredientText.style.color = "grey";
+                      } else {
+                        ingredientText.style.textDecoration = "none";
+                        ingredientText.style.color = "inherit";
+                      }
+                    }}
+                  />
+                  <a
+                    id={`link-${index}`}
+                    href={ingredient.productURL}
+                    className="text-[#33E14D] brightness-75 font-medium"
+                  >
+                    <span id={`ingredient-text-${index}`}>
+                      {ingredient.qtyNumber}
+                      {/*{`${decimalToMixedFractionString(roundToNearestQuarter(ingredient.qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}*/}
+                    </span>
+                  </a>
+                </li>
+              );
             })}
           </ul>
         </div>
