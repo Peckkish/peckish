@@ -20,10 +20,12 @@ import { Toggle } from "@/components/ui/toggle.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
+import useScrollToTop from "@/hooks/useScrollToTop.ts";
 
 interface RecipeDetailsPageProps {}
 
 export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
+  useScrollToTop();
   const [activeRecipe, setActiveRecipe] = useState<Recipe | null>(null);
   const [numServings, setNumServings] = useState(1);
   const [fabricatedWaitRunning, setFabricatedWaitRunning] = useState(true);
@@ -86,9 +88,10 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
     >
       <Button
         className={"w-fit absolute top-[85px] left-5"}
+        size={"sm"}
         onClick={() => navigate(-1)}
       >
-        <CaretLeft weight={"bold"} className={"mr-2"} />
+        <CaretLeft weight={"bold"} className={"mr-1.5"} />
         <span>Go Back</span>
       </Button>
       {/* TOP ROW */}
@@ -224,9 +227,6 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
                 //     ? parseFractionString(ingredient.qtyNumber)
                 //     : ingredient.qtyNumber;
                 // const qtyNumber = 1;
-                console.log(
-                  `Ingred ${ingredient.product}: ${ingredient.qtyNumber}`,
-                );
                 return (
                   <li key={index}>
                     {/*{`${decimalToMixedFractionString(roundToNearestQuarter(qtyNumber))} ${ingredient.qtyUnit} ${ingredient.product}`}*/}
@@ -242,7 +242,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
           <Separator className={"mb-5 mt-2.5"} />
           <ol className={"flex flex-col list-decimal ml-[1.5ch] gap-3"}>
             {activeRecipe.recipeSteps.map((step, index) => {
-              return <li key={index}>{step}</li>;
+              return <li key={index}>{step}.</li>;
             })}
           </ol>
         </div>

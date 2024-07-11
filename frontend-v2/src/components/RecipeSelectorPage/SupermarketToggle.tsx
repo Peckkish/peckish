@@ -31,7 +31,7 @@ export default function SupermarketToggle({
       pressed={supermarketPreferences[toggleProperty]}
       variant="outline"
       className={cn(
-        "h-10 w-36 rounded-2xl flex justify-center items-center hover:opacity-70",
+        "h-10 w-36 rounded-2xl bg-[#f8f8f8] flex justify-center items-center hover:opacity-70",
         className,
       )}
       onClick={handlePressedChange}

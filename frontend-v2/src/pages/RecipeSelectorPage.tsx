@@ -17,6 +17,7 @@ import SelectorActionButtonPair from "@/components/RecipeSelectorPage/SelectorAc
 import { Separator } from "@/components/ui/separator.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { ArrowCounterClockwise, CaretLeft } from "@phosphor-icons/react";
+import useScrollToTop from "@/hooks/useScrollToTop.ts";
 
 interface RecipeSelectorPageProps {
   setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
@@ -33,6 +34,7 @@ export default function RecipeSelectorPage({
   setUserMealPlan,
   recipeCollection,
 }: RecipeSelectorPageProps) {
+  useScrollToTop();
   // const recipeCollection = useContext(RecipeCollectionContext);
 
   const [dietaryPreferences, setDietaryPreferences] =
@@ -91,9 +93,9 @@ export default function RecipeSelectorPage({
       <h1 className={"mt-16 text-6xl font-semibold"}>
         Add recipes to your plan.
       </h1>
-      <p className={"mt-3 text-lg text-muted-foreground"}>
-        Choose any dietaries and your preferred supermarkets, then pick your
-        favourite recipes for your meal plan!
+      <p className={"mt-3 text-muted-foreground"}>
+        Select your dietary preferences and favourite supermarkets, then choose
+        your top recipes to craft your ideal meal plan!
       </p>
       <PreferenceSelectorBar
         dietaryPreferences={dietaryPreferences}

@@ -84,7 +84,7 @@ export default function InteractiveMealPlan({
 
   return (
     <div>
-      <h1 className="font-bold text-2xl">Plan</h1>
+      <h1 className="font-semibold text-2xl">Plan</h1>
       <Separator className={"mt-3 mb-7"} />
       <div className={"p-6 shadow-lg rounded-lg"}>
         <div

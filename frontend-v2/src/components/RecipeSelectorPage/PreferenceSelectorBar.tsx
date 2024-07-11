@@ -35,11 +35,11 @@ export default function PreferenceSelectorBar({
     <div className={"w-screen py-8 px-[4vw] mb-2 mt-6"}>
       <div
         className={
-          "flex flex-row w-full justify-around items-start gap-3 shadow-lg px-10 pb-8 rounded-lg bg-emerald-200/30 pt-8"
+          "flex flex-row w-full justify-around items-start gap-3 shadow-lg px-10 pb-8 rounded-lg bg-[#E4F9BF] text-[#047A46] pt-8"
         }
       >
         <div className={"flex flex-col items-center gap-0.5"}>
-          <p className={"font-medium text-xl"}>
+          <p className={"font-medium text-lg"}>
             Dietary Restrictions/Preferences
           </p>
           <div className={"flex flex-row items-center gap-4 mt-4 flex-wrap"}>
@@ -154,7 +154,7 @@ export default function PreferenceSelectorBar({
           </div>
         </div>
         <div className={"flex flex-col items-center ml-22 mr-auto gap-0.5"}>
-          <p className={"font-medium text-xl"}>Supermarkets</p>
+          <p className={"font-medium text-lg"}>Supermarkets</p>
           <div
             className={"flex flex-row justify-between items-center gap-4 mt-4"}
           >

@@ -39,8 +39,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Checkbox } from "@/components/ui/checkbox.tsx";
-import { CheckIcon } from "@radix-ui/react-icons";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area.tsx";
+import useScrollToTop from "@/hooks/useScrollToTop.ts";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -53,6 +53,7 @@ export default function MealPlanDashboardPage({
   setUserMealPlan,
   setSelectedRecipeIds,
 }: MealPlanDashboardPageProps) {
+  useScrollToTop();
   const [api, setApi] = useState<CarouselApi>();
 
   const [mealPlanName, setMealPlanName] = useState("My First Meal Plan");
@@ -126,10 +127,10 @@ export default function MealPlanDashboardPage({
         </p>
         <div
           className={
-            "flex flex-row items-center bg-[#d8f2dc] rounded-3xl px-4 py-1.5"
+            "flex flex-row items-center bg-[#E4F9BF] rounded-3xl px-4 py-1.5"
           }
         >
-          <span className={"font-medium text-xl ml-1 mr-1.5"}>
+          <span className={"font-medium text-xl ml-1 mr-1.5 text-[#047A46]"}>
             {mealPlanName}
           </span>
           <UpdateMealPlanNameForm
@@ -144,17 +145,17 @@ export default function MealPlanDashboardPage({
         className={"grid grid-cols-[2fr_3fr_6fr] gap-20 mt-10 xl:px-16 px-12"}
       >
         <div className={"flex flex-col"}>
-          <h1 className={"font-bold text-2xl"}>Shopping List</h1>
+          <h1 className={"font-semibold text-2xl"}>Shopping List</h1>
           <Separator className={"my-3"} />
           <Button variant={"green"} onClick={handleOpenAll}>
             <ShoppingCart size={18} />
             <span className={"ml-2"}>Open Shopping Links</span>
           </Button>
-          <ScrollArea className={"pr-5 mt-2"}>
+          <ScrollArea className={"pr-5 mt-6"}>
             <ScrollBar orientation={"vertical"} forceMount />
             <ul
               className={
-                "list-disc mt-4 font-light flex flex-col gap-3 max-h-[36rem]"
+                "list-disc mt-4 font-light flex flex-col gap-3 max-h-[40rem]"
               }
             >
               {totalShoppingList.map((ingredient, index) => {
@@ -206,7 +207,7 @@ export default function MealPlanDashboardPage({
         </div>
         <div className={"flex flex-col"}>
           <div className={"mb-8"}>
-            <h1 className={"font-bold text-2xl"}>Recipes</h1>
+            <h1 className={"font-semibold text-2xl"}>Recipes</h1>
             <Separator className={"my-3"} />
             <div
               className={
@@ -272,8 +273,10 @@ export default function MealPlanDashboardPage({
                       {/*  </CarouselItem>*/}
                       {/*))}*/}
                     </CarouselContent>
-                    <CarouselPrevious className={"bg-[#33E14D]"} />
-                    <CarouselNext className={"bg-[#33E14D]"} />
+                    <CarouselPrevious
+                      className={"bg-[#E4F9BF] text-[#047A46]"}
+                    />
+                    <CarouselNext className={"bg-[#E4F9BF] text-[#047A46]"} />
                   </Carousel>
                 </div>
               )}

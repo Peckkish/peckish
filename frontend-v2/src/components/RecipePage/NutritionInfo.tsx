@@ -10,22 +10,19 @@ export default function NutritionInfo({
   setNumServings,
   numServings,
 }: NutritionInfoProps) {
-  useEffect(() => {
-    console.log(numServings.toString());
-  }, [numServings]);
-
   return (
     <div className={"flex flex-col items-start mt-auto gap-3"}>
       <div
-        className={"grid 2xl:min-w-[30vw] min-w-[35vw] gap-3"}
+        className={"grid 2xl:min-w-[35vw] min-w-[40vw] gap-3"}
         style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(min(50px, 100%), 1fr))",
+          gridTemplateColumns: "repeat(6, 1fr)",
         }}
       >
         <p className={"font-bold text-xl mt-1 mr-1 col-span-2"}>Nutrition</p>
         <ServingsSelector
           setNumServings={setNumServings}
           numServings={numServings}
+          className={"col-span-2 col-start-5"}
         />
       </div>
       <div

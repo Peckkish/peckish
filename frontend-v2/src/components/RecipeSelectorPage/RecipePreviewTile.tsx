@@ -81,45 +81,53 @@ export default function RecipePreviewTile({
         className,
       )}
     >
-      <div
-        className={cn(
-          "transition-all rounded-2xl w-72 relative",
-          isSelected && "border-[#33E14D] border-4 p-2",
-        )}
-      >
+      <div className={"rounded-2xl w-72 relative"}>
         <div
           className={cn(
-            "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200 mb-1",
+            "transition-all rounded-2xl w-72",
+            isSelected && "border-[#33E14D] border-4 p-2",
           )}
         >
-          {!!recipe.recipeImageURL ? (
+          <div
+            className={cn(
+              "aspect-square rounded-2xl overflow-hidden shadow-md preview-image relative w-full bg-zinc-200 mb-1",
+            )}
+          >
+            {!!recipe.recipeImageURL ? (
+              <img
+                className={
+                  "min-h-full min-w-full object-cover rounded-2xl transition-all duration-200 ease-out hover:scale-110 -z-20"
+                }
+                src={recipe.recipeImageURL}
+                // src={
+                //   "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
+                // }
+                alt=""
+              />
+            ) : (
+              <Skeleton className="size-full" />
+            )}
+          </div>
+          {recipe.supermarket === "Woolies" ? (
             <img
-              className={
-                "min-h-full min-w-full object-cover rounded-2xl transition-all duration-200 ease-out hover:scale-110 -z-20"
-              }
-              src={recipe.recipeImageURL}
-              // src={
-              //   "https://assets.epicurious.com/photos/5f68fb2caeadb5160e3feed7/1:1/w_1920,c_limit/RememberTheAlimony_HERO_091620_11797b_VOG_final.jpg"
-              // }
+              src={"/assets/woolworths.svg"}
               alt=""
+              className={"absolute -right-6 -bottom-8 w-16"}
             />
           ) : (
-            <Skeleton className="size-full" />
+            <div
+              className={
+                "absolute -right-5 -bottom-6 size-14 rounded-xl bg-red-600 flex justify-center items-center"
+              }
+            >
+              <img
+                src={"/assets/coles-red.png"}
+                className={"brightness-[1000%] saturate-0 w-12"}
+                alt=""
+              />
+            </div>
           )}
         </div>
-        {recipe.supermarket === "Woolies" ? (
-          <img
-            src={"/assets/woolworths.svg"}
-            alt=""
-            className={"absolute -right-6 -bottom-8 w-16"}
-          />
-        ) : (
-          <img
-            src={"/assets/coles-square-2.png"}
-            alt=""
-            className={"absolute -right-14 -bottom-8 w-32"}
-          />
-        )}
       </div>
 
       <div className={"mt-1 pl-2 w-full"}>

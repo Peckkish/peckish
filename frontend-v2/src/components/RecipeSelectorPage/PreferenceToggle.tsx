@@ -33,7 +33,7 @@ export default function PreferenceToggle({
       size={"sm"}
       className={cn(
         "h-10 w-36 rounded-2xl flex justify-center items-center hover:opacity-70 text-nowrap px-3",
-        "data-[state=off]:border-zinc-900 data-[state=off]:text-zinc-900",
+        "data-[state=off]:border-zinc-900 bg-[#f7f7f7] data-[state=off]:text-zinc-900",
         className,
       )}
       onClick={handlePressedChange}
