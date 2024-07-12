@@ -41,6 +41,7 @@ import {
 import { Checkbox } from "@/components/ui/checkbox.tsx";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area.tsx";
 import useScrollToTop from "@/hooks/useScrollToTop.ts";
+import useDocumentTitle from "@/hooks/useDocumentTitle.ts";
 
 interface MealPlanDashboardPageProps {
   userMealPlan: Recipe[];
@@ -54,6 +55,8 @@ export default function MealPlanDashboardPage({
   setSelectedRecipeIds,
 }: MealPlanDashboardPageProps) {
   useScrollToTop();
+  useDocumentTitle("Dashboard | Peckish");
+
   const [api, setApi] = useState<CarouselApi>();
 
   const [mealPlanName, setMealPlanName] = useState("My First Meal Plan");

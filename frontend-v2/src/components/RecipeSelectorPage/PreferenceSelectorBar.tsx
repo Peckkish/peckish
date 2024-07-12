@@ -32,10 +32,10 @@ export default function PreferenceSelectorBar({
     console.log(supermarketPreferences);
   }, [supermarketPreferences]);
   return (
-    <div className={"w-screen py-8 px-[4vw] mb-6 mt-3.5"}>
+    <div className={"w-screen py-8 px-[4vw] mb-6 mt-2"}>
       <div
         className={
-          "flex flex-row w-full justify-around items-start gap-3 shadow-md px-10 pb-8 rounded-xl bg-[#E7F3E7] text-emerald-950 pt-8"
+          "flex flex-row w-full justify-around items-start gap-3 shadow-md px-10 pb-8 rounded-xl bg-[#E7F3E7] text-emerald-950 pt-6"
         }
       >
         <div className={"flex flex-col items-center gap-1.5"}>

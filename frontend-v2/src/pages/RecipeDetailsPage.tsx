@@ -21,11 +21,14 @@ import { Separator } from "@/components/ui/separator.tsx";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 import RatingDisplay from "@/components/shared/RatingDisplay.tsx";
 import useScrollToTop from "@/hooks/useScrollToTop.ts";
+import useDocumentTitle from "@/hooks/useDocumentTitle.ts";
 
 interface RecipeDetailsPageProps {}
 
 export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
   useScrollToTop();
+  useDocumentTitle("Recipe | Peckish");
+
   const [activeRecipe, setActiveRecipe] = useState<Recipe | null>(null);
   const [numServings, setNumServings] = useState(1);
   const [fabricatedWaitRunning, setFabricatedWaitRunning] = useState(true);
@@ -100,7 +103,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         {/* TOP ROW LEFT COLUMN */}
         <div className={"flex flex-col items-start"}>
           <div className={"flex flex-row items-center gap-2 my-4"}>
-            <Badge className={"bg-[#12b312]"}>Top rated</Badge>
+            <Badge className={"bg-emerald-800"}>Top rated</Badge>
             <Badge className={"bg-zinc-800"}>
               {activeRecipe.BLD ?? "Lunch"}
             </Badge>
@@ -186,7 +189,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         </div>
       </div>
 
-      <Separator className={"h-[1px] my-8 mx-8 bg-[#12b312]/15"} />
+      <Separator className={"h-[1px] my-8 mx-8 "} />
 
       {/* DESCRIPTION ROW*/}
       {!!activeRecipe.recipeLongIntro && (

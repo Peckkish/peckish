@@ -18,6 +18,7 @@ import { Separator } from "@/components/ui/separator.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { ArrowCounterClockwise, CaretLeft } from "@phosphor-icons/react";
 import useScrollToTop from "@/hooks/useScrollToTop.ts";
+import useDocumentTitle from "@/hooks/useDocumentTitle.ts";
 
 interface RecipeSelectorPageProps {
   setRecipeCollection: Dispatch<SetStateAction<Recipe[] | null>>;
@@ -35,6 +36,7 @@ export default function RecipeSelectorPage({
   recipeCollection,
 }: RecipeSelectorPageProps) {
   useScrollToTop();
+  useDocumentTitle("Recipe Selector | Peckish");
   // const recipeCollection = useContext(RecipeCollectionContext);
 
   const [dietaryPreferences, setDietaryPreferences] =

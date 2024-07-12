@@ -43,8 +43,9 @@ export default function SelectorActionButtonPair({
       className={"right-4 bottom-4 flex flex-col fixed items-end gap-4 z-20"}
     >
       <Button
-        className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
-        variant={"pale"}
+        className={
+          "px-[1.5em] py-[1.25em] text-xl font-bold z-10 bg-zinc-900/95"
+        }
         onClick={async () => {
           setIsLoading(true);
           // setHasClickedGetRecipes(true);
@@ -83,7 +84,7 @@ export default function SelectorActionButtonPair({
         <span>
           {selectedRecipeIds.length < 2
             ? "Select at Least Two Recipes"
-            : "Create Meal Plan"}
+            : `Create Meal Plan (${selectedRecipeIds.length})`}
         </span>
       </Button>
     </div>

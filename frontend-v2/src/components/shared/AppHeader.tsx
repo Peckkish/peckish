@@ -32,7 +32,7 @@ export default function AppHeader({}: AppHeaderProps) {
         </a>
       </div>
       <Button variant={"pale"} className={"ml-auto"}>
-        Sign Up to Save Recipes
+        Sign Out
       </Button>
       <Toggle className={"ml-6"} aria-label="Toggle bold">
         <Sun size={24} weight={"bold"} />
