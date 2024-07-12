@@ -17,7 +17,7 @@ export default function RatingDisplay({
   return (
     <div
       className={cn(
-        "flex flex-row items-center gap-0.5 mt-2 text-emerald-800",
+        "flex flex-row items-center gap-0.5 mt-2 text-[#12b312]",
         small && "text-xs",
       )}
     >
@@ -34,8 +34,8 @@ export default function RatingDisplay({
         ),
       )}
       <p
-        className={cn("ml-1.5 mt-[0.14rem] text-base", small && "text-sm")}
-      >{`${recipeRating} (${numRatings})`}</p>
+        className={cn("ml-1.5 mt-[0.14rem] text-base", small && "text-sm ml-1")}
+      >{`${recipeRating.toFixed(1)} (${numRatings})`}</p>
       {/*<a*/}
       {/*  href={"https://www.epicurious.com/"}*/}
       {/*  className={"ml-3 font-medium underline text-emerald-800"}*/}

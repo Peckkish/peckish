@@ -45,7 +45,7 @@ export default function ServingsSelector({
         <SelectItem value="6">6 Servings</SelectItem>
         <SelectItem value="7">7 Servings</SelectItem>
         <SelectItem value="8">8 Servings</SelectItem>
-        <SelectItem value="8">9 Servings</SelectItem>
+        <SelectItem value="9">9 Servings</SelectItem>
         <SelectItem value="10">10 Servings</SelectItem>
       </SelectContent>
     </Select>

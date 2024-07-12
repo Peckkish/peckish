@@ -47,7 +47,7 @@ export default function RecipeSubsection({
         {headerIcon && headerIcon}
         <h1 className={"text-3xl font-semibold"}>{label}</h1>
       </div>
-      <Separator className={"w-full h-[1px] mb-8 mt-3"} />
+      <Separator className={"w-full h-[1px] mb-8 mt-3 bg-[#12b312]/15"} />
       <ScrollArea className={"side-scrolling-container max-w-[95vw]"}>
         {/*<div*/}
         {/*  className={cn(*/}

@@ -127,7 +127,7 @@ export default function MealPlanDashboardPage({
         </p>
         <div
           className={
-            "flex flex-row items-center bg-[#E4F9BF] rounded-3xl px-4 py-1.5"
+            "flex flex-row items-center bg-[#E7F3E7] rounded-3xl px-4 py-1.5"
           }
         >
           <span className={"font-medium text-xl ml-1 mr-1.5 text-[#047A46]"}>
@@ -146,7 +146,7 @@ export default function MealPlanDashboardPage({
       >
         <div className={"flex flex-col"}>
           <h1 className={"font-semibold text-2xl"}>Shopping List</h1>
-          <Separator className={"my-3"} />
+          <Separator className={"my-3 bg-[#12b312]/15"} />
           <Button variant={"green"} onClick={handleOpenAll}>
             <ShoppingCart size={18} />
             <span className={"ml-2"}>Open Shopping Links</span>
@@ -208,7 +208,7 @@ export default function MealPlanDashboardPage({
         <div className={"flex flex-col"}>
           <div className={"mb-8"}>
             <h1 className={"font-semibold text-2xl"}>Recipes</h1>
-            <Separator className={"my-3"} />
+            <Separator className={"my-3 bg-[#12b312]/15"} />
             <div
               className={
                 "flex flex-row justify-center items-center gap-3 mt-4 "

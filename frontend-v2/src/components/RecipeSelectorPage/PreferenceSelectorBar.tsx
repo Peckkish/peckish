@@ -32,13 +32,13 @@ export default function PreferenceSelectorBar({
     console.log(supermarketPreferences);
   }, [supermarketPreferences]);
   return (
-    <div className={"w-screen py-8 px-[4vw] mb-2 mt-6"}>
+    <div className={"w-screen py-8 px-[4vw] mb-6 mt-3.5"}>
       <div
         className={
-          "flex flex-row w-full justify-around items-start gap-3 shadow-lg px-10 pb-8 rounded-lg bg-[#E4F9BF] text-[#047A46] pt-8"
+          "flex flex-row w-full justify-around items-start gap-3 shadow-md px-10 pb-8 rounded-xl bg-[#E7F3E7] text-emerald-950 pt-8"
         }
       >
-        <div className={"flex flex-col items-center gap-0.5"}>
+        <div className={"flex flex-col items-center gap-1.5"}>
           <p className={"font-medium text-lg"}>
             Dietary Restrictions/Preferences
           </p>
@@ -153,14 +153,14 @@ export default function PreferenceSelectorBar({
             />
           </div>
         </div>
-        <div className={"flex flex-col items-center ml-22 mr-auto gap-0.5"}>
+        <div className={"flex flex-col items-center ml-22 mr-auto gap-1.5"}>
           <p className={"font-medium text-lg"}>Supermarkets</p>
           <div
             className={"flex flex-row justify-between items-center gap-4 mt-4"}
           >
             <SupermarketToggle
               className={
-                "data-[state=on]:bg-[#118032] data-[state=on]:text-white"
+                "data-[state=on]:bg-[#6ca13d] data-[state=on]:text-white"
               }
               label={"Woolies"}
               toggleProperty={"wooliesEnabled"}

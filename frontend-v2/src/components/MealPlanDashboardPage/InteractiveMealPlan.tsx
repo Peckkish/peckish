@@ -85,8 +85,8 @@ export default function InteractiveMealPlan({
   return (
     <div>
       <h1 className="font-semibold text-2xl">Plan</h1>
-      <Separator className={"mt-3 mb-7"} />
-      <div className={"p-6 shadow-lg rounded-lg"}>
+      <Separator className={"mt-3 mb-7 bg-[#12b312]/15"} />
+      <div className={"p-6 shadow-lg rounded-lg bg-[#E7F3E7]"}>
         <div
           className={"grid grid-cols-[repeat(7,1fr)] place-items-center mb-2"}
         >

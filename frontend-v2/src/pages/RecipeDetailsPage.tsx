@@ -89,6 +89,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
       <Button
         className={"w-fit absolute top-[85px] left-5"}
         size={"sm"}
+        variant={"pale"}
         onClick={() => navigate(-1)}
       >
         <CaretLeft weight={"bold"} className={"mr-1.5"} />
@@ -99,7 +100,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         {/* TOP ROW LEFT COLUMN */}
         <div className={"flex flex-col items-start"}>
           <div className={"flex flex-row items-center gap-2 my-4"}>
-            <Badge className={"bg-emerald-800"}>Top rated</Badge>
+            <Badge className={"bg-[#12b312]"}>Top rated</Badge>
             <Badge className={"bg-zinc-800"}>
               {activeRecipe.BLD ?? "Lunch"}
             </Badge>
@@ -123,7 +124,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               <Bookmark className={"mr-2"} size={20} />
               Save Recipe
             </Button>
-            <Toggle variant={"outline"}>
+            <Toggle variant={"outline"} className={"outline-1 outline"}>
               <BowlFood weight={"bold"} className={"mr-2"} size={20} />I made
               this!
             </Toggle>
@@ -140,7 +141,9 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               </p>
             </div>
             <div
-              className={"flex flex-col items-center p-6 border-x-[1px] w-32"}
+              className={
+                "flex flex-col items-center p-6 border-x-[1px] border-[#12b312]/20 w-32"
+              }
             >
               <p className={"font-semibold 2xl:text-xl text-lg"}>Cook</p>
               <p className={"font-light mt-2 text-sm"}>
@@ -183,7 +186,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         </div>
       </div>
 
-      <Separator className={"h-[1px] my-8 mx-8"} />
+      <Separator className={"h-[1px] my-8 mx-8 bg-[#12b312]/15"} />
 
       {/* DESCRIPTION ROW*/}
       {!!activeRecipe.recipeLongIntro && (
@@ -203,7 +206,7 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
               className={"w-40"}
             />
           </div>
-          <Separator className={"mb-5 mt-2.5"} />
+          <Separator className={"mb-5 mt-2.5 bg-[#12b312]/15"} />
           {/*>{`${decimalToMixedFractionString(roundToNearestQuarter(parseFractionString(ingredient.qtyNumber) * multiplierOnOriginalQty))} ${ingredient.qtyUnit} ${ingredient.product}`}</li>*/}
           {/*<ul className="flex flex-col list-disc ml-[1.5ch] gap-2 mt-4">*/}
           {/*  {activeRecipe.recipeIngredients.map((ingredient: any, index: number) => {*/}
@@ -239,10 +242,15 @@ export default function RecipeDetailsPage({}: RecipeDetailsPageProps) {
         </div>
         <div className={"flex flex-col items-start"}>
           <h2 className={"text-4xl font-semibold"}>Method</h2>
-          <Separator className={"mb-5 mt-2.5"} />
+          <Separator className={"mb-5 mt-2.5 bg-[#12b312]/15"} />
           <ol className={"flex flex-col list-decimal ml-[1.5ch] gap-3"}>
             {activeRecipe.recipeSteps.map((step, index) => {
-              return <li key={index}>{step}.</li>;
+              return (
+                <li key={index}>
+                  {step}
+                  {index !== activeRecipe.recipeSteps.length - 1 && "."}
+                </li>
+              );
             })}
           </ol>
         </div>

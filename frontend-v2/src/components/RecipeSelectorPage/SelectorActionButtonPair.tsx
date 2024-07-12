@@ -5,7 +5,7 @@ import { Utensils } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { Dispatch, SetStateAction, useContext } from "react";
 import { DietaryPreferences, Recipe } from "@/utility/types.ts";
-import { getRecipeObjectByIdOrNull } from "@/utility/utils.ts";
+import { cn, getRecipeObjectByIdOrNull } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";
 
 interface SelectorActionButtonPairProps {
@@ -44,6 +44,7 @@ export default function SelectorActionButtonPair({
     >
       <Button
         className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
+        variant={"pale"}
         onClick={async () => {
           setIsLoading(true);
           // setHasClickedGetRecipes(true);
@@ -66,7 +67,7 @@ export default function SelectorActionButtonPair({
 
       <Button
         variant={"green"}
-        className={"px-[1.5em] py-[1.25em] text-xl font-bold z-10"}
+        className={cn("px-[1.5em] py-[1.25em] text-xl font-bold z-10")}
         disabled={selectedRecipeIds.length < 2}
         onClick={() => {
           setSelectedRecipeIds([]);
@@ -78,7 +79,7 @@ export default function SelectorActionButtonPair({
           navigate("/app/plans/myMealPlan");
         }}
       >
-        <Utensils size={28} className={"mr-3"} />
+        <Utensils size={26} className={"mr-3"} />
         <span>
           {selectedRecipeIds.length < 2
             ? "Select at Least Two Recipes"
