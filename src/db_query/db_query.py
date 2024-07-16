@@ -1,53 +1,23 @@
-import psycopg2
-import os
+from supabase import create_client, Client
 
-class Item:
-    def __init__(self, item_id, item_name, item_price, item_link):
-        self.item_id = item_id
-        self.item_name = item_name
-        self.item_price = item_price
-        self.item_link = item_link
+url: str = "https://hliuapvxcfvbhkwcovlx.supabase.co"
+key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhsaXVhcHZ4Y2Z2Ymhrd2Nvdmx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTk5MDM4MjQsImV4cCI6MjAzNTQ3OTgyNH0.hRwI-iuwS9ctZHuiyGsKUBnIXshngYI_u9mfUfITA_E"
+supabase: Client = create_client(url, key)
 
 
-def get_items_JSON():
-    environmentHost = os.environ.get('dbHost')
-    dbHost = environmentHost if environmentHost else 'localhost'
-    conn = psycopg2.connect(
-        dbname="postgres", user="postgres", password="postgres", host=dbHost, port="5432")
-    
-    if conn is None:
-        print("Error: Unable to connect to the database")
-        return
-    
-    
-    curr = conn.cursor()
+def get_ingredients_JSON():
+    response = supabase.table('ingredients').select('name, price').limit(100).execute()
+    if response.data:
+        return response.data
+    else:
+        print(response.error)
+        return []
 
 
-    curr.execute("SELECT * FROM ingredients;")
-
-    rows = curr.fetchall()
-
-    print (rows)
-
-    data = []
-
-    for row in rows:
-        data.append([row[0], row[1], float(row[2]), row[3]])
-    # convert list of tuples to json
-
-    curr.close()
-    conn.close()
-
-    ingredients_list = [
-        {
-            'item_id': item_id,
-            'name': name,
-            'cost': cost,
-            'item_link': item_link
-        }
-        for item_id, name, cost, item_link in data
-    ]
-    return ingredients_list
-
-
-get_items_JSON()
+def get_recipes_JSON():
+    response = supabase.table('recipes_100').select('title, ingredients, instructions').limit(10).execute()
+    if response.data:
+        return response.data
+    else:
+        print(response.error)
+        return []
