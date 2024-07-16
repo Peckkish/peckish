@@ -10,12 +10,15 @@ export type DayOfWeek =
   | "Friday"
   | "Saturday"
   | "Sunday";
+  
 export interface IngredientItem {
   product: string;
   amount: string;
 }
+
 export interface Recipe {
   recipeTitle: string;
+  recipeId: string;
   recipeDescription: string;
   totalCost: number;
   timeTaken: number;
@@ -23,11 +26,14 @@ export interface Recipe {
   recipeSteps: string[];
   recipeImageURL: string;
 }
+
 export type mealOfDay = "Breakfast" | "Lunch" | "Dinner";
+
 export interface MealRecipeCollection {
   mealOfDay: mealOfDay;
   recipeOptions: Recipe[];
 }
+
 export interface WeeklyMealPlanDay {
   day: DayOfWeek;
   allRecipes: MealRecipeCollection[];
@@ -50,8 +56,8 @@ def meal_plan_query(ingredients, recipes, user_input):
         ],
         model="llama3-8b-8192",
     )
-    return meal_plan.choices[0].message
 
+    return meal_plan.choices[0].message
 
 def get_low_cost_strategy(ingredients, recipes):
     prompt = "You are a JSON-generating kiosk, incapable of responding in English sentences. I will be giving you a " \

@@ -1,0 +1,2043 @@
+[
+    {
+        "recipeId": "ed749d2c-a0b1-4ae7-b3e0-e4c308c6150c",
+        "recipeTitle": "Roasted Beets & Sunchokes",
+        "recipeDescription": "with kosher salt and dill",
+        "recipeLongIntro": "Embrace the culinary journey with Roasted Beets With Crispy Sunchokes and Pickled Orange-Ginger Puree, which usually takes 111 minutes to prepare, yielding delicious results. This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
+        "totalCost": 22.41,
+        "prepTime": 35,
+        "cookTime": 80,
+        "recipeIngredients": [
+            {
+                "product": "medium strips of zest (no pith) from 1 medium orange",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "fresh ginger (about one 5-inch piece), peeled and thinly shaved (use a mandoline if you have one)",
+                "qtyNumber": 2.0,
+                "qtyUnit": "ounces"
+            },
+            {
+                "product": "fresh lime juice",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "champagne vinegar",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "sugar",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "plus  teaspoon kosher salt",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "extra-virgin olive oil",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "Thai chile, with seeds",
+                "qtyNumber": 0.5,
+                "qtyUnit": ""
+            },
+            {
+                "product": "beets (use a mix of colors if possible), about 5 medium",
+                "qtyNumber": 1.5,
+                "qtyUnit": "pounds"
+            },
+            {
+                "product": "extra-virgin olive oil",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "white wine vinegar",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "water",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "Kosher salt and freshly ground black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "extra-virgin olive oil",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "roughly chopped cashews",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "large sunchokes, thinly shaved",
+                "qtyNumber": 4.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "vegetable oil",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "medium orange",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "Roasted Beets",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Extra-virgin olive oil",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Pickled Orange-Ginger Puree",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "Toasted Cashews",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "roughly chopped tarragon",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "roughly chopped dill fronds",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "Sunchoke Chips",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Place the zest strips in a small saucepan and cover with water",
+            "Bring the water to a boil, then drain",
+            "Repeat this process two more times (blanching the orange zest removes any bitter flavors)",
+            "Place the ginger and orange zest in a jar or heatproof container",
+            "In a saucepan, bring the lime juice, vinegar, sugar, and .75 teaspoon salt to a boil",
+            "Pour over the ginger and orange",
+            "Let cool to room temperature, then cover and refrigerate overnight",
+            "The pickled ginger can be refrigerated for a couple of months. Drain the pickled ginger and orange and save 3 tablespoons of the pickling liquid",
+            "Add both to a blender or mini food processor, along with the olive oil, chile, and remaining 2 tablespoons salt",
+            "Blend until very smooth, scraping down the side of the blender as needed",
+            "Transfer to a container and refrigerate until ready to use",
+            "The puree can be made a couple of days ahead",
+            "(Makes about 1 cup.) Preheat the oven to 375F",
+            "Place the beets in a baking dish (if using a mix of red and golden beets, separate them into two smaller dishes and divide the oil, vinegar, and water between the two dishes)",
+            "Drizzle with the oil and add the water and vinegar",
+            "Season with salt and pepper",
+            "Cover the pan with foil and roast until the beets are tender when pierced with a knife; this can take anywhere from 30 minutes to an hour, depending on the thickness of the beets",
+            "Let the beets cool, then peel and cut into 1-inch wedges",
+            "Place each color of beet, along with any accumulated juices, into a small mixing bowl. In a skillet, heat the oil over medium-low heat",
+            "Add the cashews and cook, stirring constantly, until golden brown",
+            "Transfer to a heat-proof bowl. Pour 1 inch of oil into a small saucepan and add the sunchokes (there should be just enough oil to cover the sunchokes; add more oil if needed)",
+            "Turn the heat to medium and stir occasionally; when the sunchokes begin to sizzle and foam, increase the temperature to high and continue frying, stirring constantly, until the sunchokes are light golden brown",
+            "At this point the sunchokes will rapidly go from golden brown to burnt, so quickly transfer the chips to paper towels to drain",
+            "Lightly season with salt",
+            "The sunchoke chips can be stored in an airtight container at room temperature for a day or two, or until they start to soften",
+            "(Makes about .5 cup.) Using a sharp knife, cut the peel and pith off the orange",
+            "Working over a bowl, cut the orange between the membranes to release the segments",
+            "Dice the segments, then return them to the bowl. Drizzle the beet wedges with a little bit of olive oil, season with salt, and toss. Spread the ginger puree on the bottom of a shallow serving bowl or plate",
+            "Arrange the beets over the puree",
+            "Sprinkle the chopped orange segments over the beets and grind some pepper over the dish",
+            "Top with the cashews, herbs, and sunchoke chips",
+            "Serve."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f8edf5f5c3aee57fc9820e6/1:1/w_1920,c_limit/Roasted-Beets-with-Crispy-Sunchokes-and-Orange-Ginger-Puree-(c)-Evan-Sung-102020.jpg",
+        "recipeRating": 4.1,
+        "numRatings": 359,
+        "numServings": 2,
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "9759610a-df47-4e80-9d77-d7e4d77693d9",
+        "recipeTitle": "Spiced Roasted Salmon",
+        "recipeDescription": "with rose harissa and lime zest",
+        "recipeLongIntro": "Relish in the making of Yogurt and Spice Roasted Salmon, a recipe that typically spans 116 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Fresh ingredients are key to a superior taste profile.",
+        "totalCost": 24.03,
+        "prepTime": 35,
+        "cookTime": 80,
+        "recipeIngredients": [
+            {
+                "product": "skinless salmon fillet, cut into 4cm cubes",
+                "qtyNumber": 500.0,
+                "qtyUnit": "grams"
+            },
+            {
+                "product": "Greek yogurt",
+                "qtyNumber": 4.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "garlic granules",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "rose harissa",
+                "qtyNumber": 1.0,
+                "qtyUnit": "heaped tablespoon"
+            },
+            {
+                "product": "ground turmeric",
+                "qtyNumber": 1.0,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "paprika",
+                "qtyNumber": 1.0,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "Finely grated zest and a good squeeze of juice of an unwaxed lime",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "olive oil",
+                "qtyNumber": 1.0,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "Generous amount of Maldon sea salt flakes",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "freshly ground black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Tortilla wraps",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Sliced tomatoes",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Finely sliced onion",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "Coriander leaves",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Greek yogurt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Preheat your oven to its highest setting (with fan if it has one)",
+            "Line a baking tray with baking paper. Mix all the marinade ingredients together in a mixing bowl",
+            "Add the salmon and turn until well coated in the marinade. Spread the salmon out on the prepared baking tray and roast for 10 minutes until cooked through",
+            "Remove from the oven and serve immediately with tortilla wraps, tomatoes, finely sliced onion, coriander leaves and Greek yogurt."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f5fef04de70825418a829f7/1:1/w_1920,c_limit/CharredSalmon_RECIPE_091020_11608_VOG_final.jpg",
+        "recipeRating": 4.6,
+        "numRatings": 295,
+        "numServings": 8,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "ab5ebbb5-2c1f-4cea-9ddc-b54108b8911f",
+        "recipeTitle": "Papaya Snapper & Yam Chips",
+        "recipeDescription": "with cilantro and lemon",
+        "recipeLongIntro": "Master the art of making Papaya-and-Cubeb-Marinated Snapper With Baked Yam Chips with this recipe, requiring roughly 77 minutes to bring all the ingredients together. This dish is steeped in cultural heritage, often served during special occasions. Consider marinating overnight to deepen the flavors.",
+        "totalCost": 23.77,
+        "prepTime": 25,
+        "cookTime": 50,
+        "recipeIngredients": [
+            {
+                "product": "skin-on red snapper fillets, patted dry",
+                "qtyNumber": 4.0,
+                "qtyUnit": "6-oz."
+            },
+            {
+                "product": "okra salt or kosher salt, plus more",
+                "qtyNumber": 0.25,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "Alligator or freshly ground black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "cubeb pepper or Ashanti pepper (uziza)",
+                "qtyNumber": 0.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "green medium-ripe papaya, peeled, insides discarded",
+                "qtyNumber": 0.5,
+                "qtyUnit": ""
+            },
+            {
+                "product": "small bunch cilantro",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "extra-virgin olive oil",
+                "qtyNumber": 2.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "small red onion, coarsely chopped",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "garlic, coarsely chopped",
+                "qtyNumber": 1.0,
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "ginger, peeled, coarsely chopped (unpeeled if organic)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "piece"
+            },
+            {
+                "product": "ground dried bird chiles or other hot chile powder",
+                "qtyNumber": 0.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "lemon halved",
+                "qtyNumber": 0.5,
+                "qtyUnit": ""
+            },
+            {
+                "product": "puna, white yams, or sweet potatoes (23)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "coconut sugar or dark brown sugar",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "kosher salt, divided",
+                "qtyNumber": 1.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "extra-virgin olive oil, divided",
+                "qtyNumber": 3.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "freshly ground black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "chile powder",
+                "qtyNumber": 0.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "Drunk Apricot Shito (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Using a sharp chef s knife, score skin of each fish fillet in a crosshatch pattern, making cuts about .5\" apart",
+            "Season fillets on both sides with salt and alligator pepper. Toast cubeb peppers in a dry small skillet over medium-low heat, shaking occasionally, until fragrant, about 3 minutes",
+            "Transfer to a spice mill or mortar and pestle",
+            "Let cool and coarsely grind; set aside",
+            "Coarsely chop half of papaya into 1\" pieces; set remaining half aside",
+            "Coarsely chop half of cilantro (leaves and stems); set remaining cilantro aside. Transfer chopped papaya to a blender; add oil and blend, adding 1 2 Tbsp",
+            "water to get it going if needed, until smooth",
+            "Add chopped cilantro, onion, garlic, ginger, ground chile, .25 tsp",
+            "salt, and reserved ground cubeb pepper",
+            "Blend mixture to a smooth paste. Coat fillets all over with marinade, rubbing into score marks",
+            "Place fish, skin side down, in a single layer in a large baking dish",
+            "Squeeze juice from half a lemon over",
+            "Set remaining lemon half aside for serving",
+            "Cover with plastic wrap or a lid and chill at least 2 hours and up to 12 hours. Fill a large bowl with water",
+            "Peel yams and slice in half lengthwise, then slice in half crosswise",
+            "Cut each quarter into .5\"-thick slabs",
+            "(Length of slabs will depend on yam s size, but you re going for something that looks like steak fries.) Add yam slices to bowl as you work to prevent oxidation",
+            "When all yams are cut, swish in water to remove excess starch, then drain",
+            "Refill bowl and repeat process until water is clear, about 2 more times",
+            "Add sugar and .5 tsp",
+            "salt and stir until dissolved; add the drained chips",
+            "(Yams, like many foods that are good for you, can be quite bitter; the sugar will help counter this.) Let soak 30 minutes. Place a rack in middle of oven; preheat to 450",
+            "Drain chips and pat dry with a clean kitchen towel",
+            "Transfer to a rimmed baking sheet and drizzle with 2 Tbsp",
+            "oil",
+            "Season with black pepper, then sprinkle with chili powder and remaining 1 tsp",
+            "salt",
+            "Toss to coat, then spread out into an even layer",
+            "Roast chips, turning halfway through, until golden brown and crisp, about 20 minutes. Heat broiler",
+            "Scrape off excess marinade from fish and place fillets, skin side up, on another rimmed baking sheet",
+            "Broil until browned and crisp on top and cooked through, 5-7 minutes. Using a vegetable peeler, shave reserved papaya into ribbons, pick leaves from reserved cilantro stems, and cut reserved lemon half into wedges. Transfer fish to plates and top with papaya and cilantro",
+            "Mound yam chips next to fillets",
+            "Serve with shito and lemon wedges alongside."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f650eb4248b10509d8da03e/1:1/w_1920,c_limit/ZoeFishandChips_HERO_091620_11780_V4_final.jpg",
+        "recipeRating": 4.3,
+        "numRatings": 310,
+        "numServings": 5,
+        "supermarket": "Coles",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "cc5ebbe6-26ae-4ffb-8bd4-33cd59a57717",
+        "recipeTitle": "Fish Tacos al Pastor",
+        "recipeDescription": "with pineapple and cilantro",
+        "recipeLongIntro": "Fish Tacos al Pastor is a classic dish, traditionally taking about 49 minutes to perfect. Enjoy the blend of flavors! Known for its comforting qualities, this dish is a favorite in many households. Serving immediately after cooking captures the best texture and aroma.",
+        "totalCost": 23.8,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "guajillo chiles, seeds removed",
+                "qtyNumber": 10.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "morita chiles, seeds removed",
+                "qtyNumber": 3.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "skinless striped bass or halibut fillets, cut crosswise into (1.5\"-wide) pieces",
+                "qtyNumber": 3.0,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "fresh orange juice",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "store-bought or homemade achiote paste",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "garlic cloves, 4 whole, 1 finely chopped",
+                "qtyNumber": 5.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "plus 3 Tbsp. fresh lime juice",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "plus 1.5 tsp. kosher salt",
+                "qtyNumber": 1.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "red onion, finely chopped",
+                "qtyNumber": 0.5,
+                "qtyUnit": ""
+            },
+            {
+                "product": "habanero chile, finely chopped",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "finely chopped pineapple (from about .5 medium pineapple)",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "chopped cilantro, plus leaves for serving",
+                "qtyNumber": 3.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "vegetable oil",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "corn tortillas",
+                "qtyNumber": 16.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "lime wedges (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Bring guajillo and morita chiles and 1.5 cups water to a boil in a medium saucepan",
+            "Cover, remove from heat, and let sit 30 minutes to allow chiles to soften. Place fish in a large bowl or baking dish",
+            "Transfer chile mixture and soaking liquid to a blender",
+            "Add orange juice, achiote paste, 4 garlic cloves, .25 cup lime juice, and 1 Tbsp",
+            "salt and puree until smooth, about 2 minutes",
+            "Set aside 1 cup chile sauce, uncovered, at room temperature for serving",
+            "Pour remaining sauce over fish and toss to coat",
+            "Cover and chill at least 1 hour and up to 3 hours. Meanwhile, mix onion, habanero chile, pineapple, 3 Tbsp",
+            "cilantro, remaining finely chopped garlic clove, 3 Tbsp",
+            "lime juice, and 1.5 tsp",
+            "salt in a medium bowl",
+            "Cover salsa and chill until ready to use. Prepare a grill for medium-high heat; thoroughly clean grate and brush with oil",
+            "Working in batches if necessary, grill fish, leaving a few inches of space between each piece, until marinade is dried and beginning to char, about 2 minutes",
+            "Using a fish spatula, release fish from grate, turn, and continue to grill until charred on second side and flesh flakes easily with a fork, about 3 minutes more",
+            "Transfer to a cutting board and let rest 10 minutes. Grill tortillas until just beginning to brown in spots, about 30 seconds per side",
+            "Top each tortilla with a piece of fish, then a schmear of reserved chile sauce, a spoonful of pineapple salsa, and some cilantro leaves",
+            "Serve with lime wedges for squeezing over. Do Ahead: Pineapple salsa can be made 4 hours ahead",
+            "Keep chilled."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f4592c74afe4a990c533467/1:1/w_1920,c_limit/fish-tacos-al-pastor-recipe-BA-082420.jpg",
+        "recipeRating": 4.7,
+        "numRatings": 431,
+        "numServings": 5,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "b43cbea4-2ffc-454d-9555-56d6b0be06af",
+        "recipeTitle": "Creamy Onion Potato Salad",
+        "recipeDescription": "with dijon and black pepper",
+        "recipeLongIntro": "Relish in the making of Sour Cream and Onion Potato Salad, a recipe that typically spans 23 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Make sure to season well to enhance flavors.",
+        "totalCost": 22.13,
+        "prepTime": 5,
+        "cookTime": 20,
+        "recipeIngredients": [
+            {
+                "product": "baby Yukon Gold potatoes",
+                "qtyNumber": 2.0,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "kosher salt, plus more",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "sour cream",
+                "qtyNumber": 0.75,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "mayonnaise",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "onion powder",
+                "qtyNumber": 1.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "Dijon mustard",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "freshly ground black pepper",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "garlic, finely grated",
+                "qtyNumber": 1.0,
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "chives, thinly sliced, divided",
+                "qtyNumber": 1.0,
+                "qtyUnit": "bunch"
+            },
+            {
+                "product": "small red onion, very thinly sliced through root end",
+                "qtyNumber": 0.25,
+                "qtyUnit": ""
+            },
+            {
+                "product": "sour cream and onion potato chips",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Place potatoes in a large pot and pour in 3 qt",
+            "water to cover",
+            "Add 1 cup salt and bring water to a boil over medium-high heat",
+            "(Yes, this is a lot of salt, but it s the right amount to ensure potatoes are seasoned through and through.) Reduce heat and simmer, adjusting heat as needed, until potatoes until fork-tender, 15-20 minutes",
+            "Scoop out .5 cup potato cooking liquid and set aside",
+            "Drain potatoes in a colander and let sit until cool enough to handle, about 10 minutes. Meanwhile, combine sour cream, mayonnaise, onion powder, mustard, and pepper in a large bowl and mix well to combine",
+            "Add garlic and half of chives and mix just to incorporate. Place red onion in a fine-mesh sieve and rinse for several seconds to take away some of its raw bite",
+            "Pat dry with paper towels",
+            "Mix half of onion into dressing; set aside remaining onion for serving. Working one at a time, set potatoes on a flat surface and crush slightly with the palm of your hand",
+            "Add to bowl with dressing along with .25 cup potato cooking liquid",
+            "Do this while the potatoes are still warm so that they can absorb all of the seasoning",
+            "Don't worry if the dressing looks a little loose and watery at the beginningit will all get absorbed and become creamier as it sits",
+            "Taste and season with more salt or, if your dressing looks too thick, a splash of potato cooking liquid. Top potatoes with remaining chives and reserved onion and crumble potato chips over."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f47d0aeafba6fd6cf1c6b9a/1:1/w_1920,c_limit/sour-cream-and-onion-potato-salad-recipe-BA-082720.jpg",
+        "recipeRating": 4.5,
+        "numRatings": 373,
+        "numServings": 7,
+        "supermarket": "Coles",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "c2ef163d-cdb4-44c1-a7df-93f32ca9db43",
+        "recipeTitle": "Crispy Fried Onions",
+        "recipeDescription": "with vegetable oil and kosher salt",
+        "recipeLongIntro": "Fried Onions is a classic dish, traditionally taking about 45 minutes to perfect. Enjoy the blend of flavors! This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Fresh ingredients are key to a superior taste profile.",
+        "totalCost": 20.43,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "vegetable oil",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "cooking onions",
+                "qtyNumber": 2.0,
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Heat oil in a wok or frying pan over medium heat until hot enough to fry",
+            "Add one piece of onion to test the oil (it should begin to sizzle right away)",
+            "Saute onions for 15-20 minutes, until golden brown",
+            "Using a slotted spoon, transfer onions to a baking sheet lined with paper towels",
+            "Spread onions out to drain and cool. Store in an airtight container for up to 7 days."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f761598149ddedd498c05fc/1:1/w_1920,c_limit/CoconutLagoon_final.jpg",
+        "recipeRating": 4.0,
+        "numRatings": 139,
+        "numServings": 3,
+        "supermarket": "Coles",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "5c01c734-2a6c-4e47-a9fa-7ebaba4d7265",
+        "recipeTitle": "Broccoli & Pasta Delight",
+        "recipeDescription": "with red pepper flakes and anchovies",
+        "recipeLongIntro": "Master the art of making Melted Broccoli Pasta With Capers and Anchovies with this recipe, requiring roughly 50 minutes to bring all the ingredients together. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Serving immediately after cooking captures the best texture and aroma.",
+        "totalCost": 22.21,
+        "prepTime": 15,
+        "cookTime": 40,
+        "recipeIngredients": [
+            {
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "broccoli, cut into bitesize florets",
+                "qtyNumber": 2.0,
+                "qtyUnit": "heads"
+            },
+            {
+                "product": "whole-wheat penne pasta, or other short tubular pasta",
+                "qtyNumber": 12.0,
+                "qtyUnit": "ounces"
+            },
+            {
+                "product": "extra-virgin olive oil, divided",
+                "qtyNumber": 3.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "panko or Freezer Bread Crumbs",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "oil-packed anchovy fillets",
+                "qtyNumber": 4.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "capers, chopped if large (rinsed well if salt-packed)",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "garlic, minced",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "red pepper flakes",
+                "qtyNumber": 0.25,
+                "qtyUnit": "teaspoon"
+            }
+        ],
+        "recipeSteps": [
+            "Bring a large pot of salted water to a boil over high heat",
+            "Add the broccoli florets and cook until bright green and crisp-tender, 2 to 3 minutes",
+            "Using a slotted spoon, transfer the broccoli to a large bowl. Add the pasta to the boiling water and cook for 1 minute less than the package instructions for al dente, about 9 minutes. Meanwhile, toast the bread crumbs",
+            "Heat 1 tablespoon (15 ml) of olive oil in a large, high-sided saute pan or skillet over medium heat",
+            "Add the breadcrumbs and saute until the crumbs are golden brown and crisp, 4 to 5 minutes",
+            "Transfer to a small bowl and set aside. Pour the remaining 2 tablespoons (30 ml) of olive oil into the pan",
+            "Add the anchovies and saute until they disintegrate, about 1 minute",
+            "Add the capers, garlic, and red pepper flakes",
+            "Saute until fragrant, about 1 minute, and remove from the heat. When the pasta is ready, reserve 1.5 cups (360 ml) of pasta water with a measuring cup, then drain the pasta",
+            "Add the broccoli and reserved pasta water to the pan and bring to a simmer",
+            "Continue to simmer, using a wooden spoon to break the florets into small pieces as they become more tender, until the water is reduced by about half and you've been able to break apart enough florets that you're left with a very chunky mixture, 5 to 7 minutes. Add the pasta to the pan",
+            "Cook, tossing and stirring, until the pasta is al dente and the sauce thickens and coats the pasta, 1 to 2 minutes",
+            "Remove from the heat, add half the toasted bread crumbs, and toss again to combine",
+            "Serve garnished with the remaining toasted bread crumbs."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f4d55bcb9bb54b31aa2d196/1:1/w_1920,c_limit/MediterraneanEveryDay%20p138.jpg",
+        "recipeRating": 4.5,
+        "numRatings": 20,
+        "numServings": 4,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "bcefcaad-3fc2-4e87-8486-0957a39dae65",
+        "recipeTitle": "Savory Dashi Broth",
+        "recipeDescription": "with shiitake and anchovies",
+        "recipeLongIntro": "Relish in the making of Dashi, a recipe that typically spans 59 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Make sure to season well to enhance flavors.",
+        "totalCost": 22.74,
+        "prepTime": 20,
+        "cookTime": 40,
+        "recipeIngredients": [
+            {
+                "product": "cold water",
+                "qtyNumber": 1.0,
+                "qtyUnit": "gallon"
+            },
+            {
+                "product": "(6-inch) square dashima (kombu)",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "medium dried shiitake mushrooms",
+                "qtyNumber": 3.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "large dried anchovies (gutted and heads removed)",
+                "qtyNumber": 12.0,
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Put the water, dashima, shiitake mushrooms, and anchovies in a covered stockpot or other large pot and let stand at room temperature overnight, or for 8 to 12 hours. Remove the lid, set the pot over high heat, and heat until the surface of the water begins to ripple; pay attention, and do not let it come to a boil",
+            "Lower the heat to maintain a very gentle simmer (the ideal temperature is a few degrees below a light boil) and simmer for 80 to 90 minutes",
+            "Taste the dashi every 20 minutes to monitor the changes in flavor and texture",
+            "You will notice the texture becoming softer",
+            "I describe it as having a slippery, slightly viscous texture compared to tap water",
+            "The sea flavor will become stronger, and the dashi will become darker, like pale Earl Grey tea",
+            "The sweetness will take a while to appear, but when it does, the dashi is almost ready",
+            "When you can taste the sweetness and deep sea flavors, and the dashi has a very soft texture, it is done",
+            "Be vigilant, because dashi will become bitter if cooked too long. Strain the dashi into a covered container and store in the refrigerator for up to 2 days",
+            "After 24 hours, the dashi will begin to lose some of its flavor and it will turn slightly flat. It's best to use dashi the same day you make it, though if you keep it refrigerated, you can use it for another day or two",
+            "By the third day, it will no longer taste fresh. Vegetarians can make a dashi from just dashima and dried shiitakes."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f4d49948e656ec64926fab8/1:1/w_1920,c_limit/dashi-recipe-hooni-kim-my-korea-083120.jpg",
+        "recipeRating": 4.0,
+        "numRatings": 458,
+        "numServings": 8,
+        "supermarket": "Coles",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "21d471df-94a6-4e81-b8cf-71e06d0aef8b",
+        "recipeTitle": "Corn Chickpea Miso Bowls",
+        "recipeDescription": "with za'atar and tahini",
+        "recipeLongIntro": "Corn and Chickpea Bowls With Miso Tahini is a classic dish, traditionally taking about 44 minutes to perfect. Enjoy the blend of flavors! This dish is steeped in cultural heritage, often served during special occasions. Make sure to season well to enhance flavors.",
+        "totalCost": 23.04,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "small jalapenos, seeded, chopped",
+                "qtyNumber": 2.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "(0.75-inch) ginger, peeled, finely grated",
+                "qtyNumber": 1.0,
+                "qtyUnit": "piece"
+            },
+            {
+                "product": "small garlic, finely grated",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "cilantro leaves with tender stems",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup (packed)"
+            },
+            {
+                "product": "fresh lime juice",
+                "qtyNumber": 0.3,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "tahini",
+                "qtyNumber": 0.3,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "miso",
+                "qtyNumber": 4.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "extra-virgin olive oil, divided, plus more for drizzling",
+                "qtyNumber": 3.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "garlic, lightly crushed",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "can chickpeas rinsed, drained",
+                "qtyNumber": 1.0,
+                "qtyUnit": "can"
+            },
+            {
+                "product": "corn, shucked, kernels removed",
+                "qtyNumber": 3.0,
+                "qtyUnit": "ears"
+            },
+            {
+                "product": "spice blend (such as zaatar, vadouvan, hawaij, or berbere)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "tender greens (such as Little Gem lettuce and/or watercress), torn if large",
+                "qtyNumber": 4.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "avocados, cut into wedges",
+                "qtyNumber": 2.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "small tomatoes, cut into wedges",
+                "qtyNumber": 4.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "Crumbled feta",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "cilantro sprigs",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "lime and wedges (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Puree jalapenos, ginger, garlic, cilantro, lime juice, tahini, miso, and 3 Tbsp",
+            "water in a blender until smooth",
+            "Season with salt. Do Ahead: Dressing can be made 1 day ahead",
+            "Transfer to an airtight container and chill. Heat 2 Tbsp",
+            "oil in a large skillet over medium",
+            "Add garlic and cook, turning occasionally, until golden brown, about 4 minutes",
+            "Mash garlic with a spoon and stir into oil",
+            "Add chickpeas and increase heat to medium-high",
+            "Cook, undisturbed, until golden brown and beginning to crisp underneath, about 3 minutes",
+            "Toss and continue to cook, tossing occasionally, until golden brown all over, about 2 minutes more",
+            "Add corn and 1 Tbsp",
+            "oil and cook, tossing, until corn kernels are golden around the edges and tender, 5-7 minutes",
+            "Sprinkle spice blend over and toss to coat",
+            "Season with salt. Combine lettuce, avocados, and tomatoes in a large bowl",
+            "Drizzle lightly with oil and toss to combine",
+            "Season with salt. Divide dressing among bowls and top with salad and chickpea mixture, then feta and some cilantro",
+            "Serve with lime wedges for squeezing over."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f3afd0a15fb41021b8be783/1:1/w_1920,c_limit/corn-and-chickpea-bowls-with-miso-tahini-recipe-BA-081720.jpg",
+        "recipeRating": 4.4,
+        "numRatings": 200,
+        "numServings": 5,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "05d3583b-d0de-4580-a879-29b0122ae2f8",
+        "recipeTitle": "Tomato Salad Deluxe",
+        "recipeDescription": "with honey and feta",
+        "recipeLongIntro": "Relish in the making of Fancy and Beautiful Tomato Salad, a recipe that typically spans 18 minutes from start to finish, ensuring deep flavors. Known for its comforting qualities, this dish is a favorite in many households. Consider marinating overnight to deepen the flavors.",
+        "totalCost": 24.79,
+        "prepTime": 5,
+        "cookTime": 10,
+        "recipeIngredients": [
+            {
+                "product": "heirloom tomatoes, sliced into 812 wedges, depending on size",
+                "qtyNumber": 1.5,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "mixed cherry tomatoes, halved, quartered if large",
+                "qtyNumber": 12.0,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "kosher salt, divided, plus more",
+                "qtyNumber": 1.75,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "lemon",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "garlic",
+                "qtyNumber": 0.5,
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "extra-virgin olive oil",
+                "qtyNumber": 6.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "zaatar",
+                "qtyNumber": 2.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "pita chips",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "honey",
+                "qtyNumber": 1.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "feta, thinly sliced into planks",
+                "qtyNumber": 3.5,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "basil leaves, torn if large",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "mint leaves (torn if large)",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Gently toss heirloom and cherry tomatoes and 1.25 tsp",
+            "salt in a medium bowl to combine and set aside. Finely grate lemon zest into a small bowl, then grate in garlic; set lemon aside. Heat oil in a small saucepan or skillet over medium until just starting to shimmer",
+            "Add za atar and cook, stirring occasionally, until fragrant and slightly darkened in color, about 1 minute",
+            "Add lemon zest and garlic, cook 10 seconds, then remove from heat",
+            "(You're looking to cook off the raw flavor of the garlic without losing the brightness of the lemon.) Transfer za atar oil to a heatproof measuring cup. Place pita chips in a large bowl and drizzle 2 Tbsp",
+            "za atar oil over; season with salt",
+            "Mix well with a rubber spatula, aiming to coat chips without breaking them into too many pieces. Cut reserved lemon in half and squeeze juice from 1 lemon half into a small bowl",
+            "Stir in honey and remaining .5 tsp",
+            "salt",
+            "Gradually add remaining za'atar oil, stirring constantly until emulsified",
+            "Taste dressing and add more lemon juice, honey, or salt if needed. Add feta, basil, mint, and reserved tomatoes to bowl with chips and drizzle dressing over; toss gently to combine. Spoon salad onto platter, making sure to leave no juices behind",
+            "Eat fast for crunchy chips or let sit for a crispy-gone-soggy experience."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f3ede027b7a251be6a48659/1:1/w_1920,c_limit/fancy-and-beautiful-tomato-salad-recipe-BA-082020.jpg",
+        "recipeRating": 4.1,
+        "numRatings": 17,
+        "numServings": 6,
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "0e22bd22-6f5e-4ef0-9c60-8bbf88f3fb66",
+        "recipeTitle": "Kale Pumpkin Falafels",
+        "recipeDescription": "with pepitas and tahini",
+        "recipeLongIntro": "Kale and Pumpkin Falafels With Pickled Carrot Slaw combines traditional techniques with modern twists, all within about 48 minutes of cooking. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
+        "totalCost": 23.74,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "toasted pepitas (pumpkin seeds)",
+                "qtyNumber": 0.75,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "shredded kale, stems removed (about 3 large leaves)",
+                "qtyNumber": 3.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "garlic, crushed",
+                "qtyNumber": 1.0,
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "chickpeas (garbanzo beans), rinsed, drained",
+                "qtyNumber": 1.0,
+                "qtyUnit": "16oz. can"
+            },
+            {
+                "product": "ground turmeric",
+                "qtyNumber": 1.5,
+                "qtyUnit": "teaspoons"
+            },
+            {
+                "product": "coriander (cilantro) leaves",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "Sea salt and cracked black pepper",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "firmly packed grated pumpkin",
+                "qtyNumber": 3.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "Extra virgin olive oil, for brushing",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "Plain Greek-style yogurt and hulled tahini, to serve",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "carrots shredded using a julienne peeler",
+                "qtyNumber": 6.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "apple cider vinegar",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "honey",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "red chiles, sliced",
+                "qtyNumber": 2.0,
+                "qtyUnit": "large"
+            },
+            {
+                "product": "coriander (cilantro) leaves",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Preheat oven to 220C (425F). Place the pepitas into the bowl of a food processor and process until finely chopped",
+            "Add the kale, garlic, chickpeas, turmeric, coriander, salt and pepper and process until well combined",
+            "Add the pumpkin and stir through to combine",
+            "Shape large tablespoonfuls of pumpkin mixture into balls",
+            "Place on a baking tray lined with non-stick baking paper and flatten slightly",
+            "Brush well with oil, then bake for 25 minutes or until golden and crisp. To make the pickled carrot slaw, place the carrots, vinegar, honey, chile and coriander in a bowl and toss to combine",
+            "Set aside for 5 minutes to pickle. To serve, divide the pickled carrot slaw between bowls and top with pumpkin falafels and serve with yoghurt and tahini."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f89f735ba8cbd3ce5c1a86f/1:1/w_1920,c_limit/Kale-Pumpkin-Falafels-HC-101620.jpg",
+        "recipeRating": 4.9,
+        "numRatings": 257,
+        "numServings": 8,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "25c6b691-9d59-4b69-b294-7bc1b0b1c395",
+        "recipeTitle": "R-Rated Onions",
+        "recipeDescription": "with vegetable oil and kosher salt",
+        "recipeLongIntro": "R-Rated Onions combines traditional techniques with modern twists, all within about 47 minutes of cooking. Known for its comforting qualities, this dish is a favorite in many households. Fresh ingredients are key to a superior taste profile.",
+        "totalCost": 23.71,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "medium yellow or white onions",
+                "qtyNumber": 4.0,
+                "qtyUnit": "large"
+            },
+            {
+                "product": "olive or vegetable oil",
+                "qtyNumber": 1.0,
+                "qtyUnit": "Tbsp"
+            },
+            {
+                "product": "kosher salt",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp"
+            }
+        ],
+        "recipeSteps": [
+            "Peel your onions and cut them in half through their stem ends longways, if you will",
+            "Slice them thinly with the grain, following the line from root to stem rather than cutting the onion across its belly",
+            "This is actually important because slicing it the other way makes the path to silky onions a longer one. Once your onions are sliced, heat your skillet over medium-high heat and add the oil, then the onions and the salt",
+            "Let the onions sizzle for a couple minutes",
+            "Stir with a wooden spoon or a heatproof spatula and watch as they wilt for about 3 more minutes",
+            "At this point, reduce the heat to medium low",
+            "Put a lid on and step away for a few minutes",
+            "Give the onions a stir every now and then",
+            "You don t have to stand over it like risotto, but don t go for a walk around the block either",
+            "Caramelized bits will accumulate at the bottom and sides of the pan, and that s good",
+            "Just scrape them up and stir them in",
+            "A little color building as you go is okay, but don t rush to brown them",
+            "The point is to cook the onions gently, coaxing them through stages of raw, wilted, sweaty, soft, light brown, and finally deeply caramelized About 45 minutes in, remove the lid for the last time",
+            "They should be a light caramel color",
+            "Now, with the lid off, you will need to watch more closely and stir more frequently",
+            "At some point you may find that despite your best efforts some of the caramelized bits, verging on burnt, cling to the pan and threaten over all onion ruin",
+            "Do not fret! Just add a .5 cup or so of water and use its energy to help scrape up the stubborn but tasty film",
+            "Let the water cook out of course",
+            "When you re smiling over a soft, creamy, fragrant pile of mahogany onions, you re done. Note: R-Rated Onions will keep in the fridge for a week and in the freezer for 3 months."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f89e6971e8871bc67707d50/1:1/w_1920,c_limit/r-rated-caramelize-onions-vivian-howard-recipe-101620.jpg",
+        "recipeRating": 4.0,
+        "numRatings": 147,
+        "numServings": 8,
+        "supermarket": "Woolies",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "4cb095b2-3ef4-4199-ad4d-bdb26ebb448b",
+        "recipeTitle": "Platanos Horneados",
+        "recipeDescription": "with creme fraiche and crumbled queso fresco",
+        "recipeLongIntro": "Relish in the making of Platanos Horneados con Crema y Queso (Baked Banana With Crema and Cheese), a recipe that typically spans 78 minutes from start to finish, ensuring deep flavors. This recipe has evolved through generations, adapting to modern tastes while keeping traditional roots. Consider marinating overnight to deepen the flavors.",
+        "totalCost": 22.73,
+        "prepTime": 25,
+        "cookTime": 60,
+        "recipeIngredients": [
+            {
+                "product": "heirloom bananas or small plantains, ripe but not black, unpeeled",
+                "qtyNumber": 6.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "crema or creme fraiche",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "crumbled queso fresco",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Preheat the oven to 400F. Place the whole bananas or plantains on a baking sheet and bake, turning them every 10 minutes, until the peel starts to split and the inside is tender when tested with a skewer, about 40 minutes",
+            "Remove from the oven but keep on the baking sheet",
+            "Carefully slice the peel lengthwise to just reveal the flesh and drizzle with some crema and sprinkle with cheese",
+            "Transfer to plates to serve individually, on a platter, or directly on the baking sheet on the table",
+            "Either way, people should carve out their own banana",
+            "Serve the remaining crema and cheese in bowls on the side, in case anyone wants more."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5ee8f7248793dbbcae05e218/1:1/w_1920,c_limit/PlantainWithCream_HERO_RECIPE_060320_8522.jpg",
+        "recipeRating": 4.8,
+        "numRatings": 234,
+        "numServings": 2,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "53cf4886-e9a7-4f9d-9431-9f3b22456dce",
+        "recipeTitle": "Burst Cherry Tomato Pasta",
+        "recipeDescription": "with casarecce and crushed red pepper flakes",
+        "recipeLongIntro": "Burst Cherry Tomato Pasta combines traditional techniques with modern twists, all within about 35 minutes of cooking. Known for its comforting qualities, this dish is a favorite in many households. Low and slow cooking will yield the best texture.",
+        "totalCost": 24.5,
+        "prepTime": 10,
+        "cookTime": 20,
+        "recipeIngredients": [
+            {
+                "product": "extra-virgin olive oil, plus more for drizzling",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "garlic, smashed",
+                "qtyNumber": 6.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "cherry tomatoes (about 4 pints)",
+                "qtyNumber": 2.5,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "sprigs basil, plus 1 cup basil leaves, torn if large",
+                "qtyNumber": 2.0,
+                "qtyUnit": "large"
+            },
+            {
+                "product": "basil leaves, torn if large",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "crushed red pepper flakes",
+                "qtyNumber": 0.75,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "kosher salt, plus more",
+                "qtyNumber": 1.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "sugar (optional)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "pinch"
+            },
+            {
+                "product": "casarecce or other medium-size pasta",
+                "qtyNumber": 12.0,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "Parmesan",
+                "qtyNumber": 1.0,
+                "qtyUnit": "oz."
+            }
+        ],
+        "recipeSteps": [
+            "Heat .5 cup oil in a large heavy pot over low",
+            "Add garlic and cook, stirring often with a wooden spoon, until softened but not browned, about 2 minutes. Increase heat to medium and add tomatoes, basil sprigs, red pepper flakes, and 1.5 tsp",
+            "salt",
+            "Cook, stirring to coat, until some of the tomatoes begin to burst and release their juices, about 4 minutes",
+            "Smash some but not all of the tomatoes with the spoon to help release their liquid, then continue to cook, stirring occasionally, until a chunky, thickened sauce forms (about half the tomatoes should still be intact), 10-12 minutes",
+            "Taste and add sugar if sauce is too tart and add more salt if needed",
+            "Pluck out and discard basil sprigs. Meanwhile, cook pasta in a large pot of boiling salted water, stirring occasionally, until al dente. Drain pasta, add to pot with sauce, and cook, stirring, until coated, about 1 minute",
+            "Remove from heat and stir in 1 oz",
+            "Parmesan. Divide pasta among bowls; drizzle with oil",
+            "Top with more Parmesan and 1 cup basil leaves."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f456a85834292ff425080a2/1:1/w_1920,c_limit/pasta-with-burst-cherry-tomatoes-recipe-BA-082520.jpg",
+        "recipeRating": 4.1,
+        "numRatings": 158,
+        "numServings": 6,
+        "supermarket": "Woolies",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "547041a9-ef8b-487d-b17e-65bc53bbf9fb",
+        "recipeTitle": "Doenjang Jjigae",
+        "recipeDescription": "with silken tofu and gochujang",
+        "recipeLongIntro": "Embrace the culinary journey with Doenjang Jjigae (Fermented-Soybean Stew), which usually takes 147 minutes to prepare, yielding delicious results. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Consider marinating overnight to deepen the flavors.",
+        "totalCost": 21.08,
+        "prepTime": 45,
+        "cookTime": 100,
+        "recipeIngredients": [
+            {
+                "product": "Dashi",
+                "qtyNumber": 4.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "doenjang (Korean fermented soybean paste)",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "gochujang (Korean red chili paste)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "gochugaru (Korean red chili flakes)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "garlic, minced",
+                "qtyNumber": 6.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "soy sauce, or more to taste",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "onions, cut into 1-inch dice",
+                "qtyNumber": 2.0,
+                "qtyUnit": "medium"
+            },
+            {
+                "product": "green zucchini, cut into 1-inch chunks",
+                "qtyNumber": 2.0,
+                "qtyUnit": "medium"
+            },
+            {
+                "product": "red Korean chili pepper or other long hot chili, thinly sliced on the bias",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "green Korean chili pepper or other long hot chili, thinly sliced on the bias",
+                "qtyNumber": 1.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "brisket, sliced .125 inch thick (you can ask your butcher to slice it) and cut into 2- to 3-inch strips",
+                "qtyNumber": 0.5,
+                "qtyUnit": "pound"
+            },
+            {
+                "product": "soft or silken tofu, homemade (page 67) or store-bought, cut into 1-inch cubes",
+                "qtyNumber": 1.0,
+                "qtyUnit": "pound"
+            },
+            {
+                "product": "scallions cut into 1-inch batons",
+                "qtyNumber": 0.5,
+                "qtyUnit": "bunch"
+            }
+        ],
+        "recipeSteps": [
+            "Put the dashi in a stockpot or other large pot set over medium-high heat and bring to a simmer",
+            "Whisk in the doenjang and cook for 10 minutes to bring out its natural sweetness",
+            "Add the gochujang and simmer for 5 minutes",
+            "Add the gochugaru, garlic, and soy sauce and simmer for another 10 minutes. Add the onions and simmer for 5 minutes",
+            "Add the zucchini and simmer for 5 minutes",
+            "(Adding the vegetables at different times will ensure that they will all be fully cooked at the end.) Add the chili peppers, beef, and tofu and simmer for 5 minutes",
+            "Taste and adjust the seasoning with more soy sauce if necessary. Remove the pot from the heat, add the scallions, put on the lid, and let the stew rest for at least 30 minutes, and up to 2 hours, before serving",
+            "Serve with steamed rice and your favorite banchan, as any and all pair well with this stew."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f343202b7c5c2dd3b6c5fb1/1:1/w_1920,c_limit/MyKorea_PG107.jpg",
+        "recipeRating": 4.2,
+        "numRatings": 401,
+        "numServings": 4,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "57078d96-8472-454c-bf4b-a57f2b5c923f",
+        "recipeTitle": "Pita",
+        "recipeDescription": "with bread flour and Morton kosher salt",
+        "recipeLongIntro": "Relish in the making of Pita, a recipe that typically spans 55 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Fresh ingredients are key to a superior taste profile.",
+        "totalCost": 22.04,
+        "prepTime": 15,
+        "cookTime": 40,
+        "recipeIngredients": [
+            {
+                "product": "warm water",
+                "qtyNumber": 1.5,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "instant yeast",
+                "qtyNumber": 1.0,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "bread flour, divided, plus more as needed",
+                "qtyNumber": 4.5,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "canola oil, plus more for your bowl",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "Morton kosher salt",
+                "qtyNumber": 3.5,
+                "qtyUnit": "teaspoons"
+            }
+        ],
+        "recipeSteps": [
+            "Combine the water and yeast in a large mixing bowl (if you have a stand mixer, use that bowl) and let sit for 5 minutes. Reserve .5 cup (60 grams) bread flour and add the remaining 4 cups to the mixing bowl along with the canola oil. If you have a stand mixer, fit it with the dough hook and knead the mixture on low speed for about 3 minutes, until a sticky but cohesive dough starts to form",
+            "Pause occasionally to scrape down the bowl if the flour is clinging to the sides and bottom or climbing up the hook",
+            "If you re making the dough without a stand mixer, mix it with a wooden spoon",
+            "In either case, loosely cover the bowl with plastic wrap or a dish towel and let rest for 30 minutes. With your stand mixer on low or while stirring by hand in the mixing bowl, add the salt and, over the course of 2 or 3 minutes, add the remaining .5 cup flour, 2 tablespoons at a time",
+            "The dough should be more tense; it will feel soft but tacky, although it will pull from the sides of the bowl. Flour your hands generously and use them to pull the dough onto a clean, unfloured work surface",
+            "Cup your hands around the dough, rolling it in short, circular strokes and using the sides of your hands to nudge it into a relatively smooth ball. Lightly wipe the inside of a large bowl with canola oil and place the dough inside, flipping it once or twice to coat",
+            "Loosely cover the bowl and let the dough rise at a warm room temperature for 1 hour. After 1 hour, the dough will be stretchy but very soft",
+            "Leaving it inside the bowl, stretch opposite sides of the dough over the center",
+            "Rotate the bowl a quarter- turn and stretch the dough in the same way, then flip the whole mound of dough upside down and cover again",
+            "Let rise for 1 hour. Repeat this series of folds one more time, allow it to rise at room temperature for 1 hour, then tightly cover the bowl and refrigerate overnight or up to 2 days",
+            "The longer the dough is refrigerated, the more flavor it will have",
+            "After this rise, it s ready to be shaped; bear in mind that, once it s shaped, it will need more time for a final rise, so plan ahead. Wipe a bit of canola oil on a large baking sheet",
+            "Dump the dough onto a clean, dry counter, and use a bench scraper or sharp knife to cut it into eight equal pieces; make clean, decisive cuts rather than use a sawing motion, so you don t deflate all the air inside. Lightly flour your hands and place one palm directly over the dough ball, with all your fingertips touching the counter to make a sort of 'cage', around the dough",
+            "Roll it in brisk, small circles on the countertop so it tightens itself into a smoother, more taut ball. Space the rounds of dough a few inches apart, seam side down, on the sheet, and roll to coat them lightly in oil",
+            "Tightly cover the sheet with plastic wrap so the dough doesn t dry out, and let them rise at room temperature for 2 to 4 more hours, until they re pillowy. Meanwhile, set a baking stone on the center rack of your oven and turn on the broiler",
+            "You re emulating a 700F wood- burning oven, so you need to give the stone a good long while to preheat before you bake. When the dough is ready, lightly flour a work surface, and use a bench scraper or thin metal spatula to coax one piece into your palm; be sure you don t manhandle it or you ll force out the pockets of air that formed while it rose",
+            "Dust a little more flour on the top of the dough and onto your rolling pin. With firm, even pressure, briskly roll the dough a few times along its length",
+            "Flip it upside down, rotate it a quarter- turn, and roll it the same way, keeping it as round as possible",
+            "Repeat, dusting a little extra flour as needed, until it s about 6 inches across. This next part happens fast and furiously, so make sure you have no distractions screaming children and natural disasters will have to wait",
+            "Use tongs or a good oven mitt to pull the oven rack with the baking stone partially out",
+            "Carefully pick up the pita, drape it over your palm, and slap it down onto the stone as if you re giving it a high- five (just be careful not to touch the hot stone!)",
+            "Set a timer for 1 minute, and close the oven",
+            "Broilers vary in strength but all are quite hot, so don t turn your back on the oven or the pita may burn",
+            "Check on it  it should puff up and build in color, with some beautiful blistered spots",
+            "If it s still pale, close the oven and let it keep baking for 30- second intervals. Use tongs to flip the pita, and let it finish baking with the oven door cracked so you can watch it finish",
+            "Pull it out when the second side is as pretty as the first; this can take anywhere from 30 seconds to 2 minutes, depending on your broiler. Bake off the rest of the dough this way; as you get the hang of it, feel free to bake two pitas at a time",
+            "Serve these hot or at room temperature."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f6e443d9ac122089fbc0d24/1:1/w_1920,c_limit/pita-alon-shaya-recipe-092520.jpg",
+        "recipeRating": 5.0,
+        "numRatings": 105,
+        "numServings": 5,
+        "supermarket": "Coles",
+        "BLD": "Lunch"
+    },
+    {
+        "recipeId": "cadf7320-e7e8-404f-a2c2-9ffbd45c506b",
+        "recipeTitle": "Spiral Ham in the Slow",
+        "recipeDescription": "with unsweetened apple juice and parsnips",
+        "recipeLongIntro": "Master the art of making Spiral Ham in the Slow Cooker with this recipe, requiring roughly 42 minutes to bring all the ingredients together. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Make sure to season well to enhance flavors.",
+        "totalCost": 23.27,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "bone-in, hickory-smoked, uncured fully cooked ham",
+                "qtyNumber": 1.0,
+                "qtyUnit": "(6-7 pound)"
+            },
+            {
+                "product": "parsnips, peeled and halved lengthwise",
+                "qtyNumber": 5.0,
+                "qtyUnit": "medium"
+            },
+            {
+                "product": "carrots, peeled and halved lengthwise",
+                "qtyNumber": 5.0,
+                "qtyUnit": "medium"
+            },
+            {
+                "product": "maple syrup",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "unsweetened apple juice",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "packed dark brown sugar",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "smooth Dijon mustard",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "grainy Dijon mustard",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "apple cider vinegar",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "kosher salt(if needed)",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Pour 3 cups of water into a 7-quart slow cooker",
+            "Add the ham, cut-side up, as well as the parsnips and carrots",
+            "Pour the maple syrup and apple juice over the ham, and sprinkle the brown sugar over the top",
+            "Cook on high, uncovered, for 30 to 45 minutes, then cover the slow cooker and cook on low until the ham is tender, 3 to 4 hours",
+            "Hams vary in size and tenderness, so be patient",
+            "When it s tender, the meat should come off the bone with very little resistance",
+            "Taste a small piece for tenderness. Transfer the ham and vegetables to a deep serving platter (reserve the liquid in the pot)",
+            "Use a pair of kitchen shears or scissors to cut the slices of ham off the bone and let them fall onto the platter",
+            "Stir both kinds of mustard and the vinegar into the cooking liquid left in the slow cooker and taste for seasoning the sauce may or may not need salt",
+            "Pour the liquid over the ham and vegetables, and serve."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f92fc3f819b886aba0a282a/1:1/w_1920,c_limit/Cook%20with%20Me_Spiral%20Ham%20in%20the%20Slow%20Cooker.jpg",
+        "recipeRating": 4.1,
+        "numRatings": 461,
+        "numServings": 4,
+        "supermarket": "Coles",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "d7995915-54d7-41ae-bc3c-fc5e2d014ca6",
+        "recipeTitle": "Salmon Burgers With Ginger",
+        "recipeDescription": "with sugar and trimmed watercress",
+        "recipeLongIntro": "Relish in the making of Salmon Burgers With Ginger and Quick-Pickled Cucumbers, a recipe that typically spans 45 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Low and slow cooking will yield the best texture.",
+        "totalCost": 23.99,
+        "prepTime": 15,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "boneless, skinless center-cut salmon, patted dry, cut into 2\" pieces",
+                "qtyNumber": 1.5,
+                "qtyUnit": "lb."
+            },
+            {
+                "product": "scallions",
+                "qtyNumber": 5.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "ginger, peeled, finely grated",
+                "qtyNumber": 1.0,
+                "qtyUnit": "piece"
+            },
+            {
+                "product": "garlic, finely grated",
+                "qtyNumber": 1.0,
+                "qtyUnit": "clove"
+            },
+            {
+                "product": "mayonnaise",
+                "qtyNumber": 11.6,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "kosher salt, plus more",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "toasted sesame oil",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "unseasoned rice vinegar, divided",
+                "qtyNumber": 4.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "Persian cucumbers, shaved lengthwise",
+                "qtyNumber": 3.0,
+                "qtyUnit": "medium"
+            },
+            {
+                "product": "chile, very thinly sliced",
+                "qtyNumber": 0.5,
+                "qtyUnit": "serrano"
+            },
+            {
+                "product": "sugar",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "vegetable oil",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "rice flour",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "tender herbs (such as mint and/or cilantro)",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "trimmed watercress",
+                "qtyNumber": 0.75,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "toasted sesame seeds (optional)",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "brioche buns",
+                "qtyNumber": 4.0,
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Process one third of salmon (about 8 oz.) in a food processor, scraping down sides as needed, until very smooth and paste-like",
+            "Add remaining salmon and pulse until pieces are no bigger than .25, 4-5 times (be careful not to make it too smooth)",
+            "Transfer to a large bowl. Remove dark green tops from scallions and finely chop",
+            "Thinly slice white and pale green parts and set aside",
+            "Add chopped scallion greens, ginger, garlic, 2 Tbsp",
+            "mayonnaise, and 1 tsp",
+            "salt to salmon and gently mix to combine",
+            "Form mixture into 4 patties about .75\" thick",
+            "Transfer to a parchment-lined rimmed baking sheet and cover with plastic wrap",
+            "Chill at least 1 hour or up to 3 hours. Meanwhile, mix sesame oil, 1 tsp",
+            "vinegar, remaining cup mayonnaise, and a pinch of salt in a small bowl; set aside. Toss cucumbers with a pinch of salt in another small bowl",
+            "Massage with your hands for a few minutes to soften and expel liquid; discard liquid",
+            "Add chile, sugar, and 2 tsp",
+            "vinegar and toss to coat",
+            "Cover and chill pickles until ready to assemble burgers. Heat vegetable oil in a large nonstick skillet over medium-high",
+            "Remove salmon patties from refrigerator and sprinkle with flour just to coat the outside (you won t need all of it)",
+            "The patties will be a little loose but you can always pat them back together with your hands before they hit the pan",
+            "Working in batches and adding more oil in between batches if needed, cook patties until golden brown, about 3 minutes per side (watch carefully; you don t want to overcook). Toss herbs, watercress, sesame seeds (if using), reserved white and pale green parts of scallions, remaining 1 tsp",
+            "vinegar, and a pinch of salt in a medium bowl",
+            "Build burgers with buns, patties, herb mixture, pickles, and reserved sauce."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f4960c235b77b73d4b8f536/1:1/w_1920,c_limit/salmon_burgers_with_picked_cucumbers_recipe_BA-082820.jpg",
+        "recipeRating": 4.7,
+        "numRatings": 413,
+        "numServings": 3,
+        "supermarket": "Woolies",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "ebe525f5-9782-4b1e-9d73-44ed5f6606c1",
+        "recipeTitle": "Paneer With Burst Cherry",
+        "recipeDescription": "with scallions and sugar snap peas",
+        "recipeLongIntro": "Relish in the making of Paneer With Burst Cherry Tomato Sauce, a recipe that typically spans 33 minutes from start to finish, ensuring deep flavors. Enjoy crafting this dish that balances both taste and nutrition, suitable for various dietary preferences. Serving immediately after cooking captures the best texture and aroma.",
+        "totalCost": 22.66,
+        "prepTime": 10,
+        "cookTime": 20,
+        "recipeIngredients": [
+            {
+                "product": "scallions thinly sliced",
+                "qtyNumber": 6.0,
+                "qtyUnit": ","
+            },
+            {
+                "product": "ginger, scrubbed, cut into matchsticks",
+                "qtyNumber": 1.0,
+                "qtyUnit": "piece"
+            },
+            {
+                "product": "garlic, thinly sliced",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cloves"
+            },
+            {
+                "product": "coriander seeds",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "cumin seeds",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "black mustard seeds",
+                "qtyNumber": 0.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "Kashmiri chile powder or .25 tsp. cayenne powder",
+                "qtyNumber": 0.5,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "ground turmeric",
+                "qtyNumber": 0.25,
+                "qtyUnit": "tsp."
+            },
+            {
+                "product": "extra-virgin olive oil, divided",
+                "qtyNumber": 3.0,
+                "qtyUnit": "Tbsp."
+            },
+            {
+                "product": "paneer, sliced into (.25\"-thick) planks, patted dry",
+                "qtyNumber": 8.0,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "kosher salt",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            },
+            {
+                "product": "cherry tomatoes (about 2 cups)",
+                "qtyNumber": 12.0,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "sugar snap peas (about 1 cup), strings removed, halved on a diagonal if large",
+                "qtyNumber": 4.0,
+                "qtyUnit": "oz."
+            },
+            {
+                "product": "sugar (optional)",
+                "qtyNumber": 1.0,
+                "qtyUnit": "pinch"
+            },
+            {
+                "product": "(lightly packed) mint leaves",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "Cooked rice (for serving)",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Toss scallions, ginger, and garlic in a medium bowl to combine",
+            "Using a mortar and pestle or the side of a chef s knife, coarsely crush coriander seeds and add to vegetables along with cumin seeds, black mustard seeds, chile powder and turmeric; set aside. Heat 2 Tbsp",
+            "extra-virgin olive oil in a large skillet over medium-high",
+            "Arrange paneer in a single layer in pan and cook until golden brown underneath, about 1 minute",
+            "(If paneer is sticking, just give cheese a little more time to brown",
+            "It will release from pan once it is sufficiently crisped.) Using a slotted spatula or spoon, transfer paneer to a plate, leaving as much oil behind in pan as possible",
+            "Turn browned side up and season generously with salt. Reduce heat to medium and add remaining 1 Tbsp",
+            "oil to same skillet",
+            "Cook reserved scallion mixture, stirring often, until scallions are wilted and mustard seeds begin to pop, about 2 minutes. Add tomatoes, sugar snap peas, and 1 cup water to skillet and season with salt",
+            "Increase heat to medium-high and bring to a simmer",
+            "Gently smash each tomato open with a spatula (you just want to break them open a little) and simmer until tomato juices thicken slightly, about 3 minutes (it should still be pretty brothy and light)",
+            "Taste sauce and add more salt if needed",
+            "If your tomatoes aren t super sweet, you may need to add a pinch of sugar at this point to balance their acidity",
+            "Add paneer back to pan and simmer until warmed through. Remove pan from heat and toss in mint",
+            "Serve with cooked rice."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5f5925523c89871d00a5fd55/1:1/w_1920,c_limit/paneer-with-burst-cherry-tomato-sauce-recipe-BA-090920.jpg",
+        "recipeRating": 4.8,
+        "numRatings": 299,
+        "numServings": 3,
+        "supermarket": "Woolies",
+        "BLD": "Dinner"
+    },
+    {
+        "recipeId": "bd244070-1422-4fe5-92b1-0b1f0cfc219b\n",
+        "recipeTitle": "Stovetop Granola",
+        "recipeDescription": "with oats and honey",
+        "recipeLongIntro": "Making granola doesn't have to involve a long stint in the oven. This stovetop version is a quicker, just as delicious way to make granola at home. It combines oats, nuts, and your choice of sweeteners and spices, cooked briefly on the stovetop until crispy and golden.",
+        "totalCost": 10.0,
+        "prepTime": 5,
+        "cookTime": 15,
+        "recipeIngredients": [
+            {
+                "product": "rolled oats",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "mixed nuts (e.g., hazelnuts, almonds)",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "butter",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "honey",
+                "qtyNumber": 3.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "dried fruit (optional)",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Toast nuts in a dry skillet over medium heat until they become fragrant.",
+            "Melt butter in the skillet, then add honey and allow it to foam up.",
+            "Add the rolled oats, stirring frequently, until they are golden and coated with the honey-butter mixture.",
+            "Stir in dried fruit if using, and remove from heat. Allow the granola to cool in the pan; it will continue to crisp as it cools.",
+            "Store in an airtight container for up to two weeks."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5ef4f5032f73581c64ba59c5/16:9/w_1920,c_limit/StoveTopGranola_HERO_062420_9125.jpg",
+        "recipeRating": 4.5,
+        "numRatings": 250,
+        "numServings": 8,
+        "supermarket": "Woolies",
+        "BLD": "Breakfast"
+    },
+    {
+        "recipeId": "ffe33714-9f8c-4c4e-b34e-daca55c40036",
+        "recipeTitle": "Super Green Smoothie Bowl",
+        "recipeDescription": "with matcha and ginger",
+        "recipeLongIntro": "Packed with healthy superfoods and a little caffeine kick from matcha powder, this creamy green smoothie bowl makes a satisfying breakfast. Chia seeds and oats add density and fiber, while mango and fresh ginger add sweetness and spice.",
+        "totalCost": 8.0,
+        "prepTime": 10,
+        "cookTime": 10,
+        "recipeIngredients": [
+            {
+                "product": "old-fashioned oats",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "chia seeds",
+                "qtyNumber": 2.0,
+                "qtyUnit": "teaspoons"
+            },
+            {
+                "product": "coconut-milk beverage or almond milk",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "ripe avocado",
+                "qtyNumber": 0.5,
+                "qtyUnit": ""
+            },
+            {
+                "product": "fresh ginger, peeled, roughly chopped",
+                "qtyNumber": 1.0,
+                "qtyUnit": "(1-inch) piece"
+            },
+            {
+                "product": "frozen mango cubes",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "loosely packed baby spinach",
+                "qtyNumber": 1.0,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "unsweetened almond butter",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "matcha (green tea powder)",
+                "qtyNumber": 0.5,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "Unsweetened coconut flakes, granola, and/or raspberries",
+                "qtyNumber": "",
+                "qtyUnit": ""
+            }
+        ],
+        "recipeSteps": [
+            "Soak oats and chia seeds in coconut milk in a small bowl for at least 10 minutes and up to overnight.",
+            "Transfer to a blender and add avocado, ginger, mango, spinach, almond butter, and matcha.",
+            "Puree until smooth, then divide among 2 bowls.",
+            "Top with coconut, granola, and/or raspberries and serve."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/551ecdede7851a541a30e009/1:1/w_1920,c_limit/EP20150401-smoothiebowl-hires.jpg",
+        "recipeRating": 5.4,
+        "numRatings": 6,
+        "numServings": 2,
+        "supermarket": "Coles",
+        "BLD": "Breakfast"
+    },
+    {
+        "recipeId": "973124ff-3d21-4e85-b5e9-6db9b65bad0c",
+        "recipeTitle": "Strawberry-Granola Crisp",
+        "recipeDescription": "with almond-oat topping and strawberries",
+        "recipeLongIntro": "This delightful dessert combines juicy strawberries with a crispy almond-oat granola topping, perfect for a quick and delicious treat. It's versatile enough to be served with whipped cream, vanilla ice cream, or even yogurt, making it ideal for any occasion.",
+        "totalCost": 15.0,
+        "prepTime": 10,
+        "cookTime": 30,
+        "recipeIngredients": [
+            {
+                "product": "strawberries",
+                "qtyNumber": 4.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "sugar",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "almond-oat granola",
+                "qtyNumber": 2.0,
+                "qtyUnit": "cups"
+            },
+            {
+                "product": "butter",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            }
+        ],
+        "recipeSteps": [
+            "Preheat the oven to 375F (190C).",
+            "In a pie dish, combine the strawberries with the sugar.",
+            "Sprinkle the granola evenly over the strawberries.",
+            "Dot the top with small pieces of butter.",
+            "Bake in the preheated oven until the topping is golden and the strawberries are bubbling, about 30 minutes.",
+            "Serve warm with whipped cream, ice cream, or yogurt."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5cdc3000ee06d55a2f7a9817/1:1/w_1920,c_limit/strawberry-granola-crisp-recipe-BA-051519.jpg",
+        "recipeRating": 4.6,
+        "numRatings": 5,
+        "numServings": 4,
+        "supermarket": "Coles",
+        "BLD": "Breakfast"
+    },
+    {
+        "recipeId": "4e99a974-200c-49fb-bd4d-92cd39df2868",
+        "recipeTitle": "Blood Orange Chia Pudding",
+        "recipeDescription": "with pistachios and yogurt",
+        "recipeLongIntro": "Why drink O.J. with your yogurt when you can mix it in? This refreshing and healthy pudding combines the tangy flavor of blood orange with the nutritional benefits of chia seeds, topped with pistachios for added texture.",
+        "totalCost": 12.0,
+        "prepTime": 10,
+        "cookTime": 5,
+        "recipeIngredients": [
+            {
+                "product": "plain yogurt",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "fresh blood orange juice",
+                "qtyNumber": 0.5,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "orange-flower water",
+                "qtyNumber": 0.25,
+                "qtyUnit": "teaspoon"
+            },
+            {
+                "product": "kosher salt",
+                "qtyNumber": 1.0,
+                "qtyUnit": "pinch"
+            },
+            {
+                "product": "honey",
+                "qtyNumber": 2.0,
+                "qtyUnit": "tablespoons"
+            },
+            {
+                "product": "chia seeds",
+                "qtyNumber": 0.25,
+                "qtyUnit": "cup"
+            },
+            {
+                "product": "blood oranges",
+                "qtyNumber": 2.0,
+                "qtyUnit": ""
+            },
+            {
+                "product": "chopped pistachios",
+                "qtyNumber": "",
+                "qtyUnit": "for serving"
+            }
+        ],
+        "recipeSteps": [
+            "Whisk yogurt, blood orange juice, orange-flower water, salt, and honey in a medium bowl.",
+            "Whisk in chia seeds, cover, and chill for at least 8 hours up to 1 day.",
+            "Cut peel and white pith from oranges. Release segments into a bowl.",
+            "Stir pudding and divide between bowls, layering with orange segments.",
+            "Top with pistachios and additional segments; drizzle with honey and serve."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/56cf2fd683861a472247a569/1:1/w_1920,c_limit/Blood%20Orange-Chia%20Pudding.jpg",
+        "recipeRating": 4.6,
+        "numRatings": 3,
+        "numServings": 2,
+        "supermarket": "Woolies",
+        "BLD": "Breakfast"
+    },
+    {
+        "recipeId": "65266fbe-e40e-455d-9cc0-f10ff809b642",
+        "recipeTitle": "Mango Toast",
+        "recipeDescription": "with hazelnut-pepita butter and honey",
+        "recipeLongIntro": "This innovative toast option brings a refreshing twist to your morning routine, combining the rich flavors of hazelnut and pepita butter with the sweet tanginess of fresh mango slices.",
+        "totalCost": 7.0,
+        "prepTime": 5,
+        "cookTime": 5,
+        "recipeIngredients": [
+            {
+                "product": "of your favorite bread",
+                "qtyNumber": 1.0,
+                "qtyUnit": "slice"
+            },
+            {
+                "product": "hazelnut-pepita butter",
+                "qtyNumber": 1.0,
+                "qtyUnit": "tablespoon"
+            },
+            {
+                "product": "ripe mango",
+                "qtyNumber": 0.5,
+                "qtyUnit": "mango"
+            },
+            {
+                "product": "honey",
+                "qtyNumber": 1.0,
+                "qtyUnit": "teaspoon"
+            }
+        ],
+        "recipeSteps": [
+            "Toast the bread slice to your preference.",
+            "Spread a generous layer of hazelnut-pepita butter over the toasted bread.",
+            "Top with fresh mango slices.",
+            "Drizzle honey over the top for a touch of sweetness and serve immediately."
+        ],
+        "recipeImageURL": "https://assets.epicurious.com/photos/5a5fc85a21f1764a205f88af/1:1/w_1920,c_limit/mango-toast-with-hazelnut-pepita-butter-recipe-BA-011718.jpg",
+        "recipeRating": 4.5,
+        "numRatings": 10,
+        "numServings": 1,
+        "supermarket": "Coles",
+        "BLD": "Breakfast"
+    }
+]
