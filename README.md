@@ -1,4 +1,4 @@
-# food-app
+# Peckish - an AI recipe generator that uses current grocery sales and dietary preferences.
 
 Install [Docker Desktop](https://www.docker.com/products/docker-desktop) 
 
