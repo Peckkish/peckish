@@ -123,7 +123,7 @@ celerybeat.pid
 
 # Environments
 myenv/
-src/llm/.env
+api/llm/.env
 .venv
 env/
 venv/
