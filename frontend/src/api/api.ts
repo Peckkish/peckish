@@ -9,8 +9,8 @@
 // } from "@/utility/utils.ts";
 import { Recipe } from "@/utility/types.ts";
 // import axios from "axios";
-import gfhp from "../../../gfhp.json";
-import vegan from "../../../vegan.json";
+import gfhp from "src/gfhp.json";
+import vegan from "src/vegan.json";
 
 // const client = createClient(import.meta.env.VITE_PEXELS_API_KEY);
 //
