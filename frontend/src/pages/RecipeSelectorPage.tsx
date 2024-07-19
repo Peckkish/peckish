@@ -98,11 +98,12 @@ export default function RecipeSelectorPage({
         supermarketPreferences={supermarketPreferences}
         setSupermarketPreferences={setSupermarketPreferences}
       />
-      <p className={"text-green-500 font-semibold text-lg mb-6"}>
-        <span>
-          This demo is currently running on a limited data set. The two
-          supported combos in this demo are{" "}
-        </span>
+      <p className={"text-green-600 font-semibold text-lg mb-6 text-center"}>
+        <p>
+          This early demo is running on a very limited data set - full recipe
+          and theme functionality is on the way!
+        </p>
+        <span>The two supported combos in this demo are </span>
         <span className={"text-black"}>High Protein + Gluten-Free</span>
         <span></span>
         {", and "}
