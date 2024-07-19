@@ -21,6 +21,6 @@
     }
   ],
   "env": {
-    "GROQ_API_KEY": "@groq_api_key"
+    "GROQ_API_KEY": "@GROQ_API_KEY"
   }
 }
