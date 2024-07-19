@@ -100,7 +100,7 @@ export default function RecipeSelectorPage({
       />
       <p className={"text-green-600 font-semibold text-lg mb-6 text-center"}>
         <p>
-          This early demo is running on a very limited data set - full recipe
+          This very early demo is running on a limited data set - full recipe
           and theme functionality is on the way!
         </p>
         <span>The two supported combos in this demo are </span>

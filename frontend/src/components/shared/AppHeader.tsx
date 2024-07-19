@@ -31,18 +31,22 @@ export default function AppHeader({}: AppHeaderProps) {
           Shop
         </a>
       </div>
-      <Button variant={"pale"} className={"ml-auto"}>
+      <Button variant={"pale"} className={"ml-auto hover:cursor-not-allowed"}>
         Sign Out
       </Button>
-      <Toggle className={"ml-6 pointer-events-none"} aria-label="Toggle bold">
-        <Sun size={24} weight={"bold"} />
-      </Toggle>
-      <Toggle
-        className={"mr-[4vw] pointer-events-none"}
-        aria-label="Toggle bold"
-      >
-        <Question size={24} weight={"bold"} />
-      </Toggle>
+      <div className={"hover:cursor-not-allowed"}>
+        <Toggle className={"ml-6 pointer-events-none"} aria-label="Toggle bold">
+          <Sun size={24} weight={"bold"} />
+        </Toggle>
+      </div>
+      <div className={"hover:cursor-not-allowed"}>
+        <Toggle
+          className={"mr-[4vw] pointer-events-none"}
+          aria-label="Toggle bold"
+        >
+          <Question size={24} weight={"bold"} />
+        </Toggle>
+      </div>
     </div>
   );
 }

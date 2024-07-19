@@ -58,9 +58,9 @@ export default function MealPlanDashboardPage({
   const [currentSlide, setCurrentSlide] = useState(1);
 
   const handleOpenAll = () => {
-    totalShoppingList.forEach((ingredientItem) => {
-      window.open(ingredientItem.productURL, "_blank");
-    });
+    // totalShoppingList.forEach((ingredientItem) => {
+    //   window.open(ingredientItem.productURL, "_blank");
+    // });
   };
 
   useEffect(() => {
@@ -89,6 +89,7 @@ export default function MealPlanDashboardPage({
   return (
     <div className={"relative pb-12"}>
       <Button
+        variant={"pale"}
         className={"w-fit absolute top-4 left-5"}
         onClick={() => navigate("/app")}
       >
@@ -134,7 +135,11 @@ export default function MealPlanDashboardPage({
         <div className={"flex flex-col"}>
           <h1 className={"font-semibold text-2xl"}>Shopping List</h1>
           <Separator className={"my-3 bg-[#12b312]/15"} />
-          <Button variant={"green"} onClick={handleOpenAll}>
+          <Button
+            variant={"green"}
+            className={"hover:cursor-not-allowed"}
+            onClick={handleOpenAll}
+          >
             <ShoppingCart size={18} />
             <span className={"ml-2"}>Open Shopping Links</span>
           </Button>
