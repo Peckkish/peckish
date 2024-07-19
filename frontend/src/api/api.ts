@@ -1,20 +1,15 @@
 import { createClient, PhotosWithTotalResults } from "pexels";
-import {
-  dummyMealPlan1,
-  dummyMealPlan2,
-  dummyMealPlan3,
-  dummyMealPlan4,
-  dummyMealPlan5,
-  dummyMealPlan6,
-  dummyMealPlan7,
-} from "@/utility/utils.ts";
-import {
-  BLD,
-  FullRecipeCollection,
-  Recipe,
-  Supermarket,
-} from "@/utility/types.ts";
-import axios from "axios";
+// import {
+//   dummyMealPlan1,
+//   dummyMealPlan2,
+//   dummyMealPlan3,
+//   dummyMealPlan4,
+//   dummyMealPlan5,
+//   dummyMealPlan6,
+//   dummyMealPlan7,
+// } from "@/utility/utils.ts";
+import { BLD, Recipe, Supermarket } from "@/utility/types.ts";
+// import axios from "axios";
 import gfhp from "../../../gfhp.json";
 import vegan from "../../../vegan.json";
 

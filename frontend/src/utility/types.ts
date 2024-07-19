@@ -1,5 +1,3 @@
-import { daysOfWeek } from "@/utility/utils.ts";
-
 export interface IngredientItem {
   product: string;
   qtyNumber: number;
