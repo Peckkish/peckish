@@ -30,15 +30,17 @@ export default function RecipeGallery({
   }, []);
 
   useEffect(() => {
-    setBreakfastRecipes(
-      recipeCollection.filter((recipe) => recipe.BLD === "Breakfast"),
-    );
-    setLunchRecipes(
-      recipeCollection.filter((recipe) => recipe.BLD === "Lunch"),
-    );
-    setDinnerRecipes(
-      recipeCollection.filter((recipe) => recipe.BLD === "Dinner"),
-    );
+    if (!!recipeCollection) {
+      setBreakfastRecipes(
+        recipeCollection.filter((recipe) => recipe.BLD === "Breakfast"),
+      );
+      setLunchRecipes(
+        recipeCollection.filter((recipe) => recipe.BLD === "Lunch"),
+      );
+      setDinnerRecipes(
+        recipeCollection.filter((recipe) => recipe.BLD === "Dinner"),
+      );
+    }
   }, [recipeCollection]);
 
   if (!recipeCollection || isLoading || isFabLoading) {

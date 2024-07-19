@@ -7,7 +7,7 @@
 //   dummyMealPlan6,
 //   dummyMealPlan7,
 // } from "@/utility/utils.ts";
-import { BLD, Recipe, Supermarket } from "@/utility/types.ts";
+import { Recipe } from "@/utility/types.ts";
 // import axios from "axios";
 import gfhp from "../../../gfhp.json";
 import vegan from "../../../vegan.json";
@@ -50,23 +50,12 @@ export async function getRecipeCollection(
   //   console.error(e);
   //   return [];
   // }
+  console.log(gfhp);
+  console.log(vegan);
 
-  // @ts-ignore
   return dietaryPreferences.isVegan
-    ? {
-        ...vegan.map((item) => ({
-          ...item,
-          BLD: item.BLD as BLD,
-          supermarket: item.supermarket as Supermarket,
-        })),
-      }
-    : {
-        ...gfhp.map((item) => ({
-          ...item,
-          BLD: item.BLD as BLD,
-          supermarket: item.supermarket as Supermarket,
-        })),
-      };
+    ? ([...vegan] as Recipe[])
+    : ([...gfhp] as Recipe[]);
 
   // const requestOptions = {
   //   method: "POST",
