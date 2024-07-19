@@ -9,12 +9,11 @@ import {
 } from "react-router-dom";
 import RecipeDetailsPage from "@/pages/RecipeDetailsPage.tsx";
 import { Recipe } from "@/utility/types.ts";
-import "../../css/global.css";
+import "../css/global.css";
 import MealPlanDashboardPage from "@/pages/MealPlanDashboardPage.tsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
-import Layout from "@/components/root/Layout.tsx";
+import Layout from "@/root/Layout.tsx";
 import { getRecipeCollection } from "@/api/api.ts";
 
 export default function App() {

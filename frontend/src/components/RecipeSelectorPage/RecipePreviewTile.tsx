@@ -2,8 +2,7 @@ import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { Difficulty, Recipe } from "@/utility/types.ts";
 import { Badge } from "@/components/ui/badge.tsx";
 import { cn, getFormattedTime } from "@/utility/utils.ts";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { getImage } from "@/api/api.ts";
+import { Dispatch, SetStateAction } from "react";
 import "../../css/RecipeGallery.css";
 import { Button } from "@/components/ui/button.tsx";
 import { useNavigate } from "react-router-dom";
@@ -34,7 +33,7 @@ export default function RecipePreviewTile({
   setUserMealPlan,
   className,
 }: RecipePreviewTileProps) {
-  const [imageURL, setImageURL] = useState<string>("");
+  // const [imageURL, setImageURL] = useState<string>("");
   const navigate = useNavigate();
 
   const handleToggleRecipeSelected = (
@@ -162,7 +161,7 @@ export default function RecipePreviewTile({
             className={cn(
               randomDifficultyString === "Easy" && "bg-green-500",
               randomDifficultyString === "Medium" && "bg-orange-500",
-              randomDifficultyString === "Challenging" && "bg-rose-500",
+              // randomDifficultyString === "Challenging" && "bg-rose-500",
             )}
           >
             {randomDifficultyString}

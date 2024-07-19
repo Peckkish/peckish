@@ -1,10 +1,5 @@
 import { Recipe, ServingsInfo } from "@/utility/types.ts";
-import {
-  cn,
-  daysOfWeek,
-  getDayOfWeekIndex,
-  getRecipeObjectByIdOrNull,
-} from "@/utility/utils.ts";
+import { daysOfWeek, getDayOfWeekIndex } from "@/utility/utils.ts";
 import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator.tsx";
 import { UserRound } from "lucide-react";

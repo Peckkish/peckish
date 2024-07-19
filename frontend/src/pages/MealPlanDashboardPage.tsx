@@ -1,32 +1,16 @@
-import AppHeader from "@/components/shared/AppHeader.tsx";
-import {
-  Dispatch,
-  SetStateAction,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import UpdateMealPlanNameForm from "@/components/MealPlanDashboardPage/UpdateMealPlanNameForm.tsx";
 import InteractiveMealPlan from "@/components/MealPlanDashboardPage/InteractiveMealPlan.tsx";
 import {
   decimalToMixedFractionString,
-  getRecipeObjectByIdOrNull,
   getTotalShoppingList,
-  parseFractionString,
   roundToNearestQuarter,
-  updateMultiplierMapState,
 } from "@/utility/utils.ts";
 import RecipePreviewTile from "@/components/RecipeSelectorPage/RecipePreviewTile.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { CaretLeft } from "@phosphor-icons/react";
 import { useNavigate } from "react-router-dom";
-import {
-  DayOfWeek,
-  IngredientItem,
-  PortionSize,
-  Recipe,
-  ServingsInfo,
-} from "@/utility/types.ts";
+import { IngredientItem, Recipe, ServingsInfo } from "@/utility/types.ts";
 import { ShoppingCart, Trash } from "lucide-react";
 import MealPlanParametersForm from "@/components/MealPlanDashboardPage/MealPlanParametersForm.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
@@ -182,11 +166,11 @@ export default function MealPlanDashboardPage({
                           `ingredient-text-${index}`,
                         );
                         if (checked) {
-                          ingredientText.style.textDecoration = "line-through";
-                          ingredientText.style.color = "grey";
+                          ingredientText!.style.textDecoration = "line-through";
+                          ingredientText!.style.color = "grey";
                         } else {
-                          ingredientText.style.textDecoration = "none";
-                          ingredientText.style.color = "inherit";
+                          ingredientText!.style.textDecoration = "none";
+                          ingredientText!.style.color = "inherit";
                         }
                       }}
                     />

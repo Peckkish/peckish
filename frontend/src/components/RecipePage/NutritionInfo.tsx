@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useEffect } from "react";
+import { Dispatch, SetStateAction } from "react";
 import ServingsSelector from "@/components/RecipeSelectorPage/ServingsSelector.tsx";
 
 interface NutritionInfoProps {

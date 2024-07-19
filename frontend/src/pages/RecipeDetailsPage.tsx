@@ -3,7 +3,6 @@ import {
   decimalToMixedFractionString,
   getFormattedTime,
   getRecipeObjectByIdOrNull,
-  parseFractionString,
   roundToNearestQuarter,
 } from "@/utility/utils.ts";
 import { RecipeCollectionContext } from "@/utility/context.ts";

@@ -1,4 +1,4 @@
-import { List, Question, QuestionMark, Sun } from "@phosphor-icons/react";
+import { List, Question, Sun } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button.tsx";
 import { Toggle } from "@/components/ui/toggle.tsx";
 
