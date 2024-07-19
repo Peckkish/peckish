@@ -8,8 +8,15 @@ import {
   dummyMealPlan6,
   dummyMealPlan7,
 } from "@/utility/utils.ts";
-import { FullRecipeCollection, Recipe } from "@/utility/types.ts";
+import {
+  BLD,
+  FullRecipeCollection,
+  Recipe,
+  Supermarket,
+} from "@/utility/types.ts";
 import axios from "axios";
+import gfhp from "../../../gfhp.json";
+import vegan from "../../../vegan.json";
 
 const client = createClient(import.meta.env.VITE_PEXELS_API_KEY);
 
@@ -39,16 +46,33 @@ export async function getRecipeCollection(
     isVegan: false,
   },
 ): Promise<Recipe[]> {
-  const urlPath = dietaryPreferences.isVegan ? "/vegan" : "/gfhp";
+  // const urlPath = dietaryPreferences.isVegan ? "/vegan" : "/gfhp";
+  //
+  // try {
+  //   const response = await axios.get(`http://localhost:8081/api${urlPath}`);
+  //   console.log(response.data);
+  //   return response.data;
+  // } catch (e) {
+  //   console.error(e);
+  //   return [];
+  // }
 
-  try {
-    const response = await axios.get(`http://localhost:8081/api${urlPath}`);
-    console.log(response.data);
-    return response.data;
-  } catch (e) {
-    console.error(e);
-    return [];
-  }
+  // @ts-ignore
+  return dietaryPreferences.isVegan
+    ? {
+        ...vegan.map((item) => ({
+          ...item,
+          BLD: item.BLD as BLD,
+          supermarket: item.supermarket as Supermarket,
+        })),
+      }
+    : {
+        ...gfhp.map((item) => ({
+          ...item,
+          BLD: item.BLD as BLD,
+          supermarket: item.supermarket as Supermarket,
+        })),
+      };
 
   // const requestOptions = {
   //   method: "POST",
