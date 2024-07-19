@@ -87,7 +87,7 @@ export default function MealPlanDashboardPage({
   }, [api]);
 
   return (
-    <div className={"relative pb-12"}>
+    <div className={"relative pb-44"}>
       <Button
         variant={"pale"}
         className={"w-fit absolute top-4 left-5"}
