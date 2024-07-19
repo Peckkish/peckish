@@ -1,4 +1,3 @@
-import { createClient, PhotosWithTotalResults } from "pexels";
 // import {
 //   dummyMealPlan1,
 //   dummyMealPlan2,
@@ -13,21 +12,21 @@ import { BLD, Recipe, Supermarket } from "@/utility/types.ts";
 import gfhp from "../../../gfhp.json";
 import vegan from "../../../vegan.json";
 
-const client = createClient(import.meta.env.VITE_PEXELS_API_KEY);
-
-export async function getImage(searchQuery: string) {
-  try {
-    const query = searchQuery;
-    const response = (await client.photos.search({
-      query,
-      per_page: 1,
-    })) as PhotosWithTotalResults;
-    // console.log(response);
-    return response.photos[0].src.large2x;
-  } catch (error) {
-    throw new Error("Failed to get image.");
-  }
-}
+// const client = createClient(import.meta.env.VITE_PEXELS_API_KEY);
+//
+// export async function getImage(searchQuery: string) {
+//   try {
+//     const query = searchQuery;
+//     const response = (await client.photos.search({
+//       query,
+//       per_page: 1,
+//     })) as PhotosWithTotalResults;
+//     // console.log(response);
+//     return response.photos[0].src.large2x;
+//   } catch (error) {
+//     throw new Error("Failed to get image.");
+//   }
+// }
 
 export async function getRecipeCollection(
   dietaryPreferences = {
