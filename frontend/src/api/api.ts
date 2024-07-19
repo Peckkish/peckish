@@ -55,7 +55,9 @@ export async function getRecipeCollection(
 
   return dietaryPreferences.isVegan
     ? ([...vegan] as Recipe[])
-    : ([...gfhp] as Recipe[]);
+    : dietaryPreferences.isGlutenFree && dietaryPreferences.isHighProtein
+      ? ([...gfhp] as Recipe[])
+      : [];
 
   // const requestOptions = {
   //   method: "POST",
