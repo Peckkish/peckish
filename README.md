@@ -1,5 +1,5 @@
 # Peckish - an AI recipe generator that uses current grocery sales and dietary preferences.
-Try the early demo at https://peckish-ai.vercel.app/app/recipe-selector !
+You can try the (VERY) early demo at https://peckish-ai.vercel.app/app/recipe-selector !
 
 ## 1. Select your dietary preferences
 ![Dietary Preferences](./frontend/public/assets/readme/readme-1.jpg)
