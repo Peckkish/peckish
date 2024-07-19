@@ -77,14 +77,16 @@ export default function RecipeSelectorPage({
     <div
       className={"flex flex-col items-center px-[4vw] relative min-h-[150vh]"}
     >
-      <Button
-        variant={"outline"}
-        className={"w-fit absolute top-[25px] right-[4vw]"}
-        onClick={handleClearRecipes}
-      >
-        <ArrowCounterClockwise weight={"bold"} className={"mr-2"} />
-        <span>Clear Recipes</span>
-      </Button>
+      {!!recipeCollection && (
+        <Button
+          variant={"outline"}
+          className={"w-fit absolute top-[25px] right-[4vw]"}
+          onClick={handleClearRecipes}
+        >
+          <ArrowCounterClockwise weight={"bold"} className={"mr-2"} />
+          <span>Clear Recipes</span>
+        </Button>
+      )}
       <h1 className={"mt-16 text-6xl font-semibold"}>
         Add recipes to your plan.
       </h1>
@@ -100,7 +102,7 @@ export default function RecipeSelectorPage({
       />
       <p className={"text-green-600 font-semibold text-lg mb-6 text-center"}>
         <p>
-          This very early demo is running on a limited data set - full recipe
+          This is a VERY early demo, running on a limited data set - full recipe
           and theme functionality is on the way!
         </p>
         <span>The two supported combos in this demo are </span>
