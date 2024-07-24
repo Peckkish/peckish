@@ -4,14 +4,14 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select.tsx";
-import { Dispatch, SetStateAction, useEffect } from "react";
-import { cn } from "@/utility/utils.ts";
+} from '@/components/ui/select.tsx'
+import { Dispatch, SetStateAction } from 'react'
+import { cn } from '@/utility/utils.ts'
 
 interface ServingsSelectorProps {
-  setNumServings: Dispatch<SetStateAction<number>>;
-  numServings: number;
-  className?: string;
+  setNumServings: Dispatch<SetStateAction<number>>
+  numServings: number
+  className?: string
 }
 
 export default function ServingsSelector({
@@ -20,20 +20,15 @@ export default function ServingsSelector({
   className,
 }: ServingsSelectorProps) {
   const handleValueChange = (numServingsString: string) => {
-    setNumServings(parseInt(numServingsString));
-  };
-
-  useEffect(() => {
-    console.log(numServings);
-  }, [numServings]);
+    setNumServings(parseInt(numServingsString))
+  }
 
   return (
     <Select
       value={numServings.toString()}
       onValueChange={handleValueChange}
-      defaultValue={numServings.toString()}
-    >
-      <SelectTrigger className={cn("", className)}>
+      defaultValue={numServings.toString()}>
+      <SelectTrigger className={cn('', className)}>
         <SelectValue placeholder="1" />
       </SelectTrigger>
       <SelectContent>
@@ -49,5 +44,5 @@ export default function ServingsSelector({
         <SelectItem value="10">10 Servings</SelectItem>
       </SelectContent>
     </Select>
-  );
+  )
 }

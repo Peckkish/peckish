@@ -1,97 +1,102 @@
-import { type ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
+import { type ClassValue, clsx } from 'clsx'
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+import { twMerge } from 'tailwind-merge'
 import {
   DayOfWeek,
   IngredientItem,
   Recipe,
   ServingsInfo,
-} from "@/utility/types.ts";
-import { Dispatch, SetStateAction } from "react";
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
+} from '@/utility/types.ts'
+import { Dispatch, SetStateAction } from 'react'
 
 export function getFormattedTime(numMinutes: number) {
-  const quotient = Math.floor(numMinutes / 60);
-  const remainder = numMinutes % 60;
-  return quotient > 0 ? `${quotient} Hr ${remainder} Min` : `${remainder} Min`;
+  const quotient = Math.floor(numMinutes / 60)
+  const remainder = numMinutes % 60
+  return quotient > 0 ? `${quotient} Hr ${remainder} Min` : `${remainder} Min`
 }
 
 export function getFormattedPrice(dollars: number) {
   return (
-    "$" +
-    new Intl.NumberFormat("en-US", {
-      style: "decimal",
+    '$' +
+    new Intl.NumberFormat('en-US', {
+      style: 'decimal',
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     }).format(dollars)
-  );
+  )
 }
 
 export function getRecipeObjectByIdOrNull(
   recipeCollection: Recipe[] | null,
   targetRecipeId: string,
 ) {
-  if (recipeCollection === null) {
-    console.error("Meal plan is null.");
-    return null;
+  if (!recipeCollection || recipeCollection.length === 0) {
+    console.error('Recipe collection empty.')
+    return null
   }
-  return (
-    recipeCollection.find((recipe) => recipe.recipeId === targetRecipeId) ??
-    null
-  );
+
+  console.log({ searchingIn: recipeCollection })
+  console.log({ searchingFor: targetRecipeId })
+
+  const result =
+    recipeCollection!.find(recipe => recipe.recipeId === targetRecipeId) ?? null
+
+  console.log(result)
+
+  return result
 }
 
 export const getTotalShoppingList = (
   recipes: Recipe[],
   recipeIdToMultiplierMap: Map<string, number>,
 ) => {
-  let totalShoppingList: IngredientItem[] = [];
+  let totalShoppingList: IngredientItem[] = []
   for (const recipe of recipes) {
-    const multiplier = recipeIdToMultiplierMap.get(recipe.recipeId) ?? 1;
+    const multiplier = recipeIdToMultiplierMap.get(recipe.recipeId) ?? 1
     const multipliedIngredientList = recipe.recipeIngredients.map(
-      (ingredient) => ({
+      ingredient => ({
         ...ingredient,
         qtyNumber: ingredient.qtyNumber * multiplier,
       }),
-    );
-    totalShoppingList = [...totalShoppingList, ...multipliedIngredientList];
+    )
+    totalShoppingList = [...totalShoppingList, ...multipliedIngredientList]
   }
-  return totalShoppingList;
-};
+  return totalShoppingList
+}
 
 export function roundToNearestQuarter(num: number): number {
-  return Math.round(num * 4) / 4;
+  return Math.round(num * 4) / 4
 }
 
 function gcd(a: number, b: number): number {
   while (b !== 0) {
-    let t = b;
-    b = a % b;
-    a = t;
+    let t = b
+    b = a % b
+    a = t
   }
-  return a;
+  return a
 }
 
 function decimalToFraction(decimal: number): string {
-  const tolerance = 1.0e-6;
-  let denominator = 1;
+  const tolerance = 1.0e-6
+  let denominator = 1
   while (
     Math.abs(Math.round(decimal * denominator) / denominator - decimal) >
     tolerance
   ) {
-    denominator++;
+    denominator++
   }
-  const numerator = Math.round(decimal * denominator);
-  const divisor = gcd(numerator, denominator);
-  return `${numerator / divisor}/${denominator / divisor}`;
+  const numerator = Math.round(decimal * denominator)
+  const divisor = gcd(numerator, denominator)
+  return `${numerator / divisor}/${denominator / divisor}`
 }
 
 export function decimalToMixedFractionString(decimal: number): string {
-  const decimalRemainder = decimal % 1;
-  const quotient = decimal - decimalRemainder;
-  return `${quotient === 0 ? "" : quotient.toString()}  ${decimalRemainder === 0 ? "" : decimalToFraction(decimalRemainder)}`;
+  const decimalRemainder = decimal % 1
+  const quotient = decimal - decimalRemainder
+  return `${quotient === 0 ? '' : quotient.toString()}  ${decimalRemainder === 0 ? '' : decimalToFraction(decimalRemainder)}`
 }
 
 export function updateMultiplierMapState(
@@ -99,11 +104,11 @@ export function updateMultiplierMapState(
   multiplier: number,
   setRecipeIdToMultiplierMap: Dispatch<SetStateAction<Map<string, number>>>,
 ) {
-  setRecipeIdToMultiplierMap((prevMap) => {
-    const newMap = new Map(prevMap);
-    newMap.set(recipeId, multiplier);
-    return newMap;
-  });
+  setRecipeIdToMultiplierMap(prevMap => {
+    const newMap = new Map(prevMap)
+    newMap.set(recipeId, multiplier)
+    return newMap
+  })
 }
 
 export function updateServingsMapState(
@@ -113,377 +118,377 @@ export function updateServingsMapState(
     SetStateAction<Map<string, ServingsInfo>>
   >,
 ) {
-  setRecipeIdToServingsInfoMap((prevMap) => {
-    const newMap = new Map(prevMap);
-    newMap.set(recipeId, servingsInfo);
-    return newMap;
-  });
+  setRecipeIdToServingsInfoMap(prevMap => {
+    const newMap = new Map(prevMap)
+    newMap.set(recipeId, servingsInfo)
+    return newMap
+  })
 }
 
 export function getDayOfWeekIndex(day: DayOfWeek): number {
   switch (day) {
-    case "Monday":
-      return 0;
-    case "Tuesday":
-      return 1;
-    case "Wednesday":
-      return 2;
-    case "Thursday":
-      return 3;
-    case "Friday":
-      return 4;
-    case "Saturday":
-      return 5;
-    case "Sunday":
-      return 6;
+    case 'Monday':
+      return 0
+    case 'Tuesday':
+      return 1
+    case 'Wednesday':
+      return 2
+    case 'Thursday':
+      return 3
+    case 'Friday':
+      return 4
+    case 'Saturday':
+      return 5
+    case 'Sunday':
+      return 6
     default:
-      throw new Error("Invalid day of the week");
+      throw new Error('Invalid day of the week')
   }
 }
 
 export function parseFractionString(fraction: string): number {
-  if (fraction === "") {
-    return 0;
+  if (fraction === '') {
+    return 0
   }
 
   // Dictionary of common fraction symbols and their decimal equivalents
   const fractionValues: Record<string, number> = {
-    "¼": 0.25,
-    "½": 0.5,
-    "¾": 0.75,
-  };
+    '¼': 0.25,
+    '½': 0.5,
+    '¾': 0.75,
+  }
 
   // Regular expression to match optional integers followed by a fraction
-  const match = fraction.match(/(\d+)?(\D+)?/);
+  const match = fraction.match(/(\d+)?(\D+)?/)
 
-  if (!match) return NaN;
+  if (!match) return NaN
 
   // Extract the integer part and the fraction part from the match
-  const integerPart = match[1] ? parseInt(match[1]) : 0;
-  const fractionPart = match[2] ? fractionValues[match[2]] : 0;
+  const integerPart = match[1] ? parseInt(match[1]) : 0
+  const fractionPart = match[2] ? fractionValues[match[2]] : 0
 
   // Return the sum of the integer part and the fraction part
-  return integerPart + fractionPart;
+  return integerPart + fractionPart
 }
 
 export const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday',
+]
 
 export const dummyMealPlan5: Recipe[] = [
   {
-    BLD: "Breakfast",
-    supermarket: "Woolies",
-    recipeTitle: "Classic Oatmeal",
-    recipeId: "rec001",
+    BLD: 'Breakfast',
+    supermarket: 'Woolies',
+    recipeTitle: 'Classic Oatmeal',
+    recipeId: 'rec001',
     recipeDescription:
-      "A warm, nutritious start to your day with customisable toppings.",
+      'A warm, nutritious start to your day with customisable toppings.',
     recipeLongIntro:
-      "Start your morning with a hearty bowl of oatmeal, made with rolled oats and served with a variety of toppings like fruits, nuts, and a drizzle of honey.",
+      'Start your morning with a hearty bowl of oatmeal, made with rolled oats and served with a variety of toppings like fruits, nuts, and a drizzle of honey.',
     totalCost: 10,
     prepTime: 5,
     cookTime: 10,
     recipeIngredients: [
       {
-        product: "Rolled Oats",
+        product: 'Rolled Oats',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/12345/rolled-oats",
+          'https://www.woolworths.com.au/shop/productdetails/12345/rolled-oats',
       },
       {
-        product: "Honey",
+        product: 'Honey',
         qtyNumber: 2,
-        qtyUnit: "tablespoons",
+        qtyUnit: 'tablespoons',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/67890/honey",
+          'https://www.woolworths.com.au/shop/productdetails/67890/honey',
       },
     ],
     recipeSteps: [
-      "Boil water or milk in a saucepan.",
-      "Add oats and reduce heat to a simmer.",
-      "Cook until oats are soft.",
-      "Serve in a bowl with honey drizzled on top.",
+      'Boil water or milk in a saucepan.',
+      'Add oats and reduce heat to a simmer.',
+      'Cook until oats are soft.',
+      'Serve in a bowl with honey drizzled on top.',
     ],
-    recipeImageURL: "https://example.com/images/oatmeal.jpg",
+    recipeImageURL: 'https://example.com/images/oatmeal.jpg',
     recipeRating: 4.5,
     numRatings: 150,
     numServings: 2,
   },
   {
-    BLD: "Breakfast",
-    supermarket: "Coles",
-    recipeTitle: "Avocado Toast",
-    recipeId: "rec002",
+    BLD: 'Breakfast',
+    supermarket: 'Coles',
+    recipeTitle: 'Avocado Toast',
+    recipeId: 'rec002',
     recipeDescription:
-      "A quick, delicious, and healthy avocado spread on whole grain bread.",
+      'A quick, delicious, and healthy avocado spread on whole grain bread.',
     recipeLongIntro:
-      "Rich in fiber and healthy fats, this simple avocado toast makes a satisfying and nutritious breakfast option.",
+      'Rich in fiber and healthy fats, this simple avocado toast makes a satisfying and nutritious breakfast option.',
     totalCost: 15,
     prepTime: 5,
     cookTime: 0,
     recipeIngredients: [
       {
-        product: "Whole Grain Bread",
+        product: 'Whole Grain Bread',
         qtyNumber: 2,
-        qtyUnit: "slices",
+        qtyUnit: 'slices',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/54321/whole-grain-bread",
+          'https://www.coles.com.au/shop/productdetails/54321/whole-grain-bread',
       },
       {
-        product: "Ripe Avocado",
+        product: 'Ripe Avocado',
         qtyNumber: 1,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/98765/ripe-avocado",
+          'https://www.coles.com.au/shop/productdetails/98765/ripe-avocado',
       },
     ],
     recipeSteps: [
-      "Toast the bread slices to your liking.",
-      "Mash the avocado and spread evenly on the toasted bread.",
-      "Season with salt, pepper, and optional red pepper flakes.",
+      'Toast the bread slices to your liking.',
+      'Mash the avocado and spread evenly on the toasted bread.',
+      'Season with salt, pepper, and optional red pepper flakes.',
     ],
-    recipeImageURL: "https://example.com/images/avocado-toast.jpg",
+    recipeImageURL: 'https://example.com/images/avocado-toast.jpg',
     recipeRating: 4.7,
     numRatings: 200,
     numServings: 1,
   },
   {
-    BLD: "Breakfast",
-    supermarket: "Woolies",
-    recipeTitle: "Berry Smoothie",
-    recipeId: "rec003",
-    recipeDescription: "A refreshing berry smoothie packed with antioxidants.",
+    BLD: 'Breakfast',
+    supermarket: 'Woolies',
+    recipeTitle: 'Berry Smoothie',
+    recipeId: 'rec003',
+    recipeDescription: 'A refreshing berry smoothie packed with antioxidants.',
     recipeLongIntro:
-      "Blend up a vibrant mix of berries and yogurt for a refreshing smoothie. Perfect for a quick breakfast or a nutritious snack.",
+      'Blend up a vibrant mix of berries and yogurt for a refreshing smoothie. Perfect for a quick breakfast or a nutritious snack.',
     totalCost: 8,
     prepTime: 5,
     cookTime: 0,
     recipeIngredients: [
       {
-        product: "Mixed Berries",
+        product: 'Mixed Berries',
         qtyNumber: 150,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/22222/mixed-berries",
+          'https://www.woolworths.com.au/shop/productdetails/22222/mixed-berries',
       },
       {
-        product: "Greek Yogurt",
+        product: 'Greek Yogurt',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/33333/greek-yogurt",
+          'https://www.woolworths.com.au/shop/productdetails/33333/greek-yogurt',
       },
     ],
     recipeSteps: [
-      "Place all ingredients in a blender.",
-      "Blend on high until smooth.",
-      "Serve immediately.",
+      'Place all ingredients in a blender.',
+      'Blend on high until smooth.',
+      'Serve immediately.',
     ],
-    recipeImageURL: "https://example.com/images/berry-smoothie.jpg",
+    recipeImageURL: 'https://example.com/images/berry-smoothie.jpg',
     recipeRating: 4.8,
     numRatings: 180,
     numServings: 1,
   },
-];
+]
 
 export const dummyMealPlan6: Recipe[] = [
   {
-    BLD: "Lunch",
-    supermarket: "Coles",
-    recipeTitle: "Chicken Caesar Salad",
-    recipeId: "rec004",
+    BLD: 'Lunch',
+    supermarket: 'Coles',
+    recipeTitle: 'Chicken Caesar Salad',
+    recipeId: 'rec004',
     recipeDescription:
-      "A classic Caesar salad topped with grilled chicken, perfect for a light and healthy lunch.",
+      'A classic Caesar salad topped with grilled chicken, perfect for a light and healthy lunch.',
     recipeLongIntro:
-      "Enjoy a fresh and crunchy Caesar salad with Romaine lettuce, Parmesan cheese, croutons, and tender grilled chicken, all tossed in a creamy Caesar dressing.",
+      'Enjoy a fresh and crunchy Caesar salad with Romaine lettuce, Parmesan cheese, croutons, and tender grilled chicken, all tossed in a creamy Caesar dressing.',
     totalCost: 20,
     prepTime: 10,
     cookTime: 15,
     recipeIngredients: [
       {
-        product: "Chicken Breast",
+        product: 'Chicken Breast',
         qtyNumber: 200,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/56789/chicken-breast",
+          'https://www.coles.com.au/shop/productdetails/56789/chicken-breast',
       },
       {
-        product: "Romaine Lettuce",
+        product: 'Romaine Lettuce',
         qtyNumber: 1,
-        qtyUnit: "head",
+        qtyUnit: 'head',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/10112/romaine-lettuce",
+          'https://www.coles.com.au/shop/productdetails/10112/romaine-lettuce',
       },
       {
-        product: "Parmesan Cheese",
+        product: 'Parmesan Cheese',
         qtyNumber: 50,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/14141/parmesan-cheese",
+          'https://www.coles.com.au/shop/productdetails/14141/parmesan-cheese',
       },
       {
-        product: "Caesar Dressing",
+        product: 'Caesar Dressing',
         qtyNumber: 3,
-        qtyUnit: "tablespoons",
+        qtyUnit: 'tablespoons',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/16161/caesar-dressing",
+          'https://www.coles.com.au/shop/productdetails/16161/caesar-dressing',
       },
       {
-        product: "Croutons",
+        product: 'Croutons',
         qtyNumber: 30,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/17171/croutons",
+          'https://www.coles.com.au/shop/productdetails/17171/croutons',
       },
     ],
     recipeSteps: [
-      "Grill the chicken breast until fully cooked and slice it.",
-      "Wash and chop the lettuce.",
-      "Combine lettuce, sliced chicken, Parmesan cheese, and croutons in a large bowl.",
-      "Drizzle with Caesar dressing and toss well.",
+      'Grill the chicken breast until fully cooked and slice it.',
+      'Wash and chop the lettuce.',
+      'Combine lettuce, sliced chicken, Parmesan cheese, and croutons in a large bowl.',
+      'Drizzle with Caesar dressing and toss well.',
     ],
-    recipeImageURL: "https://example.com/images/chicken-caesar-salad.jpg",
+    recipeImageURL: 'https://example.com/images/chicken-caesar-salad.jpg',
     recipeRating: 4.6,
     numRatings: 210,
     numServings: 2,
   },
   {
-    BLD: "Lunch",
-    supermarket: "Woolies",
-    recipeTitle: "Spicy Tuna Roll",
-    recipeId: "rec005",
+    BLD: 'Lunch',
+    supermarket: 'Woolies',
+    recipeTitle: 'Spicy Tuna Roll',
+    recipeId: 'rec005',
     recipeDescription:
-      "Homemade sushi rolls featuring spicy tuna and crisp vegetables.",
+      'Homemade sushi rolls featuring spicy tuna and crisp vegetables.',
     recipeLongIntro:
-      "Craft your own sushi at home with this spicy tuna roll recipe, combining fresh tuna, spicy mayo, and crunchy cucumbers wrapped in seaweed and rice.",
+      'Craft your own sushi at home with this spicy tuna roll recipe, combining fresh tuna, spicy mayo, and crunchy cucumbers wrapped in seaweed and rice.',
     totalCost: 25,
     prepTime: 30,
     cookTime: 0,
     recipeIngredients: [
       {
-        product: "Sushi Rice",
+        product: 'Sushi Rice',
         qtyNumber: 250,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/25252/sushi-rice",
+          'https://www.woolworths.com.au/shop/productdetails/25252/sushi-rice',
       },
       {
-        product: "Fresh Tuna",
+        product: 'Fresh Tuna',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/26262/fresh-tuna",
+          'https://www.woolworths.com.au/shop/productdetails/26262/fresh-tuna',
       },
       {
-        product: "Spicy Mayo",
+        product: 'Spicy Mayo',
         qtyNumber: 2,
-        qtyUnit: "tablespoons",
+        qtyUnit: 'tablespoons',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/27272/spicy-mayo",
+          'https://www.woolworths.com.au/shop/productdetails/27272/spicy-mayo',
       },
       {
-        product: "Cucumber",
+        product: 'Cucumber',
         qtyNumber: 1,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/28282/cucumber",
+          'https://www.woolworths.com.au/shop/productdetails/28282/cucumber',
       },
       {
-        product: "Seaweed Sheets",
+        product: 'Seaweed Sheets',
         qtyNumber: 2,
-        qtyUnit: "sheets",
+        qtyUnit: 'sheets',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/29292/seaweed-sheets",
+          'https://www.woolworths.com.au/shop/productdetails/29292/seaweed-sheets',
       },
     ],
     recipeSteps: [
-      "Cook sushi rice according to package instructions.",
-      "Mix diced tuna with spicy mayo.",
-      "Place seaweed sheet on a bamboo mat, spread rice evenly, then add the tuna mix and sliced cucumber.",
-      "Roll tightly, slice, and serve.",
+      'Cook sushi rice according to package instructions.',
+      'Mix diced tuna with spicy mayo.',
+      'Place seaweed sheet on a bamboo mat, spread rice evenly, then add the tuna mix and sliced cucumber.',
+      'Roll tightly, slice, and serve.',
     ],
-    recipeImageURL: "https://example.com/images/spicy-tuna-roll.jpg",
+    recipeImageURL: 'https://example.com/images/spicy-tuna-roll.jpg',
     recipeRating: 4.8,
     numRatings: 150,
     numServings: 2,
   },
   {
-    BLD: "Lunch",
-    supermarket: "Woolies",
-    recipeTitle: "Veggie Burrito Bowl",
-    recipeId: "rec006",
+    BLD: 'Lunch',
+    supermarket: 'Woolies',
+    recipeTitle: 'Veggie Burrito Bowl',
+    recipeId: 'rec006',
     recipeDescription:
-      "A delectable and filling bowl with rice, beans, and assorted vegetables, topped with avocado.",
+      'A delectable and filling bowl with rice, beans, and assorted vegetables, topped with avocado.',
     recipeLongIntro:
-      "This hearty veggie burrito bowl is packed with flavors and nutrients, featuring a base of brown rice, black beans, and a colorful array of vegetables, perfect for a filling lunch.",
+      'This hearty veggie burrito bowl is packed with flavors and nutrients, featuring a base of brown rice, black beans, and a colorful array of vegetables, perfect for a filling lunch.',
     totalCost: 18,
     prepTime: 15,
     cookTime: 10,
     recipeIngredients: [
       {
-        product: "Brown Rice",
+        product: 'Brown Rice',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/30303/brown-rice",
+          'https://www.woolworths.com.au/shop/productdetails/30303/brown-rice',
       },
       {
-        product: "Black Beans",
+        product: 'Black Beans',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/31313/black-beans",
+          'https://www.woolworths.com.au/shop/productdetails/31313/black-beans',
       },
       {
-        product: "Corn",
+        product: 'Corn',
         qtyNumber: 50,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/32323/corn",
+          'https://www.woolworths.com.au/shop/productdetails/32323/corn',
       },
       {
-        product: "Cherry Tomatoes",
+        product: 'Cherry Tomatoes',
         qtyNumber: 50,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/33333/cherry-tomatoes",
+          'https://www.woolworths.com.au/shop/productdetails/33333/cherry-tomatoes',
       },
       {
-        product: "Avocado",
+        product: 'Avocado',
         qtyNumber: 1,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/34343/avocado",
+          'https://www.woolworths.com.au/shop/productdetails/34343/avocado',
       },
     ],
     recipeSteps: [
-      "Cook brown rice.",
-      "Heat black beans with corn.",
-      "Assemble the bowl with rice at the base, followed by beans, corn, and sliced cherry tomatoes.",
-      "Top with slices of avocado and serve.",
+      'Cook brown rice.',
+      'Heat black beans with corn.',
+      'Assemble the bowl with rice at the base, followed by beans, corn, and sliced cherry tomatoes.',
+      'Top with slices of avocado and serve.',
     ],
-    recipeImageURL: "https://example.com/images/veggie-burrito-bowl.jpg",
+    recipeImageURL: 'https://example.com/images/veggie-burrito-bowl.jpg',
     recipeRating: 4.9,
     numRatings: 230,
     numServings: 1,
   },
-];
+]
 
 export const dummyMealPlan7: Recipe[] = [
   {
-    BLD: "Dinner",
-    supermarket: "Coles",
-    recipeTitle: "Beef Stir-Fry",
-    recipeId: "rec007",
+    BLD: 'Dinner',
+    supermarket: 'Coles',
+    recipeTitle: 'Beef Stir-Fry',
+    recipeId: 'rec007',
     recipeDescription:
-      "A quick and flavorful beef stir-fry with vegetables and soy sauce.",
+      'A quick and flavorful beef stir-fry with vegetables and soy sauce.',
     recipeLongIntro:
       "This beef stir-fry combines tender slices of beef with a colorful mix of bell peppers and onions, all sautéed in a rich soy sauce blend. It's a perfect quick dinner option that delivers both taste and nutrition.",
     totalCost: 22,
@@ -491,160 +496,160 @@ export const dummyMealPlan7: Recipe[] = [
     cookTime: 15,
     recipeIngredients: [
       {
-        product: "Beef Strips",
+        product: 'Beef Strips',
         qtyNumber: 300,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/55555/beef-strips",
+          'https://www.coles.com.au/shop/productdetails/55555/beef-strips',
       },
       {
-        product: "Bell Peppers",
+        product: 'Bell Peppers',
         qtyNumber: 2,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/66666/bell-peppers",
+          'https://www.coles.com.au/shop/productdetails/66666/bell-peppers',
       },
       {
-        product: "Onion",
+        product: 'Onion',
         qtyNumber: 1,
-        qtyUnit: "whole",
-        productURL: "https://www.coles.com.au/shop/productdetails/77777/onion",
+        qtyUnit: 'whole',
+        productURL: 'https://www.coles.com.au/shop/productdetails/77777/onion',
       },
       {
-        product: "Soy Sauce",
+        product: 'Soy Sauce',
         qtyNumber: 3,
-        qtyUnit: "tablespoons",
+        qtyUnit: 'tablespoons',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/88888/soy-sauce",
+          'https://www.coles.com.au/shop/productdetails/88888/soy-sauce',
       },
     ],
     recipeSteps: [
-      "Heat oil in a pan over high heat.",
-      "Add beef strips and stir-fry until browned.",
-      "Add sliced bell peppers and onion, continue to stir-fry until vegetables are tender.",
-      "Pour in soy sauce and stir well to coat.",
-      "Serve hot with rice or noodles.",
+      'Heat oil in a pan over high heat.',
+      'Add beef strips and stir-fry until browned.',
+      'Add sliced bell peppers and onion, continue to stir-fry until vegetables are tender.',
+      'Pour in soy sauce and stir well to coat.',
+      'Serve hot with rice or noodles.',
     ],
-    recipeImageURL: "https://example.com/images/beef-stir-fry.jpg",
+    recipeImageURL: 'https://example.com/images/beef-stir-fry.jpg',
     recipeRating: 4.7,
     numRatings: 180,
     numServings: 2,
   },
   {
-    BLD: "Dinner",
-    supermarket: "Woolies",
-    recipeTitle: "Salmon en Papillote",
-    recipeId: "rec008",
+    BLD: 'Dinner',
+    supermarket: 'Woolies',
+    recipeTitle: 'Salmon en Papillote',
+    recipeId: 'rec008',
     recipeDescription:
-      "Salmon fillets baked in parchment paper with lemon, dill, and asparagus.",
+      'Salmon fillets baked in parchment paper with lemon, dill, and asparagus.',
     recipeLongIntro:
-      "This elegant Salmon en Papillote method locks in flavor and moisture, cooking the salmon with asparagus, lemon, and dill for a delightful and healthy dinner.",
+      'This elegant Salmon en Papillote method locks in flavor and moisture, cooking the salmon with asparagus, lemon, and dill for a delightful and healthy dinner.',
     totalCost: 30,
     prepTime: 10,
     cookTime: 20,
     recipeIngredients: [
       {
-        product: "Salmon Fillet",
+        product: 'Salmon Fillet',
         qtyNumber: 200,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/99999/salmon-fillet",
+          'https://www.woolworths.com.au/shop/productdetails/99999/salmon-fillet',
       },
       {
-        product: "Lemon",
+        product: 'Lemon',
         qtyNumber: 1,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/11111/lemon",
+          'https://www.woolworths.com.au/shop/productdetails/11111/lemon',
       },
       {
-        product: "Fresh Dill",
+        product: 'Fresh Dill',
         qtyNumber: 5,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/22222/fresh-dill",
+          'https://www.woolworths.com.au/shop/productdetails/22222/fresh-dill',
       },
       {
-        product: "Asparagus",
+        product: 'Asparagus',
         qtyNumber: 100,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.woolworths.com.au/shop/productdetails/33333/asparagus",
+          'https://www.woolworths.com.au/shop/productdetails/33333/asparagus',
       },
     ],
     recipeSteps: [
-      "Preheat oven to 200°C.",
-      "Place each salmon fillet on a piece of parchment paper.",
-      "Top with sliced lemon, asparagus, and sprinkle with dill.",
-      "Fold the parchment paper over the salmon, sealing the edges to create a packet.",
-      "Bake for 20 minutes or until salmon is cooked through.",
+      'Preheat oven to 200°C.',
+      'Place each salmon fillet on a piece of parchment paper.',
+      'Top with sliced lemon, asparagus, and sprinkle with dill.',
+      'Fold the parchment paper over the salmon, sealing the edges to create a packet.',
+      'Bake for 20 minutes or until salmon is cooked through.',
     ],
-    recipeImageURL: "https://example.com/images/salmon-en-papillote.jpg",
+    recipeImageURL: 'https://example.com/images/salmon-en-papillote.jpg',
     recipeRating: 4.9,
     numRatings: 200,
     numServings: 1,
   },
   {
-    BLD: "Dinner",
-    supermarket: "Coles",
-    recipeTitle: "Vegetarian Lasagna",
-    recipeId: "rec009",
+    BLD: 'Dinner',
+    supermarket: 'Coles',
+    recipeTitle: 'Vegetarian Lasagna',
+    recipeId: 'rec009',
     recipeDescription:
-      "A hearty and delicious lasagna made with layers of roasted vegetables and ricotta cheese.",
+      'A hearty and delicious lasagna made with layers of roasted vegetables and ricotta cheese.',
     recipeLongIntro:
-      "This vegetarian lasagna features multiple layers of roasted zucchini, bell peppers, and mushrooms, interlaced with ricotta and a rich tomato sauce, baked to perfection.",
+      'This vegetarian lasagna features multiple layers of roasted zucchini, bell peppers, and mushrooms, interlaced with ricotta and a rich tomato sauce, baked to perfection.',
     totalCost: 25,
     prepTime: 30,
     cookTime: 45,
     recipeIngredients: [
       {
-        product: "Zucchini",
+        product: 'Zucchini',
         qtyNumber: 2,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/44444/zucchini",
+          'https://www.coles.com.au/shop/productdetails/44444/zucchini',
       },
       {
-        product: "Bell Pepper",
+        product: 'Bell Pepper',
         qtyNumber: 1,
-        qtyUnit: "whole",
+        qtyUnit: 'whole',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/55555/bell-pepper",
+          'https://www.coles.com.au/shop/productdetails/55555/bell-pepper',
       },
       {
-        product: "Mushrooms",
+        product: 'Mushrooms',
         qtyNumber: 150,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/66666/mushrooms",
+          'https://www.coles.com.au/shop/productdetails/66666/mushrooms',
       },
       {
-        product: "Ricotta Cheese",
+        product: 'Ricotta Cheese',
         qtyNumber: 250,
-        qtyUnit: "grams",
+        qtyUnit: 'grams',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/77777/ricotta-cheese",
+          'https://www.coles.com.au/shop/productdetails/77777/ricotta-cheese',
       },
       {
-        product: "Tomato Sauce",
+        product: 'Tomato Sauce',
         qtyNumber: 500,
-        qtyUnit: "ml",
+        qtyUnit: 'ml',
         productURL:
-          "https://www.coles.com.au/shop/productdetails/88888/tomato-sauce",
+          'https://www.coles.com.au/shop/productdetails/88888/tomato-sauce',
       },
     ],
     recipeSteps: [
-      "Preheat oven to 180°C.",
-      "Slice vegetables and roast until tender.",
-      "Layer a baking dish with tomato sauce, roasted vegetables, ricotta, and repeat.",
-      "Top with a final layer of tomato sauce and bake for 45 minutes.",
+      'Preheat oven to 180°C.',
+      'Slice vegetables and roast until tender.',
+      'Layer a baking dish with tomato sauce, roasted vegetables, ricotta, and repeat.',
+      'Top with a final layer of tomato sauce and bake for 45 minutes.',
     ],
-    recipeImageURL: "https://example.com/images/vegetarian-lasagna.jpg",
+    recipeImageURL: 'https://example.com/images/vegetarian-lasagna.jpg',
     recipeRating: 4.8,
     numRatings: 220,
     numServings: 4,
   },
-];
+]
 
 // export const dummyMealPlan1: Recipe[] =
 // [

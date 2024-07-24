@@ -1,18 +1,18 @@
-import RecipePreviewTile from "@/components/RecipeSelectorPage/RecipePreviewTile.tsx";
-import { Recipe, SupermarketPreferences } from "@/utility/types.ts";
-import { cn } from "@/utility/utils.ts";
-import { Separator } from "@/components/ui/separator.tsx";
-import { Dispatch, SetStateAction } from "react";
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import RecipePreviewTile from '@/components/RecipeSelectorPage/RecipePreviewTile.tsx'
+import { Recipe, SupermarketPreferences } from '@/utility/types.ts'
+import { cn } from '@/utility/utils.ts'
+import { Separator } from '@/components/ui/separator.tsx'
+import { Dispatch, SetStateAction } from 'react'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 
 interface RecipeSubsectionProps {
-  headerIcon?: React.ReactNode;
-  recipes: Recipe[];
-  label: string;
-  className?: string;
-  selectedRecipeIds: string[];
-  setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>;
-  supermarketPreferences: SupermarketPreferences;
+  headerIcon?: React.ReactNode
+  recipes: Recipe[]
+  label: string
+  className?: string
+  selectedRecipeIds: string[]
+  setSelectedRecipeIds: Dispatch<SetStateAction<string[]>>
+  supermarketPreferences: SupermarketPreferences
 }
 
 export default function RecipeSubsection({
@@ -24,31 +24,31 @@ export default function RecipeSubsection({
   setSelectedRecipeIds,
   supermarketPreferences,
 }: RecipeSubsectionProps) {
-  console.log({ recipes });
+  console.log({ recipes })
 
-  let filteredRecipes = [...recipes];
+  let filteredRecipes = [...recipes]
   if (!supermarketPreferences.wooliesEnabled) {
     filteredRecipes = [...filteredRecipes].filter(
-      (recipe) => recipe.supermarket !== "Woolies",
-    );
+      recipe => recipe.supermarket !== 'Woolies',
+    )
   }
   if (!supermarketPreferences.colesEnabled) {
     filteredRecipes = [...filteredRecipes].filter(
-      (recipe) => recipe.supermarket !== "Coles",
-    );
+      recipe => recipe.supermarket !== 'Coles',
+    )
   }
 
-  if (label === "Breakfast")
-    console.log({ filteredRecipesBreakfast: filteredRecipes });
+  if (label === 'Breakfast')
+    console.log({ filteredRecipesBreakfast: filteredRecipes })
 
   return (
-    <div className={cn("mb-12 rounded-lg", className)}>
-      <div className={"flex flex-row items-center gap-2"}>
+    <div className={cn('mb-12 rounded-lg', 'max-[740px]:mx-5', className)}>
+      <div className={cn('flex flex-row items-center gap-2 text-3xl')}>
         {headerIcon && headerIcon}
-        <h1 className={"text-3xl font-semibold"}>{label}</h1>
+        <h1 className={'font-semibold'}>{label}</h1>
       </div>
-      <Separator className={"w-full h-[1px] mb-8 mt-3"} />
-      <ScrollArea className={"side-scrolling-container max-w-[95vw]"}>
+      <Separator className={'w-full h-[1px] mb-8 mt-3'} />
+      <ScrollArea className={'side-scrolling-container max-w-[95vw]'}>
         {/*<div*/}
         {/*  className={cn(*/}
         {/*    "grid place-items-center gap-12",*/}
@@ -57,9 +57,8 @@ export default function RecipeSubsection({
         {/*>*/}
         <div
           className={
-            "flex flex-row justify-start items-center gap-12 whitespace-nowrap pb-10 pr-16"
-          }
-        >
+            'flex flex-row justify-start items-center gap-12 whitespace-nowrap pb-10 pr-16'
+          }>
           {!!filteredRecipes && filteredRecipes.length > 0 ? (
             filteredRecipes.map((recipe, index) => (
               <div key={index}>
@@ -71,7 +70,7 @@ export default function RecipeSubsection({
               </div>
             ))
           ) : (
-            <p className={"font-light text-black text-sm"}>
+            <p className={'font-light text-black text-sm'}>
               It looks like we couldn't find any {label.toLowerCase()} recipes
               that align with your preferences.
             </p>
@@ -97,5 +96,5 @@ export default function RecipeSubsection({
     //   </div>
     //   <ScrollBar orientation="horizontal" />
     // </ScrollArea>
-  );
+  )
 }

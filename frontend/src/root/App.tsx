@@ -1,58 +1,50 @@
-import { useEffect, useState } from "react";
-import RecipeSelectorPage from "@/pages/RecipeSelectorPage.tsx";
-import { RecipeCollectionContext } from "@/utility/context.ts";
+import { useEffect, useState } from 'react'
+import RecipeSelectorPage from '@/pages/RecipeSelectorPage.tsx'
+import { RecipeCollectionContext } from '@/utility/context.ts'
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-} from "react-router-dom";
-import RecipeDetailsPage from "@/pages/RecipeDetailsPage.tsx";
-import { Recipe } from "@/utility/types.ts";
-import "../css/global.css";
-import MealPlanDashboardPage from "@/pages/MealPlanDashboardPage.tsx";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { useAutoAnimate } from "@formkit/auto-animate/react";
-import Layout from "@/root/Layout.tsx";
-import { getRecipeCollection } from "@/api/api.ts";
+} from 'react-router-dom'
+import RecipeDetailsPage from '@/pages/RecipeDetailsPage.tsx'
+import { Recipe } from '@/utility/types.ts'
+import '../css/global.css'
+import MealPlanDashboardPage from '@/pages/MealPlanDashboardPage.tsx'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
+import Layout from '@/root/Layout.tsx'
+import { getRecipeCollection } from '@/api/api.ts'
 
 export default function App() {
-  // const initialRecipeCollection = !!localStorage.getItem("recipeCollection")
-  //   ? JSON.parse(localStorage.getItem("recipeCollection")!)
-  //   : null;
+  // const initialRecipeCollection = !!localStorage.getItem('recipeCollection')
+  //   ? JSON.parse(localStorage.getItem('recipeCollection')!)
+  //   : null
 
-  const initialUserMealPlan = !!localStorage.getItem("userMealPlan")
-    ? JSON.parse(localStorage.getItem("userMealPlan")!)
-    : [];
+  const initialUserMealPlan = !!localStorage.getItem('userMealPlan')
+    ? JSON.parse(localStorage.getItem('userMealPlan')!)
+    : []
 
   // const initialSelectedRecipeIds = !!localStorage.getItem("selectedRecipeIds")
   //   ? JSON.parse(localStorage.getItem("selectedRecipeIds")!)
   //   : [];
 
-  const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>(
-    // initialRecipeCollection,
-    [],
-  );
-  const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([]);
+  const [recipeCollection, setRecipeCollection] = useState<null | Recipe[]>([])
+  const [selectedRecipeIds, setSelectedRecipeIds] = useState<string[]>([])
   const [userMealPlan, setUserMealPlan] =
-    useState<Recipe[]>(initialUserMealPlan);
+    useState<Recipe[]>(initialUserMealPlan)
 
   useEffect(() => {
-    getRecipeCollection().then((result) => setRecipeCollection(result));
-  }, []);
+    getRecipeCollection().then(result => setRecipeCollection(result))
+  }, [])
 
-  const queryClient = new QueryClient();
+  const queryClient = new QueryClient()
 
-  const [animationParent] = useAutoAnimate();
+  const [animationParent] = useAutoAnimate()
 
   useEffect(() => {
-    localStorage.setItem("userMealPlan", JSON.stringify(userMealPlan));
-    // console.log(userMealPlan);
-  }, [userMealPlan]);
-
-  // useEffect(() => {
-  //   console.log({ recipeCollection });
-  // }, [recipeCollection]);
+    localStorage.setItem('userMealPlan', JSON.stringify(userMealPlan))
+  }, [userMealPlan])
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -82,7 +74,12 @@ export default function App() {
                     />
                   }
                 />
-                <Route path="recipe/:id" element={<RecipeDetailsPage />} />
+                <Route
+                  path="recipe/:id"
+                  element={
+                    <RecipeDetailsPage recipeCollection={recipeCollection} />
+                  }
+                />
                 <Route
                   path="plans/myMealPlan"
                   element={
@@ -103,5 +100,5 @@ export default function App() {
         </Router>
       </RecipeCollectionContext.Provider>
     </QueryClientProvider>
-  );
+  )
 }
