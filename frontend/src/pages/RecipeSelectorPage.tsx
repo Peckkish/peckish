@@ -83,13 +83,15 @@ export default function RecipeSelectorPage({
           <span>Clear Recipes</span>
         </Button>
       )}
-      <h1 className={'mt-16 text-6xl font-semibold'}>
-        Add recipes to your plan.
-      </h1>
-      <p className={'mt-3 text-muted-foreground'}>
-        Select your dietary preferences and favourite supermarkets, then choose
-        your top recipes to craft your ideal meal plan!
-      </p>
+      <div className={'sm:m-0 mx-6 gap-4'}>
+        <h1 className={'sm:mt-16 mt-24 sm:text-6xl text-5xl font-semibold'}>
+          Add recipes to your plan.
+        </h1>
+        <p className={'mt-3 text-muted-foreground'}>
+          Select your dietary preferences and favourite supermarkets, then
+          choose your top recipes to craft your ideal meal plan!
+        </p>
+      </div>
       <PreferenceSelectorBar
         dietaryPreferences={dietaryPreferences}
         setDietaryPreferences={setDietaryPreferences}

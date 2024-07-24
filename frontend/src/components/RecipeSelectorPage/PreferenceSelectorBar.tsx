@@ -35,9 +35,9 @@ export default function PreferenceSelectorBar({
     <div className={'w-[99vw] py-8 px-[3vw] mb-6 mt-2'}>
       <div
         className={cn(
-          'flex justify-around items-start gap-3 shadow-md px-10 pb-8 rounded-xl bg-[#E7F3E7] text-emerald-950 pt-6',
+          'flex justify-around items-start gap-3 shadow-md sm:px-10 px-6 pb-8 rounded-xl bg-[#E7F3E7] text-emerald-950 pt-6',
           'max-[780px]:flex-col max-[780px]:gap-12 flex-row',
-          'max-[780px]:w-[90vw] max-[780px]:mx-auto w-full ',
+          'max-[780px]:w-[85vw] max-[780px]:mx-auto w-full ',
         )}>
         <div className={'flex flex-col items-center gap-1.5'}>
           <p className={'font-medium text-lg'}>
@@ -157,7 +157,7 @@ export default function PreferenceSelectorBar({
         </div>
         <div
           className={
-            'flex flex-col items-center ml-22 mr-auto gap-1.5  max-[740px]:w-full'
+            'flex flex-col items-center ml-22 mr-auto gap-1.5 max-[740px]:w-full'
           }>
           <p className={'font-medium text-lg'}>Supermarkets</p>
           <div
