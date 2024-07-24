@@ -31,6 +31,7 @@ export default function PreferenceSelectorBar({
   useEffect(() => {
     console.log(supermarketPreferences)
   }, [supermarketPreferences])
+
   return (
     <div className={'w-[99vw] py-8 px-[3vw] mb-6 mt-2'}>
       <div
@@ -40,10 +41,7 @@ export default function PreferenceSelectorBar({
           'max-[780px]:w-[85vw] max-[780px]:mx-auto w-full ',
         )}>
         <div className={'flex flex-col items-center gap-1.5'}>
-          <p className={'font-medium text-lg'}>
-            {'Dietary Restrictions' +
-              (window.innerWidth > 780 ? '/Preferences' : '')}
-          </p>
+          <p className={'font-medium text-lg'}>Dietary Restrictions</p>
           <div className={'flex flex-row items-center gap-4 mt-4 flex-wrap'}>
             <PreferenceToggle
               label={'High Protein'}
